@@ -1,0 +1,34 @@
+/* css styles */
+
+/* Nav Bar Background Colour */
+.navbar {
+    background-color: white;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 500;
+}
+
+/* Nav Bar Logo Size */
+.navbar-logo {
+    height: 100px !important;
+    width: auto !important;
+    max-height: none !important; /* Remove max-height restriction */
+    object-fit: initial !important; /* Reset object-fit */
+}
+
+/* Apply Google Font to the entire site */
+body {
+    font-family: 'Cinzel', sans-serif;
+}
+
+/* Apply Google Font to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 700; /* Bold weight */
+}
+
+.dropdown-menu {
+    background-color: white; /* Background color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}

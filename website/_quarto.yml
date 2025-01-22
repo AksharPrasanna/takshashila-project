@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: "_site"
+
+website:
+  navbar:
+    search: false
+    logo: media/logo_large.png
+    logo-href: index.qmd
+    logo-class: navbar-logo
+    right:
+      - text: Research
+        menu:
+          - text: Papers
+            href: pages/research.qmd
+          - text: Papers
+            href: pages/research.qmd
+          - text: Papers
+            href: pages/research.qmd
+      - text: Education
+        href: pages/education.qmd
+      - text: About Us
+        href: pages/about-us.qmd
+      - text: Careers
+        href: pages/careers.qmd
+      - text: Donate
+        href: pages/donate.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: left
+    number-sections: true
+    include-in-header:
+    - text: <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+editor: visual
