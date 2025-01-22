@@ -24,6 +24,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Cinzel', sans-serif;
     font-weight: 700; /* Bold weight */
+    border-bottom: none;
+    text-align: left;
 }
 
 .dropdown-menu {
@@ -31,4 +33,17 @@ h1, h2, h3, h4, h5, h6 {
     border: none; /* Remove border */
     border-radius: 4px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+.content {
+    max-width: 100%; /* Adjust the max-width as needed */
+}
+
+.page-layout-custom {
+    padding: 0 20px; /* Add 280px padding on the left and right */
+}
+
+/* Ensure text is not center-aligned */
+body {
+    text-align: left; /* Align text to the left */
 }

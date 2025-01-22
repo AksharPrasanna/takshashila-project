@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About</title>
+<title>research_section</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -135,7 +135,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-papers" id="toc-research-papers" class="nav-link active" data-scroll-target="#research-papers"><span class="header-section-number">1</span> Research Papers</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -144,28 +150,45 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
+
+
+
+<section id="research-papers" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="research-papers"><span class="header-section-number">1</span> Research Papers</h2>
+<div class="grid">
+<div class="g-col-12 g-col-md-8">
+<div class="card featured">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="{{ featured.image }}" class="card-img-top img-fluid figure-img"></p>
+<figcaption>{{ featured.title }}</figcaption>
+</figure>
 </div>
+<section id="featured.title" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="featured.title"><span class="header-section-number">1.1</span> <a href="{{ featured.link }}">{{ featured.title }}</a></h3>
+<p><strong>Category:</strong> {{ featured.category }}<br>
+<strong>Date:</strong> {{ featured.date }}</p>
+<p>{{ featured.summary }}</p>
+<p><a href="{{ featured.link }}" class="btn btn-primary">Read More</a></p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<p>{{# articles }} ::: {.card} <img src="{{ image }}.png" class="card-img-top img-fluid" alt="{{ title }}"></p>
+<section id="title" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="title"><span class="header-section-number">1.2</span> <a href="{{ link }}">{{ title }}</a></h3>
+<p><strong>Category:</strong> {{ category }}<br>
+<strong>Date:</strong> {{ date }}</p>
+<p>{{ summary }}</p>
+<p><a href="{{ link }}" class="btn btn-primary">Read More</a></p>
+</section>
+</div>
+<p>{{/ articles }}</p>
+</div>
+<p>:::</p>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>About this site</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

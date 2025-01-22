@@ -1,7 +1,14 @@
 ---
-title: "website"
+format:
+  html:
+    toc: false  # Disable sidebar
+    number-sections: false  # Disable numbering
+    page-layout: full
+    grid: 
+      sidebar-width: 280px
+      margin-width: 280px
 ---
 
-This is a Quarto website.
+## Featured Research
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+ssss

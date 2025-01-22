@@ -1,0 +1,29 @@
+featured:
+  title: "A Framework for Enabling Predictive"
+  category: "Finance"
+  date: "Jul 30, 2023"
+  summary: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+  image: "path/to/featured-image.jpg"
+  link: "#"
+
+articles:
+  - title: "Genomics to Improve Public Health in India"
+    category: "Genomics"
+    date: "Jul 30, 2023"
+    summary: "Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    image: "path/to/image1.jpg"
+    link: "#"
+
+  - title: "The Proposed Lok Sabha Seat Apportionment"
+    category: "Politics"
+    date: "Jul 30, 2023"
+    summary: "Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    image: "path/to/image2.jpg"
+    link: "#"
+
+  - title: "De-risking India's Trade with China"
+    category: "Economics"
+    date: "Jul 30, 2023"
+    summary: "Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    image: "path/to/image3.jpg"
+    link: "#"
