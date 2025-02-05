@@ -39,10 +39,6 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%; /* Adjust the max-width as needed */
 }
 
-.page-layout-custom {
-    padding: 0 20px; /* Add 280px padding on the left and right */
-}
-
 /* Ensure text is not center-aligned */
 body {
     text-align: left; /* Align text to the left */
