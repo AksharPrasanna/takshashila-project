@@ -1,0 +1,12 @@
+---
+title: "A Framework for Enabling Predictive"
+category: "Finance"
+date: "Jul 30, 2023"
+summary: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+image: "image.jpg"
+featured: true
+---
+
+# A Framework for Enabling Predictive
+
+This is the full content of the research paper.
