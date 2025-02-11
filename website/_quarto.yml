@@ -3,37 +3,40 @@ project:
   output-dir: "_site"
 
 website:
+  title: Takshashila
+  image: assets/images/logo_large.png
+  favicon: assets/images/logo.png
+  open-graph: true
+  site-url: https://takshashila.org.in/
   navbar:
+    toggle-position: right
+    background: "#610D3D"
     search: false
-    logo: media/logo_large.png
+    logo: images/logo_large.png
+    logo-alt: "Takshashila Research"
+    title: false
+    collapse-below: lg
     logo-href: index.qmd
-    logo-class: navbar-logo
     right:
-      - text: Research
-        menu:
-          - text: Papers
-            href: pages/research.qmd
-          - text: Papers
-            href: pages/research.qmd
-          - text: Papers
-            href: pages/research.qmd
-      - text: Education
+      - text: Takshashila Education
         href: pages/education.qmd
       - text: About Us
         href: pages/about-us.qmd
       - text: Careers
         href: pages/careers.qmd
+      - text: Engage with Us
+        href: pages/donate.qmd
       - text: Donate
         href: pages/donate.qmd
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [lux]
+    css: takshashila.css
     toc: true
-    toc-location: left
-    number-sections: true
-    include-in-header:
-    - text: <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px
 
 editor: visual

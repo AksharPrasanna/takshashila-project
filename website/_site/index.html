@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index</title>
+<title>Takshashila</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,13 +67,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&amp;display=swap" rel="stylesheet">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="takshashila.css">
+<meta property="og:title" content="Takshashila">
+<meta property="og:image" content="https://takshashila.org.in/assets/images/logo-large.png">
+<meta property="og:site_name" content="Takshashila">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -80,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./media/logo_large.png" alt="" class="navbar-logo">
+    <img src="./images/logo_large.png" alt="Takshashila Research" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,28 +92,9 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./pages/research.qmd">
- <span class="dropdown-text">Papers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./pages/research.qmd">
- <span class="dropdown-text">Papers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./pages/research.qmd">
- <span class="dropdown-text">Papers</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./pages/education.qmd"> 
-<span class="menu-text">Education</span></a>
+<span class="menu-text">Takshashila Education</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./pages/about-us.qmd"> 
@@ -119,6 +103,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./pages/careers.qmd"> 
 <span class="menu-text">Careers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./pages/donate.qmd"> 
+<span class="menu-text">Engage with Us</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./pages/donate.qmd"> 
@@ -132,26 +120,30 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
-  
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
 
 
 
 
-<section id="featured-research" class="level2">
-<h2 class="anchored" data-anchor-id="featured-research">Featured Research</h2>
-<p>ssss</p>
+<div class="featured-research-container">
+<div class="grid">
+<div class="g-col-12 g-col-lg-12">
+<div class="card featured-research-card">
+<h4 id="featured-research">FEATURED RESEARCH</h4>
+<h1 id="a-framework-for-enabling-predictive-genomics-to-improve-public-health-in-india">A Framework for Enabling Predictive Genomics to Improve Public Health in India</h1>
+<p>The Takshashila Institution is an independent centre for research and education in public policy. It is a non-partisan, non-profit organisation that advocates the values of freedom, openness, tolerance, pluralism and responsible citizenship. It seeks to transform India through better public policies, bridging the governance gap by developing better public servants, civil society leaders, professionals, and informed citizens.</p>
+<p><a href="pages/research.qmd" class="button">Read more</a></p>
+</div>
+</div>
+</div>
 
 
-</section>
+</div>
 
-</main> <!-- /main -->
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -244,7 +236,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/takshashila\.org\.in\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

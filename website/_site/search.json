@@ -21,20 +21,6 @@
     "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "ssss"
-  },
-  {
-    "objectID": "index.html#featured-research",
-    "href": "index.html#featured-research",
-    "title": "",
-    "section": "",
-    "text": "ssss"
-  },
-  {
     "objectID": "pages/about.html",
     "href": "pages/about.html",
     "title": "About",
