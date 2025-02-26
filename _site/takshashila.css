@@ -1,0 +1,77 @@
+/* Custom CSS Styles */
+
+/* NavBar Styling */
+
+.navbar {
+    padding: 30px 30px; /* Adds space inside the navbar */
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ensure the featured research section is centered */
+.featured-research-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Style the card */
+.featured-research-card {
+    background-color: #f8f9fa;  /* Light gray background */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 100%;
+}
+
+/* Style the Featured Research heading */
+.featured-research-card h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #6f1d47;  /* Dark purple */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Style the main title */
+.featured-research-card h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #121212;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+
+/* Style the paragraph text */
+/* Ensure Quarto applies styling */
+.featured-research-card {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 100%;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background: none;
+    border: 2px solid #6f1d47;
+    color: #6f1d47;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #6f1d47;
+    color: white;
+}
+
+

@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "components/research_section.html",
+    "href": "components/research_section.html",
+    "title": "Takshashila",
+    "section": "",
+    "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
+  },
+  {
+    "objectID": "components/research_section.html#research-papers",
+    "href": "components/research_section.html#research-papers",
+    "title": "Takshashila",
+    "section": "",
+    "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
+  },
+  {
+    "objectID": "pages/research_papers/akprasan/predictive_genomics.html",
+    "href": "pages/research_papers/akprasan/predictive_genomics.html",
+    "title": "A Framework for Enabling Predictive",
+    "section": "",
+    "text": "A Framework for Enabling Predictive\nThis is the full content of the research paper."
+  }
+]
