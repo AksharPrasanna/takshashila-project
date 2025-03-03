@@ -1,3 +1,6 @@
+---
+title: ""
+---
 ::: {.featured-research-wrapper}
 ::: {.featured-research}
 ::: {.container-fluid}
@@ -6,13 +9,13 @@
 FEATURED RESEARCH
 :::
 
-# Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?
+# {{< var featured-research.title >}}
 
 ::: {.authors}
-By Satya Sahu & Ashwin Prasad
+{{< var featured-research.authors >}}
 :::
 
-[Read more]{.read-more-btn}
+[Read more]({{< var featured-research.link >}}){.read-more-btn}
 :::
 :::
 :::
