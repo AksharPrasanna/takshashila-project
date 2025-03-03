@@ -1,0 +1,65 @@
+/*-- scss:defaults --*/
+$navbar-bg: #610D3D;
+$font-family-sans-serif: 'Roboto', sans-serif;
+$navbar-height: 112px;
+
+/*-- scss:rules --*/
+/* Basic navbar styling */
+.navbar {
+  min-height: $navbar-height;
+  padding: 0 48px;
+  
+  .navbar-brand img {
+    height: 48px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.3px;
+    padding: 8px 12px;
+    
+    &:hover {
+      color: white;
+    }
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0 8px;
+  }
+}
+
+.navbar .container-fluid,
+.quarto-title-banner .container-fluid,
+.page-columns {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Search icon color */
+.navbar .bi-search {
+  color: #F2A321 !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 0 24px;
+  }
+  
+  .navbar-collapse {
+    background-color: $navbar-bg;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    padding: 0 16px;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+}

@@ -1,42 +1,46 @@
 project:
   type: website
-  output-dir: "_site"
+  output-dir: _site
 
 website:
-  title: Takshashila
-  image: assets/images/logo_large.png
-  favicon: assets/images/logo.png
-  open-graph: true
-  site-url: https://takshashila.org.in/
+  title: "Takshashila Institution"
+  favicon: images/favicon.ico
+  search: true
   navbar:
-    toggle-position: right
     background: "#610D3D"
-    search: false
-    logo: images/logo_large.png
-    logo-alt: "Takshashila Research"
-    title: false
+    foreground: "white"
     collapse-below: lg
-    logo-href: index.qmd
+    logo: "assets/images/logo.png"
+    logo-alt: "Takshashila Institution"
+    title: false
     right:
-      - text: Takshashila Education
-        href: pages/education.qmd
-      - text: About Us
-        href: pages/about-us.qmd
-      - text: Careers
-        href: pages/careers.qmd
-      - text: Engage with Us
-        href: pages/donate.qmd
-      - text: Donate
-        href: pages/donate.qmd
+      - text: "Takshashila Education"
+        href: "#"
+      - text: "Engage with Us"
+        href: "#"
+      - text: "About Us"
+        menu:
+          - text: "Our Story"
+            href: "#"
+          - text: "Our Team"
+            href: "#"
+          - text: "Our Values"
+            href: "#"
+      - text: "Careers"
+        href: "#"
+      - text: "Donate"
+        href: "#"
 
 format:
   html:
-    theme: [lux]
+    theme: 
+      - default
+      - takshashila.scss
+    fontfamily: Roboto
+    mainfont: Roboto
     css: takshashila.css
-    toc: true
-    grid:
-      sidebar-width: 0px
-      body-width: 1000px
-      margin-width: 250px
-
-editor: visual
+    toc: false
+    page-layout: full
+    include-in-header:
+      text: |
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
