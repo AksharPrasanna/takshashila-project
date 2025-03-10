@@ -15,9 +15,9 @@ listing:
     sort-ui: false
     filter-ui: false
     feed: false
-    template: includes/pub-card.ejs
+    template: includes/pub-card-carousel.ejs
     image-height: 0px
-    max-items: 3
+    max-items: 6
 ---
 ::: {.featured-research-wrapper}
 ::: {.featured-research}
