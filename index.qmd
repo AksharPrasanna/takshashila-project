@@ -1,5 +1,23 @@
 ---
 title: ""
+
+format:
+  html:
+    anchor-sections: false
+
+listing:
+    contents: publications
+    type: grid
+    id: recent-pubs
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/pub-card.ejs
+    image-height: 0px
+    max-items: 3
 ---
 ::: {.featured-research-wrapper}
 ::: {.featured-research}
@@ -19,4 +37,13 @@ FEATURED RESEARCH
 :::
 :::
 :::
+:::
+
+::: {.recent-publications}
+## Recent Publications
+:::: {.container-fluid}
+
+::: {#recent-pubs}
+:::
+::::
 :::

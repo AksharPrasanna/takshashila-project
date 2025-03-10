@@ -139,6 +139,80 @@ body, html {
       }
     }
   }
+
+  .recent-publications {
+    padding: 20px 0;
+    background-color: #fff;
+    
+    .container-fluid {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    
+    h2 {
+      text-align: left;
+      margin-bottom: 40px;
+      font-weight: 400;
+      font-size: 40px;
+      border-bottom: none;
+    }
+  }
+
+  /* Publication cards styling */
+.pub-card {
+  background-color: #FFF7FC;
+  border-radius: 6px;
+  border: 1px solid #33333333;
+  padding: 5px 24px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  .pub-title {
+    font-size: 24px;
+    line-height: 1.3;
+    color: #610D3D;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .read-more {
+    font-size: 16px;
+    color: #141414;
+    text-decoration: none;
+    display: block;
+    margin-top: auto;
+    font-weight: 400;
+    line-height: 31.5px;
+    
+    .arrow {
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+    
+    &:hover {
+      .arrow {
+        transform: translateX(4px);
+      }
+    }
+  }
+}
+
+/* Grid layout for publications */
+.listing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+  }
+}
   
   /* Remove margin from main to avoid gap after navbar */
   main {
