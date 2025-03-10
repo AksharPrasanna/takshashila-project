@@ -4,56 +4,14 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 $navbar-height: 112px;
 
 /*-- scss:rules --*/
-/* Basic navbar styling */
-.navbar {
-  min-height: $navbar-height;
-  padding: 0 48px;
-  position: fixed;
-  width: 100%;
-  
-  .navbar-brand img {
-    height: 48px;
-  }
-  
-  .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 16px;
-    line-height: 17px;
-    letter-spacing: 0.3px;
-    padding: 8px 12px;
-    
-    &:hover {
-      color: white;
-    }
-  }
-  
-  .navbar-nav .nav-item {
-    margin: 0 8px;
-  }
-}
+@import 'styles/navbar';
+@import 'styles/featured_resarch';
 
 .navbar .container-fluid,
 .quarto-title-banner .container-fluid,
 .page-columns {
   max-width: 1280px;
   margin: 0 auto;
-}
-
-/* Search icon color */
-.navbar .bi-search {
-  color: #F2A321 !important;
-}
-
-/* Mobile adjustments */
-@media (max-width: 991.98px) {
-  .navbar {
-    padding: 0 24px;
-  }
-  
-  .navbar-collapse {
-    background-color: $navbar-bg;
-    padding: 16px;
-  }
 }
 
 body, html {
@@ -63,85 +21,6 @@ body, html {
   padding: 0;
   width: 100%;
 }
-
-/* Full width wrapper */
-.featured-research-wrapper {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-  background-color: white;
-}
-
-/* Featured Research section styling */
-/* Full width featured section with no top margin/padding */
-/* Updated featured research section styling */
-.featured-research {
-    background-image: url('assets/images/core-design.svg');
-    background-size: cover;
-    background-position: auto;
-    min-height: 400px;
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 40px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    
-    .container-fluid {
-      max-width: 1280px;
-      padding: 40px;
-      text-align: center; /* Center all content */
-    }
-
-    .featured-content {
-        padding: 20px;
-        background-color: rgba(255, 255, 255, 0.5); /* Slight overlay */
-        border-radius: 5px;
-    }
-    
-    .featured-tag {
-      font-size: 13.5px;
-      font-weight: 500;
-      letter-spacing: 1px;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-    }
-    
-    h1 {
-      font-size: 40px;
-      line-height: 1.2;
-      margin-bottom: 20px;
-      font-weight: 600;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: left !important;
-    }
-    
-    .authors {
-      font-size: 16px;
-      margin-bottom: 25px;
-    }
-    
-    .read-more-btn {
-      display: inline-block;
-      border: 1px solid #610D3D;
-      border-radius: 5px;
-      color: #610D3D;
-      padding: 8px 24px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      background-color: #FFEEF8;
-      
-      &:hover {
-        background-color: #610D3D;
-        color: white;
-      }
-    }
-  }
 
   .recent-publications {
     padding: 20px 0;
