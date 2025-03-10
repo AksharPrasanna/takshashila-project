@@ -67,3 +67,48 @@ The Takshashila Institution is an independent centre for research and education 
 ![Takshashila Institution Team](assets/images/takshashila-team.png){.about-us-image}
 :::
 :::
+
+:::{.program-section-heading}
+:::
+
+::: {.programs-container}
+::: {.programs-intro}
+There are many potential levers of change for steering the development and use of transformative technologies. We target a range of these levers to increase our chances of success.
+
+[View all programs](pages/programs.qmd){.view-all-btn}
+:::
+
+::: {.programs-grid}
+::: {.program-card}
+#### Policy advocacy
+
+We perform policy advocacy in the United States, the European Union, and the United Nations.
+
+[Read more](){.read-more-link}
+:::
+
+::: {.program-card}
+#### Policy Research
+
+We perform policy advocacy in the United States, the European Union, and the United Nations.
+
+[Read more](){.read-more-link}
+:::
+
+::: {.program-card}
+#### Policy education
+
+We perform policy advocacy in the United States, the European Union, and the United Nations.
+
+[Read more](){.read-more-link}
+:::
+
+::: {.program-card}
+#### Fellowships
+
+We perform policy advocacy in the United States, the European Union, and the United Nations.
+
+[Read more](){.read-more-link}
+:::
+:::
+:::
