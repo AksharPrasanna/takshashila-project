@@ -1,27 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://takshashila.org.in/sitemap.html</loc>
-    <lastmod>2025-03-13T03:30:36.374Z</lastmod>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/sitemap.html</loc>
+    <lastmod>2025-03-13T03:33:36.057Z</lastmod>
   </url>
   <url>
-    <loc>https://takshashila.org.in/pages/research/papers/paper_template.html</loc>
-    <lastmod>2025-03-13T03:30:36.374Z</lastmod>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/backup.html</loc>
+    <lastmod>2025-03-13T03:33:36.055Z</lastmod>
   </url>
   <url>
-    <loc>https://takshashila.org.in/pages/about.html</loc>
-    <lastmod>2025-03-13T03:30:36.374Z</lastmod>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/pages/research_papers/akprasan/predictive_genomics.html</loc>
+    <lastmod>2025-03-13T03:33:36.056Z</lastmod>
   </url>
   <url>
-    <loc>https://takshashila.org.in/index.html</loc>
-    <lastmod>2025-03-13T03:30:36.374Z</lastmod>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/index.html</loc>
+    <lastmod>2025-03-13T03:33:36.056Z</lastmod>
   </url>
   <url>
-    <loc>https://takshashila.org.in/pages/research_papers/akprasan/predictive_genomics.html</loc>
-    <lastmod>2025-03-13T03:30:36.374Z</lastmod>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/publications/test3.html</loc>
+    <lastmod>2025-03-13T03:33:36.057Z</lastmod>
   </url>
   <url>
-    <loc>https://takshashila.org.in/components/research_section.html</loc>
-    <lastmod>2025-03-13T03:30:36.374Z</lastmod>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/publications/test1.html</loc>
+    <lastmod>2025-03-13T03:33:36.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/publications/test4.html</loc>
+    <lastmod>2025-03-13T03:33:36.057Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/publications/test2.html</loc>
+    <lastmod>2025-03-13T03:33:36.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/pages/about.html</loc>
+    <lastmod>2025-03-13T03:33:36.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/pages/research/papers/paper_template.html</loc>
+    <lastmod>2025-03-13T03:33:36.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AksharPrasanna.github.io/takshashila-project/components/research_section.html</loc>
+    <lastmod>2025-03-13T03:33:36.055Z</lastmod>
   </url>
 </urlset>
