@@ -1,0 +1,51 @@
+```{=html}
+<div class="pub-carousel-container">
+    <button class="pub-nav-btn prev-btn" aria-label="Previous publications">&lt;</button>
+    
+    <div class="pub-carousel">
+      <% for (const item of items) { %>
+        <div class="pub-card">
+          <h3 class="pub-title"><%= item.title %></h3>
+          <a href="<%= item.path %>" class="read-more">Read more <span class="arrow">→</span></a>
+        </div>
+      <% } %>
+    </div>
+    
+    <button class="pub-nav-btn next-btn" aria-label="Next publications">&gt;</button>
+  </div>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const carousel = document.querySelector('.pub-carousel');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    
+    // Set initial button state
+    updateButtonState();
+    
+    // Handle button clicks
+    prevBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: -350, behavior: 'smooth' });
+    });
+    
+    nextBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: 350, behavior: 'smooth' });
+    });
+    
+    // Update button state on scroll
+    carousel.addEventListener('scroll', updateButtonState);
+    window.addEventListener('resize', updateButtonState);
+    
+    function updateButtonState() {
+      const isAtStart = carousel.scrollLeft <= 10;
+      const isAtEnd = carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 10;
+      
+      prevBtn.disabled = isAtStart;
+      prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+      
+      nextBtn.disabled = isAtEnd;
+      nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+    }
+  });
+  </script>
+```
