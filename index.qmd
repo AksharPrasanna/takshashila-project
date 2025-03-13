@@ -64,7 +64,7 @@ The Takshashila Institution is an independent centre for research and education 
 :::
 
 ::: {.about-us-image-container}
-![Takshashila Institution Team](assets/images/takshashila-team.png){.about-us-image}
+![](assets/images/takshashila-team.png){.about-us-image}
 :::
 :::
 
@@ -109,6 +109,37 @@ We perform policy advocacy in the United States, the European Union, and the Uni
 We perform policy advocacy in the United States, the European Union, and the United Nations.
 
 [Read more](){.read-more-link}
+:::
+:::
+:::
+
+::: {.dispatch-section-wrapper}
+::: {.dispatch-section}
+::: {.container-fluid}
+::: {.dispatch-container}
+::: {.dispatch-logo-col}
+![](assets/images/takshashila-dispatch.png){.dispatch-logo}
+:::
+
+::: {.dispatch-content-col}
+::: {.featured-tag}
+FEATURED PROJECT
+:::
+
+# Takshashila Dispatch
+
+The Takshashila Dispatch is a weekly update with the latest research, opinions and writings from the Takshashila Institution.
+
+::: {.subscription-form}
+```{=html}
+<form id="dispatch-form">
+  <input type="email" placeholder="Email address" required class="email-input">
+  <button type="submit" class="submit-btn">Submit</button>
+</form>
+```
+:::
+:::
+:::
 :::
 :::
 :::

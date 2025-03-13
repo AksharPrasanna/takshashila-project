@@ -207,7 +207,7 @@ body, html {
 .programs-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 32px;
   
   @media (max-width: 767px) {
     grid-template-columns: 1fr;
@@ -216,9 +216,10 @@ body, html {
 
 .program-card {
   background-color: #FFF7FC;
-  padding: 24px;
+  padding: 16px;
   border-radius: 4px;
   border: 1px solid rgba(97, 13, 61, 0.2);
+  width: 330px;
 
   
   h4 {
@@ -243,4 +244,113 @@ body, html {
   font-weight: 500;
   text-decoration: none;
   
+}
+
+/* Takshashila Dispatch section */
+.dispatch-section-wrapper {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  background-color: #610D3D;
+}
+
+/* Takshashila Dispatch section */
+.dispatch-section {
+  color: white;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.dispatch-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  
+  @media (max-width: 767px) {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+.dispatch-logo-col {
+  flex: 0 0 40%;
+  
+  @media (max-width: 767px) {
+    flex: 0 0 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.dispatch-content-col {
+  flex: 0 0 60%;
+  
+  @media (max-width: 767px) {
+    flex: 0 0 100%;
+  }
+  
+  .featured-tag {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 17.5px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
+  h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 52px;
+    font-family: Inter;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 31.5px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    width: 560px;
+  }
+}
+
+.dispatch-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.subscription-form {
+  display: flex;
+  gap: 10px;
+  max-width: 560px;
+  
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+  
+  .email-input {
+    flex: 1;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .submit-btn {
+    margin-left: 60px;
+    background-color: transparent;
+    border: 2px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
 }
