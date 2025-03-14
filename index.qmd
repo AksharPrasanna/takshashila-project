@@ -143,3 +143,17 @@ The Takshashila Dispatch is a weekly update with the latest research, opinions a
 :::
 :::
 :::
+
+::: {.social-section-wrapper}
+::: {.social-container}
+::: {.social-text}
+Follow us to get the latest policy updates
+:::
+
+::: {.social-icons}
+```{=html}
+{{< include includes/social-icons.html >}}
+```
+:::
+:::
+:::
