@@ -4,6 +4,7 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 $navbar-height: 112px;
 
 /*-- scss:rules --*/
+@import 'fonts';
 @import 'styles/navbar';
 @import 'styles/featured_resarch';
 @import 'styles/recent_publications';
