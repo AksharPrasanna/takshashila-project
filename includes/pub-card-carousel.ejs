@@ -1,9 +1,6 @@
 ```{=html}
-<div class="pub-carousel-container">
-    <button class="pub-nav-btn prev-btn" aria-label="Previous publications">
-      <span aria-hidden="true">&lt;</span>
-    </button>
-    
+<div class="recent-publications-outer">
+  <div class="pub-carousel-container">
     <div class="pub-carousel">
       <% for (const item of items) { %>
         <div class="pub-card">
@@ -12,11 +9,16 @@
         </div>
       <% } %>
     </div>
-    
-    <button class="pub-nav-btn next-btn" aria-label="Next publications">
-      <span aria-hidden="true">&gt;</span>
-    </button>
   </div>
+  
+  <button class="pub-nav-btn prev-btn" aria-label="Previous publications">
+    <span aria-hidden="true">&lt;</span>
+  </button>
+  
+  <button class="pub-nav-btn next-btn" aria-label="Next publications">
+    <span aria-hidden="true">&gt;</span>
+  </button>
+</div>
   
   <script>
   document.addEventListener('DOMContentLoaded', function() {

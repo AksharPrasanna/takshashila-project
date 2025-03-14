@@ -39,13 +39,13 @@ FEATURED RESEARCH
 :::
 :::
 
-::: {.recent-publications}
+::: {.recent-publications-heading}
 ## Recent Publications
-:::: {.container-fluid}
+:::
 
+::: {.recent-publications-carousel}
 ::: {#recent-pubs}
 :::
-::::
 :::
 
 ::: {.about-section-heading}
