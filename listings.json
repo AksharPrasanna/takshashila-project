@@ -3,9 +3,9 @@
     "listing": "/index.html",
     "items": [
       "/publications/test2.html",
+      "/publications/test1.html",
       "/publications/test4.html",
-      "/publications/test3.html",
-      "/publications/test1.html"
+      "/publications/test3.html"
     ]
   }
 ]
