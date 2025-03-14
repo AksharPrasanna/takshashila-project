@@ -1,6 +1,9 @@
 /* Basic navbar styling */
+$navbar-height-desktop: 112px;
+$navbar-height-mobile: 80px;
+
 .navbar {
-    min-height: $navbar-height;
+    min-height: clamp($navbar-height-mobile, 10vw, $navbar-height-desktop);
     padding: 0 48px;
     position: fixed;
     width: 100%;

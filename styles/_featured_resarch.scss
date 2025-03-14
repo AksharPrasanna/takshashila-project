@@ -2,6 +2,7 @@
 /* Full width wrapper */
 .featured-research-wrapper {
     width: 100vw;
+    margin-top: -1px !important;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     background-color: white;
