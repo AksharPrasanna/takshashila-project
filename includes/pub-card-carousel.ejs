@@ -1,6 +1,8 @@
 ```{=html}
 <div class="pub-carousel-container">
-    <button class="pub-nav-btn prev-btn" aria-label="Previous publications">&lt;</button>
+    <button class="pub-nav-btn prev-btn" aria-label="Previous publications">
+      <span aria-hidden="true">&lt;</span>
+    </button>
     
     <div class="pub-carousel">
       <% for (const item of items) { %>
@@ -11,7 +13,9 @@
       <% } %>
     </div>
     
-    <button class="pub-nav-btn next-btn" aria-label="Next publications">&gt;</button>
+    <button class="pub-nav-btn next-btn" aria-label="Next publications">
+      <span aria-hidden="true">&gt;</span>
+    </button>
   </div>
   
   <script>
@@ -23,13 +27,29 @@
     // Set initial button state
     updateButtonState();
     
+    // Determine scroll amount based on screen size
+    function getScrollAmount() {
+      // On mobile, scroll full width
+      if (window.innerWidth < 768) {
+        return carousel.offsetWidth;
+      }
+      // On tablet, scroll half width
+      else if (window.innerWidth < 1200) {
+        return carousel.offsetWidth / 2;
+      } 
+      // On desktop, scroll one third width
+      else {
+        return carousel.offsetWidth / 3;
+      }
+    }
+    
     // Handle button clicks
     prevBtn.addEventListener('click', () => {
-      carousel.scrollBy({ left: -350, behavior: 'smooth' });
+      carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
     });
     
     nextBtn.addEventListener('click', () => {
-      carousel.scrollBy({ left: 350, behavior: 'smooth' });
+      carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
     });
     
     // Update button state on scroll

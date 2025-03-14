@@ -1,135 +1,189 @@
 .recent-publications {
-    padding: 20px 0;
-    background-color: #fff;
+  padding: clamp(15px, 2vw, 20px) 0;
+  background-color: #fff;
     
-    .container-fluid {
-      max-width: 1280px;
-      margin: 0 auto;
-    }
-    
-    h2 {
-      text-align: left;
-      margin-bottom: 40px;
-      font-weight: 400;
-      font-size: 40px;
-      border-bottom: none;
-    }
-}
-
-  /* Publication cards styling */
-  .pub-carousel-container {
-    position: relative;
+  .container-fluid {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 50px; /* Space for the buttons */
+    padding: 0 clamp(15px, 3vw, 30px);
   }
-  
-  .pub-carousel {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    gap: 20px;
-    padding: 20px 0;
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
-    -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
     
-    /* Hide scrollbar for Chrome/Safari */
-    &::-webkit-scrollbar {
-      display: none;
-    }
+  h2 {
+    text-align: left;
+    margin-bottom: clamp(20px, 4vw, 40px);
+    font-weight: 400;
+    font-size: clamp(28px, 4vw, 40px);
+    border-bottom: none;
+  }
+}
+
+/* Publication cards styling */
+.pub-carousel-container {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(45px, 7vw, 60px);
+}
+  
+.pub-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: clamp(10px, 2vw, 20px);
+  padding: clamp(10px, 2vw, 20px);
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+  
+  /* Hide scrollbar for Chrome/Safari */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.pub-card {
+  background-color: #FFF7FC;
+  border-radius: 6px;
+  border: 1px solid #33333333;
+  padding: 15px clamp(15px, 2vw, 24px);
+  height: clamp(180px, 35vw, 250px);
+  min-width: clamp(280px, 80vw, 330px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
 
-  .pub-card {
-    background-color: #FFF7FC;
-    border-radius: 6px;
-    border: 1px solid #33333333;
-    padding: 5px 24px;
-    height: 250px;
-    min-width: 330px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  @media (min-width: 768px) {
+    min-width: clamp(280px, 40vw, 330px);
+  }
+  
+  @media (min-width: 1200px) {
+    min-width: clamp(280px, 25vw, 330px);
+  }
     
-    .pub-title {
-      font-size: 24px;
-      line-height: 1.3;
-      color: #610D3D;
-      margin-bottom: 20px;
-      font-weight: 500;
+  .pub-title {
+    font-size: clamp(18px, 2.5vw, 24px);
+    line-height: 1.3;
+    color: #610D3D;
+    margin-bottom: clamp(10px, 2vw, 20px);
+    font-weight: 500;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+    
+  .read-more {
+    font-size: clamp(14px, 1.5vw, 16px);
+    color: #141414;
+    text-decoration: none;
+    display: block;
+    margin-top: auto;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    .arrow {
+      display: inline-block;
+      transition: transform 0.2s ease;
     }
     
-    .read-more {
-      font-size: 16px;
-      color: #141414;
-      text-decoration: none;
-      display: block;
-      margin-top: auto;
-      font-weight: 400;
-      line-height: 31.5px;
-      
+    &:hover {
       .arrow {
-        display: inline-block;
-        transition: transform 0.2s ease;
-      }
-      
-      &:hover {
-        .arrow {
-          transform: translateX(4px);
-        }
+        transform: translateX(4px);
       }
     }
   }
+}
 
 /* Navigation buttons */
 .pub-nav-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #610D3D;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-    cursor: pointer;
-    z-index: 10;
-    transition: all 0.3s ease;
-    
-    &:hover {
-      background-color: #7A1356;
-    }
-    
-    &.prev-btn {
-      left: 0;
-    }
-    
-    &.next-btn {
-      right: 0;
-    }
-    
-    &:disabled {
-      cursor: not-allowed;
-    }
-  }
-  
-  /* Make sure we show 3 cards on desktop */
-  @media (min-width: 1200px) {
-    .pub-card {
-      min-width: calc((100% - 40px) / 3); /* Adjust for 3 cards with 20px gap */
-    }
-  }
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #610D3D;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  width: clamp(30px, 4vw, 40px);
+  height: clamp(30px, 4vw, 40px);
+  font-size: clamp(14px, 2vw, 18px);
+  cursor: pointer;
+  z-index: 100;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  /* Show 2 cards on tablets */
-@media (max-width: 1199px) and (min-width: 768px) {
-    .pub-card {
-      min-width: calc((100% - 20px) / 2); /* Adjust for 2 cards with 20px gap */
-    }
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  
+  &:hover {
+    background-color: #7A1356;
   }
   
-  /* Show 1 card on mobile */
-  @media (max-width: 767px) {
-    .pub-card {
-      min-width: 100%;
-    }
+  &.prev-btn {
+    left: 5px;
   }
+  
+  &.next-btn {
+    right: 5px;
+  }
+  
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    box-shadow: none;
+  }
+}
+  
+//   /* Make sure we show 3 cards on desktop */
+// @media (min-width: 1200px) {
+//   .pub-card {
+//     min-width: calc((100% - 40px) / 3); /* Adjust for 3 cards with 20px gap */
+//   }
+// }
+
+// /* Show 2 cards on tablets */
+// @media (max-width: 1199px) and (min-width: 768px) {
+//   .pub-card {
+//     min-width: calc((100% - 20px) / 2); /* Adjust for 2 cards with 20px gap */
+//   }
+// }
+  
+// /* Show 1 card on mobile */
+// @media (max-width: 767px) {
+//   .pub-card {
+//     min-width: 100%;
+//   }
+// }
+
+/* For mobile screens, adjust positioning and size */
+@media (max-width: 767px) {
+  .pub-carousel-container {
+    padding: 0 35px; /* Fixed padding on mobile */
+  }
+  
+  .pub-nav-btn {
+    width: 30px; /* Fixed size on mobile */
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  /* Adjust card margin to avoid overlapping with buttons */
+  .pub-card {
+    margin: 0 5px; /* Add slight margin */
+    min-width: calc(100% - 10px); /* Adjust width calculation */
+    padding: 15px 18px; /* Reduce padding */
+  }
+  
+  /* Ensure card text doesn't overflow */
+  .pub-title {
+    font-size: 18px !important; /* Force smaller font size */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit to 4 lines */
+    -webkit-box-orient: vertical;
+  }
+}

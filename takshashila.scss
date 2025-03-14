@@ -1,9 +1,15 @@
 /*-- scss:defaults --*/
 $navbar-bg: #610D3D;
 $font-family-sans-serif: 'Roboto', sans-serif;
-$navbar-height: 112px;
+
+:root {
+  --navbar-height: 112px;
+  --navbar-height-mobile: 80px;
+}
 
 /*-- scss:rules --*/
+@import 'fonts';
+@import 'styles/responsive_base';
 @import 'styles/navbar';
 @import 'styles/featured_resarch';
 @import 'styles/recent_publications';
@@ -18,16 +24,18 @@ $navbar-height: 112px;
 body, html {
   overflow-x: hidden;
   margin: 0;
-  padding-top: 56px !important;
-  padding: 0;
+  padding-top: clamp(
+    calc(var(--navbar-height-mobile) / 2), 
+    5vw, 
+    calc(var(--navbar-height) / 2)
+  ) !important;
   width: 100%;
 }
-  
-  /* Remove margin from main to avoid gap after navbar */
-  main {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
+
+main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
   
   /* Ensure page level containers don't restrict width */
   body .page-columns {
