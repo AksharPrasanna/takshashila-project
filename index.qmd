@@ -16,6 +16,8 @@ listing:
     filter-ui: false
     feed: false
     template: includes/content-card-carousel.ejs
+    template-params: 
+      carousel_id: "publications-carousel"
     image-height: 0px
     max-items: 6
 
@@ -29,6 +31,8 @@ listing:
     filter-ui: false
     feed: false
     template: includes/content-card-carousel.ejs
+    template-params: 
+      carousel_id: "blogs-carousel"
     max-items: 8
 ---
 ::: {.featured-research-wrapper}

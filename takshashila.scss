@@ -30,7 +30,7 @@ body, html {
   overflow-x: hidden;
   margin: 0;
   padding-top: clamp(
-    calc(var(--navbar-height-mobile) / 2), 
+    calc(var(--navbar-height-mobile) / 2),
     5vw, 
     calc(var(--navbar-height) / 2)
   ) !important;

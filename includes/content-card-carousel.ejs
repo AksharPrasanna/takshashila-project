@@ -1,5 +1,5 @@
 ```{=html}
-<div class="recent-publications-outer">
+<div class="recent-content-outer"  id="<%= templateParams.carousel_id %>">
   <div class="content-carousel-container">
     <div class="content-carousel">
       <% for (const item of items) { %>
@@ -22,9 +22,16 @@
   
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.querySelector('.content-carousel');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
+    const carouselId = "<%= templateParams.carousel_id %>";
+    const carouselContainer = document.getElementById(carouselId);
+  
+    if (!carouselContainer) {
+      console.error("Carousel container not found:", carouselId);
+      return;
+    }
+    const carousel = carouselContainer.querySelector('.content-carousel');
+    const prevBtn = carouselContainer.querySelector('.prev-btn');
+    const nextBtn = carouselContainer.querySelector('.next-btn');
     
     // Set initial button state
     updateButtonState();
