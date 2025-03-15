@@ -252,7 +252,7 @@ window.Quarto = {
 </section>
 <div class="recent-content-carousel">
 <div id="listing-recent-pubs" class="quarto-listing quarto-listing-container-custom">
-<div class="recent-publications-outer">
+<div class="recent-content-outer" id="publications-carousel">
   <div class="content-carousel-container">
     <div class="content-carousel">
       
@@ -290,9 +290,16 @@ window.Quarto = {
   
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.querySelector('.content-carousel');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
+    const carouselId = "publications-carousel";
+    const carouselContainer = document.getElementById(carouselId);
+  
+    if (!carouselContainer) {
+      console.error("Carousel container not found:", carouselId);
+      return;
+    }
+    const carousel = carouselContainer.querySelector('.content-carousel');
+    const prevBtn = carouselContainer.querySelector('.prev-btn');
+    const nextBtn = carouselContainer.querySelector('.next-btn');
     
     // Set initial button state
     updateButtonState();
@@ -467,7 +474,7 @@ No matching items
 </div>
 <div class="recent-content-carousel">
 <div id="listing-recent-blogs" class="quarto-listing quarto-listing-container-custom">
-<div class="recent-publications-outer">
+<div class="recent-content-outer" id="blogs-carousel">
   <div class="content-carousel-container">
     <div class="content-carousel">
       
@@ -505,9 +512,16 @@ No matching items
   
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.querySelector('.content-carousel');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
+    const carouselId = "blogs-carousel";
+    const carouselContainer = document.getElementById(carouselId);
+  
+    if (!carouselContainer) {
+      console.error("Carousel container not found:", carouselId);
+      return;
+    }
+    const carousel = carouselContainer.querySelector('.content-carousel');
+    const prevBtn = carouselContainer.querySelector('.prev-btn');
+    const nextBtn = carouselContainer.querySelector('.next-btn');
     
     // Set initial button state
     updateButtonState();
