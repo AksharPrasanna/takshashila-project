@@ -1,0 +1,9 @@
+---
+title: "De-risking India's Trade with China"
+author: "Anupam Manur"
+date: "2024-02-15"
+description: "Strategies for balanced economic engagement with China"
+categories: 
+  - "Economics"
+  - "Foreign Policy" 
+---

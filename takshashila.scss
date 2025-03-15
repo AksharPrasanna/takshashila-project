@@ -12,10 +12,12 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 @import 'styles/responsive_base';
 @import 'styles/navbar';
 @import 'styles/featured_research';
-@import 'styles/recent_publications';
+@import 'styles/recent_content_heading';
+@import 'styles/recent_content_carousel';
 @import 'styles/about_us';
 @import 'styles/programs';
 @import 'styles/dispatch';
+@import 'styles/social_media';
 
 .navbar .container-fluid,
 .quarto-title-banner .container-fluid,

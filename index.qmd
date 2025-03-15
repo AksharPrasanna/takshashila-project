@@ -6,18 +6,30 @@ format:
     anchor-sections: false
 
 listing:
-    contents: publications
+  - id: recent-pubs
+    contents: content/publications
     type: grid
-    id: recent-pubs
     grid-columns: 3
     sort: "date desc"
     categories: false
     sort-ui: false
     filter-ui: false
     feed: false
-    template: includes/pub-card-carousel.ejs
+    template: includes/content-card-carousel.ejs
     image-height: 0px
     max-items: 6
+
+  - id: recent-blogs
+    contents: content/blogs
+    type: grid
+    grid-columns: 4
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/content-card-carousel.ejs
+    max-items: 8
 ---
 ::: {.featured-research-wrapper}
 ::: {.featured-research}
@@ -39,11 +51,11 @@ FEATURED RESEARCH
 :::
 :::
 
-::: {.recent-publications-heading}
+::: {.recent-content-heading}
 ## Recent Publications
 :::
 
-::: {.recent-publications-carousel}
+::: {.recent-content-carousel}
 ::: {#recent-pubs}
 :::
 :::
@@ -140,6 +152,37 @@ The Takshashila Dispatch is a weekly update with the latest research, opinions a
 :::
 :::
 :::
+:::
+:::
+:::
+
+::: {.social-section-wrapper}
+::: {.social-container}
+::: {.social-text}
+Follow us to get the latest policy updates
+:::
+
+::: {.social-icons}
+```{=html}
+{{< include includes/social-icons.html >}}
+```
+:::
+:::
+:::
+
+::: {.blogs-section}
+::: {.recent-content-heading-with-view-all}
+::: {.recent-content-heading-with-subtitle}
+## Blogs
+The most recent posts we have published:
+:::
+::: {.view-all-container}
+[View all posts](){.view-all}
+:::
+:::
+
+::: {.recent-content-carousel}
+::: {#recent-blogs}
 :::
 :::
 :::

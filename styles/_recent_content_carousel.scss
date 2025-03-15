@@ -1,20 +1,5 @@
-.recent-publications-heading {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: clamp(15px, 2vw, 20px) 0;
-  
-  h2 {
-    text-align: left;
-    margin-bottom: clamp(20px, 4vw, 40px);
-    font-weight: 400;
-    font-size: clamp(28px, 4vw, 40px);
-    border-bottom: none;
-    color: #404040;
-  }
-}
-
 /* Carousel section - 1280px width with buttons outside */
-.recent-publications-carousel {
+.recent-content-carousel {
   position: relative;
   max-width: 1280px !important;
   padding: 0;
@@ -23,7 +8,7 @@
 }
 
 /* Outer wrapper for positioning buttons */
-.recent-publications-outer {
+.recent-content-outer {
   position: relative;
   max-width: 1380px !important;
   margin: 0 auto;
@@ -32,14 +17,14 @@
 }
 
 /* Publication cards styling */
-.pub-carousel-container {
+.content-carousel-container {
   position: relative;
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 clamp(45px, 7vw, 60px);
 }
   
-.pub-carousel {
+.content-carousel {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -54,7 +39,7 @@
   }
 }
 
-.pub-card {
+.content-card {
   background-color: #FFF7FC;
   border-radius: 6px;
   border: 1px solid #33333333;
@@ -78,7 +63,7 @@
     min-width: clamp(280px, 25vw, 330px);
   }
     
-  .pub-title {
+  .content-title {
     font-size: clamp(18px, 2.5vw, 24px);
     line-height: 1.3;
     color: #610D3D;
@@ -113,7 +98,7 @@
 }
 
 /* Navigation buttons */
-.pub-nav-btn {
+.content-nav-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -175,25 +160,25 @@
 
 /* For mobile screens, adjust positioning and size */
 @media (max-width: 767px) {
-  .pub-carousel-container {
+  .content-carousel-container {
     padding: 0 35px; /* Fixed padding on mobile */
   }
   
-  .pub-nav-btn {
+  .content-nav-btn {
     width: 30px; /* Fixed size on mobile */
     height: 30px;
     font-size: 14px;
   }
   
   /* Adjust card margin to avoid overlapping with buttons */
-  .pub-card {
+  .content-card {
     margin: 0 5px; /* Add slight margin */
     min-width: calc(100% - 10px); /* Adjust width calculation */
     padding: 15px 18px; /* Reduce padding */
   }
   
   /* Ensure card text doesn't overflow */
-  .pub-title {
+  .content-title {
     font-size: 18px !important; /* Force smaller font size */
     overflow: hidden;
     display: -webkit-box;
