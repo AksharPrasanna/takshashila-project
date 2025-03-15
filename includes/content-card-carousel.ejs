@@ -1,28 +1,28 @@
 ```{=html}
 <div class="recent-publications-outer">
-  <div class="pub-carousel-container">
-    <div class="pub-carousel">
+  <div class="content-carousel-container">
+    <div class="content-carousel">
       <% for (const item of items) { %>
-        <div class="pub-card">
-          <h3 class="pub-title"><%= item.title %></h3>
+        <div class="content-card">
+          <h3 class="content-title"><%= item.title %></h3>
           <a href="<%= item.path %>" class="read-more">Read more <span class="arrow">→</span></a>
         </div>
       <% } %>
     </div>
   </div>
   
-  <button class="pub-nav-btn prev-btn" aria-label="Previous publications">
+  <button class="content-nav-btn prev-btn" aria-label="Previous publications">
     <span aria-hidden="true">&lt;</span>
   </button>
   
-  <button class="pub-nav-btn next-btn" aria-label="Next publications">
+  <button class="content-nav-btn next-btn" aria-label="Next publications">
     <span aria-hidden="true">&gt;</span>
   </button>
 </div>
   
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.querySelector('.pub-carousel');
+    const carousel = document.querySelector('.content-carousel');
     const prevBtn = document.querySelector('.prev-btn');
     const nextBtn = document.querySelector('.next-btn');
     

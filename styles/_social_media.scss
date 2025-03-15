@@ -10,6 +10,7 @@
 
 .social-container {
     max-width: 1280px;
+    padding: clamp(15px, 2vw, 20px);
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -34,6 +35,7 @@
     p {
         font-size: clamp(20px, 2vw, 32px);
         padding: 0 !important;
+        line-height: 1.6;
     }
     
     @media (max-width: 767px) {

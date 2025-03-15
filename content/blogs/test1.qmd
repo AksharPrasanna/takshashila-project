@@ -1,0 +1,9 @@
+---
+title: "Genomics to Improve Public Health in India"
+author: "Aditya Ramanathan"
+date: "2024-02-20"
+description: "How genomic research can transform healthcare delivery in India"
+categories: 
+  - "Healthcare"
+  - "Science" 
+---

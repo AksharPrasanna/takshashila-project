@@ -1,0 +1,9 @@
+---
+title: "Building Robust Digital Infrastructure for India's Future"
+author: "Arjun Gargeyas"
+date: "2024-02-10"
+description: "Key aspects of creating sustainable digital public goods"
+categories: 
+  - "Technology"
+  - "Governance" 
+---
