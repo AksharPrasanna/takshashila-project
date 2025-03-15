@@ -1,49 +1,28 @@
 [
   {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About",
+    "objectID": "pages/research_papers/akprasan/predictive_genomics.html",
+    "href": "pages/research_papers/akprasan/predictive_genomics.html",
+    "title": "A Framework for Enabling Predictive",
     "section": "",
-    "text": "About this site"
+    "text": "A Framework for Enabling Predictive\nThis is the full content of the research paper."
   },
   {
-    "objectID": "components/research_section.html",
-    "href": "components/research_section.html",
-    "title": "Takshashila Institution",
+    "objectID": "content/blogs/test5.html",
+    "href": "content/blogs/test5.html",
+    "title": "The Proposed Lok Sabha Seat Apportionment—What Should the Southern States Really Demand?",
     "section": "",
-    "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
+    "text": "Content of the blog post goes here…"
   },
   {
-    "objectID": "components/research_section.html#research-papers",
-    "href": "components/research_section.html#research-papers",
-    "title": "Takshashila Institution",
-    "section": "",
-    "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
-  },
-  {
-    "objectID": "publications/test1.html",
-    "href": "publications/test1.html",
+    "objectID": "content/publications/test2.html",
+    "href": "content/publications/test2.html",
     "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "publications/test2.html",
-    "href": "publications/test2.html",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
-    "section": "",
-    "text": "Content of the publication goes here…"
-  },
-  {
-    "objectID": "publications/test4.html",
-    "href": "publications/test4.html",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
-    "section": "",
-    "text": "Content of the publication goes here…"
-  },
-  {
-    "objectID": "publications/test3.html",
-    "href": "publications/test3.html",
+    "objectID": "content/publications/test4.html",
+    "href": "content/publications/test4.html",
     "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
     "text": "Content of the publication goes here…"
@@ -63,10 +42,45 @@
     "text": "Recent Publications"
   },
   {
-    "objectID": "pages/research_papers/akprasan/predictive_genomics.html",
-    "href": "pages/research_papers/akprasan/predictive_genomics.html",
-    "title": "A Framework for Enabling Predictive",
+    "objectID": "index.html#blogs",
+    "href": "index.html#blogs",
+    "title": "Do the AI Diffusion Rules mean India not get more than 50,000 advanced GPUs?",
+    "section": "Blogs",
+    "text": "Blogs\nThe most recent posts we have published:"
+  },
+  {
+    "objectID": "content/publications/test1.html",
+    "href": "content/publications/test1.html",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
-    "text": "A Framework for Enabling Predictive\nThis is the full content of the research paper."
+    "text": "Content of the publication goes here…"
+  },
+  {
+    "objectID": "content/publications/test3.html",
+    "href": "content/publications/test3.html",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "",
+    "text": "Content of the publication goes here…"
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "components/research_section.html",
+    "href": "components/research_section.html",
+    "title": "Takshashila Institution",
+    "section": "",
+    "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
+  },
+  {
+    "objectID": "components/research_section.html#research-papers",
+    "href": "components/research_section.html#research-papers",
+    "title": "Takshashila Institution",
+    "section": "",
+    "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
   }
 ]
