@@ -1,0 +1,47 @@
+```{=html}
+<div class="news-grid-container">
+  <% for (const item of items.slice(0, 6)) { %>
+    <a href="<%= item.url %>" class="news-card" target="_blank">
+      <div class="news-logo">
+        <% const domain = item.url.match(/\/\/([^\/]+)/)[1].replace('www.', ''); %>
+
+        <% if (domain.includes('thehindu')) { %>
+            <img src="assets/news_logos/the-hindu.png" alt="The Hindu">
+        <% }  else { %>
+            <div class="default-logo"><%= item.source.charAt(0) %></div>
+        <% } %>
+        <% if (domain.includes('indianexpress')) { %>
+          <img src="assets/news_logos/indian-express.png" alt="Indian Express">
+        <% } else if (domain.includes('thehindu')) { %>
+          <img src="assets/news_logos/the-hindu.png" alt="The Hindu">
+        <% } else if (domain.includes('diplomat')) { %>
+          <img src="assets/news_logos/the-diplomat.png" alt="The Diplomat">
+        <% } else if (domain.includes('deccanherald')) { %>
+          <img src="assets/news_logos/deccan-herald.png" alt="Deccan Herald">
+        <% } else if (domain.includes('hindustantimes')) { %>
+          <img src="assets/news_logos/hindustan-times.png" alt="Hindustan Times">
+        <% } else if (domain.includes('timesofindia')) { %>
+          <img src="assets/news_logos/toi.png" alt="Times of India">
+        <% } else if (domain.includes('theprint')) { %>
+          <img src="assets/news_logos/the-print.png" alt="The Print">
+        <% } else { %>
+          <div class="default-logo"><%= item.source.charAt(0) %></div>
+        <% } %>
+      </div>
+      
+      <div class="news-content">
+        <div class="news-source"><%= item.source %></div>
+        <h3 class="news-title"><%= item.title %></h3>
+        <div class="news-date">
+          <% 
+            const date = new Date(item.date);
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = date.toLocaleDateString('en-US', options);
+          %>
+          <%= formattedDate %>
+        </div>
+      </div>
+    </a>
+  <% } %>
+</div>
+```
