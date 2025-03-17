@@ -124,6 +124,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-source','listing-title','listing-date','listing-url',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-source","listing-title","listing-date","listing-url"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -570,6 +598,163 @@ No matching items
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+</div>
+</div>
+</div>
+<div class="news-section">
+<div class="recent-content-heading-with-view-all">
+<section id="in-the-news" class="level2 recent-content-heading-with-subtitle">
+<h2 data-anchor-id="in-the-news">In the News</h2>
+<p>The most recent posts we have published:</p>
+</section>
+<div class="view-all-container">
+<p><a href="" class="view-all">View all posts</a></p>
+</div>
+</div>
+<div id="listing-recent-news" class="quarto-listing quarto-listing-container-custom">
+<div class="news-grid-container">
+  
+    <a href="https://theprint.in/opinion/expert-voices-takshashila-india-china-hydropolitics" class="news-card" target="_blank">
+      <div class="news-logo">
+        
+
+        
+            <div class="default-logo">T</div>
+        
+
+        <!-- 
+          <img src="assets/news_logos/the-print.png" alt="The Print">
+         -->
+      </div>
+      
+      <div class="news-content">
+        <div class="news-source">The Print</div>
+        <h3 class="news-title">Expert Voices: Takshashila's Take on India-China Hydropolitics</h3>
+        <div class="news-date">
+          
+          January 31, 2025
+        </div>
+      </div>
+    </a>
+  
+    <a href="https://www.indianexpress.com/article/opinion/columns/china-mega-dam-project-geopolitical-weapon" class="news-card" target="_blank">
+      <div class="news-logo">
+        
+
+        
+            <img src="assets/news_logos/indian-express.png" alt="Indian Express">
+        
+
+        <!-- 
+          <img src="assets/news_logos/indian-express.png" alt="Indian Express">
+         -->
+      </div>
+      
+      <div class="news-content">
+        <div class="news-source">The New Indian Express</div>
+        <h3 class="news-title">Is China's mega dam project a geopolitical weapon under the guise of development?</h3>
+        <div class="news-date">
+          
+          January 29, 2025
+        </div>
+      </div>
+    </a>
+  
+    <a href="https://thediplomat.com/2025/01/risks-china-yarlung-tsangpo-project" class="news-card" target="_blank">
+      <div class="news-logo">
+        
+
+        
+            <div class="default-logo">T</div>
+        
+
+        <!-- 
+          <img src="assets/news_logos/the-diplomat.png" alt="The Diplomat">
+         -->
+      </div>
+      
+      <div class="news-content">
+        <div class="news-source">The Diplomat</div>
+        <h3 class="news-title">Y Nithiyanandam on the Risks of China's Ambitious Yarlung Tsangpo Project</h3>
+        <div class="news-date">
+          
+          January 29, 2025
+        </div>
+      </div>
+    </a>
+  
+    <a href="https://www.deccanherald.com/opinion/a-river-beyond-borders" class="news-card" target="_blank">
+      <div class="news-logo">
+        
+
+        
+            <div class="default-logo">D</div>
+        
+
+        <!-- 
+          <img src="assets/news_logos/deccan-herald.png" alt="Deccan Herald">
+         -->
+      </div>
+      
+      <div class="news-content">
+        <div class="news-source">Deccan Herald</div>
+        <h3 class="news-title">A River Beyond Borders</h3>
+        <div class="news-date">
+          
+          January 29, 2025
+        </div>
+      </div>
+    </a>
+  
+    <a href="https://www.thehindu.com/opinion/lead/water-diplomacy-south-asia" class="news-card" target="_blank">
+      <div class="news-logo">
+        
+
+        
+            <img src="assets/news_logos/the-hindu.png" alt="The Hindu">
+        
+
+        <!-- 
+          <img src="assets/news_logos/the-hindu.png" alt="The Hindu">
+         -->
+      </div>
+      
+      <div class="news-content">
+        <div class="news-source">The Hindu</div>
+        <h3 class="news-title">Analysis: Water Diplomacy in South Asia amid Chinese Dam Projects</h3>
+        <div class="news-date">
+          
+          January 25, 2025
+        </div>
+      </div>
+    </a>
+  
+    <a href="https://www.hindustantimes.com/analysis/india-concerns-water-security" class="news-card" target="_blank">
+      <div class="news-logo">
+        
+
+        
+            <div class="default-logo">H</div>
+        
+
+        <!-- 
+          <img src="assets/news_logos/hindustan-times.png" alt="Hindustan Times">
+         -->
+      </div>
+      
+      <div class="news-content">
+        <div class="news-source">Hindustan Times</div>
+        <h3 class="news-title">India's Concerns over Transboundary Water Security</h3>
+        <div class="news-date">
+          
+          January 23, 2025
+        </div>
+      </div>
+    </a>
+  
+</div>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
 </div>
