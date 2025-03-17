@@ -5,12 +5,15 @@
       <div class="news-logo">
         <% const domain = item.url.match(/\/\/([^\/]+)/)[1].replace('www.', ''); %>
 
-        <% if (domain.includes('thehindu')) { %>
+        <% if (domain.includes('indianexpress')) { %>
+            <img src="assets/news_logos/indian-express.png" alt="Indian Express">
+        <% } else if (domain.includes('thehindu')) { %>
             <img src="assets/news_logos/the-hindu.png" alt="The Hindu">
-        <% }  else { %>
+        <% } else { %>
             <div class="default-logo"><%= item.source.charAt(0) %></div>
         <% } %>
-        <% if (domain.includes('indianexpress')) { %>
+
+        <!-- <% if (domain.includes('indianexpress')) { %>
           <img src="assets/news_logos/indian-express.png" alt="Indian Express">
         <% } else if (domain.includes('thehindu')) { %>
           <img src="assets/news_logos/the-hindu.png" alt="The Hindu">
@@ -26,7 +29,7 @@
           <img src="assets/news_logos/the-print.png" alt="The Print">
         <% } else { %>
           <div class="default-logo"><%= item.source.charAt(0) %></div>
-        <% } %>
+        <% } %> -->
       </div>
       
       <div class="news-content">
