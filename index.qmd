@@ -34,6 +34,18 @@ listing:
     template-params: 
       carousel_id: "blogs-carousel"
     max-items: 8
+  
+  - id: recent-news
+    contents: content/news/news.yml
+    type: grid
+    grid-columns: 6
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/news-card.ejs
+    max-items: 6
 ---
 ::: {.featured-research-wrapper}
 ::: {.featured-research}
@@ -188,5 +200,20 @@ The most recent posts we have published:
 ::: {.recent-content-carousel}
 ::: {#recent-blogs}
 :::
+:::
+:::
+
+::: {.news-section}
+::: {.recent-content-heading-with-view-all}
+::: {.recent-content-heading-with-subtitle}
+## In the News
+The most recent posts we have published:
+:::
+::: {.view-all-container}
+[View all posts](){.view-all}
+:::
+:::
+
+::: {#recent-news}
 :::
 :::
