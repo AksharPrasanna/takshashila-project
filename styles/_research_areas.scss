@@ -5,6 +5,9 @@
     padding: 0 clamp(15px, 3vw, 30px);
 }
 
+.research-areas-section {
+    padding: clamp(40px, 2vw, 80px) 0;
+}
 .research-areas-section h2 {
     color: #610d3d;
     font-size: clamp(24px, 3.5vw, 32px);
@@ -41,7 +44,7 @@
 
 /* Research Area Cards */
 .research-area-card {
-    background-color: #fff7fc;
+    background-color: #ffff;
     border: 1px solid rgba(97, 13, 61, 0.15);
     border-radius: 6px;
     height: 100%;
@@ -73,7 +76,7 @@
 }
 
 .research-area-content {
-    padding: clamp(20px, 3vw, 30px);
+    padding: clamp(10px, 3vw, 20px);
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -82,8 +85,10 @@
 .research-area-card h3 {
     color: #610d3d;
     font-size: clamp(20px, 2.5vw, 24px);
+    margin-top: 0 !important;
     margin-bottom: clamp(12px, 2vw, 16px);
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .research-area-card p {
@@ -91,7 +96,7 @@
     font-size: clamp(15px, 1.8vw, 17px);
     line-height: 1.6;
     margin-bottom: clamp(16px, 2.5vw, 20px);
-    font-weight: 300;
+    font-weight: 200;
     flex-grow: 1;
 }
 
@@ -116,7 +121,7 @@
 
 /* Callout Box */
 .callout-box {
-    background-color: #fff7fc;
+    background-color: #ffff;
     border-left: 4px solid #610d3d;
     padding: clamp(20px, 3vw, 30px);
     margin: clamp(40px, 6vw, 60px) 0;

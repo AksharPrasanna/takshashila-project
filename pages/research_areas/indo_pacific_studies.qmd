@@ -1,7 +1,7 @@
 ---
 title: "Indo-Pacific Studies Program"
 image: "../../assets/images/research_areas/indo-pacific.png"
-description: "A brief analysis of the implications of AI Diffusion Rules on India's GPU accessibility"
+description: "The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region."
 ---
 
 Content of the publication goes here...

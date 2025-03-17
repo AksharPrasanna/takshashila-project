@@ -1,0 +1,7 @@
+---
+title: "Geospatial Research"
+image: "../../assets/images/research_areas/geospatial-research.png"
+description: "Geospatial Research at Takshashila applies the principles of mapping and spatial analysis to understand real-world problems."
+---
+
+Content of the publication goes here...
