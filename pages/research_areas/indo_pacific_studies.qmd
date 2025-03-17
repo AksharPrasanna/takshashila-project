@@ -1,0 +1,7 @@
+---
+title: "Indo-Pacific Studies Program"
+image: "../../assets/images/research_areas/indo-pacific.png"
+description: "A brief analysis of the implications of AI Diffusion Rules on India's GPU accessibility"
+---
+
+Content of the publication goes here...

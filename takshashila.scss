@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
-$navbar-bg: #610D3D;
-$font-family-sans-serif: 'Roboto', sans-serif;
+$navbar-bg: #610d3d;
+$font-family-sans-serif: "Roboto", sans-serif;
 
 :root {
   --navbar-height: 112px;
@@ -8,17 +8,19 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 }
 
 /*-- scss:rules --*/
-@import 'fonts';
-@import 'styles/responsive_base';
-@import 'styles/navbar';
-@import 'styles/featured_research';
-@import 'styles/recent_content_heading';
-@import 'styles/recent_content_carousel';
-@import 'styles/about_us';
-@import 'styles/programs';
-@import 'styles/dispatch';
-@import 'styles/social_media';
-@import 'styles/news';
+@import "fonts";
+@import "styles/responsive_base";
+@import "styles/navbar";
+@import "styles/featured_research";
+@import "styles/recent_content_heading";
+@import "styles/recent_content_carousel";
+@import "styles/about_us";
+@import "styles/programs";
+@import "styles/dispatch";
+@import "styles/social_media";
+@import "styles/news";
+@import "styles/common/page_banner";
+@import "styles/research_areas";
 
 .navbar .container-fluid,
 .quarto-title-banner .container-fluid,
@@ -27,14 +29,11 @@ $font-family-sans-serif: 'Roboto', sans-serif;
   margin: 0 auto;
 }
 
-body, html {
+body,
+html {
   overflow-x: hidden;
   margin: 0;
-  padding-top: clamp(
-    calc(var(--navbar-height-mobile) / 2),
-    5vw, 
-    calc(var(--navbar-height) / 2)
-  ) !important;
+  padding-top: clamp(calc(var(--navbar-height-mobile) / 2), 5vw, calc(var(--navbar-height) / 2)) !important;
   width: 100%;
 }
 
@@ -42,7 +41,7 @@ main {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
-  
+
 /* Ensure page level containers don't restrict width */
 body .page-columns {
   margin: 0;
@@ -60,7 +59,7 @@ body .page-columns {
   .navbar {
     padding: 0 16px;
   }
-  
+
   .navbar-brand img {
     height: 40px;
   }
