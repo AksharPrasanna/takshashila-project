@@ -3,13 +3,22 @@
     "listing": "/index.html",
     "items": [
       "/content/publications/test2.html",
-      "/content/publications/test1.html",
       "/content/publications/test4.html",
       "/content/publications/test3.html",
+      "/content/publications/test1.html",
       "/content/blogs/test5.html",
       "/content/blogs/test1.html",
       "/content/blogs/test2.html",
       "/content/blogs/test3.html"
+    ]
+  },
+  {
+    "listing": "/pages/research_areas.html",
+    "items": [
+      "/pages/research_areas/advanced_biology_program.html",
+      "/pages/research_areas/geospatial-research.html",
+      "/pages/research_areas/high_technology_geopolitics_program.html",
+      "/pages/research_areas/indo_pacific_studies.html"
     ]
   }
 ]

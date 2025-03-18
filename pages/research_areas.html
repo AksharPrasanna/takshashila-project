@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Aditya Ramanathan">
-<meta name="dcterms.date" content="2024-02-20">
-<meta name="description" content="How genomic research can transform healthcare delivery in India">
 
-<title>Genomics to Improve Public Health in India – Takshashila Institution</title>
+<title>research_areas – Takshashila Institution</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,23 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/favicon.ico" rel="icon">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,9 +68,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research-areas .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../takshashila.css">
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-image','listing-description','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-image","listing-description","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research-areas'] = new List('listing-research-areas', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../takshashila.css">
 </head>
 
 <body class="nav-fixed">
@@ -82,8 +138,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/images/logo.png" alt="Takshashila Institution" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/images/logo.png" alt="Takshashila Institution" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -98,11 +154,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-policy-research">    
         <li>
-    <a class="dropdown-item" href="../../pages/research_areas.html">
+    <a class="dropdown-item" href="../pages/research_areas.html">
  <span class="dropdown-text">Research Areas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Newsletters</span></a>
   </li>  
     </ul>
@@ -113,11 +169,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-education">    
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Fellowships</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Policy School</span></a>
   </li>  
     </ul>
@@ -128,19 +184,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-media">    
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Podcasts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Media Appearances</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">In the News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Blogs</span></a>
   </li>  
     </ul>
@@ -151,29 +207,29 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Mission</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Milestones</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Careers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../#">
+    <a class="dropdown-item" href="../#">
  <span class="dropdown-text">Donate</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../#"> 
+    <a class="nav-link" href="../#"> 
 <span class="menu-text">Events</span></a>
   </li>  
 </ul>
@@ -191,45 +247,76 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Genomics to Improve Public Health in India</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Healthcare</div>
-    <div class="quarto-category">Science</div>
-  </div>
-  </div>
 
-<div>
-  <div class="description">
-    How genomic research can transform healthcare delivery in India
-  </div>
+
+
+<div class="page-hero-section">
+<div class="container-fluid">
+<section id="our-research-areas" class="level1 page-hero-content">
+<h1>Our Research Areas</h1>
+<p class="subtitle">
+Key Areas we focus on at Takshashila.
+</p>
+</section>
 </div>
-
-
-<div class="quarto-title-meta column-page">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Aditya Ramanathan </p>
-          </div>
-  </div>
+</div>
+<!-- ::: {.research-areas-container} -->
+<div id="listing-research-areas" class="quarto-listing quarto-listing-container-custom">
+<div class="research-areas-section">
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 20, 2024</p>
-    </div>
-  </div>
-  
+        <div class="research-areas-grid">
+            
+                <div class="research-area-card">
+                    <div class="research-area-image">
+                        <img src="../assets/images/research_areas/advanced-biology.png" alt="Advanced Biology Program">
+                    </div>
+                    <div class="research-area-content">
+                        <h3>Advanced Biology Program</h3>
+                        <p>The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy</p>
+                        <a href="../pages/research_areas/advanced_biology_program.html" class="research-link">Click to learn more</a>
+                    </div>
+                </div>
+            
+                <div class="research-area-card">
+                    <div class="research-area-image">
+                        <img src="../assets/images/research_areas/geospatial-research.png" alt="Geospatial Research">
+                    </div>
+                    <div class="research-area-content">
+                        <h3>Geospatial Research</h3>
+                        <p>Geospatial Research at Takshashila applies the principles of mapping and spatial analysis to understand real-world problems.</p>
+                        <a href="../pages/research_areas/geospatial-research.html" class="research-link">Click to learn more</a>
+                    </div>
+                </div>
+            
+                <div class="research-area-card">
+                    <div class="research-area-image">
+                        <img src="../assets/images/research_areas/high-technology.png" alt="High-Technology Geopolitics Program">
+                    </div>
+                    <div class="research-area-content">
+                        <h3>High-Technology Geopolitics Program</h3>
+                        <p>The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective.</p>
+                        <a href="../pages/research_areas/high_technology_geopolitics_program.html" class="research-link">Click to learn more</a>
+                    </div>
+                </div>
+            
+                <div class="research-area-card">
+                    <div class="research-area-image">
+                        <img src="../assets/images/research_areas/indo-pacific.png" alt="Indo-Pacific Studies Program">
+                    </div>
+                    <div class="research-area-content">
+                        <h3>Indo-Pacific Studies Program</h3>
+                        <p>The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.</p>
+                        <a href="../pages/research_areas/indo_pacific_studies.html" class="research-link">Click to learn more</a>
+                    </div>
+                </div>
+            
+        </div>
     
-  </div>
-  
-
-
-</header>
-
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 
@@ -255,13 +342,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
