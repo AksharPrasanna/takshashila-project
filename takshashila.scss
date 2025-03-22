@@ -1,7 +1,10 @@
 /*-- scss:defaults --*/
 /* Standard Color Definitions */
 $primary-color: #610d3d;
+$primary-highlight-color: #7a1356;
+$secondary-color: #fff7fc;
 $accent-color: #f2a321;
+$under-textcolor: #141414;
 
 :root {
   --navbar-height: 112px;
@@ -16,6 +19,8 @@ $accent-color: #f2a321;
 // @import "styles/quarto-overrides";
 @import "styles/components/navbar";
 @import "styles/components/featured_research";
+@import "styles/components/heading";
+@import "styles/components/listing_carousel";
 // @import "styles/responsive_base";
 @import "styles/common/quarto-title";
 // @import "styles/custom-listing.scss";
@@ -83,8 +88,6 @@ $accent-color: #f2a321;
 // }
 
 #quarto-content {
-  // overflow-x: hidden;
-  // margin: 0;
   // padding-top: clamp(calc(var(--navbar-height-mobile)), 3vw, calc(var(--navbar-height))) !important;
   padding-top: 0;
   position: relative;
@@ -95,9 +98,3 @@ $accent-color: #f2a321;
     margin: 0 !important;
   }
 }
-
-// #quarto-margin-sidebar {
-//   max-height: calc(-200px + 100vh) !important;
-//   // position: relative;
-//   position: sticky;
-// }

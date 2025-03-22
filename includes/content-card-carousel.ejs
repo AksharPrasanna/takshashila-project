@@ -1,7 +1,7 @@
 ```{=html}
-<div class="recent-content-outer"  id="<%= templateParams.carousel_id %>">
-  <div class="content-carousel-container">
-    <div class="content-carousel">
+<div class="content-outer"  id="<%= templateParams.carousel_id %>">
+  <div class="carousel-container">
+    <div class="carousel-content">
       <% for (const item of items) { %>
         <div class="content-card">
           <h3 class="content-title"><%= item.title %></h3>
@@ -29,7 +29,7 @@
       console.error("Carousel container not found:", carouselId);
       return;
     }
-    const carousel = carouselContainer.querySelector('.content-carousel');
+    const carousel = carouselContainer.querySelector('.carousel-content');
     const prevBtn = carouselContainer.querySelector('.prev-btn');
     const nextBtn = carouselContainer.querySelector('.next-btn');
     

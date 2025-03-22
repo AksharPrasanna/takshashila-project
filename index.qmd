@@ -73,11 +73,11 @@ FEATURED RESEARCH
 
 <!-- Start of Recent Publications Listing -->
 
-::: {.recent-content-heading}
+::: {.content-heading}
 ## Recent Publications
 :::
 
-::: {.recent-content-carousel}
+::: {.listing-carousel}
 ::: {#recent-pubs}
 :::
 :::

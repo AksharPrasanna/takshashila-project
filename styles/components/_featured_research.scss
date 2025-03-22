@@ -1,3 +1,5 @@
+/* Featured Research Section Styling */
+
 /* Full width wrapper */
 .featured-research-wrapper {
   width: 100vw;
@@ -60,18 +62,18 @@
 
   .read-more-btn {
     display: inline-block;
-    border: 1px solid #610d3d;
+    border: 1px solid $primary-color;
     border-radius: 5px;
-    color: #610d3d;
+    color: $primary-color;
     padding: clamp(6px, 1vw, 8px) clamp(16px, 2vw, 24px);
     text-decoration: none;
     font-weight: 500;
     transition: all 0.3s ease;
-    background-color: #ffeef8;
+    background-color: $secondary-color;
     font-size: clamp(14px, 1vw, 16px);
 
     &:hover {
-      background-color: #610d3d;
+      background-color: $primary-color;
       color: white;
     }
   }
