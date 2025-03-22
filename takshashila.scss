@@ -5,6 +5,8 @@ $primary-highlight-color: #7a1356;
 $secondary-color: #fff7fc;
 $accent-color: #f2a321;
 $under-textcolor: #141414;
+$under-textcolor-light: #404040;
+$light-paragraph-text: #696969;
 
 :root {
   --navbar-height: 112px;
@@ -16,23 +18,19 @@ $under-textcolor: #141414;
 /*-- scss:rules --*/
 @import "fonts";
 @import "variables";
-// @import "styles/quarto-overrides";
+@import "styles/quarto-overrides";
 @import "styles/components/navbar";
 @import "styles/components/featured_research";
 @import "styles/components/heading";
 @import "styles/components/listing_carousel";
+@import "styles/sections/about";
+@import "styles/sections/programs";
+@import "styles/sections/dispatch";
 // @import "styles/responsive_base";
 @import "styles/common/quarto-title";
-// @import "styles/custom-listing.scss";
-// @import "styles/recent_content_heading";
-// @import "styles/recent_content_carousel";
-// @import "styles/about_us";
-// @import "styles/programs";
-// @import "styles/dispatch";
 // @import "styles/social_media";
 // @import "styles/news";
 // @import "styles/research_areas";
-// @import "styles/analysis";
 
 // .navbar .container-fluid,
 // .quarto-title-banner .container-fluid,
@@ -91,9 +89,10 @@ $under-textcolor: #141414;
   // padding-top: clamp(calc(var(--navbar-height-mobile)), 3vw, calc(var(--navbar-height))) !important;
   padding-top: 0;
   position: relative;
+  overflow-x: hidden;
 
   #quarto-document-content {
-    max-width: 1280px;
+    max-width: 1280px !important;
     padding: 0 !important;
     margin: 0 !important;
   }
