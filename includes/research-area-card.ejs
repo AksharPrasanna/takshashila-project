@@ -1,0 +1,20 @@
+```{=html}
+<div class="research-areas-section">
+    <% if (items.length > 0) { %>
+        <div class="research-areas-grid">
+            <% for (const item of items) { %>
+                <div class="research-area-card">
+                    <div class="research-area-image">
+                        <img src="<%= item.image %>" alt="<%= item.title %>" />
+                    </div>
+                    <div class="research-area-content">
+                        <h3><%= item.title %></h3>
+                        <p><%= item.description %></p>
+                        <a href="<%= item.path %>" class="research-link">Click to learn more</a>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    <% } %>
+</div>
+```

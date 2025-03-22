@@ -6,6 +6,7 @@ description: "A brief analysis of the implications of AI Diffusion Rules on Indi
 categories: 
   - "AI"
   - "Technology Policy" 
+  # Add areas section here
 ---
 
 Content of the publication goes here...

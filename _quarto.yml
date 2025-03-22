@@ -14,21 +14,41 @@ website:
     logo-alt: "Takshashila Institution"
     title: false
     right:
-      - text: "Takshashila Education"
-        href: "#"
-      - text: "Engage with Us"
-        href: "#"
-      - text: "About Us"
+      - text: "Policy Research"
         menu:
-          - text: "Our Story"
+          - text: "Research Areas"
+            href: "pages/research_areas.qmd"
+          - text: "Newsletters"
             href: "#"
-          - text: "Our Team"
+      - text: "Education"
+        menu:
+          - text: "Fellowships"
             href: "#"
-          - text: "Our Values"
+          - text: "Policy School"
             href: "#"
-      - text: "Careers"
-        href: "#"
-      - text: "Donate"
+      - text: "Media"
+        menu:
+          - text: "Podcasts"
+            href: "#"
+          - text: "Media Appearances"
+            href: "#"
+          - text: "In the News"
+            href: "#"
+          - text: "Blogs"
+            href: "#"
+      - text: "About"
+        menu:
+          - text: "Team"
+            href: "#"
+          - text: "Mission"
+            href: "#"
+          - text: "Milestones"
+            href: "#"
+          - text: "Careers"
+            href: "#"
+          - text: "Donate"
+            href: "#"
+      - text: Events
         href: "#"
 
 format:

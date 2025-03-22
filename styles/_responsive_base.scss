@@ -8,14 +8,14 @@
     --font-size-xl: clamp(1.5rem, 2vw, 2rem);
     --font-size-2xl: clamp(1.75rem, 2.5vw, 2.5rem);
     --font-size-3xl: clamp(2rem, 3vw, 3rem);
-  
+
     /* Spacing variables */
     --spacing-xs: clamp(0.25rem, 0.5vw, 0.5rem);
     --spacing-sm: clamp(0.5rem, 0.8vw, 0.75rem);
     --spacing-md: clamp(1rem, 1.5vw, 1.5rem);
     --spacing-lg: clamp(1.5rem, 2vw, 2rem);
     --spacing-xl: clamp(2rem, 3vw, 3rem);
-  
+
     /* Container widths */
     --container-padding: clamp(1rem, 3vw, 3rem);
 }
@@ -26,40 +26,42 @@ h1 {
     line-height: 1.2;
     margin-bottom: var(--spacing-lg);
 }
-  
+
 h2 {
     font-size: var(--font-size-2xl);
     line-height: 1.25;
     margin-bottom: var(--spacing-md);
 }
-  
+
 h3 {
     font-size: var(--font-size-xl);
     line-height: 1.3;
     margin-bottom: var(--spacing-sm);
 }
-  
+
 h4 {
     font-size: var(--font-size-lg);
     line-height: 1.35;
     margin-bottom: var(--spacing-sm);
 }
-  
-p, li {
+
+p,
+li {
     font-size: var(--font-size-base);
     line-height: 1.6;
     margin-bottom: var(--spacing-md);
 }
-  
+
 /* Ensure consistent container padding */
 .container-fluid {
     padding-left: var(--container-padding);
     padding-right: var(--container-padding);
 }
-  
+
 /* Base responsive media queries */
 @media (max-width: 767.98px) {
-    html, body {
-      font-size: 14px; /* Slightly smaller base font on mobile */
+    html,
+    body {
+        font-size: 14px; /* Slightly smaller base font on mobile */
     }
 }
