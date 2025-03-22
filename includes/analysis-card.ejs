@@ -1,0 +1,28 @@
+```{=html}
+<% for (const item of items) { %>
+<div class="analysis-card">
+  <div class="analysis-card-content">
+    <h3 class="analysis-title"><a href="<%= item.path %>"><%= item.title %></a></h3>
+    <% if (item.description) { %>
+      <p class="analysis-description"><%= item.description %></p>
+    <% } %>
+    <div class="analysis-meta">
+      <% if (item.author) { %>
+        <div class="analysis-author">By <%= item.author %></div>
+      <% } %>
+      <% if (item.date) { %>
+        <div class="analysis-date">
+          <% 
+            const date = new Date(item.date);
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = date.toLocaleDateString('en-US', options);
+          %>
+          <%= formattedDate %>
+        </div>
+      <% } %>
+    </div>
+    <a href="<%= item.path %>" class="read-more">Read more <span class="arrow">→</span></a>
+  </div>
+</div>
+<% } %>
+```

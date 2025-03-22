@@ -10,6 +10,7 @@ $font-family-sans-serif: "Roboto", sans-serif;
 /*-- scss:rules --*/
 @import "fonts";
 @import "styles/responsive_base";
+@import "styles/common/quarto-title";
 @import "styles/navbar";
 @import "styles/featured_research";
 @import "styles/recent_content_heading";
@@ -19,7 +20,6 @@ $font-family-sans-serif: "Roboto", sans-serif;
 @import "styles/dispatch";
 @import "styles/social_media";
 @import "styles/news";
-@import "styles/common/page_banner";
 @import "styles/research_areas";
 
 .navbar .container-fluid,
