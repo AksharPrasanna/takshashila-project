@@ -10,7 +10,7 @@ website:
     background: "#610D3D"
     foreground: "white"
     collapse-below: lg
-    logo: "assets/images/logo.png"
+    logo: "assets/images/main-logo.svg"
     logo-alt: "Takshashila Institution"
     title: false
     right:

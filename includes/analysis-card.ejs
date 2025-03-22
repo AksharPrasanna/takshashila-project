@@ -1,28 +1,19 @@
 ```{=html}
-<% for (const item of items) { %>
-<div class="analysis-card">
-  <div class="analysis-card-content">
-    <h3 class="analysis-title"><a href="<%= item.path %>"><%= item.title %></a></h3>
-    <% if (item.description) { %>
-      <p class="analysis-description"><%= item.description %></p>
-    <% } %>
-    <div class="analysis-meta">
-      <% if (item.author) { %>
-        <div class="analysis-author">By <%= item.author %></div>
-      <% } %>
-      <% if (item.date) { %>
-        <div class="analysis-date">
-          <% 
-            const date = new Date(item.date);
-            const options = { year: 'numeric', month: 'long', day: 'numeric' };
-            const formattedDate = date.toLocaleDateString('en-US', options);
-          %>
-          <%= formattedDate %>
+<div class="analysis-listing">
+  <% for (const item of items) { %>
+    <div class="listing-entry" data-categories="<%= item.categories.join(',') %>">
+      <div class="analysis-card">
+        <div class="analysis-card-content">
+          <h2 class="analysis-title"><a href="<%= item.path %>"><%= item.title %></a></h2>
+          <% if (item.description) { %>
+            <div class="analysis-description"><%= item.description %></div>
+          <% } %>
+          <div class="analysis-footer">
+            <a href="<%= item.path %>" class="read-more">Read more <span class="arrow">→</span></a>
+          </div>
         </div>
-      <% } %>
+      </div>
     </div>
-    <a href="<%= item.path %>" class="read-more">Read more <span class="arrow">→</span></a>
-  </div>
-</div>
-<% } %>
+  <% } %>
+  
 ```
