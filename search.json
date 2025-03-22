@@ -1,8 +1,22 @@
 [
   {
-    "objectID": "pages/research_areas/geospatial-research.html",
-    "href": "pages/research_areas/geospatial-research.html",
-    "title": "Geospatial Research",
+    "objectID": "pages/research_papers/akprasan/predictive_genomics.html",
+    "href": "pages/research_papers/akprasan/predictive_genomics.html",
+    "title": "A Framework for Enabling Predictive",
+    "section": "",
+    "text": "A Framework for Enabling Predictive\nThis is the full content of the research paper."
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "pages/research_areas/indo_pacific_studies.html",
+    "href": "pages/research_areas/indo_pacific_studies.html",
+    "title": "Indo-Pacific Studies Program",
     "section": "",
     "text": "Content of the publication goes here…"
   },
@@ -14,11 +28,18 @@
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About",
+    "objectID": "content/publications/test3.html",
+    "href": "content/publications/test3.html",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
-    "text": "About this site"
+    "text": "Content of the publication goes here…"
+  },
+  {
+    "objectID": "content/publications/test1.html",
+    "href": "content/publications/test1.html",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "",
+    "text": "Content of the publication goes here…"
   },
   {
     "objectID": "index.html",
@@ -49,15 +70,15 @@
     "text": "In the News\nThe most recent posts we have published:"
   },
   {
-    "objectID": "content/publications/test3.html",
-    "href": "content/publications/test3.html",
+    "objectID": "content/publications/test4.html",
+    "href": "content/publications/test4.html",
     "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "content/publications/test4.html",
-    "href": "content/publications/test4.html",
+    "objectID": "content/publications/test2.html",
+    "href": "content/publications/test2.html",
     "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
     "text": "Content of the publication goes here…"
@@ -70,18 +91,25 @@
     "text": "Content of the blog post goes here…"
   },
   {
-    "objectID": "content/publications/test2.html",
-    "href": "content/publications/test2.html",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "objectID": "pages/research_areas/geospatial-research.html",
+    "href": "pages/research_areas/geospatial-research.html",
+    "title": "Geospatial Research",
     "section": "",
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "content/publications/test1.html",
-    "href": "content/publications/test1.html",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "objectID": "pages/research_areas/high_technology_geopolitics_program.html",
+    "href": "pages/research_areas/high_technology_geopolitics_program.html",
+    "title": "High-Technology Geopolitics Program",
     "section": "",
     "text": "Content of the publication goes here…"
+  },
+  {
+    "objectID": "pages/research_areas.html",
+    "href": "pages/research_areas.html",
+    "title": "Our Research Areas",
+    "section": "",
+    "text": "Our Research Areas\n\nKey Areas we focus on at Takshashila.\n\n\n\n\n\n\n\n    \n        \n            \n                \n                    \n                        \n                    \n                    \n                        Advanced Biology Program\n                        The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy\n                        Click to learn more\n                    \n                \n            \n                \n                    \n                        \n                    \n                    \n                        Geospatial Research\n                        Geospatial Research at Takshashila applies the principles of mapping and spatial analysis to understand real-world problems.\n                        Click to learn more\n                    \n                \n            \n                \n                    \n                        \n                    \n                    \n                        High-Technology Geopolitics Program\n                        The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective.\n                        Click to learn more\n                    \n                \n            \n                \n                    \n                        \n                    \n                    \n                        Indo-Pacific Studies Program\n                        The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.\n                        Click to learn more\n                    \n                \n            \n        \n    \n\n\nNo matching items"
   },
   {
     "objectID": "components/research_section.html",
@@ -96,33 +124,5 @@
     "title": "Takshashila Institution",
     "section": "",
     "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
-  },
-  {
-    "objectID": "pages/research_areas.html",
-    "href": "pages/research_areas.html",
-    "title": "Our Research Areas",
-    "section": "",
-    "text": "Our Research Areas\n\nKey Areas we focus on at Takshashila.\n\n\n\n\n\n\n\n    \n        \n            \n                \n                    \n                        \n                    \n                    \n                        Advanced Biology Program\n                        The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy\n                        Click to learn more\n                    \n                \n            \n                \n                    \n                        \n                    \n                    \n                        Geospatial Research\n                        Geospatial Research at Takshashila applies the principles of mapping and spatial analysis to understand real-world problems.\n                        Click to learn more\n                    \n                \n            \n                \n                    \n                        \n                    \n                    \n                        High-Technology Geopolitics Program\n                        The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective.\n                        Click to learn more\n                    \n                \n            \n                \n                    \n                        \n                    \n                    \n                        Indo-Pacific Studies Program\n                        The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.\n                        Click to learn more\n                    \n                \n            \n        \n    \n\n\nNo matching items"
-  },
-  {
-    "objectID": "pages/research_papers/akprasan/predictive_genomics.html",
-    "href": "pages/research_papers/akprasan/predictive_genomics.html",
-    "title": "A Framework for Enabling Predictive",
-    "section": "",
-    "text": "A Framework for Enabling Predictive\nThis is the full content of the research paper."
-  },
-  {
-    "objectID": "pages/research_areas/high_technology_geopolitics_program.html",
-    "href": "pages/research_areas/high_technology_geopolitics_program.html",
-    "title": "High-Technology Geopolitics Program",
-    "section": "",
-    "text": "Content of the publication goes here…"
-  },
-  {
-    "objectID": "pages/research_areas/indo_pacific_studies.html",
-    "href": "pages/research_areas/indo_pacific_studies.html",
-    "title": "Indo-Pacific Studies Program",
-    "section": "",
-    "text": "Content of the publication goes here…"
   }
 ]
