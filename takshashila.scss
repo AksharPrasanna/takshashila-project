@@ -6,14 +6,19 @@ $accent-color: #f2a321;
 :root {
   --navbar-height: 112px;
   --navbar-height-mobile: 80px;
+  --nav-height: 112px;
+  --header-height: 0px;
 }
 
 /*-- scss:rules --*/
 @import "fonts";
+@import "variables";
+// @import "styles/quarto-overrides";
 @import "styles/components/navbar";
+@import "styles/components/featured_research";
 // @import "styles/responsive_base";
-// @import "styles/common/quarto-title";
-// @import "styles/featured_research";
+@import "styles/common/quarto-title";
+// @import "styles/custom-listing.scss";
 // @import "styles/recent_content_heading";
 // @import "styles/recent_content_carousel";
 // @import "styles/about_us";
@@ -73,12 +78,26 @@ $accent-color: #f2a321;
 //   }
 // }
 
-#quarto-content {
-  padding-top: clamp(calc(var(--navbar-height-mobile)), 5vw, calc(var(--navbar-height))) !important;
+// #title-block-header {
+//   // position: relative;
+// }
 
-  .content .column-page {
+#quarto-content {
+  // overflow-x: hidden;
+  // margin: 0;
+  // padding-top: clamp(calc(var(--navbar-height-mobile)), 3vw, calc(var(--navbar-height))) !important;
+  padding-top: 0;
+  position: relative;
+
+  #quarto-document-content {
     max-width: 1280px;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }
 
-
+// #quarto-margin-sidebar {
+//   max-height: calc(-200px + 100vh) !important;
+//   // position: relative;
+//   position: sticky;
+// }

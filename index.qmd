@@ -1,5 +1,5 @@
 ---
-title: ""
+titile: ""
 
 format:
   html:
@@ -47,6 +47,8 @@ listing:
     template: includes/news-card.ejs
     max-items: 6
 ---
+<!-- Start of Featured Research Section -->
+
 ::: {.featured-research-wrapper}
 ::: {.featured-research}
 ::: {.container-fluid}
@@ -67,6 +69,10 @@ FEATURED RESEARCH
 :::
 :::
 
+<!-- End of Featured Research Section -->
+
+<!-- Start of Recent Publications Listing -->
+
 ::: {.recent-content-heading}
 ## Recent Publications
 :::
@@ -75,6 +81,8 @@ FEATURED RESEARCH
 ::: {#recent-pubs}
 :::
 :::
+
+<!-- End of Recent Publications Listing -->
 
 ::: {.about-section-heading}
 :::
