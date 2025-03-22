@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Our Research Areas"
+subtitle: "Key Areas we focus on at Takshashila"
 
 format:
   html:
@@ -15,16 +16,6 @@ listing:
     categories: false
     template: ../includes/research-area-card.ejs
 ---
-::: {.page-hero-section}
-::: {.container-fluid}
-::: {.page-hero-content}
-
-# Our Research Areas
-<p class="subtitle">Key Areas we focus on at Takshashila.</p>
-
-:::
-:::
-:::
 
 <!-- ::: {.research-areas-container} -->
 ::: {#research-areas}

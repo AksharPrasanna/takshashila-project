@@ -18,6 +18,8 @@ website:
         menu:
           - text: "Research Areas"
             href: "pages/research_areas.qmd"
+          - text: "Latest Analysis"
+            href: "pages/latest_analysis.qmd"
           - text: "Newsletters"
             href: "#"
       - text: "Education"

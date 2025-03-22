@@ -1,0 +1,19 @@
+---
+title: "Latest Analysis"
+subtitle: "The most recent posts we have published"
+format:
+  html:
+    anchor-sections: false
+
+listing:
+  - id: publications-list
+    contents: ../content/publications/*.qmd
+    type: grid
+    grid-columns: 1
+    sort: "date desc"
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    feed: false
+    # template: ../includes/analysis-card.ejs
+---
