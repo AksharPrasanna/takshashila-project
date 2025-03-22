@@ -1,9 +1,7 @@
 ---
 title: "Latest Analysis"
 subtitle: "The most recent posts we have published."
-format:
-  html:
-    page-layout: full
+format: html
 
 listing:
   - id: publications-list

@@ -63,3 +63,6 @@ format:
     css: takshashila.css
     toc: false
     page-layout: full
+    include-in-header:
+      text: |
+        <script src= "../utility/script.js" defer></script>

@@ -4,8 +4,8 @@ author: "Satya Sahu & Ashwin Prasad"
 date: "2024-02-15"
 description: "A brief analysis of the implications of AI Diffusion Rules on India's GPU accessibility"
 categories: 
-  - "AI"
-  - "Technology Policy" 
+  - "AI4"
+  - "Technology Policy4" 
 ---
 
 Content of the publication goes here...

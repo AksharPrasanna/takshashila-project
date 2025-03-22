@@ -84,6 +84,8 @@ FEATURED RESEARCH
 
 <!-- End of Recent Publications Listing -->
 
+<!-- Start of About Section -->
+
 ::: {.about-section-heading}
 :::
 
@@ -103,6 +105,8 @@ The Takshashila Institution is an independent centre for research and education 
 ![](assets/images/takshashila-team.png){.about-us-image}
 :::
 :::
+
+<!-- End of About Section -->
 
 :::{.program-section-heading}
 :::
