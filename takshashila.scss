@@ -1,72 +1,99 @@
 /*-- scss:defaults --*/
-$navbar-bg: #610d3d;
-$font-family-sans-serif: "Roboto", sans-serif;
+/* Standard Color Definitions */
+$primary-color: #610d3d;
+$primary-highlight-color: #7a1356;
+$secondary-color: #fff7fc;
+$accent-color: #f2a321;
+$under-textcolor: #141414;
+$under-textcolor-light: #404040;
+$light-paragraph-text: #696969;
 
 :root {
   --navbar-height: 112px;
   --navbar-height-mobile: 80px;
+  --nav-height: 112px;
+  --header-height: 0px;
 }
 
 /*-- scss:rules --*/
 @import "fonts";
-@import "styles/responsive_base";
+@import "variables";
+@import "styles/quarto-overrides";
+@import "styles/components/navbar";
+@import "styles/components/featured_research";
+@import "styles/components/heading";
+@import "styles/components/listing_carousel";
+@import "styles/sections/about";
+@import "styles/sections/programs";
+@import "styles/sections/dispatch";
+@import "styles/components/socials";
+@import "styles/components/news_card";
+// @import "styles/responsive_base";
 @import "styles/common/quarto-title";
-@import "styles/navbar";
-@import "styles/featured_research";
-@import "styles/recent_content_heading";
-@import "styles/recent_content_carousel";
-@import "styles/about_us";
-@import "styles/programs";
-@import "styles/dispatch";
-@import "styles/social_media";
-@import "styles/news";
-@import "styles/research_areas";
+// @import "styles/research_areas";
 
-.navbar .container-fluid,
-.quarto-title-banner .container-fluid,
-.page-columns {
-  max-width: 1280px;
-  margin: 0 auto;
-}
+// .navbar .container-fluid,
+// .quarto-title-banner .container-fluid,
+// .page-columns {
+//   max-width: 1280px;
+//   margin: 0 auto;
+// }
 
-body,
-html {
+// body,
+// html {
+//   overflow-x: hidden;
+//   margin: 0;
+//   padding-top: clamp(calc(var(--navbar-height-mobile) / 2), 5vw, calc(var(--navbar-height) / 2)) !important;
+//   width: 100%;
+// }
+
+// main {
+//   padding-top: 0 !important;
+//   margin-top: 0 !important;
+// }
+
+// /* Ensure page level containers don't restrict width */
+// body .page-columns {
+//   margin: 0;
+//   padding: 0;
+//   max-width: 100%;
+// }
+
+// /* Ensure content divs don't add unwanted margins */
+// .content {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// @media (max-width: 767.98px) {
+//   .navbar {
+//     padding: 0 16px;
+//   }
+
+//   .navbar-brand img {
+//     height: 40px;
+//   }
+
+//   .featured-research {
+//     h1 {
+//       font-size: 28px;
+//     }
+//   }
+// }
+
+// #title-block-header {
+//   // position: relative;
+// }
+
+#quarto-content {
+  // padding-top: clamp(calc(var(--navbar-height-mobile)), 3vw, calc(var(--navbar-height))) !important;
+  padding-top: 0;
+  position: relative;
   overflow-x: hidden;
-  margin: 0;
-  padding-top: clamp(calc(var(--navbar-height-mobile) / 2), 5vw, calc(var(--navbar-height) / 2)) !important;
-  width: 100%;
-}
 
-main {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-/* Ensure page level containers don't restrict width */
-body .page-columns {
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-}
-
-/* Ensure content divs don't add unwanted margins */
-.content {
-  margin: 0;
-  padding: 0;
-}
-
-@media (max-width: 767.98px) {
-  .navbar {
-    padding: 0 16px;
-  }
-
-  .navbar-brand img {
-    height: 40px;
-  }
-
-  .featured-research {
-    h1 {
-      font-size: 28px;
-    }
+  #quarto-document-content {
+    max-width: 1280px !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }

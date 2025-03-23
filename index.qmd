@@ -1,5 +1,5 @@
 ---
-title: ""
+titile: ""
 
 format:
   html:
@@ -38,7 +38,7 @@ listing:
   - id: recent-news
     contents: content/news/news.yml
     type: grid
-    grid-columns: 6
+    grid-columns: 3
     sort: "date desc"
     categories: false
     sort-ui: false
@@ -47,6 +47,8 @@ listing:
     template: includes/news-card.ejs
     max-items: 6
 ---
+<!-- Start of Featured Research Section -->
+
 ::: {.featured-research-wrapper}
 ::: {.featured-research}
 ::: {.container-fluid}
@@ -67,14 +69,22 @@ FEATURED RESEARCH
 :::
 :::
 
-::: {.recent-content-heading}
+<!-- End of Featured Research Section -->
+
+<!-- Start of Recent Publications Listing -->
+
+::: {.section-heading}
 ## Recent Publications
 :::
 
-::: {.recent-content-carousel}
+::: {.listing-carousel}
 ::: {#recent-pubs}
 :::
 :::
+
+<!-- End of Recent Publications Listing -->
+
+<!-- Start of About Section -->
 
 ::: {.about-section-heading}
 :::
@@ -96,7 +106,12 @@ The Takshashila Institution is an independent centre for research and education 
 :::
 :::
 
-:::{.program-section-heading}
+<!-- End of About Section -->
+
+<!-- Start of Our Programs Section -->
+
+:::{.section-heading}
+## Our Programs
 :::
 
 ::: {.programs-container}
@@ -141,12 +156,16 @@ We perform policy advocacy in the United States, the European Union, and the Uni
 :::
 :::
 
+<!-- End of Our Programs Section -->
+
+<!-- Start of Dispatch Section -->
+
 ::: {.dispatch-section-wrapper}
 ::: {.dispatch-section}
 ::: {.container-fluid}
 ::: {.dispatch-container}
 ::: {.dispatch-logo-col}
-![](assets/images/takshashila-dispatch.png){.dispatch-logo}
+![](assets/images/logo-symbol.svg){.dispatch-logo}
 :::
 
 ::: {.dispatch-content-col}
@@ -172,13 +191,17 @@ The Takshashila Dispatch is a weekly update with the latest research, opinions a
 :::
 :::
 
-::: {.social-section-wrapper}
-::: {.social-container}
-::: {.social-text}
+<!-- End of Dispatch Section -->
+
+<!-- Start of Socials Section -->
+
+::: {.socials-component-wrapper}
+::: {.socials-component-container}
+::: {.socials-component-text}
 Follow us to get the latest policy updates
 :::
 
-::: {.social-icons}
+::: {.socials-component-icons}
 ```{=html}
 {{< include includes/social-icons.html >}}
 ```
@@ -186,34 +209,36 @@ Follow us to get the latest policy updates
 :::
 :::
 
-::: {.blogs-section}
-::: {.recent-content-heading-with-view-all}
-::: {.recent-content-heading-with-subtitle}
+<!-- End of Socials Section -->
+
+<!-- Start of Blogs Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
 ## Blogs
 The most recent posts we have published:
 :::
-::: {.view-all-container}
 [View all posts](){.view-all}
 :::
-:::
 
-::: {.recent-content-carousel}
+::: {.listing-carousel}
 ::: {#recent-blogs}
 :::
 :::
-:::
 
-::: {.news-section}
-::: {.recent-content-heading-with-view-all}
-::: {.recent-content-heading-with-subtitle}
+<!-- End of Blogs Section -->
+
+<!-- Start of News Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
 ## In the News
 The most recent posts we have published:
 :::
-::: {.view-all-container}
 [View all posts](){.view-all}
-:::
 :::
 
 ::: {#recent-news}
 :::
-:::
+
+<!-- End of News Section -->

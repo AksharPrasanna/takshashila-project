@@ -1,19 +1,16 @@
 ---
 title: "Latest Analysis"
-subtitle: "The most recent posts we have published"
-format:
-  html:
-    anchor-sections: false
+subtitle: "The most recent posts we have published."
 
 listing:
   - id: publications-list
     contents: ../content/publications/*.qmd
-    type: grid
-    grid-columns: 1
+    type: default
     sort: "date desc"
     categories: true
     sort-ui: true
-    filter-ui: true
+    filter-ui: [title, categories]
     feed: false
+    page-size: 3
     # template: ../includes/analysis-card.ejs
 ---
