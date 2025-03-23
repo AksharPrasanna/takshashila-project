@@ -210,22 +210,22 @@ Follow us to get the latest policy updates
 
 <!-- End of Socials Section -->
 
-::: {.blogs-section}
-::: {.recent-content-heading-with-view-all}
-::: {.recent-content-heading-with-subtitle}
+<!-- Start of Blogs Section -->
+
+::: {.content-heading-with-view-all}
+::: {.content-heading-subtitle}
 ## Blogs
 The most recent posts we have published:
 :::
-::: {.view-all-container}
 [View all posts](){.view-all}
 :::
-:::
 
-::: {.recent-content-carousel}
+::: {.listing-carousel}
 ::: {#recent-blogs}
 :::
 :::
-:::
+
+<!-- End of Blogs Section -->
 
 ::: {.news-section}
 ::: {.recent-content-heading-with-view-all}
