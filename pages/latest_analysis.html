@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -78,9 +79,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -139,7 +141,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/images/logo.png" alt="Takshashila Institution" class="navbar-logo">
+    <img src="../assets/images/main-logo.svg" alt="Takshashila Institution" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -248,14 +250,14 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Technology Policy">Technology Policy <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="AI1">AI1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="AI2">AI2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="AI3">AI3 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="AI4">AI4 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Technology">Technology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Technology Policy2">Technology Policy2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Technology Policy3">Technology Policy3 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Technology Policy4">Technology Policy4 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Latest Analysis</h1>
-<p class="subtitle lead">The most recent posts we have published</p>
+<p class="subtitle lead">The most recent posts we have published.</p>
 </div>
 
 
@@ -276,7 +278,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-publications-list">
+<div class="quarto-listing quarto-listing-container-default" id="listing-publications-list">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -302,135 +304,158 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="AI,Technology Policy" data-listing-date-sort="1708819200000" data-listing-file-modified-sort="1742634086970" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<a href="../content/publications/test2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?
-</h5>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="AI2,Technology Policy2" data-listing-date-sort="1708819200000" data-listing-file-modified-sort="1742702690023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="thumbnail">
+<p><a href="../content/publications/test2.html" class="no-external"></a></p><a href="../content/publications/test2.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../content/publications/test2.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../content/publications/test2.html" class="no-external">Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../content/publications/test2.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
+<div class="listing-category" onclick="window.quartoListingCategory('AI2'); return false;">
+AI2
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Technology Policy'); return false;">
-Technology Policy
+<div class="listing-category" onclick="window.quartoListingCategory('Technology Policy2'); return false;">
+Technology Policy2
 </div>
 </div>
-<div class="card-text listing-description">
-A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility
+<div class="listing-description">
+<a href="../content/publications/test2.html" class="no-external">A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Satya Sahu &amp; Ashwin Prasad
 </div>
+<div class="metadata">
+<a href="../content/publications/test2.html" class="no-external">
 <div class="listing-date">
 Feb 25, 2024
 </div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="AI,Technology Policy" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1742634086970" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<a href="../content/publications/test1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Technology Policy'); return false;">
-Technology Policy
-</div>
-</div>
-<div class="card-text listing-description">
-A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Satya Sahu &amp; Ashwin Prasad
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="AI1,Technology" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1742702690023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="thumbnail">
+<p><a href="../content/publications/test1.html" class="no-external"></a></p><a href="../content/publications/test1.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../content/publications/test1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../content/publications/test1.html" class="no-external">Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../content/publications/test1.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('AI1'); return false;">
+AI1
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Technology'); return false;">
+Technology
+</div>
+</div>
+<div class="listing-description">
+<a href="../content/publications/test1.html" class="no-external">A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../content/publications/test1.html" class="no-external">
 <div class="listing-date">
 Feb 15, 2024
 </div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="AI,Technology Policy" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1742634086970" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<a href="../content/publications/test3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Technology Policy'); return false;">
-Technology Policy
-</div>
-</div>
-<div class="card-text listing-description">
-A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Satya Sahu &amp; Ashwin Prasad
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="AI3,Technology Policy3" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1742702690023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="thumbnail">
+<p><a href="../content/publications/test3.html" class="no-external"></a></p><a href="../content/publications/test3.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../content/publications/test3.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../content/publications/test3.html" class="no-external">Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../content/publications/test3.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('AI3'); return false;">
+AI3
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Technology Policy3'); return false;">
+Technology Policy3
+</div>
+</div>
+<div class="listing-description">
+<a href="../content/publications/test3.html" class="no-external">A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../content/publications/test3.html" class="no-external">
 <div class="listing-date">
 Feb 15, 2024
 </div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="AI,Technology Policy" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1742634086970" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<a href="../content/publications/test4.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Technology Policy'); return false;">
-Technology Policy
-</div>
-</div>
-<div class="card-text listing-description">
-A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Satya Sahu &amp; Ashwin Prasad
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="AI4,Technology Policy4" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1742702690023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="thumbnail">
+<p><a href="../content/publications/test4.html" class="no-external"></a></p><a href="../content/publications/test4.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../content/publications/test4.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../content/publications/test4.html" class="no-external">Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../content/publications/test4.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('AI4'); return false;">
+AI4
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Technology Policy4'); return false;">
+Technology Policy4
+</div>
+</div>
+<div class="listing-description">
+<a href="../content/publications/test4.html" class="no-external">A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../content/publications/test4.html" class="no-external">
 <div class="listing-date">
 Feb 15, 2024
 </div>
-</div>
-</div>
+<div class="listing-author">
+Satya Sahu &amp; Ashwin Prasad
 </div>
 </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="publications-list-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -452,6 +477,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
