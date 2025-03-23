@@ -33,8 +33,7 @@
       </div>
       
       <div class="news-content">
-        <div class="news-source"><%= item.source %></div>
-        <h3 class="news-title"><%= item.title %></h3>
+        <div class="news-text"><%= item.source %> | <%= item.title %></div>
         <div class="news-date">
           <% 
             const date = new Date(item.date);

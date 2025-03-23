@@ -2,14 +2,14 @@
 
 /* Plain Heading */
 
-.content-heading {
+.section-heading {
     margin: 0 auto;
     padding: clamp(15px, 2vw, 20px) 0;
 
     h2 {
         text-align: left;
         margin-bottom: clamp(10px, 4vw, 20px);
-        font-weight: 400;
+        font-weight: 300;
         font-size: clamp(28px, 4vw, 40px);
         border-bottom: none;
         color: #404040;
@@ -18,7 +18,7 @@
 
 /* Heading with Subtitle and View All */
 
-.content-heading-with-view-all {
+.section-heading-with-view-all {
     max-width: 1280px;
     margin: 0 auto;
     padding: clamp(15px, 2vw, 20px) 0;
@@ -26,12 +26,12 @@
     justify-content: space-between;
     align-items: center;
 
-    .content-heading-subtitle {
+    .section-heading-subtitle {
         display: flex;
         flex-direction: column;
         h2 {
             text-align: left;
-            font-weight: 400;
+            font-weight: 300;
             font-size: clamp(28px, 4vw, 40px);
             border-bottom: none;
             color: $under-textcolor-light;

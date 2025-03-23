@@ -38,7 +38,7 @@ listing:
   - id: recent-news
     contents: content/news/news.yml
     type: grid
-    grid-columns: 6
+    grid-columns: 3
     sort: "date desc"
     categories: false
     sort-ui: false
@@ -73,7 +73,7 @@ FEATURED RESEARCH
 
 <!-- Start of Recent Publications Listing -->
 
-::: {.content-heading}
+::: {.section-heading}
 ## Recent Publications
 :::
 
@@ -110,7 +110,8 @@ The Takshashila Institution is an independent centre for research and education 
 
 <!-- Start of Our Programs Section -->
 
-:::{.program-section-heading}
+:::{.section-heading}
+## Our Programs
 :::
 
 ::: {.programs-container}
@@ -212,8 +213,8 @@ Follow us to get the latest policy updates
 
 <!-- Start of Blogs Section -->
 
-::: {.content-heading-with-view-all}
-::: {.content-heading-subtitle}
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
 ## Blogs
 The most recent posts we have published:
 :::
@@ -227,17 +228,17 @@ The most recent posts we have published:
 
 <!-- End of Blogs Section -->
 
-::: {.news-section}
-::: {.recent-content-heading-with-view-all}
-::: {.recent-content-heading-with-subtitle}
+<!-- Start of News Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
 ## In the News
 The most recent posts we have published:
 :::
-::: {.view-all-container}
 [View all posts](){.view-all}
-:::
 :::
 
 ::: {#recent-news}
 :::
-:::
+
+<!-- End of News Section -->
