@@ -17,7 +17,7 @@ website:
       - text: "Policy Research"
         menu:
           - text: "Research Areas"
-            href: "pages/research_areas.qmd"
+            href: "pages/research_areas"
           - text: "Latest Analysis"
             href: "pages/latest_analysis.qmd"
           - text: "Newsletters"
