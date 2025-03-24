@@ -6,4 +6,18 @@ description: "How genomic research can transform healthcare delivery in India"
 categories: 
   - "Healthcare"
   - "Science" 
+identifier: ss
+
+# format:
+#   html:
+#     include-in-header:
+#       text: |
+#         <script>
+#           document.addEventListener('DOMContentLoaded', function() {
+#             const titleBlock = document.getElementById('title-block-header');
+#             if (titleBlock) {
+#               titleBlock.id = 'custom-title-header';
+#             }
+#           });
+#         </script>
 ---
