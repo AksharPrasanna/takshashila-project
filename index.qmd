@@ -58,6 +58,19 @@ listing:
     feed: false
     template: includes/listing-card.ejs
     max-items: 6
+
+  - id: books
+    contents: content/books/books.yml
+    type: grid
+    sort: "order asc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/image-card-carousel.ejs
+    template-params: 
+      carousel_id: "books-carousel"
+    max-items: 6
 ---
 <!-- Start of Featured Research Section -->
 
@@ -269,3 +282,25 @@ We are actively participating in and hosting events with leaders in industry, se
 :::
 
 <!-- End of Podcasts Section -->
+
+<!-- Start of Books Section -->
+
+::: {.full-width-primary-color-wrapper}
+::: {.full-width-primary-color-section}
+::: {.books-container}
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Books by Takshashila Members
+:::
+[View all Books](){.view-all}
+:::
+
+::: {#books}
+:::
+
+:::
+:::
+:::
+
+<!-- End of Books Section -->
