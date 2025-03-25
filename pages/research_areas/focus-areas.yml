@@ -1,0 +1,20 @@
+- title: "China Studies"
+  description: "This initiative aims to understand Chinese domestic and foreign policies, sources of friction, and opportunities keeping in mind Indian national interests, and recommend actionable measures for Indian policymakers."
+  image: "images/china_studies.png"
+  linkText: "China's Global Security Initiative"
+  categories:
+    - "Indo-Pacific"
+
+- title: "Quad Studies"
+  description: "This initiative aims to study the domestic, bilateral and multilateral engagements among the Quad countries - US, India, Japan, and Australia, and recommend actionable measures for Indian policymakers."
+  image: "images/quad_studies.png"
+  linkText: "Quad Hub"
+  categories:
+    - "Indo-Pacific"
+
+- title: "Diplomacy and Security"
+  description: "This initiative studies the evolving policies of different actors across the Indo-Pacific. The aim is to recommend pathways for India to strengthen its relationships with like-minded partners, particularly in its immediate geographical neighborhood."
+  image: "images/diplomacy.png"
+  linkText: "China-Taiwan Saga"
+  categories:
+    - "Indo-Pacific"

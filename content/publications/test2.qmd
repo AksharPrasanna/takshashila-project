@@ -3,7 +3,8 @@ title: "Do the AI Diffusion Rules mean India cannot get more than 50,000 advance
 author: "Satya Sahu & Ashwin Prasad"
 date: "2024-02-25"
 description: "A brief analysis of the implications of AI Diffusion Rules on India's GPU accessibility"
-categories: 
+categories:
+  - "Indo-Pacific"
   - "AI2"
   - "Technology Policy2" 
   # Add areas section here

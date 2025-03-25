@@ -1,7 +1,130 @@
 ---
 title: "Indo-Pacific Studies Program"
 image: "../../assets/images/research_areas/indo-pacific.png"
-description: "The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region."
+subtitle: "The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region."
+
+listing:
+  - id: focus-areas
+    contents: focus-areas.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card.ejs
+    include:
+      categories: ["Indo-Pacific"]
+
+  - id: recent-news
+    contents: ../../content/news/news.yml
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/news-card.ejs
+    max-items: 6
+    include:
+      categories: ["Indo-Pacific"]
+
+  - id: latest-analysis
+    contents: ../../content/publications/*.qmd
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/content-card-carousel.ejs
+    template-params: 
+      carousel_id: "latest-analysis-carousel"
+    image-height: 0px
+    max-items: 6
+    include:
+      categories: ["Indo-Pacific"]
+
+  - id: newsletters
+    contents: ../../content/newsletters/newsletters.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/newsletter-card.ejs
+
+  - id: podcasts
+    contents: ../../content/podcasts/all-things-policy/podcast-list.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/podcast-card.ejs
 ---
 
-Content of the publication goes here...
+<!-- Start of Areas of Focus Section -->
+
+::: {.section-heading}
+## Our Areas of Focus
+:::
+
+::: {#focus-areas}
+:::
+
+<!-- End of Areas of Focus Section -->
+
+<!-- Start of News Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## In the News
+The most recent posts we have published:
+:::
+[View all posts](){.view-all}
+:::
+
+::: {#recent-news}
+:::
+
+<!-- End of News Section -->
+
+<!-- Start of Latest Analysis Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Latest Analysis
+:::
+[View all Posts](){.view-all}
+:::
+
+::: {.listing-carousel}
+::: {#latest-analysis}
+:::
+:::
+
+<!-- End of Latest Analysis Section -->
+
+<!-- Start of Newsletter Section -->
+
+::: {.section-heading}
+## Subscribe to our Newsletters
+:::
+
+::: {#newsletters}
+:::
+
+<!-- End of Newsletter Section -->
+
+<!-- Start of Podcasts Section -->
+
+::: {.section-heading}
+## Subscribe to our Podcasts
+:::
+
+::: {#podcasts}
+:::
+
+<!-- End of Podcasts Section -->

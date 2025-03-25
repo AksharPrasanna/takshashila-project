@@ -13,11 +13,15 @@
                                 <h3>
                                     <%= item.title %>
                                 </h3>
-                                <% if (item.description) { %>
+                                <% if (item.subtitle) { %>
+                                    <p>
+                                        <%= item.subtitle %>
+                                    </p>
+                                <% } else if (item.description) { %>
                                     <p>
                                         <%= item.description %>
                                     </p>
-                                    <% } %>
+                                <% } %>
                                         <a href="<%= item.path %>" class="listing-link">
                                             <%= item.linkText || "Learn more" %>
                                         </a>
