@@ -106,9 +106,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-identifier','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-identifier","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -134,13 +134,69 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-source','listing-title','listing-date','listing-url',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-source','listing-title','listing-date','listing-url','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-source","listing-title","listing-date","listing-url"],
+      searchColumns: ["listing-source","listing-title","listing-date","listing-url","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-podcasts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-description','listing-image','listing-linkText','listing-order','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-description","listing-image","listing-linkText","listing-order","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-podcasts'] = new List('listing-podcasts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-books .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-image','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-image","listing-order"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-books'] = new List('listing-books', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -210,7 +266,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-policy-research">    
         <li>
-    <a class="dropdown-item" href="./pages/research_areas.html">
+    <a class="dropdown-item" href="./pages/research_areas">
  <span class="dropdown-text">Research Areas</span></a>
   </li>  
         <li>
@@ -687,7 +743,7 @@ No matching items
         
 
         
-            <img src="assets/news_logos/indian-express.png" alt="Indian Express">
+            <img src="./assets/news_logos/indian-express.png" alt="Indian Express">
         
 
         <!-- 
@@ -753,7 +809,7 @@ No matching items
         
 
         
-            <img src="assets/news_logos/the-hindu.png" alt="The Hindu">
+            <img src="./assets/news_logos/the-hindu.png" alt="The Hindu">
         
 
         <!-- 
@@ -798,9 +854,211 @@ No matching items
 </div>
 </div>
 <!-- End of News Section -->
+<!-- Start of Podcasts Section -->
+<div class="podcasts-section-heading">
+
+</div>
+<div class="section-heading-with-view-all">
+<section id="featured-podcasts-from-takshashila-team" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="featured-podcasts-from-takshashila-team">Featured Podcasts from Takshashila Team</h2>
+<p>We are actively participating in and hosting events with leaders in industry, service and all around.</p>
+</section>
+<div id="listing-podcasts" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="./content/podcasts/all-things-policy/images/thumbnail.png" alt="All Things Policy">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    All Things Policy
+                                </h3>
+                                
+                                    <p>
+                                        A daily podcast brought to you by the Takshashila Institution. Every weekday, our researchers break down complex economic and geopolitical ideas through the lens of current events.
+                                    </p>
+                                
+                                        <a href="./content/podcasts/all-things-policy/index.html" class="listing-link">
+                                            View All Episodes
+                                        </a>
+                            </div>
+                </div>
+                
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="./content/podcasts/the-great-power-show/images/thumbnail.png" alt="The Great Power Show">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    The Great Power Show
+                                </h3>
+                                
+                                    <p>
+                                        On The Great Power Show, Manoj Kewalramani dives into these big shifts and what they mean for all of us. Join him for candid conversations and thought-provoking interviews with leading scholars, thinkers and practitioners.
+                                    </p>
+                                
+                                        <a href="./content/podcasts/the-great-power-show/index.html" class="listing-link">
+                                            View All Episodes
+                                        </a>
+                            </div>
+                </div>
+                
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="./content/podcasts/puliyabaazi/images/thumbnail.png" alt="Piliyabaazi">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    Piliyabaazi
+                                </h3>
+                                
+                                    <p>
+                                        This Hindi Podcast brings to you in-depth conversations on politics, public policy, technology, philosophy and pretty much everything that is interesting.
+                                    </p>
+                                
+                                        <a href="./content/podcasts/puliyabaazi/index.html" class="listing-link">
+                                            View All Episodes
+                                        </a>
+                            </div>
+                </div>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Podcasts Section -->
+<!-- Start of Books Section -->
+<div class="full-width-primary-color-wrapper">
+<div class="full-width-primary-color-section">
+<div class="books-container">
+<div class="section-heading-with-view-all">
+<section id="books-by-takshashila-members" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="books-by-takshashila-members">Books by Takshashila Members</h2>
+</section>
+<p><a href="" class="view-all">View all Books</a></p>
+</div>
+<div id="listing-books" class="quarto-listing quarto-listing-container-custom">
+<div class="content-outer" id="books-carousel">
+    <div class="carousel-container">
+        <div class="carousel-content">
+            
+                <div class="content-card accent">
+                    <div class="content-card-image">
+                        <img src="content/books/images/china_norm_entrepreneur.png" alt="China as a Rising Norm Entrepreneur">
+                    </div>
+                </div>
+                
+                <div class="content-card accent">
+                    <div class="content-card-image">
+                        <img src="content/books/images/we_the_citizens.png" alt="We, The Citizens">
+                    </div>
+                </div>
+                
+                <div class="content-card accent">
+                    <div class="content-card-image">
+                        <img src="content/books/images/chips_are_down.png" alt="When the Chips are Down">
+                    </div>
+                </div>
+                
+                <div class="content-card accent">
+                    <div class="content-card-image">
+                        <img src="content/books/images/missing_in_action.png" alt="Missing in Action">
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+
+    <button class="content-nav-btn prev-btn accent" aria-label="Previous publications">
+        <span aria-hidden="true">&lt;</span>
+    </button>
+
+    <button class="content-nav-btn next-btn accent" aria-label="Next publications">
+        <span aria-hidden="true">&gt;</span>
+    </button>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const carouselId = "books-carousel";
+        const carouselContainer = document.getElementById(carouselId);
+
+        if (!carouselContainer) {
+            console.error("Carousel container not found:", carouselId);
+            return;
+        }
+        const carousel = carouselContainer.querySelector('.carousel-content');
+        const prevBtn = carouselContainer.querySelector('.prev-btn');
+        const nextBtn = carouselContainer.querySelector('.next-btn');
+
+        // Set initial button state
+        updateButtonState();
+
+        // Determine scroll amount based on screen size
+        function getScrollAmount() {
+            // On mobile, scroll full width
+            if (window.innerWidth < 768) {
+                return carousel.offsetWidth;
+            }
+            // On tablet, scroll half width
+            else if (window.innerWidth < 1200) {
+                return carousel.offsetWidth / 2;
+            }
+            // On desktop, scroll one third width
+            else {
+                return carousel.offsetWidth / 3;
+            }
+        }
+
+        // Handle button clicks
+        prevBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+        });
+
+        nextBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+        });
+
+        // Update button state on scroll
+        carousel.addEventListener('scroll', updateButtonState);
+        window.addEventListener('resize', updateButtonState);
+
+        function updateButtonState() {
+            const isAtStart = carousel.scrollLeft <= 10;
+            const isAtEnd = carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 10;
+
+            prevBtn.disabled = isAtStart;
+            prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+
+            nextBtn.disabled = isAtEnd;
+            nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+        }
+    });
+</script>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- End of Books Section -->
 
 
 
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

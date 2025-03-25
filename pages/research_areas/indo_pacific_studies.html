@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.">
 
 <title>Indo-Pacific Studies Program – Takshashila Institution</title>
 <style>
@@ -32,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,7 +69,177 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-focus-areas .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-linkText','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-image","listing-linkText","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-focus-areas'] = new List('listing-focus-areas', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-source','listing-title','listing-date','listing-url','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-source","listing-title","listing-date","listing-url","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-analysis .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-analysis'] = new List('listing-latest-analysis', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-newsletters .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-link',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-link"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-newsletters'] = new List('listing-newsletters', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-podcasts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-link',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-link"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-podcasts'] = new List('listing-podcasts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../takshashila.css">
 </head>
@@ -96,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-policy-research">    
         <li>
-    <a class="dropdown-item" href="../../pages/research_areas.html">
+    <a class="dropdown-item" href="../../pages/research_areas">
  <span class="dropdown-text">Research Areas</span></a>
   </li>  
         <li>
@@ -196,13 +367,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Indo-Pacific Studies Program</h1>
+<p class="subtitle lead">The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.</p>
 </div>
 
-<div>
-  <div class="description">
-    The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta column-page">
@@ -217,7 +384,312 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Content of the publication goes here…</p>
+<!-- Start of Areas of Focus Section -->
+<section id="our-areas-of-focus" class="level2 section-heading">
+<h2 class="anchored" data-anchor-id="our-areas-of-focus">Our Areas of Focus</h2>
+</section>
+<div id="listing-focus-areas" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="images/china_studies.png" alt="China Studies">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3 class="anchored">
+                                    China Studies
+                                </h3>
+                                
+                                    <p>
+                                        This initiative aims to understand Chinese domestic and foreign policies, sources of friction, and opportunities keeping in mind Indian national interests, and recommend actionable measures for Indian policymakers.
+                                    </p>
+                                
+                                        <a href="" class="listing-link">
+                                            China's Global Security Initiative
+                                        </a>
+                            </div>
+                </div>
+                
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="images/quad_studies.png" alt="Quad Studies">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3 class="anchored">
+                                    Quad Studies
+                                </h3>
+                                
+                                    <p>
+                                        This initiative aims to study the domestic, bilateral and multilateral engagements among the Quad countries - US, India, Japan, and Australia, and recommend actionable measures for Indian policymakers.
+                                    </p>
+                                
+                                        <a href="" class="listing-link">
+                                            Quad Hub
+                                        </a>
+                            </div>
+                </div>
+                
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="images/diplomacy.png" alt="Diplomacy and Security">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3 class="anchored">
+                                    Diplomacy and Security
+                                </h3>
+                                
+                                    <p>
+                                        This initiative studies the evolving policies of different actors across the Indo-Pacific. The aim is to recommend pathways for India to strengthen its relationships with like-minded partners, particularly in its immediate geographical neighborhood.
+                                    </p>
+                                
+                                        <a href="" class="listing-link">
+                                            China-Taiwan Saga
+                                        </a>
+                            </div>
+                </div>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Areas of Focus Section -->
+<!-- Start of News Section -->
+<div class="section-heading-with-view-all">
+<section id="in-the-news" class="level2 section-heading-subtitle">
+<h2 class="anchored" data-anchor-id="in-the-news">In the News</h2>
+<p>The most recent posts we have published:</p>
+</section>
+<p><a href="" class="view-all">View all posts</a></p>
+</div>
+<div id="listing-recent-news" class="quarto-listing quarto-listing-container-custom">
+<div class="news-grid-container">
+  
+    <a href="https://www.indianexpress.com/article/opinion/columns/china-mega-dam-project-geopolitical-weapon" class="news-card" target="_blank">
+      <div class="news-logo">
+        
+
+        
+            <img src="../../assets/news_logos/indian-express.png" alt="Indian Express">
+        
+
+        <!-- 
+          <img src="assets/news_logos/indian-express.png" alt="Indian Express">
+         -->
+      </div>
+      
+      <div class="news-content">
+        <div class="news-text">The New Indian Express | Is China's mega dam project a geopolitical weapon under the guise of development?</div>
+        <div class="news-date">
+          
+          January 29, 2025
+        </div>
+      </div>
+    </a>
+  
+    <a href="https://thediplomat.com/2025/01/risks-china-yarlung-tsangpo-project" class="news-card" target="_blank">
+      <div class="news-logo">
+        
+
+        
+            <div class="default-logo">T</div>
+        
+
+        <!-- 
+          <img src="assets/news_logos/the-diplomat.png" alt="The Diplomat">
+         -->
+      </div>
+      
+      <div class="news-content">
+        <div class="news-text">The Diplomat | Y Nithiyanandam on the Risks of China's Ambitious Yarlung Tsangpo Project</div>
+        <div class="news-date">
+          
+          January 29, 2025
+        </div>
+      </div>
+    </a>
+  
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of News Section -->
+<!-- Start of Latest Analysis Section -->
+<div class="section-heading-with-view-all">
+<section id="latest-analysis" class="level2 section-heading-subtitle">
+<h2 class="anchored" data-anchor-id="latest-analysis">Latest Analysis</h2>
+</section>
+<p><a href="" class="view-all">View all Posts</a></p>
+</div>
+<div class="listing-carousel">
+<div id="listing-latest-analysis" class="quarto-listing quarto-listing-container-custom">
+<div class="content-outer" id="latest-analysis-carousel">
+  <div class="carousel-container">
+    <div class="carousel-content">
+      
+        <div class="content-card">
+          <h3 class="content-title anchored">Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?</h3>
+          <a href="../../content/publications/test2.html" class="read-more">Read more <span class="arrow">→</span></a>
+        </div>
+      
+        <div class="content-card">
+          <h3 class="content-title anchored">Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?</h3>
+          <a href="../../content/publications/test1.html" class="read-more">Read more <span class="arrow">→</span></a>
+        </div>
+      
+    </div>
+  </div>
+  
+  <button class="content-nav-btn prev-btn" aria-label="Previous publications">
+    <span aria-hidden="true">&lt;</span>
+  </button>
+  
+  <button class="content-nav-btn next-btn" aria-label="Next publications">
+    <span aria-hidden="true">&gt;</span>
+  </button>
+</div>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const carouselId = "latest-analysis-carousel";
+    const carouselContainer = document.getElementById(carouselId);
+  
+    if (!carouselContainer) {
+      console.error("Carousel container not found:", carouselId);
+      return;
+    }
+    const carousel = carouselContainer.querySelector('.carousel-content');
+    const prevBtn = carouselContainer.querySelector('.prev-btn');
+    const nextBtn = carouselContainer.querySelector('.next-btn');
+    
+    // Set initial button state
+    updateButtonState();
+    
+    // Determine scroll amount based on screen size
+    function getScrollAmount() {
+      // On mobile, scroll full width
+      if (window.innerWidth < 768) {
+        return carousel.offsetWidth;
+      }
+      // On tablet, scroll half width
+      else if (window.innerWidth < 1200) {
+        return carousel.offsetWidth / 2;
+      } 
+      // On desktop, scroll one third width
+      else {
+        return carousel.offsetWidth / 3;
+      }
+    }
+    
+    // Handle button clicks
+    prevBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+    });
+    
+    nextBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+    });
+    
+    // Update button state on scroll
+    carousel.addEventListener('scroll', updateButtonState);
+    window.addEventListener('resize', updateButtonState);
+    
+    function updateButtonState() {
+      const isAtStart = carousel.scrollLeft <= 10;
+      const isAtEnd = carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 10;
+      
+      prevBtn.disabled = isAtStart;
+      prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+      
+      nextBtn.disabled = isAtEnd;
+      nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+    }
+  });
+  </script>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<!-- End of Latest Analysis Section -->
+<!-- Start of Newsletter Section -->
+<section id="subscribe-to-our-newsletters" class="level2 section-heading">
+<h2 class="anchored" data-anchor-id="subscribe-to-our-newsletters">Subscribe to our Newsletters</h2>
+</section>
+<div id="listing-newsletters" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <div class="newsletter-card">
+                    <iframe src="https://geospatialbulletin.takshashila.org.in/embed" width="100%" height="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+                </div>
+                
+                <div class="newsletter-card">
+                    <iframe src="https://geospatialbulletin.takshashila.org.in/embed" width="100%" height="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+                </div>
+                
+                <div class="newsletter-card">
+                    <iframe src="https://geospatialbulletin.takshashila.org.in/embed" width="100%" height="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+                </div>
+                
+                <div class="newsletter-card">
+                    <iframe src="https://geospatialbulletin.takshashila.org.in/embed" width="100%" height="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+                </div>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Newsletter Section -->
+<!-- Start of Podcasts Section -->
+<section id="subscribe-to-our-podcasts" class="level2 section-heading">
+<h2 class="anchored" data-anchor-id="subscribe-to-our-podcasts">Subscribe to our Podcasts</h2>
+</section>
+<div id="listing-podcasts" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <div class="podcast-card">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+                <div class="podcast-card">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+                <div class="podcast-card">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+                <div class="podcast-card">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Podcasts Section -->
+
 
 
 
