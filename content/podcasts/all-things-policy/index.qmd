@@ -1,0 +1,8 @@
+---
+title: "All Things Policy"
+description: "A daily podcast brought to you by the Takshashila Institution. Every weekday, our researchers break down complex economic and geopolitical ideas through the lens of current events."
+image: "images/thumbnail.png"
+linkText: "View All Episodes"
+order: 1
+
+---

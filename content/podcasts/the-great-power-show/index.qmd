@@ -1,0 +1,8 @@
+---
+title: "The Great Power Show"
+description: "On The Great Power Show, Manoj Kewalramani dives into these big shifts and what they mean for all of us. Join him for candid conversations and thought-provoking interviews with leading scholars, thinkers and practitioners."
+image: "images/thumbnail.png"
+linkText: "View All Episodes"
+order: 2
+
+---

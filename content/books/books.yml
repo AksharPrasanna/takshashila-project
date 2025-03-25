@@ -1,0 +1,15 @@
+- name: China as a Rising Norm Entrepreneur
+  image: content/books/images/china_norm_entrepreneur.png
+  order: 1
+
+- name: We, The Citizens
+  image: content/books/images/we_the_citizens.png
+  order: 2
+
+- name: When the Chips are Down
+  image: content/books/images/chips_are_down.png
+  order: 3
+
+- name: Missing in Action
+  image: content/books/images/missing_in_action.png
+  order: 4

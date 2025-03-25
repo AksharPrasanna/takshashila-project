@@ -1,0 +1,103 @@
+---
+title: "Our Research Areas"
+subtitle: "Key Areas we focus on at Takshashila"
+
+format:
+  html:
+    anchor-sections: false
+
+listing:
+  - id: research-areas
+    contents:
+    - "*.qmd"
+    - "!index.qmd"
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card.ejs
+
+  - id: latest-analysis
+    contents: ../../content/publications/*.qmd
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/content-card-carousel.ejs
+    template-params: 
+      carousel_id: "latest-analysis-carousel"
+    image-height: 0px
+    max-items: 6
+  
+  - id: recent-news
+    contents: ../../content/news/news.yml
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/news-card.ejs
+    max-items: 6
+---
+
+<!-- Start of Research Areas Listing Section -->
+
+::: {#research-areas}
+:::
+
+<!-- End of Research Areas Listing Section -->
+
+<!-- Start of Latest Analysis Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Latest Analysis
+:::
+[View all Posts](){.view-all}
+:::
+
+::: {.listing-carousel}
+::: {#latest-analysis}
+:::
+:::
+
+<!-- End of Latest Analysis Section -->
+
+<!-- Start of News Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## In the News
+The most recent posts we have published:
+:::
+[View all posts](){.view-all}
+:::
+
+::: {#recent-news}
+:::
+
+<!-- End of News Section -->
+
+<!-- Start of Socials Section -->
+
+::: {.socials-component-wrapper}
+::: {.socials-component-container}
+::: {.socials-component-text}
+Follow us to get the latest policy updates
+:::
+
+::: {.socials-component-icons}
+```{=html}
+{{< include ../../includes/social-icons.html >}}
+```
+:::
+:::
+:::
+
+<!-- End of Socials Section -->

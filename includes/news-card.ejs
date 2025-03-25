@@ -6,9 +6,9 @@
         <% const domain = item.url.match(/\/\/([^\/]+)/)[1].replace('www.', ''); %>
 
         <% if (domain.includes('indianexpress')) { %>
-            <img src="assets/news_logos/indian-express.png" alt="Indian Express">
+            <img src="/assets/news_logos/indian-express.png" alt="Indian Express">
         <% } else if (domain.includes('thehindu')) { %>
-            <img src="assets/news_logos/the-hindu.png" alt="The Hindu">
+            <img src="/assets/news_logos/the-hindu.png" alt="The Hindu">
         <% } else { %>
             <div class="default-logo"><%= item.source.charAt(0) %></div>
         <% } %>
