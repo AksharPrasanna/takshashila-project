@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/pages/team_takshashila.html",
+    "items": [
+      "/pages/team/nitin_pai.html",
+      "/pages/team/narayan_tamachandran.html",
+      "/pages/team/anand_arni.html",
+      "/pages/team/pranay_kotasthane.html"
+    ]
+  },
+  {
     "listing": "/pages/research_areas/indo_pacific_studies.html",
     "items": [
       "/content/publications/test2.html",

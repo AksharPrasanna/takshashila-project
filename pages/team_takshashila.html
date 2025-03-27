@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../assets/images/logo-symbol.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,93 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-team-takshashila-core .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-image','listing-subtitle','listing-category','listing-order','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-image","listing-subtitle","listing-category","listing-order","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-team-takshashila-core'] = new List('listing-team-takshashila-core', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-team-takshashila .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-image','listing-subtitle','listing-order','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-image","listing-subtitle","listing-order","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-team-takshashila'] = new List('listing-team-takshashila', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../takshashila.css">
 </head>
@@ -151,11 +239,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../#">
+    <a class="dropdown-item" href="../pages/team_takshashila.html">
  <span class="dropdown-text">Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../#">
+    <a class="dropdown-item" href="../pages/mission.html">
  <span class="dropdown-text">Mission</span></a>
   </li>  
         <li>
@@ -211,8 +299,123 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="co-founders-and-distinguished-fellows" class="level2">
+<h2 data-anchor-id="co-founders-and-distinguished-fellows">Co-Founders and Distinguished Fellows</h2>
+<div id="listing-team-takshashila-core" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="../pages/team/images/nitin_pai.png" alt="Nitin Pai">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    Nitin Pai
+                                </h3>
+                                
+                                    <p>
+                                        Nitin Pai is co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy. His current research includes the geopolitics of the Indo-Pacific; defence economics and the politics of radically networked societies.
+                                    </p>
+                                
+                                        <a href="../pages/team/nitin_pai.html" class="listing-link">
+                                            Learn more
+                                        </a>
+                            </div>
+                </div>
+                
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="../pages/team/images/narayan_ramachandran.jpg" alt="Narayan Ramachandran">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    Narayan Ramachandran
+                                </h3>
+                                
+                                    <p>
+                                        Narayan Ramchandran is one of Takshashila’s co-founders. He worked on Wall Street (mostly at Morgan Stanley) for over 20 years, most recently as head of global emerging market investing and then country head of Morgan Stanley in India.
+                                    </p>
+                                
+                                        <a href="../pages/team/narayan_tamachandran.html" class="listing-link">
+                                            Learn more
+                                        </a>
+                            </div>
+                </div>
+                
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="../pages/team/images/anand_arni.jpg" alt="Anand Arni">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    Anand Arni
+                                </h3>
+                                
+                                    <p>
+                                        Anand Arni is a Distinguished Fellow at the Takshashila Institution. As a career intelligence officer, he has spent over 25 years specialising in India’s neighbourhood policies. Post-retirement, he continues to focus on India’s western neighbours.
+                                    </p>
+                                
+                                        <a href="../pages/team/anand_arni.html" class="listing-link">
+                                            Learn more
+                                        </a>
+                            </div>
+                </div>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="fellows-and-adjunct-fellows" class="level2">
+<h2 data-anchor-id="fellows-and-adjunct-fellows">Fellows and Adjunct Fellows</h2>
+<div id="listing-team-takshashila" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="../pages/team/images/pranay.jpg" alt="Pranay Kotasthane">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    Pranay Kotasthane
+                                </h3>
+                                
+                                    <p>
+                                        Pranay Kotasthane is deputy director of the Takshashila Institution. Pranay’s current research includes high tech geopolitics and the politics of radically networked societies. Pranay teaches public policy, international relations, and public finance at Takshashila’s graduate and post-graduate programmes.
+                                    </p>
+                                
+                                        <a href="../pages/team/pranay_kotasthane.html" class="listing-link">
+                                            Learn more
+                                        </a>
+                            </div>
+                </div>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
