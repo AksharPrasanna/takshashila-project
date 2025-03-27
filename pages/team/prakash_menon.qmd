@@ -1,0 +1,8 @@
+---
+title: "Lt General (Dr) Prakash Menon"
+image: "images/gen_prakash_menon.jpg"
+subtitle: "Lt. Gen. (Retd) Prakash Menon is the Director of the Strategic Studies Programme. He is also Professor Emeritus at Trans Disciplinary University (TDU), Bangalore and Adjunct Professor, National Institute of Advanced Studies, Bangalore."
+category: "Co Founders and Distinguished Fellows"
+order: 4
+
+---

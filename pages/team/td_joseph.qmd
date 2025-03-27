@@ -1,0 +1,8 @@
+---
+title: "Air Marshal TD Joseph"
+image: "images/air_marshal_td_joseph.png"
+subtitle: "Air Marshal TD Joseph has in-depth experience in strategic and operational planning, flying operations and air defence operations, managing and orchestrating resources worth thousands of crores, heading training of nearly 20,000 personnel every year, and command & leadership. He is a security strategy thinker with a published book (Winning India's Next War: The Role of Aerospace Power, published in 2007) and several articles on aerospace power and international security."
+category: "Co Founders and Distinguished Fellows"
+order: 5
+
+---
