@@ -1,0 +1,43 @@
+---
+title: Year Zero
+subtitle: by Nitin Pai (Co-Founder & Director, Takshashila Institution)
+author-image: ntin_pai.png
+
+format:
+  html:
+    anchor-sections: false
+    template-partials:
+        - title-block.html
+---
+
+## Why, What and What Next
+
+India’s problems are scaling faster than the attempted solutions. In every country there is a governance gap—between the economy and its governance—but in our country, the problem is severe, acute and worsening. From telecommunications to finance, from education to agriculture, every sector of the economy needs both specialist domain expertise and management skills. To the extent that India is unable to inject these in its government agencies, it is obvious that we will continue to suffer not only poor governance, but also corruption and injustice.
+
+At Takshashila, we have made it our mission to change this. We are acutely aware that the race we are running is marathon, that we will have to run it for decades and the chances that we will succeed are uncertain. Yet, it is a race we have to run. 
+
+We want to build one of the best schools of statecraft in India. It will be school that is as rooted in India’s civilisational values as it is global in its outlook. It will aim to bring together the best minds in public policy to impart customised, high-quality education to the most promising graduate students. That’s the vision. We have a sense of how to get there, but we do not want start the school tomorrow morning. Since it is to be a school rooted in the Indian experience, we want to scan the length and breadth of the country and build the body of knowledge first. 
+
+Yes, this is an audacious project for a bunch of people most of who did not even have greying temples when we started out (and most do not have them even now). So we want to earn our stripes—build credibility even as we validate our own assumptions—by establishing Takshashila as a networked think tank. This is the first step towards realising our vision of an outstanding Indian school of statecraft. 
+
+It is far more effective to connect talented individuals passionate about changing India for the better into a networked community, than to attempt to hire them and put them in the same building. We do not have the budget for it, and even if we did, we would still stick to the networked model, because we believe it is far more suited to the twenty-first century. [See the Takshashila mission for more details]
+
+Thanks to a substantial initial donation from Rohini Nilekani, chairperson of Arghyam, we could start much faster than we otherwise could. 
+
+So that’s the preamble. This year was our year zero—the year we got off the ground. 
+
+We launched our policy research programme and by January 2011, we expect to have more than a dozen fellows. A number of bright younger people have joined us as research associates. Fellows and research associates are spread across the globe, have day jobs and collaborate with each other over the Internet.
+
+Our Executive Programme on Strategic Affairs (TEPSA) was got off to a start in December 2009, with a full-day programme for senior defence officials, in partnership with the National Maritime Foundation. TEPSA partners educational institutions, think tanks and private companies to train executives on public policy subjects. We will be doing more of these in 2011. 
+
+We inaugurated our Roundtable Conclave programme last month. Here the idea is to engage civil society by moving high-quality public policy discussions out from New Delhi into the towns and cities of India. We started in Bangalore, and intend to take the programme into other places over the next several months. The idea is to connect individuals who are interested in public affairs to be part of an informed and influential national community. 
+
+All this, of course, is in addition to our online initiatives at the Indian National Interest (INI) platform of blogs and on twitter. From the time we started, popularity and site traffic has never been our objective. We just wanted to put out the most credible, non-partisan opinion on what we think is in India’s national interest. And we will continue doing so. 
+
+Pragati – The Indian National Interest Review, a monthly magazine we started in April 2007, and which Rajeev Mantri’s Quill Media has been distributing print copies of since October 2009, is now into its 46th issue. Like at Takshashila and INI in general, Pragati has attracted a fantastic team of energetic, passionate and committed individuals, and great set of contributors, all working pro bono. From the editorial team to individual contributors, nobody gets paid. Yet Pragati has become one of India’s most well-regarded publications on strategic affairs, public policy and governance. In 2011, we want to increase the circulation of both the digital PDF edition and of the printed copies. 
+
+Since August 2010, I have personally been working on the Takshashila initiative on a full-time basis, thanks to a good friend’s personal sponsorship. I have been fortunate to receive encouragement from a number of people who saw value in what we are trying to achieve. Even so, such a step would be impossible if not for both the support and reality checks imposed on me by my wife…and well, by my children. 
+
+Takshashila needs your help in every one of the areas I’ve written about. We need financial support to build our endowment fund so that we can hire the best graduate students to work on cutting-edge policy research. We need organisers and volunteers across the country to help organise our roundtable conclaves. We need you to subscribe to Pragati, take out gift subscriptions and in general spread the word around. 
+
+It’s about building an institution that will last. It’s about being a lighthouse that will provide direction to all ships that are willing to navigate by its beacon. Two-and-half millennia ago Takshashila was the intellectual fountainhead not only of Indian statecraft but indeed of all walks of human endeavour. It’s about creating one for modern India.

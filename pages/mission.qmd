@@ -1,0 +1,69 @@
+---
+title: Welcome to Takshashila
+
+format:
+  html:
+    anchor-sections: false
+---
+
+## Mission
+
+The Takshashila Institution is an independent centre for research and education in public policy. It is a non-partisan, non-profit organisation that advocates the values of freedom, openness, tolerance, pluralism and responsible citizenship. It seeks to transform India through better public policies, bridging the governance gap by developing better public servants, civil society leaders, professionals and informed citizens.
+
+Takshashila creates change by connecting good people, to good ideas and good networks. It produces independent policy research in a number of areas of governance, it grooms civic leaders through its online education programmes and engages in public discourse through its publications and digital media.
+
+## Why, What and What next?
+
+Read our year zero report [here]().
+
+## People
+
+The Takshashila Council, Fellows, Board of Trustees & Management Committee.
+Current Councillors: M Govinda Rao and Anand Arni.
+
+Former Trustees: V Anantha Nageswaran
+Former Councillors: Mukul G Asher, Bibek Debroy, C Raja Mohan, Pratap Bhanu Mehta, Ajit Ranade and C Uday Bhaskar.
+
+::: {.about-cta}
+[Learn about our People](pages/about.qmd){.about-btn}
+:::
+
+## Code of Conduct & Ombudsman
+
+All persons associated with the Takshashila Institution adhere to the following code of conduct.
+
+We at Takshashila will,
+
+1. Uphold the highest levels of integrity in all our work.
+2. Conduct ourselves with civility and decorum in public discourse.
+3. Persevere to elevate the standards of policy debate.
+4. Maintain independence and put India’s national interest first.
+5. Make a clear distinction between personal opinion and that of our Institution.
+
+::: {.about-cta}
+[Provide Feedback to pur Ombudsman](pages/about.qmd){.about-btn}
+:::
+
+## Key Donors
+
+We are supported by a diverse set of individuals and groups.
+
+::: {.about-cta}
+[Learn more about our Donors](pages/about.qmd){.about-btn}
+:::
+
+## Heritage
+
+The ancient city of Takshashila was the site of perhaps the world’s oldest public policy school. It was the intellectual fountainhead not only of Indian statecraft but indeed of all walks of human endeavour. The Takshashila Institution derives inspiration from that civilisational lighthouse in the pursuit of its contemporary objectives.
+
+::: {.about-cta}
+[Learn More](pages/about.qmd){.about-btn}
+:::
+
+## Indian Public Policy Review
+
+Indian Public Policy Review (IPPR) is a peer-reviewed, bi-monthly, online and an open-access journal, published by the Takshashila Institution. The journal carries original, analytical, policy relevant papers, book reviews, and commentaries on Economics, Political Science, International Relations and Security, Defence Strategy, and Science and Technology Policy.
+
+::: {.about-cta}
+[Learn More](pages/about.qmd){.about-btn}
+:::
