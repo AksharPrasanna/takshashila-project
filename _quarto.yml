@@ -41,9 +41,9 @@ website:
       - text: "About"
         menu:
           - text: "Team"
-            href: "#"
+            href: "pages/team_takshashila.qmd"
           - text: "Mission"
-            href: "#"
+            href: "pages/mission.qmd"
           - text: "Milestones"
             href: "#"
           - text: "Careers"

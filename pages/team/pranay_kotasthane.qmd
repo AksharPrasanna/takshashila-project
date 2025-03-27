@@ -1,0 +1,7 @@
+---
+title: "Pranay Kotasthane"
+image: "images/pranay.jpg"
+subtitle: "Pranay Kotasthane is deputy director of the Takshashila Institution. Pranay’s current research includes high tech geopolitics and the politics of radically networked societies. Pranay teaches public policy, international relations, and public finance at Takshashila’s graduate and post-graduate programmes."
+order: 1
+
+---

@@ -1,0 +1,8 @@
+---
+title: "Nitin Pai"
+image: "images/nitin_pai.png"
+subtitle: "Nitin Pai is co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy. His current research includes the geopolitics of the Indo-Pacific; defence economics and the politics of radically networked societies."
+category: "Co Founders and Distinguished Fellows"
+order: 1
+
+---

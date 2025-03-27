@@ -6,5 +6,40 @@ format:
   html:
     anchor-sections: false
 
+listing:
+  - id: team-takshashila-core
+    contents: team/*.qmd
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../includes/listing-card.ejs
+    sort: "order asc"
+    include:
+        category: ["Co Founders and Distinguished Fellows"]
+
+  - id: team-takshashila
+    contents: team/*.qmd
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../includes/listing-card.ejs
+    sort: "order asc"
+    exclude:
+        category: ["Co Founders and Distinguished Fellows"]
 
 ---
+
+## Co-Founders and Distinguished Fellows
+
+::: {#team-takshashila-core}
+:::
+
+
+## Fellows and Adjunct Fellows
+
+::: {#team-takshashila}
+:::

@@ -1,0 +1,8 @@
+---
+title: "Anand Arni"
+image: "images/anand_arni.jpg"
+subtitle: "Anand Arni is a Distinguished Fellow at the Takshashila Institution. As a career intelligence officer, he has spent over 25 years specialising in India’s neighbourhood policies. Post-retirement, he continues to focus on India’s western neighbours."
+category: "Co Founders and Distinguished Fellows"
+order: 3
+
+---

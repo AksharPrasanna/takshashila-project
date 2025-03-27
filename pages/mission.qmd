@@ -14,7 +14,7 @@ Takshashila creates change by connecting good people, to good ideas and good net
 
 ## Why, What and What next?
 
-Read our year zero report [here]().
+Read our year zero report [here](day_zero.qmd).
 
 ## People
 

@@ -1,0 +1,8 @@
+---
+title: "Narayan Ramachandran"
+image: "images/narayan_ramachandran.jpg"
+subtitle: "Narayan Ramchandran is one of Takshashila’s co-founders. He worked on Wall Street (mostly at Morgan Stanley) for over 20 years, most recently as head of global emerging market investing and then country head of Morgan Stanley in India."
+category: "Co Founders and Distinguished Fellows"
+order: 2
+
+---
