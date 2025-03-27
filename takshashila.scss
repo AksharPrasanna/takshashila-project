@@ -35,6 +35,7 @@ $light-paragraph-text: #696969;
 @import "styles/sections/books";
 // @import "styles/responsive_base";
 @import "styles/common/quarto-title";
+@import "styles/common/quarto-title-image";
 // @import "styles/research_areas";
 
 // .navbar .container-fluid,
@@ -95,10 +96,127 @@ $light-paragraph-text: #696969;
   padding-top: 0;
   position: relative;
   overflow-x: hidden;
+  margin-bottom: 0 !important;
+
+  h2 {
+    border: none;
+  }
 
   #quarto-document-content {
     max-width: 1280px !important;
     padding: 0 !important;
     margin: 0 !important;
   }
+}
+
+/* Footer Styling */
+/* Footer Styling */
+/* Footer Styling */
+.footer {
+  background-color: $primary-color;
+  color: white;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-top: clamp(40px, 6vw, 60px);
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-container {
+  max-width: 1135px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: clamp(40px, 5vw, 80px);
+  padding: 0 clamp(10px, 3vw, 0px);
+  
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+}
+
+.footer-org-info {
+  flex: 0 0 30%;
+  max-width: 300px;
+  
+  @media (max-width: 991px) {
+    max-width: 100%;
+  }
+}
+
+.footer-logo {
+  max-width: 180px;
+  margin-bottom: 16px;
+}
+
+.org-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.org-address {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.footer-nav-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(10px, 3vw, 10px);
+  
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  @media (max-width: 576px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.footer-heading {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+    font-weight: 300;
+    
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px clamp(20px, 3vw, 40px);
+  text-align: center;
+}
+
+.copyright {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 300;
 }

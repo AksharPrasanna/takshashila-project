@@ -1,0 +1,10 @@
+---
+title: Team Takshashila
+subtitle: The people that make what you read, see and don’t.
+
+format:
+  html:
+    anchor-sections: false
+
+
+---

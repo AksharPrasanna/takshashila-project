@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Takshashila Institution"
-  favicon: images/favicon.ico
+  favicon: assets/images/logo-symbol.svg
   search: true
   navbar:
     background: "#610D3D"
@@ -63,6 +63,8 @@ format:
     css: takshashila.css
     toc: false
     page-layout: full
+    include-after-body:
+      file: "includes/footer.html"
     # include-in-header:
     #   text: |
     #     <script src= "../utility/script.js" defer></script>
