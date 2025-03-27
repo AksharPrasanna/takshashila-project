@@ -1,16 +1,14 @@
 [
   {
-    "listing": "/pages/research_areas/index.html",
+    "listing": "/pages/research_areas/indo_pacific_studies.html",
     "items": [
-      "/pages/research_areas/advanced_biology_program.html",
-      "/pages/research_areas/geospatial_research.html",
-      "/pages/research_areas/high_technology_geopolitics_program.html",
-      "/pages/research_areas/indo_pacific_studies.html",
       "/content/publications/test2.html",
-      "/content/publications/test1.html",
-      "/content/publications/test3.html",
-      "/content/publications/test4.html"
+      "/content/publications/test1.html"
     ]
+  },
+  {
+    "listing": "/content/podcasts/all-things-policy/index.html",
+    "items": []
   },
   {
     "listing": "/index.html",
@@ -38,10 +36,16 @@
     ]
   },
   {
-    "listing": "/pages/research_areas/indo_pacific_studies.html",
+    "listing": "/pages/research_areas/index.html",
     "items": [
+      "/pages/research_areas/advanced_biology_program.html",
+      "/pages/research_areas/geospatial_research.html",
+      "/pages/research_areas/high_technology_geopolitics_program.html",
+      "/pages/research_areas/indo_pacific_studies.html",
       "/content/publications/test2.html",
-      "/content/publications/test1.html"
+      "/content/publications/test1.html",
+      "/content/publications/test3.html",
+      "/content/publications/test4.html"
     ]
   }
 ]
