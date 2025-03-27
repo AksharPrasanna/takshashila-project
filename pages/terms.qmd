@@ -1,0 +1,65 @@
+---
+title: Terms and Conditions
+
+format:
+  html:
+    anchor-sections: false
+---
+
+All our education courses on public policy are managed by TI Learning Network, a section 25 company registered under the Companies Act, 1956, and having registered address at No. 37/5, Ground Floor, Ulsoor Road, Yellappa Chetty Layout, Bengaluru, Karnataka, India 560042. All payments made for the courses are deposited in the bank account held by TI Learning Network or any third-party service provider currently engaged by TI Learning Network for offering educational services for our public policy courses, as the case may be and as informed to the Student at the time of completing the payment. For any doubts regarding the terms and conditions, please contact us at the details given on this page.
+
+## Definitions
+
+- “Agreement” means the terms and conditions as detailed herein including all schedules, appendices, annexures, privacy policy, and will include the references to this agreement as amended, negated, supplemented, varied or replaced from time to time.
+
+- “Product/Products” means and includes any course displayed on the website and offered by TI Learning Network and the related description, information, procedure, processes, delivery schedule, etc.
+
+- “Student” shall mean the person or any legal entity who accepts the offer for admission on the website by paying the course fees listed as products.
+
+- “User” / ”you” means and includes any person or an entity or any legal entity using or accessing the information provided on the website.
+
+## Electronic Communication
+
+When you visit the website, fill in our contact forms or send e-mails to us or give us your feedback, you are communicating with us electronically. You consent to receive communications from us electronically. We will communicate with you by e-mail or by posting notices on this website. You agree that all agreements, notices, disclosures and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.
+
+## Financial Details
+
+You agree, understand and confirm that the credit/debit card details or other financial details provided by you for availing of the courses offered by us will be correct and accurate and you shall not use the credit/debit card or financial facility which is not lawfully owned/obtained by you. You also understand that any financial information submitted by you is directly received by our payment gateway – ccAvenue. We will not be liable for any credit/debit card fraud. The liability for use of a card fraudulently will be on you and the onus to ‘prove otherwise’ shall be exclusively on you. All information collected by us shall be governed as per our Privacy Policy.
+
+## Fraudulent / Declined Transactions
+
+We reserve the right to recover the cost of merchandise, collection charges and lawyers fees from persons using the Website fraudulently. We reserve the right to initiate legal proceedings against such persons for fraudulent use of the Website and any other unlawful acts or acts or omissions in breach of these terms and conditions.
+
+## Contents Posted on Site
+
+You are responsible for any notes, messages, e-mails, photos, drawings, profiles, opinions, ideas, images, videos, audio files or other materials or information posted or transmitted to the Sites (collectively, “Content”). Such Content will become the property of TI Learning Network throughout the universe.
+
+## Rules of Conduct on Site
+
+1. You may not post, distribute, or reproduce in any way any copyrighted material, trademarks, or other proprietary information without obtaining the prior consent of the owner of such proprietary rights.
+2. We may review, edit, reject, refuse to post and/or delete any Content that in our judgment violate these Terms of Use or which might be offensive, illegal, or that might violate the rights, harm, or threaten the safety of another person.
+3. Any information provided by you on this site shall not be misleading in any way.
+4. You may not post or transmit Content, (even if made in a joking, sarcastic or unintended manner), if it in any way:
+    - is patently offensive to the online community, such as sexually explicit content, or content that promotes obscenity, pedophilia, racism, bigotry, hatred or physical harm of any kind against any group or individual;
+    - harasses or advocates harassment of another person;
+    - involves the transmission of “junk mail,” “chain letters,” or unsolicited mass mailing or “spamming”;
+    - promotes illegal activities or conduct that is abusive, threatening, obscene, defamatory or libelous;
+    - infringes upon or violates any third party’s rights [(including, but not limited to, intellectual property rights, rights of privacy (including without limitation unauthorized disclosure of a person’s name, email address, physical address or phone number) or rights of publicity];
+    - promotes an illegal or unauthorized copy of another person’s copyrighted work (see “Copyright complaint” below for instructions on how to lodge a complaint about uploaded copyrighted material), such as providing pirated computer programs or links to them, providing information to circumvent manufacture-installed copy-protect devices, or providing pirated music or links to pirated music files;
+    - contains restricted or password-only access pages, or hidden pages or images (those not linked to or from another accessible page);
+    - provides material that exploits people in a sexual, violent or otherwise inappropriate manner or solicits personal information from anyone;
+    - provides instructional information about illegal activities such as making or buying illegal weapons, violating someone’s privacy, or providing or creating computer viruses;
+    - contains video, photographs, or images of another person age 18 or older without his or her express written consent and permission or those of any minor (regardless of whether you have consent from the minor or his or her legal guardian).
+    - tries to gain unauthorized access or exceeds the scope of authorized access (as defined herein and in other applicable Codes of Conduct or End User Access and License Agreements) to the Sites or to profiles, blogs, communities, account information, bulletins, friend request, or other areas of the Sites or solicits passwords or personal identifying information for commercial or unlawful purposes from other users;
+    - contains viruses, time bombs, trojan horses, cancelbots, worms or other harmful or deleterious components or devices;
+    - interferes with another user’s use and enjoyment of the Sites or any other individual’s user and enjoyment of similar services; or
+    - Refers to any website or URL that, contains material that is inappropriate for the Sites, contains content that would be prohibited on the Sites, or violates the letter or spirit of these Terms of Use.
+5. You must use the Sites in a manner consistent with any and all applicable laws and regulations. You may not engage in advertising to, or solicitation of, other users through the Sites to buy or sell any products or services, including, but not limited to, products or services related to the Sites. You may not transmit any chain letters or unsolicited commercial or junk email to other users via the Sites. It is also a violation of these Terms of Use to use any information obtained from the Sites in order to harass, abuse, or harm another person, or in order to contact, advertise to, solicit, or sell to another person outside of the Sites without their prior explicit consent. In order to protect our users from such advertising or solicitation.
+
+## BO Clause
+
+We as a merchant shall be under no liability whatsoever in respect of any loss or damage arising directly or indirectly out of the decline of authorization for any Transaction, on Account of the Cardholder having exceeded the preset limit mutually agreed by us with our acquiring bank from time to time.
+
+## Third-Party Service Provider
+
+TI Learning Network, may from time to time, engage such third-party service providers as it deems fit, for providing educational services in the nature of teaching, faculty management, faculty and student acquisition facilities, programme management, organising events and workshops in connection with delivery of educational programmes, marketing of educational programmes, associated financial operations and such other incidental and allied operations, in relation to the public policy educational course offered by us.

@@ -1,0 +1,47 @@
+---
+title: Takshashila Ombudsman
+
+format:
+  html:
+    anchor-sections: false
+---
+
+ The Takshashila Institution is independent, non-partisan while advocating the values of economic freedom, an open society, a culture of tolerance and realism in international affairs. The trustees have instituted an Ombudsman to uphold Takshashila’s values and compliance with the Code of Conduct. The code applies to all staff, fellows, scholars, full time faculty and members of the Takshashila Institution.
+
+All persons associated with the Takshashila Institution adhere to the following code of conduct.
+
+We at Takshashila will,
+
+1. Uphold the highest levels of integrity in all our work.
+2. Conduct ourselves with civility and decorum in public discourse.
+3. Persevere to elevate the standards of policy debate.
+4. Maintain independence and put India’s national interest first.
+5. Make a clear distinction between personal opinion and that of our Institution.
+
+Sameer Wagle, a member of the board of trustees, is the current Ombudsman, and the Grievance Officer, as required under the Information Technology Rules, 2021.
+
+## Authors are accountable for the quality of their research
+
+The author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources. 
+
+## Transparency
+
+Author(s) should declare the use of AI tools in the final output. Where possible, authors should declare the methodology employed while using AI tools. The outlining of research methodology is mandatory when AI is used to support the analyses of the research. If an LLM is used merely as a replacement for Google search, it will not be disclosed
+
+## Samples of how disclosures can be written
+
+- The essay was copy-edited using ChatGPT.  
+
+- This data/chart was created using tool X. 
+
+- The analysis in this paper was done with the support of chatGPT.
+
+## Attribution
+
+Author(s) will not use AI to write out their analyses - instead, the role of the AI is to improve research productivity by reducing time spent on searching for leads. The author(s) is/are expected to use this information to come to their independent conclusions and write those in their own words. All original sources of information should be correctly cited.  
+
+Author(s) will verify all information and sources generated using AI tool(s).
+
+## Audit Trail
+
+Takshashila Institution recommends it as a best practice to maintain a record of prompts used as part of a project’s research work. This record does not need to be published, but can be used to audit the claims of a document if necessary.

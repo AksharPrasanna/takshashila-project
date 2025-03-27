@@ -1,0 +1,47 @@
+---
+title: Privacy Policy
+
+format:
+  html:
+    anchor-sections: false
+---
+
+Please read the following statement to learn about information gathering and dissemination practices of TI Learning Network. By mere use of the Website, you expressly consent to our use and disclosure of your personal information in accordance with this Privacy Policy. This Privacy Policy is incorporated into and subject to the Terms of Use.
+
+## 1. Collection of Personally Identifiable Information and other Information
+
+When you pay a course fee on our website, we collect and store your personal information like Name, address, contact number and email address. Our primary goal in doing so is to provide you a safe, efficient, smooth and transparent experience. We do not make this information public. It is stored with us for tracking fee payment only.
+
+## 2. Use of Demographic / Profile Data / Your Information
+
+We do not collect any demographic data beyond the information entered for paying the course fees.
+
+## 3. Choice/Opt-Out
+
+We do not send you any bulk emails even after you have registered for our courses unless you opt for it specifically.
+
+## 4. Advertisements
+
+We do not have any advertisements  on our website
+
+## 5. Policy for Use of AI
+
+Principles for the Use of AI at the Takshashila Institution
+
+*Version 1.0 25th June 2024*
+
+Takshashila Institution permits the responsible use of AI-based tools for research to augment existing research capacities. This includes the use of AI for searching research leads, synthesising information, aid in reasoning, editing written documents, and visualising outputs. Takshashila Institution recommends the following principles for responsible use of AI tools in research: 
+
+Authors are accountable for the quality of their research  The author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources. 
+
+Transparency Author(s) should declare the use of AI tools in the final output. Where possible, authors should declare the methodology employed while using AI tools. The outlining of research methodology is mandatory when AI is used to support the analyses of the research. If an LLM is used merely as a replacement for Google search, it will not be disclosed
+
+Samples of how disclosures can be written:  The essay was copy-edited using ChatGPT.  This data/chart was created using tool X. The analysis in this paper was done with the support of chatGPT.
+
+Attribution Author(s) will not use AI to write out their analyses - instead, the role of the AI is to improve research productivity by reducing time spent on searching for leads. The author(s) is/are expected to use this information to come to their independent conclusions and write those in their own words. All original sources of information should be correctly cited.  Author(s) will verify all information and sources generated using AI tool(s). 
+
+Audit Trail Takshashila Institution recommends it as a best practice to maintain a record of prompts used as part of a project’s research work. This record does not need to be published, but can be used to audit the claims of a document if necessary.
+
+## Rules of Conduct on Site
+
+By using the Website and/ or by providing your information, you consent to the collection and use of the information you disclose on the Website in accordance with this Privacy Policy. If we decide to change our privacy policy, we will post those changes on this page so that you are always aware of what information we collect, how we use it, and under what circumstances we disclose it.
