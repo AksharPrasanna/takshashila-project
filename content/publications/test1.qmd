@@ -1,12 +1,36 @@
 ---
 title: "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?"
-author: "Satya Sahu & Ashwin Prasad"
+author:
+  - name: Satya Shoova Sahu
+    qmd: /pages/team/satya_shoova_sahu.qmd
+    image: /pages/team/images/satya_shoova.png
+    description: Research Analyst with the high-tech geopolitics programme
 date: "2024-02-15"
 description: "A brief analysis of the implications of AI Diffusion Rules on India's GPU accessibility"
 categories: 
   - "Indo-Pacific"
   - "AI1"
-  - "Technology" 
+  - "Technology"
+
+format:
+  html:
+    toc: true
+    page-layout: article
+    toc-location: left
+    anchor-sections: false
+    include-in-header:
+      file: side-note.html
+    template-partials:
+        - title-block.html
 ---
 
-Content of the publication goes here...
+## Content of the publication goes here..................
+
+## Content of the publication goes here..................
+## Content of the publication goes here..................
+
+## Content of the publication goes here..................
+
+::: {#sidenote}
+This is a side note that will appear in the margin of your document.
+:::

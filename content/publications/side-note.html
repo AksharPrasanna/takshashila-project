@@ -1,0 +1,47 @@
+<!-- Place this in a file called _sidenote.html in your _includes directory -->
+<script>
+    window.document.addEventListener("DOMContentLoaded", function() {
+      const sideNotes = document.querySelectorAll('.sidenote-ref');
+      const sidebar = document.getElementById('quarto-margin-sidebar');
+      
+      if (sidebar) {
+        sideNotes.forEach(note => {
+          const content = note.getAttribute('data-content');
+          const id = note.getAttribute('id');
+          
+          const sideNoteEl = document.createElement('div');
+          sideNoteEl.className = 'margin-sidenote';
+          sideNoteEl.innerHTML = content;
+          
+          if (id) {
+            sideNoteEl.id = 'sidenote-' + id;
+            // Make reference clickable if there's an ID
+            note.innerHTML = `<a href="#sidenote-${id}" class="sidenote-link">${note.innerHTML}</a>`;
+          }
+          
+          sidebar.appendChild(sideNoteEl);
+        });
+      }
+    });
+  </script>
+  
+  <style>
+    .sidenote-ref {
+      color: #610D3D;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    .margin-sidenote {
+      margin-bottom: 1.5rem;
+      padding-left: 0.75rem;
+      border-left: 3px solid #610D3D;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    
+    .sidenote-link {
+      text-decoration: none;
+      border-bottom: 1px dotted currentColor;
+    }
+  </style>

@@ -1,0 +1,7 @@
+---
+title: "Satya Shoova Sahu"
+image: "images/satya_shoova.png"
+subtitle: "Satya is a Research Analyst with the High-tech Geopolitics programme at Takshahsila"
+order: 2
+
+---
