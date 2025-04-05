@@ -65,6 +65,6 @@ format:
     page-layout: full
     include-after-body:
       file: "includes/footer.html"
-    # include-in-header:
-    #   text: |
-    #     <script src= "../utility/script.js" defer></script>
+    include-in-header:
+      text: |
+        <script src= "/utility/sidenote.js" defer></script>
