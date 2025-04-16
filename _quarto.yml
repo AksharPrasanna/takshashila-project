@@ -60,7 +60,6 @@ format:
       - takshashila.scss
     fontfamily: Roboto
     mainfont: Roboto
-    css: takshashila.css
     toc: false
     page-layout: full
     include-after-body:

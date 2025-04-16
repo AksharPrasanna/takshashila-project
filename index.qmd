@@ -73,11 +73,10 @@ listing:
     max-items: 6
 ---
 <!-- Start of Featured Research Section -->
+::: {.top-banner}
+:::
 
-::: {.featured-research-wrapper}
-::: {.featured-research}
-::: {.container-fluid}
-::: {.featured-content}
+::: {.featured-research-section}
 ::: {.featured-tag}
 FEATURED RESEARCH
 :::
@@ -88,10 +87,9 @@ FEATURED RESEARCH
 {{< var featured-research.authors >}}
 :::
 
+{{< var featured-research.summary >}}
+
 [Read more]({{< var featured-research.link >}}){.read-more-btn}
-:::
-:::
-:::
 :::
 
 <!-- End of Featured Research Section -->

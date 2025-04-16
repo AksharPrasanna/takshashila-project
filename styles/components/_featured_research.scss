@@ -1,69 +1,50 @@
 /* Featured Research Section Styling */
 
-/* Full width wrapper */
-.featured-research-wrapper {
+.top-banner {
   width: 100vw;
-  // margin-top: -1px !important;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
-  background-color: white;
+  background-image: url("assets/images/hero-banner.svg");
+  min-height: clamp(80px, 1vw, 112px)
 }
 
-/* Featured Research section styling */
-.featured-research {
-  background-image: url("assets/images/core-design.svg");
-  background-size: cover;
-  background-position: auto;
-  min-height: clamp(250px, 50vw, 400px);
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
+.featured-research-section {
   padding: clamp(20px, 5vw, 40px) 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-
-  .container-fluid {
-    max-width: 1280px;
-    padding: clamp(15px, 3vw, 40px);
-    text-align: center;
-  }
-
-  .featured-content {
-    padding: clamp(10px, 2vw, 20px);
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-  }
 
   .featured-tag {
-    font-size: clamp(12px, 1vw, 13.5px);
+    font-size: clamp(14px, 1vw, 16px);
     font-weight: 500;
     letter-spacing: 1px;
     margin-bottom: clamp(10px, 2vw, 20px);
     text-transform: uppercase;
+    text-align: center !important;
   }
 
   h1 {
-    font-size: clamp(24px, 4vw, 40px);
+    font-size: clamp(30px, 4vw, 55px);
     line-height: 1.2;
     margin-bottom: clamp(15px, 2vw, 20px);
-    font-weight: 600;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    font-weight: 700;
     text-align: left !important;
   }
 
   .authors {
-    font-size: clamp(14px, 1.2vw, 16px);
+    font-size: clamp(16px, 1.2vw, 20px);
     margin-bottom: clamp(15px, 2.5vw, 25px);
+    text-align: left !important;
+    font-weight: 500 !important;
+    line-height: 1.5;
+  }
+
+  p {
+    font-size: clamp(14px, 4vw, 16px);
+    line-height: 1.5;
   }
 
   .read-more-btn {
     display: inline-block;
     border: 1px solid $primary-color;
-    border-radius: 5px;
+    border-radius: 30px;
     color: $primary-color;
     padding: clamp(6px, 1vw, 8px) clamp(16px, 2vw, 24px);
     text-decoration: none;
@@ -75,20 +56,6 @@
     &:hover {
       background-color: $primary-color;
       color: white;
-    }
-  }
-}
-
-/* Mobile-specific adjustments */
-@media (max-width: 767px) {
-  .featured-research {
-    .container-fluid {
-      padding: 20px 15px;
-    }
-
-    h1 {
-      text-align: center !important;
-      font-size: 24px;
     }
   }
 }
