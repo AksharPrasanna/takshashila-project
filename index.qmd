@@ -131,6 +131,8 @@ The Takshashila Institution is an independent centre for research and education 
 
 <!-- End of About Section -->
 
+---
+
 <!-- Start of Our Programs Section -->
 
 :::{.section-heading}
