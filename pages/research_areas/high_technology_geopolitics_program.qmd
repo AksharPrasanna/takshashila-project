@@ -1,7 +1,8 @@
 ---
-title: "High-Technology Geopolitics Program"
-image: "../../assets/images/research_areas/high-technology.png"
+title: "High-Tech Geopolitics Program"
+image: "../../assets/images/research_areas/high-tech-geopolitics.png"
 description: "The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective."
+order: 2
 ---
 
 Content of the publication goes here...

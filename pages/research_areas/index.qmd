@@ -12,6 +12,7 @@ listing:
     - "*.qmd"
     - "!index.qmd"
     type: grid
+    sort: "order asc"
     grid-columns: 3
     sort-ui: false
     filter-ui: false

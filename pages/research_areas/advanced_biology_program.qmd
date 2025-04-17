@@ -1,7 +1,8 @@
 ---
-title: "Advanced Biology Program"
+title: "Advanced Biology"
 image: "../../assets/images/research_areas/advanced-biology.png"
 description: "The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy"
+order: 3
 ---
 
 Content of the publication goes here...
