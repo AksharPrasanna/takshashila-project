@@ -204,7 +204,7 @@ We perform policy advocacy in the United States, the European Union, and the Uni
 
 <!-- Start of Dispatch Section -->
 
-::: {.dispatch-section-wrapper}
+<!-- ::: {.dispatch-section-wrapper}
 ::: {.dispatch-section}
 ::: {.container-fluid}
 ::: {.dispatch-container}
@@ -233,9 +233,21 @@ The Takshashila Dispatch is a weekly update with the latest research, opinions a
 :::
 :::
 :::
-:::
+::: -->
 
 <!-- End of Dispatch Section -->
+
+<!-- Start of Newsletter Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Subscribe to Our Newsletters
+All the newsletters we have published
+:::
+[View all Newsletters](){.view-all}
+:::
+
+<!-- End of Newsletter Section -->
 
 <!-- Start of Socials Section -->
 
