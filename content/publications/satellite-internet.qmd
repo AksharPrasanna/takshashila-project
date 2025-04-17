@@ -1,0 +1,65 @@
+---
+title: "Satellite Internet Explained: How It Works & Why It Matters "
+author:
+  - name: Ashwin Prasad
+    qmd: /pages/team/ashwin_prasad.qmd
+    image: /pages/team/images/ashwin_prasad.png
+    description: Research Analyst with the high-tech geopolitics programme
+date: "2025-04-10"
+description: "An explainer of the satellite internet. How it works and why it matters"
+categories: 
+  - "HTG"
+  - "Technology"
+  - "Space"
+
+format:
+  html:
+    toc: true
+    page-layout: article
+    toc-location: left
+    anchor-sections: false
+    include-in-header:
+      file: side-note.html
+    template-partials:
+        - title-block.html
+---
+
+## Executive Summary 
+
+Internet connectivity is critical to communications, national security
+and economic stability, making internet infrastructure a key pillar of a
+nation's critical systems.
+
+Satellite internet has emerged as an important part of this information
+infrastructure. It addresses the fundamental limitations of ground-based
+networks by providing resilient, global internet coverage that functions
+regardless of terrain, population density or infrastructure development.
+This technology represents not just a backup system but a transformative
+approach to internet provision.
+
+Satellite megaconstellations mark a new age in space-based internet.
+They involve hundreds or even thousands of satellites orbiting a few
+hundred kilometres above Earth. Together, they form a network that beams
+internet services directly from space. This 'internet in the sky' has
+democratised satellite internet access.
+
+Satellite internet has applications across many domains - military
+operations, disaster response, healthcare services, agricultural
+productivity, transportation, and public services. The inherently
+dual-use nature of satellite internet technology---serving both civilian
+and military purposes---creates complex security dynamics.
+
+The potential and risks of satellite internet highlight the need for
+strategic investments. It is also important to integrate their use in
+disaster response protocols and leverage their potential to bridge the
+digital divide. Finally, it is necessary to establish regulation to
+tackle security concerns and engage in international forums to shape the
+technology's future.
+
+This document represents the first in a planned series examining
+satellite internet. It focuses solely on the technological fundamentals
+of satellite internet systems, explaining their infrastructure,
+functioning, and applications. Regulatory aspects, policy frameworks,
+and governance challenges will be addressed comprehensively in future
+documents in this series.
+
