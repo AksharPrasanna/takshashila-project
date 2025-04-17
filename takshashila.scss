@@ -25,7 +25,7 @@ $light-paragraph-text: #696969;
 @import "styles/components/heading";
 @import "styles/components/listing_carousel";
 @import "styles/sections/about";
-@import "styles/sections/programs";
+// @import "styles/sections/programs";
 @import "styles/sections/dispatch";
 @import "styles/components/socials";
 @import "styles/components/news_card";
@@ -339,5 +339,16 @@ $light-paragraph-text: #696969;
 
   .publication-title-block-container {
     padding: 15px 20px 20px;
+  }
+}
+
+.programs-intro {
+  p {
+    color: #404040;
+    line-height: 1.6;
+    margin-bottom: clamp(16px, 2.4vw, 24px);
+    margin-right: clamp(15px, 2.4vw, 24px);
+    font-weight: 200;
+    font-size: clamp(16px, 2vw, 20px);
   }
 }
