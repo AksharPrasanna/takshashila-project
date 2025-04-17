@@ -20,6 +20,20 @@ listing:
       carousel_id: "publications-carousel"
     image-height: 0px
     max-items: 6
+  
+  - id: programs
+    contents: content/programs/programs.yml
+    type: grid
+    grid-columns: 3
+    sort: "order asc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/listing-card.ejs
+    template-params: 
+      carousel_id: "programs-listing"
+    image-height: 0px
 
   - id: recent-blogs
     contents: content/blogs
@@ -73,11 +87,10 @@ listing:
     max-items: 6
 ---
 <!-- Start of Featured Research Section -->
+::: {.top-banner}
+:::
 
-::: {.featured-research-wrapper}
-::: {.featured-research}
-::: {.container-fluid}
-::: {.featured-content}
+::: {.featured-research-section}
 ::: {.featured-tag}
 FEATURED RESEARCH
 :::
@@ -88,10 +101,9 @@ FEATURED RESEARCH
 {{< var featured-research.authors >}}
 :::
 
+{{< var featured-research.summary >}}
+
 [Read more]({{< var featured-research.link >}}){.read-more-btn}
-:::
-:::
-:::
 :::
 
 <!-- End of Featured Research Section -->
@@ -133,6 +145,8 @@ The Takshashila Institution is an independent centre for research and education 
 
 <!-- End of About Section -->
 
+---
+
 <!-- Start of Our Programs Section -->
 
 :::{.section-heading}
@@ -143,10 +157,15 @@ The Takshashila Institution is an independent centre for research and education 
 ::: {.programs-intro}
 There are many potential levers of change for steering the development and use of transformative technologies. We target a range of these levers to increase our chances of success.
 
-[View all programs](){.view-all-btn}
+<!-- [View all programs](){.view-all-btn} -->
 :::
 
-::: {.programs-grid}
+::: {#programs}
+:::
+
+
+
+<!-- ::: {.programs-grid}
 ::: {.program-card}
 #### Policy advocacy
 
@@ -178,7 +197,7 @@ We perform policy advocacy in the United States, the European Union, and the Uni
 
 [Read more](){.read-more-link}
 :::
-:::
+::: -->
 :::
 
 <!-- End of Our Programs Section -->
