@@ -99,6 +99,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-programs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-programs'] = new List('listing-programs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-recent-blogs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -241,7 +269,6 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="takshashila.css">
 </head>
 
 <body class="nav-fixed">
@@ -368,10 +395,10 @@ window.Quarto = {
 
 
 <!-- Start of Featured Research Section -->
-<div class="featured-research-wrapper">
-<div class="featured-research">
-<div class="container-fluid">
-<div class="featured-content">
+<div class="top-banner">
+
+</div>
+<div class="featured-research-section">
 <div class="featured-tag">
 <p>FEATURED RESEARCH</p>
 </div>
@@ -380,11 +407,9 @@ window.Quarto = {
 <div class="authors">
 <p>By Satya Sahu &amp; Prasad</p>
 </div>
+<p>The framework regulates the global distribution of advanced AI chips which are necessary to develop and run AI models. From an Indian perspective, understanding the mechanisms of the framework that govern India’s access to AI chips is critical for policymakers.</p>
 <p><a href="#" class="read-more-btn">Read more</a></p>
 </section>
-</div>
-</div>
-</div>
 </div>
 <!-- End of Featured Research Section -->
 <!-- Start of Recent Publications Listing -->
@@ -509,6 +534,7 @@ No matching items
 </div>
 </div>
 <!-- End of About Section -->
+<hr>
 <!-- Start of Our Programs Section -->
 <section id="our-programs" class="level2 section-heading">
 <h2 data-anchor-id="our-programs">Our Programs</h2>
@@ -516,30 +542,116 @@ No matching items
 <div class="programs-container">
 <div class="programs-intro">
 <p>There are many potential levers of change for steering the development and use of transformative technologies. We target a range of these levers to increase our chances of success.</p>
-<p><a href="" class="view-all-btn">View all programs</a></p>
+<!-- [View all programs](){.view-all-btn} -->
 </div>
-<div class="programs-grid">
-<section id="policy-advocacy" class="level4 program-card">
-<h4 data-anchor-id="policy-advocacy">Policy advocacy</h4>
-<p>We perform policy advocacy in the United States, the European Union, and the United Nations.</p>
-<p><a href="" class="read-more-link">Read more</a></p>
-</section>
-<section id="policy-research" class="level4 program-card">
-<h4 data-anchor-id="policy-research">Policy Research</h4>
-<p>We perform policy advocacy in the United States, the European Union, and the United Nations.</p>
-<p><a href="" class="read-more-link">Read more</a></p>
-</section>
-<section id="policy-education" class="level4 program-card">
-<h4 data-anchor-id="policy-education">Policy education</h4>
-<p>We perform policy advocacy in the United States, the European Union, and the United Nations.</p>
-<p><a href="" class="read-more-link">Read more</a></p>
-</section>
-<section id="fellowships" class="level4 program-card">
-<h4 data-anchor-id="fellowships">Fellowships</h4>
-<p>We perform policy advocacy in the United States, the European Union, and the United Nations.</p>
-<p><a href="" class="read-more-link">Read more</a></p>
-</section>
+<div id="listing-programs" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="content/programs/images/policy_research.png" alt="Policy Research">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    Policy Research
+                                </h3>
+                                
+                                    <p>
+                                        We perform policy advocacy in the United States, the European Union, and the United Nations.
+                                    </p>
+                                
+                                        <a href="" class="listing-link">
+                                            Learn more
+                                        </a>
+                            </div>
+                </div>
+                
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="content/programs/images/policy_school.png" alt="Policy School">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    Policy School
+                                </h3>
+                                
+                                    <p>
+                                        We perform policy advocacy in the United States, the European Union, and the United Nations.
+                                    </p>
+                                
+                                        <a href="" class="listing-link">
+                                            Learn more
+                                        </a>
+                            </div>
+                </div>
+                
+                <div class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="content/programs/images/fellowships.png" alt="Fellowships">
+                        </div>
+                        
+                            <div class="listing-content">
+                                <h3>
+                                    Fellowships
+                                </h3>
+                                
+                                    <p>
+                                        We perform policy advocacy in the United States, the European Union, and the United Nations.
+                                    </p>
+                                
+                                        <a href="" class="listing-link">
+                                            Learn more
+                                        </a>
+                            </div>
+                </div>
+                
+        </div>
+        
 </div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- ::: {.programs-grid}
+::: {.program-card}
+#### Policy advocacy
+
+We perform policy advocacy in the United States, the European Union, and the United Nations.
+
+[Read more](){.read-more-link}
+:::
+
+::: {.program-card}
+#### Policy Research
+
+We perform policy advocacy in the United States, the European Union, and the United Nations.
+
+[Read more](){.read-more-link}
+:::
+
+::: {.program-card}
+#### Policy education
+
+We perform policy advocacy in the United States, the European Union, and the United Nations.
+
+[Read more](){.read-more-link}
+:::
+
+::: {.program-card}
+#### Fellowships
+
+We perform policy advocacy in the United States, the European Union, and the United Nations.
+
+[Read more](){.read-more-link}
+:::
+::: -->
 </div>
 <!-- End of Our Programs Section -->
 <!-- Start of Dispatch Section -->
