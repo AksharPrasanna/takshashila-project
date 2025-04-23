@@ -39,59 +39,6 @@ $light-paragraph-text: #696969;
 @import "styles/common/quarto-title-image";
 // @import "styles/research_areas";
 
-// .navbar .container-fluid,
-// .quarto-title-banner .container-fluid,
-// .page-columns {
-//   max-width: 1280px;
-//   margin: 0 auto;
-// }
-
-// body,
-// html {
-//   overflow-x: hidden;
-//   margin: 0;
-//   padding-top: clamp(calc(var(--navbar-height-mobile) / 2), 5vw, calc(var(--navbar-height) / 2)) !important;
-//   width: 100%;
-// }
-
-// main {
-//   padding-top: 0 !important;
-//   margin-top: 0 !important;
-// }
-
-// /* Ensure page level containers don't restrict width */
-// body .page-columns {
-//   margin: 0;
-//   padding: 0;
-//   max-width: 100%;
-// }
-
-// /* Ensure content divs don't add unwanted margins */
-// .content {
-//   margin: 0;
-//   padding: 0;
-// }
-
-// @media (max-width: 767.98px) {
-//   .navbar {
-//     padding: 0 16px;
-//   }
-
-//   .navbar-brand img {
-//     height: 40px;
-//   }
-
-//   .featured-research {
-//     h1 {
-//       font-size: 28px;
-//     }
-//   }
-// }
-
-// #title-block-header {
-//   // position: relative;
-// }
-
 #quarto-content {
   // padding-top: clamp(calc(var(--navbar-height-mobile)), 3vw, calc(var(--navbar-height))) !important;
   padding-top: 0;
@@ -103,19 +50,32 @@ $light-paragraph-text: #696969;
     border: none;
   }
 
-  // a {
-  //   color: $primary-color;
-  // }
-
   #quarto-document-content {
-    max-width: 1280px !important;
+    // max-width: 1135px !important;
     padding: 0 !important;
     margin: 0 !important;
   }
 }
 
-/* Footer Styling */
-/* Footer Styling */
+.title-banner {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  background-image: url("assets/images/hero-banner.svg");
+  min-height: clamp(80px, 1vw, 112px);
+}
+
+.title-block-container {
+  text-align: center;
+  color: $primary-color;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1135px;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 2px solid $primary-color;
+}
+
 /* Footer Styling */
 .footer {
   background-color: $primary-color;

@@ -61,9 +61,10 @@ format:
     fontfamily: Roboto
     mainfont: Roboto
     toc: false
-    page-layout: full
+    page-layout: article
+    grid: 
+      body-width: 1135px
+    template-partials:
+      - includes/title-block.html
     include-after-body:
       file: "includes/footer.html"
-    include-in-header:
-      text: |
-        <script src= "/utility/sidenote.js" defer></script>

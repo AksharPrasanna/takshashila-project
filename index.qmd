@@ -1,5 +1,5 @@
 ---
-titile: ""
+title: ""
 
 format:
   html:
@@ -33,6 +33,20 @@ listing:
     template: includes/listing-card.ejs
     template-params: 
       carousel_id: "programs-listing"
+    image-height: 0px
+
+  - id: newsletters
+    contents: content/newsletters/newsletters.yml
+    type: grid
+    grid-columns: 3
+    sort: "order asc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/listing-card-image.ejs
+    template-params: 
+      carousel_id: "newsletters-listing"
     image-height: 0px
 
   - id: recent-blogs
@@ -87,8 +101,8 @@ listing:
     max-items: 6
 ---
 <!-- Start of Featured Research Section -->
-::: {.top-banner}
-:::
+<!-- ::: {.top-banner}
+::: -->
 
 ::: {.featured-research-section}
 ::: {.featured-tag}
@@ -247,25 +261,10 @@ All the newsletters we have published
 [View all Newsletters](){.view-all}
 :::
 
+::: {#newsletters}
+:::
+
 <!-- End of Newsletter Section -->
-
-<!-- Start of Socials Section -->
-
-::: {.socials-component-wrapper}
-::: {.socials-component-container}
-::: {.socials-component-text}
-Follow us to get the latest policy updates
-:::
-
-::: {.socials-component-icons}
-```{=html}
-{{< include includes/social-icons.html >}}
-```
-:::
-:::
-:::
-
-<!-- End of Socials Section -->
 
 <!-- Start of Blogs Section -->
 
@@ -335,3 +334,21 @@ We are actively participating in and hosting events with leaders in industry, se
 :::
 
 <!-- End of Books Section -->
+
+<!-- Start of Socials Section -->
+
+::: {.socials-component-wrapper}
+::: {.socials-component-container}
+::: {.socials-component-text}
+Follow us to get the latest policy updates
+:::
+
+::: {.socials-component-icons}
+```{=html}
+{{< include includes/social-icons.html >}}
+```
+:::
+:::
+:::
+
+<!-- End of Socials Section -->

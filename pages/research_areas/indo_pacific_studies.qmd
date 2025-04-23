@@ -48,13 +48,13 @@ listing:
       categories: ["Indo-Pacific"]
 
   - id: newsletters
-    contents: ../../content/newsletters/newsletters.yml
+    contents: newsletters.yml
     type: grid
     grid-columns: 3
     sort-ui: false
     filter-ui: false
     categories: false
-    template: ../../includes/newsletter-card.ejs
+    template: ../../includes/listing-card-image.ejs
 
   - id: podcasts
     contents: ../../content/podcasts/all-things-policy/podcast-list.yml
@@ -64,6 +64,19 @@ listing:
     filter-ui: false
     categories: false
     template: ../../includes/podcast-card.ejs
+
+format: 
+  html: 
+    # toc: true
+    # toc-location: left
+    anchor-sections: false
+    template-partials:
+        - title-block.html
+    grid: 
+      body-width: 1135px
+      margin-width: 250px
+      sidebar-width: 250px
+    page-layout: full
 ---
 
 <!-- Start of Areas of Focus Section -->

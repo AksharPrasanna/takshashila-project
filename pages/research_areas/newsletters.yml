@@ -1,12 +1,12 @@
 - name: Eye on China
-  image: content/newsletters/images/eye_on_china.jpg
+  image: images/eye_on_china.jpg
   link: "https://eyeonchina.substack.com/"
   order: 1
 - name: Tracking People's Daily
-  image: content/newsletters/images/peoples_daily.jpg
+  image: images/peoples_daily.jpg
   link: "https://trackingpeoplesdaily.substack.com/"
   order: 2
 - name: Quad Bulletin
-  image: content/newsletters/images/quad_bulletin.jpg
+  image: images/quad_bulletin.jpg
   link: "https://quadbulletin.substack.com/"
   order: 3
