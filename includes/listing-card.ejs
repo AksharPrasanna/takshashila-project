@@ -1,36 +1,33 @@
 ```{=html}
 <div class="listing-section">
-    <% if (items.length > 0) { %>
+    <% if (items.length> 0) { %>
         <div class="listing-grid">
             <% for (const item of items) { %>
                 <a href="<%= item.path %>" class="listing-card">
-                    <% if (item.image) { %>
-                        <div class="listing-image">
-                            <img src="<%= item.image %>" alt="<%= item.title %>" />
-                        </div>
-                    <% } %>
                     <div class="listing-content">
-                        <!-- <h3>
-                            <%= item.title %>
-                        </h3> -->
+                        <div class="listing-title-section">
+                            <h2>
+                                <%= item.title %>
+                            </h2>
+                        </div>
                         <% if (item.subtitle) { %>
                             <p>
                                 <%= item.subtitle %>
                             </p>
-                        <% } else if (item.description) { %>
-                            <p>
-                                <%= item.description %>
-                            </p>
-                        <% } %>
-                        <span class="listing-link">
-                            <%= item.linkText || "Learn more" %>
-                        </span>
+                            <% } else if (item.description) { %>
+                                <p>
+                                    <%= item.description %>
+                                </p>
+                                <% } %>
+                                    <span class="listing-link">
+                                        <%= item.linkText || "Click to learn more" %>
+                                    </span>
                     </div>
                 </a>
-            <% } %>
+                <% } %>
         </div>
-    <% } else { %>
-        <p>No items found.</p>
-    <% } %>
+        <% } else { %>
+            <p>No items found.</p>
+            <% } %>
 </div>
 ```

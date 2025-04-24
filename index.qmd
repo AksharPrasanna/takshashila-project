@@ -31,8 +31,6 @@ listing:
     filter-ui: false
     feed: false
     template: includes/listing-card.ejs
-    template-params: 
-      carousel_id: "programs-listing"
     image-height: 0px
 
   - id: newsletters
@@ -163,93 +161,25 @@ The Takshashila Institution is an independent centre for research and education 
 
 <!-- Start of Our Programs Section -->
 
+::: {.component-section}
 :::{.section-heading}
-## Our Programs
+## Our Programmes
 :::
 
 ::: {.programs-container}
 ::: {.programs-intro}
 There are many potential levers of change for steering the development and use of transformative technologies. We target a range of these levers to increase our chances of success.
 
-<!-- [View all programs](){.view-all-btn} -->
+
 :::
 
 ::: {#programs}
 :::
 
-
-
-<!-- ::: {.programs-grid}
-::: {.program-card}
-#### Policy advocacy
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
 :::
-
-::: {.program-card}
-#### Policy Research
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-
-::: {.program-card}
-#### Policy education
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-
-::: {.program-card}
-#### Fellowships
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-::: -->
 :::
 
 <!-- End of Our Programs Section -->
-
-<!-- Start of Dispatch Section -->
-
-<!-- ::: {.dispatch-section-wrapper}
-::: {.dispatch-section}
-::: {.container-fluid}
-::: {.dispatch-container}
-::: {.dispatch-logo-col}
-![](assets/images/logo-symbol.svg){.dispatch-logo}
-:::
-
-::: {.dispatch-content-col}
-::: {.featured-tag}
-FEATURED PROJECT
-:::
-
-# Takshashila Dispatch
-
-The Takshashila Dispatch is a weekly update with the latest research, opinions and writings from the Takshashila Institution.
-
-::: {.subscription-form}
-```{=html}
-<form id="dispatch-form">
-  <input type="email" placeholder="Email address" required class="email-input">
-  <button type="submit" class="submit-btn">Submit</button>
-</form>
-```
-:::
-:::
-:::
-:::
-:::
-::: -->
-
-<!-- End of Dispatch Section -->
 
 <!-- Start of Newsletter Section -->
 
