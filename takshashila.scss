@@ -8,6 +8,8 @@ $accent-color: #f2a321;
 $under-textcolor: #141414;
 $under-textcolor-light: #404040;
 $light-paragraph-text: #696969;
+$card-color: #f2f2f2;
+$card-border-color: #333333;
 
 :root {
   --navbar-height: 112px;
@@ -22,7 +24,7 @@ $light-paragraph-text: #696969;
 @import "styles/quarto-overrides";
 @import "styles/components/navbar";
 @import "styles/components/featured_research";
-@import "styles/components/heading";
+@import "styles/components/section_heading";
 @import "styles/components/listing_carousel";
 @import "styles/sections/about";
 // @import "styles/sections/programs";

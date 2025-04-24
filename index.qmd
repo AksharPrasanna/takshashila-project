@@ -100,6 +100,9 @@ listing:
       carousel_id: "books-carousel"
     max-items: 6
 ---
+
+<!-- Start of Featured Research Section -->
+
 ::: {.featured-research-section}
 ::: {.featured-tag}
 FEATURED RESEARCH
@@ -122,6 +125,7 @@ FEATURED RESEARCH
 
 <!-- Start of Recent Publications Listing -->
 
+::: {.component-section}
 ::: {.section-heading}
 ## Recent Publications
 :::
@@ -130,14 +134,13 @@ FEATURED RESEARCH
 ::: {#recent-pubs}
 :::
 :::
+:::
 
 <!-- End of Recent Publications Listing -->
 
 <!-- Start of About Section -->
 
-::: {.about-section-heading}
-:::
-
+::: {.component-section}
 ::: {.about-us-container}
 ::: {.about-us-content}
 # An <span class="highlight">independent centre</span> for research and education in public policy
@@ -154,10 +157,9 @@ The Takshashila Institution is an independent centre for research and education 
 ![](assets/images/takshashila-team.png){.about-us-image}
 :::
 :::
+:::
 
 <!-- End of About Section -->
-
----
 
 <!-- Start of Our Programs Section -->
 

@@ -1,5 +1,5 @@
 ---
-title: "Satellite Internet Explained: How It Works & Why It Matters "
+title: "Satellite Internet Explained: How It Works & Why It Matters"
 author:
   - name: Ashwin Prasad
     qmd: /pages/team/ashwin_prasad.qmd
