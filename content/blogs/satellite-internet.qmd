@@ -1,10 +1,5 @@
 ---
 title: "Satellite Internet Explained: How It Works & Why It Matters "
-author:
-  - name: Ashwin Prasad
-    qmd: /pages/team/ashwin_prasad.qmd
-    image: /pages/team/images/ashwin_prasad.png
-    description: Research Analyst with the high-tech geopolitics programme
 date: "2025-04-10"
 description: "An explainer of the satellite internet. How it works and why it matters"
 categories: 
@@ -15,13 +10,12 @@ categories:
 format:
   html:
     toc: true
-    page-layout: article
+    toc-depth: 2
+    toc-expand: true
     toc-location: left
     anchor-sections: false
-    # include-in-header:
-    #   file: side-note.html
-    # template-partials:
-    #     - title-block.html
+    reference-location: margin
+    citation-location: margin
 ---
 
 ## Executive Summary 

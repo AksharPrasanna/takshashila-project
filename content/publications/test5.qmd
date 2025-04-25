@@ -1,14 +1,5 @@
 ---
 title: "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?"
-author:
-  - name: Satya Shoova Sahu
-    qmd: /pages/team/satya_shoova_sahu.qmd
-    image: /pages/team/images/satya_shoova.png
-    description: Research Analyst with the high-tech geopolitics programme
-  - name: Pranay Kotasthane
-    qmd: /pages/team/pranay_kotasthane.qmd
-    image: /pages/team/images/pranay_kotasthane.png
-    description: "Co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy"
 date: "2024-02-15"
 description: "A brief analysis of the implications of AI Diffusion Rules on India's GPU accessibility"
 categories: 
@@ -34,6 +25,7 @@ format:
   html:
     toc: true
     toc-depth: 2
+    toc-expand: true
     toc-location: left
     anchor-sections: false
     reference-location: margin
@@ -90,7 +82,7 @@ This AI Diffusion Framework adds additional compliance requirements for Indian A
 
 ## Introduction to AI Diffusion Rules
 
-In an increasingly competitive global technology landscape, access to advanced computing resources such as high-performance GPUs has become a critical factor in a nation's AI development capabilities. The recently introduced 'Framework for Artificial Intelligence Diffusion' by the Biden-Harris Administration represents a significant shift in how these resources will be distributed globally.
+In an increasingly competitive global technology landscape, access to advanced computing resources such as high-performance GPUs has become a critical factor in a nation's AI development capabilities. The recently introduced 'Framework for Artificial Intelligence Diffusion' by the Biden-Harris Administration represents a significant shift in how these resources will be distributed globally. [This is a span that has the class `aside` which places it in the margin without a footnote number.]{.aside}
 
 ## Understanding the Framework's Four Pathways
 
