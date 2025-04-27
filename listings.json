@@ -1,46 +1,13 @@
 [
   {
-    "listing": "/pages/team_takshashila.html",
-    "items": [
-      "/pages/team/nitin_pai.html",
-      "/pages/team/narayan_tamachandran.html",
-      "/pages/team/anand_arni.html",
-      "/pages/team/prakash_menon.html",
-      "/pages/team/td_joseph.html",
-      "/pages/team/pranay_kotasthane.html",
-      "/pages/team/satya_shoova_sahu.html"
-    ]
-  },
-  {
-    "listing": "/pages/research_areas/indo_pacific_studies.html",
-    "items": [
-      "/content/publications/test2.html",
-      "/content/publications/test1.html"
-    ]
-  },
-  {
     "listing": "/content/podcasts/all-things-policy/index.html",
     "items": []
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/content/publications/test2.html",
-      "/content/publications/test1.html",
-      "/content/publications/test4.html",
-      "/content/publications/test3.html",
-      "/content/blogs/test5.html",
-      "/content/blogs/test1.html",
-      "/content/blogs/test2.html",
-      "/content/blogs/test3.html",
-      "/content/podcasts/all-things-policy/index.html",
-      "/content/podcasts/the-great-power-show/index.html",
-      "/content/podcasts/puliyabaazi/index.html"
-    ]
-  },
-  {
     "listing": "/pages/latest_analysis.html",
     "items": [
+      "/content/publications/satellite-internet.html",
+      "/content/publications/indian-space-reform.html",
       "/content/publications/test2.html",
       "/content/publications/test1.html",
       "/content/publications/test3.html",
@@ -56,10 +23,51 @@
       "/pages/research_areas/geospatial_research.html",
       "/pages/research_areas/strategic_studies.html",
       "/pages/research_areas/economic_policy.html",
+      "/content/publications/satellite-internet.html",
+      "/content/publications/indian-space-reform.html",
       "/content/publications/test2.html",
       "/content/publications/test1.html",
       "/content/publications/test3.html",
       "/content/publications/test4.html"
+    ]
+  },
+  {
+    "listing": "/pages/research_areas/indo_pacific_studies.html",
+    "items": [
+      "/content/publications/test2.html",
+      "/content/publications/test1.html"
+    ]
+  },
+  {
+    "listing": "/pages/team_takshashila.html",
+    "items": [
+      "/pages/team/nitin_pai.html",
+      "/pages/team/narayan_tamachandran.html",
+      "/pages/team/anand_arni.html",
+      "/pages/team/prakash_menon.html",
+      "/pages/team/td_joseph.html",
+      "/pages/team/pranay_kotasthane.html",
+      "/pages/team/ashwin_prasad.html",
+      "/pages/team/satya_shoova_sahu.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/content/publications/satellite-internet.html",
+      "/content/publications/indian-space-reform.html",
+      "/content/publications/test2.html",
+      "/content/publications/test4.html",
+      "/content/publications/test1.html",
+      "/content/publications/test3.html",
+      "/content/blogs/satellite-internet.html",
+      "/content/blogs/test5.html",
+      "/content/blogs/test1.html",
+      "/content/blogs/test2.html",
+      "/content/blogs/test3.html",
+      "/content/podcasts/all-things-policy/index.html",
+      "/content/podcasts/the-great-power-show/index.html",
+      "/content/podcasts/puliyabaazi/index.html"
     ]
   }
 ]
