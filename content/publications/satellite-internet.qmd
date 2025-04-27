@@ -20,8 +20,8 @@ format:
     anchor-sections: false
     include-in-header:
       file: side-note.html
-    template-partials:
-        - title-block.html
+#    template-partials:
+#        - title-block.html
 ---
 
 ## Executive Summary 
