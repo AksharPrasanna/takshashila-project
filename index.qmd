@@ -100,10 +100,6 @@ listing:
       carousel_id: "books-carousel"
     max-items: 6
 ---
-<!-- Start of Featured Research Section -->
-<!-- ::: {.top-banner}
-::: -->
-
 ::: {.featured-research-section}
 ::: {.featured-tag}
 FEATURED RESEARCH
@@ -115,7 +111,9 @@ FEATURED RESEARCH
 {{< var featured-research.authors >}}
 :::
 
+::: {.summary}
 {{< var featured-research.summary >}}
+:::
 
 [Read more]({{< var featured-research.link >}}){.read-more-btn}
 :::

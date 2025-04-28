@@ -18,10 +18,10 @@ format:
     page-layout: article
     toc-location: left
     anchor-sections: false
-    include-in-header:
-      file: side-note.html
-    template-partials:
-        - title-block.html
+    # include-in-header:
+    #   file: side-note.html
+    # template-partials:
+    #     - title-block.html
 ---
 
 

@@ -60,6 +60,7 @@ format:
       - takshashila.scss
     fontfamily: Roboto
     mainfont: Roboto
+    anchor-sections: false
     toc: false
     page-layout: article
     grid: 

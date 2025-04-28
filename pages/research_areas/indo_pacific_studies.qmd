@@ -67,16 +67,7 @@ listing:
 
 format: 
   html: 
-    # toc: true
-    # toc-location: left
     anchor-sections: false
-    template-partials:
-        - title-block.html
-    grid: 
-      body-width: 1135px
-      margin-width: 250px
-      sidebar-width: 250px
-    page-layout: full
 ---
 
 <!-- Start of Areas of Focus Section -->
