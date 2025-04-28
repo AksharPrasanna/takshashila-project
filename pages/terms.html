@@ -66,12 +66,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../utility/sidenote.js" defer=""></script>
 
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -184,30 +183,30 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Terms and Conditions</h1>
-</div>
+<header id="title-block-header" class="title-block">
+    <div class="title-banner"></div>
+        <div class="title-block-container">
+        <h1>Terms and Conditions</h1>
+            </div>
+    </header>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const titleBlock = document.getElementById("title-block-header");
+        const contentBlock = document.getElementById("quarto-content");
 
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+        if (titleBlock && contentBlock) {
+            contentBlock.parentNode.insertBefore(titleBlock, contentBlock);
+        }
+    });
+</script>
 
 
 <p>All our education courses on public policy are managed by TI Learning Network, a section 25 company registered under the Companies Act, 1956, and having registered address at No.&nbsp;37/5, Ground Floor, Ulsoor Road, Yellappa Chetty Layout, Bengaluru, Karnataka, India 560042. All payments made for the courses are deposited in the bank account held by TI Learning Network or any third-party service provider currently engaged by TI Learning Network for offering educational services for our public policy courses, as the case may be and as informed to the Student at the time of completing the payment. For any doubts regarding the terms and conditions, please contact us at the details given on this page.</p>

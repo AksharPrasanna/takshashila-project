@@ -14,263 +14,137 @@
     "text": "{{ featured.title }}\n\n\n\n\nCategory: {{ featured.category }}\nDate: {{ featured.date }}\n{{ featured.summary }}\nRead More\n\n\n\n\n{{# articles }} ::: {.card} \n\n\nCategory: {{ category }}\nDate: {{ date }}\n{{ summary }}\nRead More\n\n\n{{/ articles }}\n\n:::"
   },
   {
-    "objectID": "content/publications/indian-space-reform.html",
-    "href": "content/publications/indian-space-reform.html",
-    "title": "Satellite Internet Explained. How It Works & Why It Matters",
-    "section": "",
-    "text": "Ashwin Prasad\n              Research Analyst at Takshashila."
-  },
-  {
-    "objectID": "content/publications/indian-space-reform.html#footnotes",
-    "href": "content/publications/indian-space-reform.html#footnotes",
-    "title": "Satellite Internet Explained. How It Works & Why It Matters",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://pib.gov.in/Pressreleasepage.Aspx?PRID=1633892↩︎\nhttps://www.weforum.org/press/2024/04/space-economy-set-to-triple-to-1-8-trillion-by-2035-new-research-reveals/↩︎\nhttps://telecom.economictimes.indiatimes.com/news/portal-in-portal/satcom/current-size-of-indian-space-economy-is-estimated-around-usd-8-4-billion-jitendra-singh-in-rajya-sabha/105825325↩︎\nhttps://government.economictimes.indiatimes.com/news/technology/space-sector-reforms-were-a-bold-move-by-the-modi-govt-former-officials-of-isro-antrix/100566172↩︎\nhttps://nanoavionics.com/blog/how-many-satellites-are-in-space/↩︎\nhttps://www.nsilindia.co.in↩︎\nhttps://pib.gov.in/PressReleasePage.aspx?PRID=1624536↩︎\nhttps://pib.gov.in/Pressreleasepage.Aspx?PRID=1633892↩︎\nhttps://www.thehindubusinessline.com/news/science/cabinet-gives-nod-to-indian-space-policy-2023/article66708202.ece↩︎\nhttps://pib.gov.in/PressReleaseIframePage.aspx?PRID=2007876↩︎\nhttps://www.nsilindia.co.in/↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/NSIL%20Annual%20Report%20-%20English%2021-22.pdf↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://x.com/NSIL_India/status/1785273158720737353↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://www.nsilindia.co.in/annual-report↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.thehindu.com/news/national/tamil-nadu/tidco-bets-big-on-space-sector-signs-mou-with-in-space/article67925841.ece↩︎\nhttps://www.linkedin.com/posts/ispa-indian-space-association_concept-paper-activity-7030862829700198400-4Z0u/?originalSubdomain=in↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://pib.gov.in/PressReleaseIframePage.aspx?PRID=2007876↩︎\nhttps://www.spaceforce.mil/Portals/2/Documents/Space%20Policy/USSF_Commercial_Space_Strategy.pdf↩︎\nhttps://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf↩︎\nhttps://trumpwhitehouse.archives.gov/wp-content/uploads/2020/12/National-Space-Policy.pdf↩︎\nhttps://www.nasa.gov/commercial-lunar-payload-services/↩︎\nhttps://www.nasa.gov/wp-content/uploads/2016/08/sp-2014-617.pdf↩︎\nhttps://www.nasa.gov/artemis-partners/↩︎\nhttps://www.nasa.gov/humans-in-space/commercial-space/commercial-crew-program/commercial-crew-program-overview/↩︎\nhttps://www.spaceforce.mil/Portals/2/Documents/Space%20Policy/USSF_Commercial_Space_Strategy.pdf↩︎\nhttps://www8.cao.go.jp/space/english/basicplan/2020/abstract_0701.pdf↩︎\nhttps://www.loc.gov/item/global-legal-monitor/2021-09-15/japan-space-resources-act-enacted/↩︎\nhttps://asia.nikkei.com/Business/Aerospace-Defense-Industries/Japan-to-set-up-6.7bn-JAXA-fund-to-develop-space-industry↩︎\nhttps://space.gov.ae/Documents/PublicationPDFFiles/UAE_National_Space_Policy_English.pdf↩︎\nhttps://www.moj.gov.ae/assets/2020/Federal%20Law%20No%2012%20of%202019%20on%20THE%20REGULATION%20OF%20THE%20SPACE%20SECTOR.pdf.aspx↩︎\nhttps://space.gov.ae/Documents/PublicationPDFFiles/2030-National-Strategy-Summary-EN.pdf↩︎\nhttps://u.ae/en/about-the-uae/science-and-technology/key-sectors-in-science-and-technology/space-science-and-technology/space-programmes↩︎\nhttps://www.inspace.gov.in/inspace↩︎\nhttps://www.sia-india.com/spaceport-sarabhai-s2-indias-first-dedicated-space-think-tank-launched-its-report-why-do-indian-founders-in-the-space-industry-start-their-start-ups-abroad-at-the-in/↩︎\nhttps://papers.xkdr.org/papers/MashelkarST2024_rethinking_indian_innov.pdf↩︎"
-  },
-  {
-    "objectID": "content/publications/test2.html",
-    "href": "content/publications/test2.html",
+    "objectID": "content/publications/test3.html",
+    "href": "content/publications/test3.html",
     "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "content/publications/satellite-internet.html",
-    "href": "content/publications/satellite-internet.html",
-    "title": "Satellite Internet Explained: How It Works & Why It Matters",
-    "section": "",
-    "text": "Internet connectivity is critical to communications, national security and economic stability, making internet infrastructure a key pillar of a nation’s critical systems.\nSatellite internet has emerged as an important part of this information infrastructure. It addresses the fundamental limitations of ground-based networks by providing resilient, global internet coverage that functions regardless of terrain, population density or infrastructure development. This technology represents not just a backup system but a transformative approach to internet provision.\nSatellite megaconstellations mark a new age in space-based internet. They involve hundreds or even thousands of satellites orbiting a few hundred kilometres above Earth. Together, they form a network that beams internet services directly from space. This ‘internet in the sky’ has democratised satellite internet access.\nSatellite internet has applications across many domains - military operations, disaster response, healthcare services, agricultural productivity, transportation, and public services. The inherently dual-use nature of satellite internet technology—serving both civilian and military purposes—creates complex security dynamics.\nThe potential and risks of satellite internet highlight the need for strategic investments. It is also important to integrate their use in disaster response protocols and leverage their potential to bridge the digital divide. Finally, it is necessary to establish regulation to tackle security concerns and engage in international forums to shape the technology’s future.\nThis document represents the first in a planned series examining satellite internet. It focuses solely on the technological fundamentals of satellite internet systems, explaining their infrastructure, functioning, and applications. Regulatory aspects, policy frameworks, and governance challenges will be addressed comprehensively in future documents in this series."
+    "objectID": "content/publications/test1.html#content-of-the-publication-goes-here.",
+    "href": "content/publications/test1.html#content-of-the-publication-goes-here.",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Content of the publication goes here……………….",
+    "text": "Content of the publication goes here……………….\nThis is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This iss a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your documsent.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.\nThis is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document."
   },
   {
-    "objectID": "content/publications/satellite-internet.html#executive-summary",
-    "href": "content/publications/satellite-internet.html#executive-summary",
-    "title": "Satellite Internet Explained: How It Works & Why It Matters",
-    "section": "",
-    "text": "Internet connectivity is critical to communications, national security and economic stability, making internet infrastructure a key pillar of a nation’s critical systems.\nSatellite internet has emerged as an important part of this information infrastructure. It addresses the fundamental limitations of ground-based networks by providing resilient, global internet coverage that functions regardless of terrain, population density or infrastructure development. This technology represents not just a backup system but a transformative approach to internet provision.\nSatellite megaconstellations mark a new age in space-based internet. They involve hundreds or even thousands of satellites orbiting a few hundred kilometres above Earth. Together, they form a network that beams internet services directly from space. This ‘internet in the sky’ has democratised satellite internet access.\nSatellite internet has applications across many domains - military operations, disaster response, healthcare services, agricultural productivity, transportation, and public services. The inherently dual-use nature of satellite internet technology—serving both civilian and military purposes—creates complex security dynamics.\nThe potential and risks of satellite internet highlight the need for strategic investments. It is also important to integrate their use in disaster response protocols and leverage their potential to bridge the digital divide. Finally, it is necessary to establish regulation to tackle security concerns and engage in international forums to shape the technology’s future.\nThis document represents the first in a planned series examining satellite internet. It focuses solely on the technological fundamentals of satellite internet systems, explaining their infrastructure, functioning, and applications. Regulatory aspects, policy frameworks, and governance challenges will be addressed comprehensively in future documents in this series."
+    "objectID": "content/publications/test1.html#content-of-the-publication-goes-here",
+    "href": "content/publications/test1.html#content-of-the-publication-goes-here",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Content of the publication goes here………………",
+    "text": "Content of the publication goes here………………"
   },
   {
-    "objectID": "content/podcasts/all-things-policy/index.html",
-    "href": "content/podcasts/all-things-policy/index.html",
-    "title": "All Things Policy",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          name\n        \n     \n  \n    \n      \n      \n    \n\n\n    \n        \n            \n                \n                    \n                \n            \n            \n            \n                \n                    \n                \n            \n            \n            \n                \n                    \n                \n            \n            \n            \n                \n                    \n                \n            \n            \n                \n\n\nNo matching items"
+    "objectID": "content/publications/test1.html#content-of-the-publication-goes-here-1",
+    "href": "content/publications/test1.html#content-of-the-publication-goes-here-1",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Content of the publication goes here………………",
+    "text": "Content of the publication goes here………………"
   },
   {
-    "objectID": "content/blogs/test5.html",
-    "href": "content/blogs/test5.html",
-    "title": "The Proposed Lok Sabha Seat Apportionment—What Should the Southern States Really Demand?",
-    "section": "",
-    "text": "Content of the blog post goes here…"
+    "objectID": "content/publications/test1.html#content-of-the-publication-goes-here-2",
+    "href": "content/publications/test1.html#content-of-the-publication-goes-here-2",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Content of the publication goes here………………",
+    "text": "Content of the publication goes here………………"
   },
   {
-    "objectID": "content/blogs/satellite-internet.html",
-    "href": "content/blogs/satellite-internet.html",
-    "title": "Satellite Internet Explained: How It Works & Why It Matters",
+    "objectID": "content/publications/test4.html",
+    "href": "content/publications/test4.html",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
-    "text": "Internet connectivity is critical to communications, national security and economic stability, making internet infrastructure a key pillar of a nation’s critical systems.\nSatellite internet has emerged as an important part of this information infrastructure. It addresses the fundamental limitations of ground-based networks by providing resilient, global internet coverage that functions regardless of terrain, population density or infrastructure development. This technology represents not just a backup system but a transformative approach to internet provision.\nSatellite megaconstellations mark a new age in space-based internet. They involve hundreds or even thousands of satellites orbiting a few hundred kilometres above Earth. Together, they form a network that beams internet services directly from space. This ‘internet in the sky’ has democratised satellite internet access.\nSatellite internet has applications across many domains - military operations, disaster response, healthcare services, agricultural productivity, transportation, and public services. The inherently dual-use nature of satellite internet technology—serving both civilian and military purposes—creates complex security dynamics.\nThe potential and risks of satellite internet highlight the need for strategic investments. It is also important to integrate their use in disaster response protocols and leverage their potential to bridge the digital divide. Finally, it is necessary to establish regulation to tackle security concerns and engage in international forums to shape the technology’s future.\nThis document represents the first in a planned series examining satellite internet. It focuses solely on the technological fundamentals of satellite internet systems, explaining their infrastructure, functioning, and applications. Regulatory aspects, policy frameworks, and governance challenges will be addressed comprehensively in future documents in this series."
+    "text": "Content of the publication goes here….."
   },
   {
-    "objectID": "content/blogs/satellite-internet.html#executive-summary",
-    "href": "content/blogs/satellite-internet.html#executive-summary",
-    "title": "Satellite Internet Explained: How It Works & Why It Matters",
+    "objectID": "pages/team_takshashila.html",
+    "href": "pages/team_takshashila.html",
+    "title": "Team Takshashila",
     "section": "",
-    "text": "Internet connectivity is critical to communications, national security and economic stability, making internet infrastructure a key pillar of a nation’s critical systems.\nSatellite internet has emerged as an important part of this information infrastructure. It addresses the fundamental limitations of ground-based networks by providing resilient, global internet coverage that functions regardless of terrain, population density or infrastructure development. This technology represents not just a backup system but a transformative approach to internet provision.\nSatellite megaconstellations mark a new age in space-based internet. They involve hundreds or even thousands of satellites orbiting a few hundred kilometres above Earth. Together, they form a network that beams internet services directly from space. This ‘internet in the sky’ has democratised satellite internet access.\nSatellite internet has applications across many domains - military operations, disaster response, healthcare services, agricultural productivity, transportation, and public services. The inherently dual-use nature of satellite internet technology—serving both civilian and military purposes—creates complex security dynamics.\nThe potential and risks of satellite internet highlight the need for strategic investments. It is also important to integrate their use in disaster response protocols and leverage their potential to bridge the digital divide. Finally, it is necessary to establish regulation to tackle security concerns and engage in international forums to shape the technology’s future.\nThis document represents the first in a planned series examining satellite internet. It focuses solely on the technological fundamentals of satellite internet systems, explaining their infrastructure, functioning, and applications. Regulatory aspects, policy frameworks, and governance challenges will be addressed comprehensively in future documents in this series."
+    "text": "Nitin Pai is co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy. His current research includes the geopolitics of the Indo-Pacific; defence economics and the politics of radically networked societies.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                Narayan Ramchandran is one of Takshashila’s co-founders. He worked on Wall Street (mostly at Morgan Stanley) for over 20 years, most recently as head of global emerging market investing and then country head of Morgan Stanley in India.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                Anand Arni is a Distinguished Fellow at the Takshashila Institution. As a career intelligence officer, he has spent over 25 years specialising in India’s neighbourhood policies. Post-retirement, he continues to focus on India’s western neighbours.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                Lt. Gen. (Retd) Prakash Menon is the Director of the Strategic Studies Programme. He is also Professor Emeritus at Trans Disciplinary University (TDU), Bangalore and Adjunct Professor, National Institute of Advanced Studies, Bangalore.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                Air Marshal TD Joseph has in-depth experience in strategic and operational planning, flying operations and air defence operations, managing and orchestrating resources worth thousands of crores, heading training of nearly 20,000 personnel every year, and command & leadership. He is a security strategy thinker with a published book (Winning India's Next War: The Role of Aerospace Power, published in 2007) and several articles on aerospace power and international security.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n        \n        \n\n\nNo matching items"
   },
   {
-    "objectID": "pages/ai_policy.html",
-    "href": "pages/ai_policy.html",
-    "title": "Policy for Use of Generative AI",
+    "objectID": "pages/team_takshashila.html#co-founders-and-distinguished-fellows",
+    "href": "pages/team_takshashila.html#co-founders-and-distinguished-fellows",
+    "title": "Team Takshashila",
     "section": "",
-    "text": "Version 1.0 25th June 2024\nTakshashila Institution permits the responsible use of AI-based tools for research to augment existing research capacities. This includes the use of AI for searching research leads, synthesising information, aid in reasoning, editing written documents, and visualising outputs. Takshashila Institution recommends the following principles for responsible use of AI tools in research:\n\nAuthors are accountable for the quality of their research\nThe author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources.\n\n\nTransparency\nThe author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources.\n\n\nSamples of how disclosures can be written\n\nThe essay was copy-edited using ChatGPT.\n\nThis data/chart was created using tool X.\nThe analysis in this paper was done with the support of chatGPT.\n\n\n\nAttribution\nAuthor(s) will not use AI to write out their analyses - instead, the role of the AI is to improve research productivity by reducing time spent on searching for leads. The author(s) is/are expected to use this information to come to their independent conclusions and write those in their own words. All original sources of information should be correctly cited.\nAuthor(s) will verify all information and sources generated using AI tool(s).\n\n\nAudit Trail\nTakshashila Institution recommends it as a best practice to maintain a record of prompts used as part of a project’s research work. This record does not need to be published, but can be used to audit the claims of a document if necessary."
+    "text": "Nitin Pai is co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy. His current research includes the geopolitics of the Indo-Pacific; defence economics and the politics of radically networked societies.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                Narayan Ramchandran is one of Takshashila’s co-founders. He worked on Wall Street (mostly at Morgan Stanley) for over 20 years, most recently as head of global emerging market investing and then country head of Morgan Stanley in India.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                Anand Arni is a Distinguished Fellow at the Takshashila Institution. As a career intelligence officer, he has spent over 25 years specialising in India’s neighbourhood policies. Post-retirement, he continues to focus on India’s western neighbours.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                Lt. Gen. (Retd) Prakash Menon is the Director of the Strategic Studies Programme. He is also Professor Emeritus at Trans Disciplinary University (TDU), Bangalore and Adjunct Professor, National Institute of Advanced Studies, Bangalore.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                Air Marshal TD Joseph has in-depth experience in strategic and operational planning, flying operations and air defence operations, managing and orchestrating resources worth thousands of crores, heading training of nearly 20,000 personnel every year, and command & leadership. He is a security strategy thinker with a published book (Winning India's Next War: The Role of Aerospace Power, published in 2007) and several articles on aerospace power and international security.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n        \n        \n\n\nNo matching items"
   },
   {
-    "objectID": "pages/research_areas/strategic_studies.html",
-    "href": "pages/research_areas/strategic_studies.html",
-    "title": "Strategic Studies",
+    "objectID": "pages/team_takshashila.html#fellows-and-adjunct-fellows",
+    "href": "pages/team_takshashila.html#fellows-and-adjunct-fellows",
+    "title": "Team Takshashila",
+    "section": "Fellows and Adjunct Fellows",
+    "text": "Fellows and Adjunct Fellows\n\n\n    \n        \n            \n                \n                    \n                        \n                            \n                                Pranay Kotasthane\n                            \n                        \n                        \n                            \n                                Pranay Kotasthane is deputy director of the Takshashila Institution. Pranay’s current research includes high tech geopolitics and the politics of radically networked societies. Pranay teaches public policy, international relations, and public finance at Takshashila’s graduate and post-graduate programmes.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                                Ashwin Prasad\n                            \n                        \n                        \n                            \n                                Ashwin is a Research Analyst with the High-tech Geopolitics programme at Takshahsila\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                                Satya Shoova Sahu\n                            \n                        \n                        \n                            \n                                Satya is a Research Analyst with the High-tech Geopolitics programme at Takshahsila\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n        \n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/research_areas/indo_pacific_studies.html#in-the-news",
+    "href": "pages/research_areas/indo_pacific_studies.html#in-the-news",
+    "title": "Indo-Pacific Studies Program",
+    "section": "In the News",
+    "text": "In the News\nThe most recent posts we have published:"
+  },
+  {
+    "objectID": "pages/research_areas/indo_pacific_studies.html#latest-analysis",
+    "href": "pages/research_areas/indo_pacific_studies.html#latest-analysis",
+    "title": "Indo-Pacific Studies Program",
+    "section": "Latest Analysis",
+    "text": "Latest Analysis"
+  },
+  {
+    "objectID": "pages/research_areas/indo_pacific_studies.html#subscribe-to-our-newsletters",
+    "href": "pages/research_areas/indo_pacific_studies.html#subscribe-to-our-newsletters",
+    "title": "Indo-Pacific Studies Program",
+    "section": "Subscribe to our Newsletters",
+    "text": "Subscribe to our Newsletters"
+  },
+  {
+    "objectID": "pages/research_areas/indo_pacific_studies.html#subscribe-to-our-podcasts",
+    "href": "pages/research_areas/indo_pacific_studies.html#subscribe-to-our-podcasts",
+    "title": "Indo-Pacific Studies Program",
+    "section": "Subscribe to our Podcasts",
+    "text": "Subscribe to our Podcasts"
+  },
+  {
+    "objectID": "pages/research_areas/geospatial_research.html",
+    "href": "pages/research_areas/geospatial_research.html",
+    "title": "Geospatial Research",
     "section": "",
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "pages/research_areas/economic_policy.html",
-    "href": "pages/research_areas/economic_policy.html",
-    "title": "Economic Policy",
+    "objectID": "pages/research_areas/index.html",
+    "href": "pages/research_areas/index.html",
+    "title": "Our Research Areas",
+    "section": "",
+    "text": "The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.\n                            \n                            \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                                \n                                    The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective.\n                                \n                                \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                                \n                                    The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy\n                                \n                                \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                                \n                                    Geospatial Research at Takshashila applies the principles of mapping and spatial analysis to understand real-world problems.\n                                \n                                \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                                \n                                    The Strategic Studies Programme examines ways for India to shape its external environment to enable security and prosperity at home.\n                                \n                                \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                                \n                                    Our Economic Policy research focuses on both micro and macroeconomic policies that can aid in high economic growth.\n                                \n                                \n                                    \n                                        Click to learn more\n                                    \n                    \n                \n                \n        \n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/research_areas/index.html#latest-analysis",
+    "href": "pages/research_areas/index.html#latest-analysis",
+    "title": "Our Research Areas",
+    "section": "Latest Analysis",
+    "text": "Latest Analysis"
+  },
+  {
+    "objectID": "pages/research_areas/index.html#in-the-news",
+    "href": "pages/research_areas/index.html#in-the-news",
+    "title": "Our Research Areas",
+    "section": "In the News",
+    "text": "In the News\nThe most recent posts we have published:"
+  },
+  {
+    "objectID": "pages/research_areas/advanced_biology_program.html",
+    "href": "pages/research_areas/advanced_biology_program.html",
+    "title": "Advanced Biology",
     "section": "",
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "pages/research_areas/high_technology_geopolitics_program.html",
-    "href": "pages/research_areas/high_technology_geopolitics_program.html",
-    "title": "High-Tech Geopolitics Program",
+    "objectID": "pages/latest_analysis.html",
+    "href": "pages/latest_analysis.html",
+    "title": "Latest Analysis",
     "section": "",
-    "text": "Content of the publication goes here…"
-  },
-  {
-    "objectID": "pages/privacy.html",
-    "href": "pages/privacy.html",
-    "title": "Privacy Policy",
-    "section": "",
-    "text": "Please read the following statement to learn about information gathering and dissemination practices of TI Learning Network. By mere use of the Website, you expressly consent to our use and disclosure of your personal information in accordance with this Privacy Policy. This Privacy Policy is incorporated into and subject to the Terms of Use."
-  },
-  {
-    "objectID": "pages/privacy.html#collection-of-personally-identifiable-information-and-other-information",
-    "href": "pages/privacy.html#collection-of-personally-identifiable-information-and-other-information",
-    "title": "Privacy Policy",
-    "section": "1. Collection of Personally Identifiable Information and other Information",
-    "text": "1. Collection of Personally Identifiable Information and other Information\nWhen you pay a course fee on our website, we collect and store your personal information like Name, address, contact number and email address. Our primary goal in doing so is to provide you a safe, efficient, smooth and transparent experience. We do not make this information public. It is stored with us for tracking fee payment only."
-  },
-  {
-    "objectID": "pages/privacy.html#use-of-demographic-profile-data-your-information",
-    "href": "pages/privacy.html#use-of-demographic-profile-data-your-information",
-    "title": "Privacy Policy",
-    "section": "2. Use of Demographic / Profile Data / Your Information",
-    "text": "2. Use of Demographic / Profile Data / Your Information\nWe do not collect any demographic data beyond the information entered for paying the course fees."
-  },
-  {
-    "objectID": "pages/privacy.html#choiceopt-out",
-    "href": "pages/privacy.html#choiceopt-out",
-    "title": "Privacy Policy",
-    "section": "3. Choice/Opt-Out",
-    "text": "3. Choice/Opt-Out\nWe do not send you any bulk emails even after you have registered for our courses unless you opt for it specifically."
-  },
-  {
-    "objectID": "pages/privacy.html#advertisements",
-    "href": "pages/privacy.html#advertisements",
-    "title": "Privacy Policy",
-    "section": "4. Advertisements",
-    "text": "4. Advertisements\nWe do not have any advertisements on our website"
-  },
-  {
-    "objectID": "pages/privacy.html#policy-for-use-of-ai",
-    "href": "pages/privacy.html#policy-for-use-of-ai",
-    "title": "Privacy Policy",
-    "section": "5. Policy for Use of AI",
-    "text": "5. Policy for Use of AI\nPrinciples for the Use of AI at the Takshashila Institution\nVersion 1.0 25th June 2024\nTakshashila Institution permits the responsible use of AI-based tools for research to augment existing research capacities. This includes the use of AI for searching research leads, synthesising information, aid in reasoning, editing written documents, and visualising outputs. Takshashila Institution recommends the following principles for responsible use of AI tools in research:\nAuthors are accountable for the quality of their research The author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources.\nTransparency Author(s) should declare the use of AI tools in the final output. Where possible, authors should declare the methodology employed while using AI tools. The outlining of research methodology is mandatory when AI is used to support the analyses of the research. If an LLM is used merely as a replacement for Google search, it will not be disclosed\nSamples of how disclosures can be written: The essay was copy-edited using ChatGPT. This data/chart was created using tool X. The analysis in this paper was done with the support of chatGPT.\nAttribution Author(s) will not use AI to write out their analyses - instead, the role of the AI is to improve research productivity by reducing time spent on searching for leads. The author(s) is/are expected to use this information to come to their independent conclusions and write those in their own words. All original sources of information should be correctly cited. Author(s) will verify all information and sources generated using AI tool(s).\nAudit Trail Takshashila Institution recommends it as a best practice to maintain a record of prompts used as part of a project’s research work. This record does not need to be published, but can be used to audit the claims of a document if necessary."
-  },
-  {
-    "objectID": "pages/privacy.html#rules-of-conduct-on-site",
-    "href": "pages/privacy.html#rules-of-conduct-on-site",
-    "title": "Privacy Policy",
-    "section": "Rules of Conduct on Site",
-    "text": "Rules of Conduct on Site\nBy using the Website and/ or by providing your information, you consent to the collection and use of the information you disclose on the Website in accordance with this Privacy Policy. If we decide to change our privacy policy, we will post those changes on this page so that you are always aware of what information we collect, how we use it, and under what circumstances we disclose it."
-  },
-  {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "pages/day_zero.html",
-    "href": "pages/day_zero.html",
-    "title": "Year Zero",
-    "section": "",
-    "text": "by Nitin Pai (Co-Founder & Director, Takshashila Institution)"
-  },
-  {
-    "objectID": "pages/day_zero.html#why-what-and-what-next",
-    "href": "pages/day_zero.html#why-what-and-what-next",
-    "title": "Year Zero",
-    "section": "Why, What and What Next",
-    "text": "Why, What and What Next\nIndia’s problems are scaling faster than the attempted solutions. In every country there is a governance gap—between the economy and its governance—but in our country, the problem is severe, acute and worsening. From telecommunications to finance, from education to agriculture, every sector of the economy needs both specialist domain expertise and management skills. To the extent that India is unable to inject these in its government agencies, it is obvious that we will continue to suffer not only poor governance, but also corruption and injustice.\nAt Takshashila, we have made it our mission to change this. We are acutely aware that the race we are running is marathon, that we will have to run it for decades and the chances that we will succeed are uncertain. Yet, it is a race we have to run.\nWe want to build one of the best schools of statecraft in India. It will be school that is as rooted in India’s civilisational values as it is global in its outlook. It will aim to bring together the best minds in public policy to impart customised, high-quality education to the most promising graduate students. That’s the vision. We have a sense of how to get there, but we do not want start the school tomorrow morning. Since it is to be a school rooted in the Indian experience, we want to scan the length and breadth of the country and build the body of knowledge first.\nYes, this is an audacious project for a bunch of people most of who did not even have greying temples when we started out (and most do not have them even now). So we want to earn our stripes—build credibility even as we validate our own assumptions—by establishing Takshashila as a networked think tank. This is the first step towards realising our vision of an outstanding Indian school of statecraft.\nIt is far more effective to connect talented individuals passionate about changing India for the better into a networked community, than to attempt to hire them and put them in the same building. We do not have the budget for it, and even if we did, we would still stick to the networked model, because we believe it is far more suited to the twenty-first century. [See the Takshashila mission for more details]\nThanks to a substantial initial donation from Rohini Nilekani, chairperson of Arghyam, we could start much faster than we otherwise could.\nSo that’s the preamble. This year was our year zero—the year we got off the ground.\nWe launched our policy research programme and by January 2011, we expect to have more than a dozen fellows. A number of bright younger people have joined us as research associates. Fellows and research associates are spread across the globe, have day jobs and collaborate with each other over the Internet.\nOur Executive Programme on Strategic Affairs (TEPSA) was got off to a start in December 2009, with a full-day programme for senior defence officials, in partnership with the National Maritime Foundation. TEPSA partners educational institutions, think tanks and private companies to train executives on public policy subjects. We will be doing more of these in 2011.\nWe inaugurated our Roundtable Conclave programme last month. Here the idea is to engage civil society by moving high-quality public policy discussions out from New Delhi into the towns and cities of India. We started in Bangalore, and intend to take the programme into other places over the next several months. The idea is to connect individuals who are interested in public affairs to be part of an informed and influential national community.\nAll this, of course, is in addition to our online initiatives at the Indian National Interest (INI) platform of blogs and on twitter. From the time we started, popularity and site traffic has never been our objective. We just wanted to put out the most credible, non-partisan opinion on what we think is in India’s national interest. And we will continue doing so.\nPragati – The Indian National Interest Review, a monthly magazine we started in April 2007, and which Rajeev Mantri’s Quill Media has been distributing print copies of since October 2009, is now into its 46th issue. Like at Takshashila and INI in general, Pragati has attracted a fantastic team of energetic, passionate and committed individuals, and great set of contributors, all working pro bono. From the editorial team to individual contributors, nobody gets paid. Yet Pragati has become one of India’s most well-regarded publications on strategic affairs, public policy and governance. In 2011, we want to increase the circulation of both the digital PDF edition and of the printed copies.\nSince August 2010, I have personally been working on the Takshashila initiative on a full-time basis, thanks to a good friend’s personal sponsorship. I have been fortunate to receive encouragement from a number of people who saw value in what we are trying to achieve. Even so, such a step would be impossible if not for both the support and reality checks imposed on me by my wife…and well, by my children.\nTakshashila needs your help in every one of the areas I’ve written about. We need financial support to build our endowment fund so that we can hire the best graduate students to work on cutting-edge policy research. We need organisers and volunteers across the country to help organise our roundtable conclaves. We need you to subscribe to Pragati, take out gift subscriptions and in general spread the word around.\nIt’s about building an institution that will last. It’s about being a lighthouse that will provide direction to all ships that are willing to navigate by its beacon. Two-and-half millennia ago Takshashila was the intellectual fountainhead not only of Indian statecraft but indeed of all walks of human endeavour. It’s about creating one for modern India."
-  },
-  {
-    "objectID": "pages/ombudsman.html",
-    "href": "pages/ombudsman.html",
-    "title": "Takshashila Ombudsman",
-    "section": "",
-    "text": "The Takshashila Institution is independent, non-partisan while advocating the values of economic freedom, an open society, a culture of tolerance and realism in international affairs. The trustees have instituted an Ombudsman to uphold Takshashila’s values and compliance with the Code of Conduct. The code applies to all staff, fellows, scholars, full time faculty and members of the Takshashila Institution.\nAll persons associated with the Takshashila Institution adhere to the following code of conduct.\nWe at Takshashila will,\nSameer Wagle, a member of the board of trustees, is the current Ombudsman, and the Grievance Officer, as required under the Information Technology Rules, 2021."
-  },
-  {
-    "objectID": "pages/ombudsman.html#authors-are-accountable-for-the-quality-of-their-research",
-    "href": "pages/ombudsman.html#authors-are-accountable-for-the-quality-of-their-research",
-    "title": "Takshashila Ombudsman",
-    "section": "Authors are accountable for the quality of their research",
-    "text": "Authors are accountable for the quality of their research\nThe author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources."
-  },
-  {
-    "objectID": "pages/ombudsman.html#transparency",
-    "href": "pages/ombudsman.html#transparency",
-    "title": "Takshashila Ombudsman",
-    "section": "Transparency",
-    "text": "Transparency\nAuthor(s) should declare the use of AI tools in the final output. Where possible, authors should declare the methodology employed while using AI tools. The outlining of research methodology is mandatory when AI is used to support the analyses of the research. If an LLM is used merely as a replacement for Google search, it will not be disclosed"
-  },
-  {
-    "objectID": "pages/ombudsman.html#samples-of-how-disclosures-can-be-written",
-    "href": "pages/ombudsman.html#samples-of-how-disclosures-can-be-written",
-    "title": "Takshashila Ombudsman",
-    "section": "Samples of how disclosures can be written",
-    "text": "Samples of how disclosures can be written\n\nThe essay was copy-edited using ChatGPT.\nThis data/chart was created using tool X.\nThe analysis in this paper was done with the support of chatGPT."
-  },
-  {
-    "objectID": "pages/ombudsman.html#attribution",
-    "href": "pages/ombudsman.html#attribution",
-    "title": "Takshashila Ombudsman",
-    "section": "Attribution",
-    "text": "Attribution\nAuthor(s) will not use AI to write out their analyses - instead, the role of the AI is to improve research productivity by reducing time spent on searching for leads. The author(s) is/are expected to use this information to come to their independent conclusions and write those in their own words. All original sources of information should be correctly cited.\nAuthor(s) will verify all information and sources generated using AI tool(s)."
-  },
-  {
-    "objectID": "pages/ombudsman.html#audit-trail",
-    "href": "pages/ombudsman.html#audit-trail",
-    "title": "Takshashila Ombudsman",
-    "section": "Audit Trail",
-    "text": "Audit Trail\nTakshashila Institution recommends it as a best practice to maintain a record of prompts used as part of a project’s research work. This record does not need to be published, but can be used to audit the claims of a document if necessary."
-  },
-  {
-    "objectID": "pages/mission.html",
-    "href": "pages/mission.html",
-    "title": "Welcome to Takshashila",
-    "section": "",
-    "text": "The Takshashila Institution is an independent centre for research and education in public policy. It is a non-partisan, non-profit organisation that advocates the values of freedom, openness, tolerance, pluralism and responsible citizenship. It seeks to transform India through better public policies, bridging the governance gap by developing better public servants, civil society leaders, professionals and informed citizens.\nTakshashila creates change by connecting good people, to good ideas and good networks. It produces independent policy research in a number of areas of governance, it grooms civic leaders through its online education programmes and engages in public discourse through its publications and digital media."
-  },
-  {
-    "objectID": "pages/mission.html#mission",
-    "href": "pages/mission.html#mission",
-    "title": "Welcome to Takshashila",
-    "section": "",
-    "text": "The Takshashila Institution is an independent centre for research and education in public policy. It is a non-partisan, non-profit organisation that advocates the values of freedom, openness, tolerance, pluralism and responsible citizenship. It seeks to transform India through better public policies, bridging the governance gap by developing better public servants, civil society leaders, professionals and informed citizens.\nTakshashila creates change by connecting good people, to good ideas and good networks. It produces independent policy research in a number of areas of governance, it grooms civic leaders through its online education programmes and engages in public discourse through its publications and digital media."
-  },
-  {
-    "objectID": "pages/mission.html#why-what-and-what-next",
-    "href": "pages/mission.html#why-what-and-what-next",
-    "title": "Welcome to Takshashila",
-    "section": "Why, What and What next?",
-    "text": "Why, What and What next?\nRead our year zero report here."
-  },
-  {
-    "objectID": "pages/mission.html#people",
-    "href": "pages/mission.html#people",
-    "title": "Welcome to Takshashila",
-    "section": "People",
-    "text": "People\nThe Takshashila Council, Fellows, Board of Trustees & Management Committee. Current Councillors: M Govinda Rao and Anand Arni.\nFormer Trustees: V Anantha Nageswaran Former Councillors: Mukul G Asher, Bibek Debroy, C Raja Mohan, Pratap Bhanu Mehta, Ajit Ranade and C Uday Bhaskar.\n\nLearn about our People"
-  },
-  {
-    "objectID": "pages/mission.html#code-of-conduct-ombudsman",
-    "href": "pages/mission.html#code-of-conduct-ombudsman",
-    "title": "Welcome to Takshashila",
-    "section": "Code of Conduct & Ombudsman",
-    "text": "Code of Conduct & Ombudsman\nAll persons associated with the Takshashila Institution adhere to the following code of conduct.\nWe at Takshashila will,\n\nUphold the highest levels of integrity in all our work.\nConduct ourselves with civility and decorum in public discourse.\nPersevere to elevate the standards of policy debate.\nMaintain independence and put India’s national interest first.\nMake a clear distinction between personal opinion and that of our Institution.\n\n\nProvide Feedback to pur Ombudsman"
-  },
-  {
-    "objectID": "pages/mission.html#key-donors",
-    "href": "pages/mission.html#key-donors",
-    "title": "Welcome to Takshashila",
-    "section": "Key Donors",
-    "text": "Key Donors\nWe are supported by a diverse set of individuals and groups.\n\nLearn more about our Donors"
-  },
-  {
-    "objectID": "pages/mission.html#heritage",
-    "href": "pages/mission.html#heritage",
-    "title": "Welcome to Takshashila",
-    "section": "Heritage",
-    "text": "Heritage\nThe ancient city of Takshashila was the site of perhaps the world’s oldest public policy school. It was the intellectual fountainhead not only of Indian statecraft but indeed of all walks of human endeavour. The Takshashila Institution derives inspiration from that civilisational lighthouse in the pursuit of its contemporary objectives.\n\nLearn More"
-  },
-  {
-    "objectID": "pages/mission.html#indian-public-policy-review",
-    "href": "pages/mission.html#indian-public-policy-review",
-    "title": "Welcome to Takshashila",
-    "section": "Indian Public Policy Review",
-    "text": "Indian Public Policy Review\nIndian Public Policy Review (IPPR) is a peer-reviewed, bi-monthly, online and an open-access journal, published by the Takshashila Institution. The journal carries original, analytical, policy relevant papers, book reviews, and commentaries on Economics, Political Science, International Relations and Security, Defence Strategy, and Science and Technology Policy.\n\nLearn More"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSatellite Internet Explained: How It Works & Why It Matters\n\n\n\n\n\n\nHTG\n\n\nTechnology\n\n\nSpace\n\n\n\nAn explainer of the satellite internet. How it works and why it matters\n\n\n\n\n\nApr 10, 2025\n\n\nAshwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nSatellite Internet Explained. How It Works & Why It Matters\n\n\n\n\n\n\nHTG\n\n\nSpace\n\n\nSpace Policy\n\n\n\nThis discussion document delivers a critical analysis of the Indian space reforms and considers pathways for developing space capabilities from a national interest perspective.\n\n\n\n\n\nApr 25, 2024\n\n\nAshwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nIndo-Pacific\n\n\nAI2\n\n\nTechnology Policy2\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 25, 2024\n\n\nSatya Sahu & Ashwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nIndo-Pacific\n\n\nAI1\n\n\nTechnology\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 15, 2024\n\n\nSatya Shoova Sahu\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nAI3\n\n\nTechnology Policy3\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 15, 2024\n\n\nSatya Sahu & Ashwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nAI4\n\n\nTechnology Policy4\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 15, 2024\n\n\nSatya Sahu & Ashwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nIndo-Pacific\n\n\nAI\n\n\nTechnology\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "pages/terms.html",
@@ -336,144 +210,347 @@
     "text": "Third-Party Service Provider\nTI Learning Network, may from time to time, engage such third-party service providers as it deems fit, for providing educational services in the nature of teaching, faculty management, faculty and student acquisition facilities, programme management, organising events and workshops in connection with delivery of educational programmes, marketing of educational programmes, associated financial operations and such other incidental and allied operations, in relation to the public policy educational course offered by us."
   },
   {
-    "objectID": "pages/latest_analysis.html",
-    "href": "pages/latest_analysis.html",
-    "title": "Latest Analysis",
+    "objectID": "pages/mission.html",
+    "href": "pages/mission.html",
+    "title": "Welcome to Takshashila",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSatellite Internet Explained: How It Works & Why It Matters\n\n\n\n\n\n\nHTG\n\n\nTechnology\n\n\nSpace\n\n\n\nAn explainer of the satellite internet. How it works and why it matters\n\n\n\n\n\nApr 10, 2025\n\n\nAshwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nSatellite Internet Explained. How It Works & Why It Matters\n\n\n\n\n\n\nHTG\n\n\nSpace\n\n\nSpace Policy\n\n\n\nThis discussion document delivers a critical analysis of the Indian space reforms and considers pathways for developing space capabilities from a national interest perspective.\n\n\n\n\n\nApr 25, 2024\n\n\nAshwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nIndo-Pacific\n\n\nAI2\n\n\nTechnology Policy2\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 25, 2024\n\n\nSatya Sahu & Ashwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nIndo-Pacific\n\n\nAI1\n\n\nTechnology\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 15, 2024\n\n\nSatya Shoova Sahu\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nAI3\n\n\nTechnology Policy3\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 15, 2024\n\n\nSatya Sahu & Ashwin Prasad\n\n\n\n\n\n\n\n\n\n\n\n\nDo the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?\n\n\n\n\n\n\nAI4\n\n\nTechnology Policy4\n\n\n\nA brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility\n\n\n\n\n\nFeb 15, 2024\n\n\nSatya Sahu & Ashwin Prasad\n\n\n\n\n\n\nNo matching items"
+    "text": "The Takshashila Institution is an independent centre for research and education in public policy. It is a non-partisan, non-profit organisation that advocates the values of freedom, openness, tolerance, pluralism and responsible citizenship. It seeks to transform India through better public policies, bridging the governance gap by developing better public servants, civil society leaders, professionals and informed citizens.\nTakshashila creates change by connecting good people, to good ideas and good networks. It produces independent policy research in a number of areas of governance, it grooms civic leaders through its online education programmes and engages in public discourse through its publications and digital media."
   },
   {
-    "objectID": "pages/research_areas/advanced_biology_program.html",
-    "href": "pages/research_areas/advanced_biology_program.html",
-    "title": "Advanced Biology",
+    "objectID": "pages/mission.html#mission",
+    "href": "pages/mission.html#mission",
+    "title": "Welcome to Takshashila",
+    "section": "",
+    "text": "The Takshashila Institution is an independent centre for research and education in public policy. It is a non-partisan, non-profit organisation that advocates the values of freedom, openness, tolerance, pluralism and responsible citizenship. It seeks to transform India through better public policies, bridging the governance gap by developing better public servants, civil society leaders, professionals and informed citizens.\nTakshashila creates change by connecting good people, to good ideas and good networks. It produces independent policy research in a number of areas of governance, it grooms civic leaders through its online education programmes and engages in public discourse through its publications and digital media."
+  },
+  {
+    "objectID": "pages/mission.html#why-what-and-what-next",
+    "href": "pages/mission.html#why-what-and-what-next",
+    "title": "Welcome to Takshashila",
+    "section": "Why, What and What next?",
+    "text": "Why, What and What next?\nRead our year zero report here."
+  },
+  {
+    "objectID": "pages/mission.html#people",
+    "href": "pages/mission.html#people",
+    "title": "Welcome to Takshashila",
+    "section": "People",
+    "text": "People\nThe Takshashila Council, Fellows, Board of Trustees & Management Committee. Current Councillors: M Govinda Rao and Anand Arni.\nFormer Trustees: V Anantha Nageswaran Former Councillors: Mukul G Asher, Bibek Debroy, C Raja Mohan, Pratap Bhanu Mehta, Ajit Ranade and C Uday Bhaskar.\n\nLearn about our People"
+  },
+  {
+    "objectID": "pages/mission.html#code-of-conduct-ombudsman",
+    "href": "pages/mission.html#code-of-conduct-ombudsman",
+    "title": "Welcome to Takshashila",
+    "section": "Code of Conduct & Ombudsman",
+    "text": "Code of Conduct & Ombudsman\nAll persons associated with the Takshashila Institution adhere to the following code of conduct.\nWe at Takshashila will,\n\nUphold the highest levels of integrity in all our work.\nConduct ourselves with civility and decorum in public discourse.\nPersevere to elevate the standards of policy debate.\nMaintain independence and put India’s national interest first.\nMake a clear distinction between personal opinion and that of our Institution.\n\n\nProvide Feedback to pur Ombudsman"
+  },
+  {
+    "objectID": "pages/mission.html#key-donors",
+    "href": "pages/mission.html#key-donors",
+    "title": "Welcome to Takshashila",
+    "section": "Key Donors",
+    "text": "Key Donors\nWe are supported by a diverse set of individuals and groups.\n\nLearn more about our Donors"
+  },
+  {
+    "objectID": "pages/mission.html#heritage",
+    "href": "pages/mission.html#heritage",
+    "title": "Welcome to Takshashila",
+    "section": "Heritage",
+    "text": "Heritage\nThe ancient city of Takshashila was the site of perhaps the world’s oldest public policy school. It was the intellectual fountainhead not only of Indian statecraft but indeed of all walks of human endeavour. The Takshashila Institution derives inspiration from that civilisational lighthouse in the pursuit of its contemporary objectives.\n\nLearn More"
+  },
+  {
+    "objectID": "pages/mission.html#indian-public-policy-review",
+    "href": "pages/mission.html#indian-public-policy-review",
+    "title": "Welcome to Takshashila",
+    "section": "Indian Public Policy Review",
+    "text": "Indian Public Policy Review\nIndian Public Policy Review (IPPR) is a peer-reviewed, bi-monthly, online and an open-access journal, published by the Takshashila Institution. The journal carries original, analytical, policy relevant papers, book reviews, and commentaries on Economics, Political Science, International Relations and Security, Defence Strategy, and Science and Technology Policy.\n\nLearn More"
+  },
+  {
+    "objectID": "pages/ombudsman.html",
+    "href": "pages/ombudsman.html",
+    "title": "Takshashila Ombudsman",
+    "section": "",
+    "text": "The Takshashila Institution is independent, non-partisan while advocating the values of economic freedom, an open society, a culture of tolerance and realism in international affairs. The trustees have instituted an Ombudsman to uphold Takshashila’s values and compliance with the Code of Conduct. The code applies to all staff, fellows, scholars, full time faculty and members of the Takshashila Institution.\nAll persons associated with the Takshashila Institution adhere to the following code of conduct.\nWe at Takshashila will,\nSameer Wagle, a member of the board of trustees, is the current Ombudsman, and the Grievance Officer, as required under the Information Technology Rules, 2021."
+  },
+  {
+    "objectID": "pages/ombudsman.html#authors-are-accountable-for-the-quality-of-their-research",
+    "href": "pages/ombudsman.html#authors-are-accountable-for-the-quality-of-their-research",
+    "title": "Takshashila Ombudsman",
+    "section": "Authors are accountable for the quality of their research",
+    "text": "Authors are accountable for the quality of their research\nThe author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources."
+  },
+  {
+    "objectID": "pages/ombudsman.html#transparency",
+    "href": "pages/ombudsman.html#transparency",
+    "title": "Takshashila Ombudsman",
+    "section": "Transparency",
+    "text": "Transparency\nAuthor(s) should declare the use of AI tools in the final output. Where possible, authors should declare the methodology employed while using AI tools. The outlining of research methodology is mandatory when AI is used to support the analyses of the research. If an LLM is used merely as a replacement for Google search, it will not be disclosed"
+  },
+  {
+    "objectID": "pages/ombudsman.html#samples-of-how-disclosures-can-be-written",
+    "href": "pages/ombudsman.html#samples-of-how-disclosures-can-be-written",
+    "title": "Takshashila Ombudsman",
+    "section": "Samples of how disclosures can be written",
+    "text": "Samples of how disclosures can be written\n\nThe essay was copy-edited using ChatGPT.\nThis data/chart was created using tool X.\nThe analysis in this paper was done with the support of chatGPT."
+  },
+  {
+    "objectID": "pages/ombudsman.html#attribution",
+    "href": "pages/ombudsman.html#attribution",
+    "title": "Takshashila Ombudsman",
+    "section": "Attribution",
+    "text": "Attribution\nAuthor(s) will not use AI to write out their analyses - instead, the role of the AI is to improve research productivity by reducing time spent on searching for leads. The author(s) is/are expected to use this information to come to their independent conclusions and write those in their own words. All original sources of information should be correctly cited.\nAuthor(s) will verify all information and sources generated using AI tool(s)."
+  },
+  {
+    "objectID": "pages/ombudsman.html#audit-trail",
+    "href": "pages/ombudsman.html#audit-trail",
+    "title": "Takshashila Ombudsman",
+    "section": "Audit Trail",
+    "text": "Audit Trail\nTakshashila Institution recommends it as a best practice to maintain a record of prompts used as part of a project’s research work. This record does not need to be published, but can be used to audit the claims of a document if necessary."
+  },
+  {
+    "objectID": "pages/day_zero.html",
+    "href": "pages/day_zero.html",
+    "title": "Year Zero",
+    "section": "",
+    "text": "by Nitin Pai (Co-Founder & Director, Takshashila Institution)"
+  },
+  {
+    "objectID": "pages/day_zero.html#why-what-and-what-next",
+    "href": "pages/day_zero.html#why-what-and-what-next",
+    "title": "Year Zero",
+    "section": "Why, What and What Next",
+    "text": "Why, What and What Next\nIndia’s problems are scaling faster than the attempted solutions. In every country there is a governance gap—between the economy and its governance—but in our country, the problem is severe, acute and worsening. From telecommunications to finance, from education to agriculture, every sector of the economy needs both specialist domain expertise and management skills. To the extent that India is unable to inject these in its government agencies, it is obvious that we will continue to suffer not only poor governance, but also corruption and injustice.\nAt Takshashila, we have made it our mission to change this. We are acutely aware that the race we are running is marathon, that we will have to run it for decades and the chances that we will succeed are uncertain. Yet, it is a race we have to run.\nWe want to build one of the best schools of statecraft in India. It will be school that is as rooted in India’s civilisational values as it is global in its outlook. It will aim to bring together the best minds in public policy to impart customised, high-quality education to the most promising graduate students. That’s the vision. We have a sense of how to get there, but we do not want start the school tomorrow morning. Since it is to be a school rooted in the Indian experience, we want to scan the length and breadth of the country and build the body of knowledge first.\nYes, this is an audacious project for a bunch of people most of who did not even have greying temples when we started out (and most do not have them even now). So we want to earn our stripes—build credibility even as we validate our own assumptions—by establishing Takshashila as a networked think tank. This is the first step towards realising our vision of an outstanding Indian school of statecraft.\nIt is far more effective to connect talented individuals passionate about changing India for the better into a networked community, than to attempt to hire them and put them in the same building. We do not have the budget for it, and even if we did, we would still stick to the networked model, because we believe it is far more suited to the twenty-first century. [See the Takshashila mission for more details]\nThanks to a substantial initial donation from Rohini Nilekani, chairperson of Arghyam, we could start much faster than we otherwise could.\nSo that’s the preamble. This year was our year zero—the year we got off the ground.\nWe launched our policy research programme and by January 2011, we expect to have more than a dozen fellows. A number of bright younger people have joined us as research associates. Fellows and research associates are spread across the globe, have day jobs and collaborate with each other over the Internet.\nOur Executive Programme on Strategic Affairs (TEPSA) was got off to a start in December 2009, with a full-day programme for senior defence officials, in partnership with the National Maritime Foundation. TEPSA partners educational institutions, think tanks and private companies to train executives on public policy subjects. We will be doing more of these in 2011.\nWe inaugurated our Roundtable Conclave programme last month. Here the idea is to engage civil society by moving high-quality public policy discussions out from New Delhi into the towns and cities of India. We started in Bangalore, and intend to take the programme into other places over the next several months. The idea is to connect individuals who are interested in public affairs to be part of an informed and influential national community.\nAll this, of course, is in addition to our online initiatives at the Indian National Interest (INI) platform of blogs and on twitter. From the time we started, popularity and site traffic has never been our objective. We just wanted to put out the most credible, non-partisan opinion on what we think is in India’s national interest. And we will continue doing so.\nPragati – The Indian National Interest Review, a monthly magazine we started in April 2007, and which Rajeev Mantri’s Quill Media has been distributing print copies of since October 2009, is now into its 46th issue. Like at Takshashila and INI in general, Pragati has attracted a fantastic team of energetic, passionate and committed individuals, and great set of contributors, all working pro bono. From the editorial team to individual contributors, nobody gets paid. Yet Pragati has become one of India’s most well-regarded publications on strategic affairs, public policy and governance. In 2011, we want to increase the circulation of both the digital PDF edition and of the printed copies.\nSince August 2010, I have personally been working on the Takshashila initiative on a full-time basis, thanks to a good friend’s personal sponsorship. I have been fortunate to receive encouragement from a number of people who saw value in what we are trying to achieve. Even so, such a step would be impossible if not for both the support and reality checks imposed on me by my wife…and well, by my children.\nTakshashila needs your help in every one of the areas I’ve written about. We need financial support to build our endowment fund so that we can hire the best graduate students to work on cutting-edge policy research. We need organisers and volunteers across the country to help organise our roundtable conclaves. We need you to subscribe to Pragati, take out gift subscriptions and in general spread the word around.\nIt’s about building an institution that will last. It’s about being a lighthouse that will provide direction to all ships that are willing to navigate by its beacon. Two-and-half millennia ago Takshashila was the intellectual fountainhead not only of Indian statecraft but indeed of all walks of human endeavour. It’s about creating one for modern India."
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "pages/privacy.html",
+    "href": "pages/privacy.html",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "Please read the following statement to learn about information gathering and dissemination practices of TI Learning Network. By mere use of the Website, you expressly consent to our use and disclosure of your personal information in accordance with this Privacy Policy. This Privacy Policy is incorporated into and subject to the Terms of Use."
+  },
+  {
+    "objectID": "pages/privacy.html#collection-of-personally-identifiable-information-and-other-information",
+    "href": "pages/privacy.html#collection-of-personally-identifiable-information-and-other-information",
+    "title": "Privacy Policy",
+    "section": "1. Collection of Personally Identifiable Information and other Information",
+    "text": "1. Collection of Personally Identifiable Information and other Information\nWhen you pay a course fee on our website, we collect and store your personal information like Name, address, contact number and email address. Our primary goal in doing so is to provide you a safe, efficient, smooth and transparent experience. We do not make this information public. It is stored with us for tracking fee payment only."
+  },
+  {
+    "objectID": "pages/privacy.html#use-of-demographic-profile-data-your-information",
+    "href": "pages/privacy.html#use-of-demographic-profile-data-your-information",
+    "title": "Privacy Policy",
+    "section": "2. Use of Demographic / Profile Data / Your Information",
+    "text": "2. Use of Demographic / Profile Data / Your Information\nWe do not collect any demographic data beyond the information entered for paying the course fees."
+  },
+  {
+    "objectID": "pages/privacy.html#choiceopt-out",
+    "href": "pages/privacy.html#choiceopt-out",
+    "title": "Privacy Policy",
+    "section": "3. Choice/Opt-Out",
+    "text": "3. Choice/Opt-Out\nWe do not send you any bulk emails even after you have registered for our courses unless you opt for it specifically."
+  },
+  {
+    "objectID": "pages/privacy.html#advertisements",
+    "href": "pages/privacy.html#advertisements",
+    "title": "Privacy Policy",
+    "section": "4. Advertisements",
+    "text": "4. Advertisements\nWe do not have any advertisements on our website"
+  },
+  {
+    "objectID": "pages/privacy.html#policy-for-use-of-ai",
+    "href": "pages/privacy.html#policy-for-use-of-ai",
+    "title": "Privacy Policy",
+    "section": "5. Policy for Use of AI",
+    "text": "5. Policy for Use of AI\nPrinciples for the Use of AI at the Takshashila Institution\nVersion 1.0 25th June 2024\nTakshashila Institution permits the responsible use of AI-based tools for research to augment existing research capacities. This includes the use of AI for searching research leads, synthesising information, aid in reasoning, editing written documents, and visualising outputs. Takshashila Institution recommends the following principles for responsible use of AI tools in research:\nAuthors are accountable for the quality of their research The author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources.\nTransparency Author(s) should declare the use of AI tools in the final output. Where possible, authors should declare the methodology employed while using AI tools. The outlining of research methodology is mandatory when AI is used to support the analyses of the research. If an LLM is used merely as a replacement for Google search, it will not be disclosed\nSamples of how disclosures can be written: The essay was copy-edited using ChatGPT. This data/chart was created using tool X. The analysis in this paper was done with the support of chatGPT.\nAttribution Author(s) will not use AI to write out their analyses - instead, the role of the AI is to improve research productivity by reducing time spent on searching for leads. The author(s) is/are expected to use this information to come to their independent conclusions and write those in their own words. All original sources of information should be correctly cited. Author(s) will verify all information and sources generated using AI tool(s).\nAudit Trail Takshashila Institution recommends it as a best practice to maintain a record of prompts used as part of a project’s research work. This record does not need to be published, but can be used to audit the claims of a document if necessary."
+  },
+  {
+    "objectID": "pages/privacy.html#rules-of-conduct-on-site",
+    "href": "pages/privacy.html#rules-of-conduct-on-site",
+    "title": "Privacy Policy",
+    "section": "Rules of Conduct on Site",
+    "text": "Rules of Conduct on Site\nBy using the Website and/ or by providing your information, you consent to the collection and use of the information you disclose on the Website in accordance with this Privacy Policy. If we decide to change our privacy policy, we will post those changes on this page so that you are always aware of what information we collect, how we use it, and under what circumstances we disclose it."
+  },
+  {
+    "objectID": "pages/research_areas/high_technology_geopolitics_program.html",
+    "href": "pages/research_areas/high_technology_geopolitics_program.html",
+    "title": "High-Tech Geopolitics Program",
     "section": "",
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "pages/research_areas/index.html",
-    "href": "pages/research_areas/index.html",
-    "title": "Our Research Areas",
-    "section": "",
-    "text": "The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Geospatial Research at Takshashila applies the principles of mapping and spatial analysis to understand real-world problems.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        The Strategic Studies Programme examines ways for India to shape its external environment to enable security and prosperity at home.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Our Economic Policy research focuses on both micro and macroeconomic policies that can aid in high economic growth.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n        \n        \n\n\nNo matching items"
-  },
-  {
-    "objectID": "pages/research_areas/index.html#latest-analysis",
-    "href": "pages/research_areas/index.html#latest-analysis",
-    "title": "Our Research Areas",
-    "section": "Latest Analysis",
-    "text": "Latest Analysis"
-  },
-  {
-    "objectID": "pages/research_areas/index.html#in-the-news",
-    "href": "pages/research_areas/index.html#in-the-news",
-    "title": "Our Research Areas",
-    "section": "In the News",
-    "text": "In the News\nThe most recent posts we have published:"
-  },
-  {
-    "objectID": "pages/research_areas/geospatial_research.html",
-    "href": "pages/research_areas/geospatial_research.html",
-    "title": "Geospatial Research",
+    "objectID": "pages/research_areas/economic_policy.html",
+    "href": "pages/research_areas/economic_policy.html",
+    "title": "Economic Policy",
     "section": "",
     "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "pages/research_areas/indo_pacific_studies.html#in-the-news",
-    "href": "pages/research_areas/indo_pacific_studies.html#in-the-news",
-    "title": "Indo-Pacific Studies Program",
-    "section": "In the News",
-    "text": "In the News\nThe most recent posts we have published:"
-  },
-  {
-    "objectID": "pages/research_areas/indo_pacific_studies.html#latest-analysis",
-    "href": "pages/research_areas/indo_pacific_studies.html#latest-analysis",
-    "title": "Indo-Pacific Studies Program",
-    "section": "Latest Analysis",
-    "text": "Latest Analysis"
-  },
-  {
-    "objectID": "pages/research_areas/indo_pacific_studies.html#subscribe-to-our-newsletters",
-    "href": "pages/research_areas/indo_pacific_studies.html#subscribe-to-our-newsletters",
-    "title": "Indo-Pacific Studies Program",
-    "section": "Subscribe to our Newsletters",
-    "text": "Subscribe to our Newsletters"
-  },
-  {
-    "objectID": "pages/research_areas/indo_pacific_studies.html#subscribe-to-our-podcasts",
-    "href": "pages/research_areas/indo_pacific_studies.html#subscribe-to-our-podcasts",
-    "title": "Indo-Pacific Studies Program",
-    "section": "Subscribe to our Podcasts",
-    "text": "Subscribe to our Podcasts"
-  },
-  {
-    "objectID": "pages/team_takshashila.html",
-    "href": "pages/team_takshashila.html",
-    "title": "Team Takshashila",
+    "objectID": "pages/research_areas/strategic_studies.html",
+    "href": "pages/research_areas/strategic_studies.html",
+    "title": "Strategic Studies",
     "section": "",
-    "text": "Nitin Pai is co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy. His current research includes the geopolitics of the Indo-Pacific; defence economics and the politics of radically networked societies.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Narayan Ramchandran is one of Takshashila’s co-founders. He worked on Wall Street (mostly at Morgan Stanley) for over 20 years, most recently as head of global emerging market investing and then country head of Morgan Stanley in India.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Anand Arni is a Distinguished Fellow at the Takshashila Institution. As a career intelligence officer, he has spent over 25 years specialising in India’s neighbourhood policies. Post-retirement, he continues to focus on India’s western neighbours.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Lt. Gen. (Retd) Prakash Menon is the Director of the Strategic Studies Programme. He is also Professor Emeritus at Trans Disciplinary University (TDU), Bangalore and Adjunct Professor, National Institute of Advanced Studies, Bangalore.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Air Marshal TD Joseph has in-depth experience in strategic and operational planning, flying operations and air defence operations, managing and orchestrating resources worth thousands of crores, heading training of nearly 20,000 personnel every year, and command & leadership. He is a security strategy thinker with a published book (Winning India's Next War: The Role of Aerospace Power, published in 2007) and several articles on aerospace power and international security.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n        \n        \n\n\nNo matching items"
+    "text": "Content of the publication goes here…"
   },
   {
-    "objectID": "pages/team_takshashila.html#co-founders-and-distinguished-fellows",
-    "href": "pages/team_takshashila.html#co-founders-and-distinguished-fellows",
-    "title": "Team Takshashila",
+    "objectID": "pages/ai_policy.html",
+    "href": "pages/ai_policy.html",
+    "title": "Policy for Use of Generative AI",
     "section": "",
-    "text": "Nitin Pai is co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy. His current research includes the geopolitics of the Indo-Pacific; defence economics and the politics of radically networked societies.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Narayan Ramchandran is one of Takshashila’s co-founders. He worked on Wall Street (mostly at Morgan Stanley) for over 20 years, most recently as head of global emerging market investing and then country head of Morgan Stanley in India.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Anand Arni is a Distinguished Fellow at the Takshashila Institution. As a career intelligence officer, he has spent over 25 years specialising in India’s neighbourhood policies. Post-retirement, he continues to focus on India’s western neighbours.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Lt. Gen. (Retd) Prakash Menon is the Director of the Strategic Studies Programme. He is also Professor Emeritus at Trans Disciplinary University (TDU), Bangalore and Adjunct Professor, National Institute of Advanced Studies, Bangalore.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                \n                                    \n                                        Air Marshal TD Joseph has in-depth experience in strategic and operational planning, flying operations and air defence operations, managing and orchestrating resources worth thousands of crores, heading training of nearly 20,000 personnel every year, and command & leadership. He is a security strategy thinker with a published book (Winning India's Next War: The Role of Aerospace Power, published in 2007) and several articles on aerospace power and international security.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n        \n        \n\n\nNo matching items"
+    "text": "Version 1.0 25th June 2024\nTakshashila Institution permits the responsible use of AI-based tools for research to augment existing research capacities. This includes the use of AI for searching research leads, synthesising information, aid in reasoning, editing written documents, and visualising outputs. Takshashila Institution recommends the following principles for responsible use of AI tools in research:\n\nAuthors are accountable for the quality of their research\nThe author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources.\n\n\nTransparency\nThe author(s) is/are responsible for the content. AI cannot be considered an author, and the author(s) are accountable for the paper’s compliance with academic standards of originality, accuracy, plagiarism and attribution to primary sources.\n\n\nSamples of how disclosures can be written\n\nThe essay was copy-edited using ChatGPT.\n\nThis data/chart was created using tool X.\nThe analysis in this paper was done with the support of chatGPT.\n\n\n\nAttribution\nAuthor(s) will not use AI to write out their analyses - instead, the role of the AI is to improve research productivity by reducing time spent on searching for leads. The author(s) is/are expected to use this information to come to their independent conclusions and write those in their own words. All original sources of information should be correctly cited.\nAuthor(s) will verify all information and sources generated using AI tool(s).\n\n\nAudit Trail\nTakshashila Institution recommends it as a best practice to maintain a record of prompts used as part of a project’s research work. This record does not need to be published, but can be used to audit the claims of a document if necessary."
   },
   {
-    "objectID": "pages/team_takshashila.html#fellows-and-adjunct-fellows",
-    "href": "pages/team_takshashila.html#fellows-and-adjunct-fellows",
-    "title": "Team Takshashila",
-    "section": "Fellows and Adjunct Fellows",
-    "text": "Fellows and Adjunct Fellows\n\n\n    \n        \n            \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                    Pranay Kotasthane\n                                \n                                \n                                    \n                                        Pranay Kotasthane is deputy director of the Takshashila Institution. Pranay’s current research includes high tech geopolitics and the politics of radically networked societies. Pranay teaches public policy, international relations, and public finance at Takshashila’s graduate and post-graduate programmes.\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                    Ashwin Prasad\n                                \n                                \n                                    \n                                        Ashwin is a Research Analyst with the High-tech Geopolitics programme at Takshahsila\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n                \n                    \n                        \n                            \n                        \n                        \n                            \n                                \n                                    Satya Shoova Sahu\n                                \n                                \n                                    \n                                        Satya is a Research Analyst with the High-tech Geopolitics programme at Takshahsila\n                                    \n                                \n                                        \n                                            Learn more\n                                        \n                            \n                \n                \n        \n        \n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/publications/test4.html",
-    "href": "content/publications/test4.html",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "objectID": "content/blogs/satellite-internet.html",
+    "href": "content/blogs/satellite-internet.html",
+    "title": "Satellite Internet Explained: How It Works & Why It Matters",
     "section": "",
-    "text": "Content of the publication goes here….."
+    "text": "Internet connectivity is critical to communications, national security and economic stability, making internet infrastructure a key pillar of a nation’s critical systems.\nSatellite internet has emerged as an important part of this information infrastructure. It addresses the fundamental limitations of ground-based networks by providing resilient, global internet coverage that functions regardless of terrain, population density or infrastructure development. This technology represents not just a backup system but a transformative approach to internet provision.\nSatellite megaconstellations mark a new age in space-based internet. They involve hundreds or even thousands of satellites orbiting a few hundred kilometres above Earth. Together, they form a network that beams internet services directly from space. This ‘internet in the sky’ has democratised satellite internet access.\nSatellite internet has applications across many domains - military operations, disaster response, healthcare services, agricultural productivity, transportation, and public services. The inherently dual-use nature of satellite internet technology—serving both civilian and military purposes—creates complex security dynamics.\nThe potential and risks of satellite internet highlight the need for strategic investments. It is also important to integrate their use in disaster response protocols and leverage their potential to bridge the digital divide. Finally, it is necessary to establish regulation to tackle security concerns and engage in international forums to shape the technology’s future.\nThis document represents the first in a planned series examining satellite internet. It focuses solely on the technological fundamentals of satellite internet systems, explaining their infrastructure, functioning, and applications. Regulatory aspects, policy frameworks, and governance challenges will be addressed comprehensively in future documents in this series."
   },
   {
-    "objectID": "content/publications/test1.html",
-    "href": "content/publications/test1.html",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "objectID": "content/blogs/satellite-internet.html#executive-summary",
+    "href": "content/blogs/satellite-internet.html#executive-summary",
+    "title": "Satellite Internet Explained: How It Works & Why It Matters",
     "section": "",
-    "text": "Satya Shoova Sahu\n              Research Analyst at Takshashila."
+    "text": "Internet connectivity is critical to communications, national security and economic stability, making internet infrastructure a key pillar of a nation’s critical systems.\nSatellite internet has emerged as an important part of this information infrastructure. It addresses the fundamental limitations of ground-based networks by providing resilient, global internet coverage that functions regardless of terrain, population density or infrastructure development. This technology represents not just a backup system but a transformative approach to internet provision.\nSatellite megaconstellations mark a new age in space-based internet. They involve hundreds or even thousands of satellites orbiting a few hundred kilometres above Earth. Together, they form a network that beams internet services directly from space. This ‘internet in the sky’ has democratised satellite internet access.\nSatellite internet has applications across many domains - military operations, disaster response, healthcare services, agricultural productivity, transportation, and public services. The inherently dual-use nature of satellite internet technology—serving both civilian and military purposes—creates complex security dynamics.\nThe potential and risks of satellite internet highlight the need for strategic investments. It is also important to integrate their use in disaster response protocols and leverage their potential to bridge the digital divide. Finally, it is necessary to establish regulation to tackle security concerns and engage in international forums to shape the technology’s future.\nThis document represents the first in a planned series examining satellite internet. It focuses solely on the technological fundamentals of satellite internet systems, explaining their infrastructure, functioning, and applications. Regulatory aspects, policy frameworks, and governance challenges will be addressed comprehensively in future documents in this series."
   },
   {
-    "objectID": "content/publications/test1.html#content-of-the-publication-goes-here.",
-    "href": "content/publications/test1.html#content-of-the-publication-goes-here.",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
-    "section": "Content of the publication goes here……………….",
-    "text": "Content of the publication goes here………………."
+    "objectID": "content/blogs/test5.html",
+    "href": "content/blogs/test5.html",
+    "title": "The Proposed Lok Sabha Seat Apportionment—What Should the Southern States Really Demand?",
+    "section": "",
+    "text": "Content of the blog post goes here…"
   },
   {
-    "objectID": "content/publications/test1.html#content-of-the-publication-goes-here",
-    "href": "content/publications/test1.html#content-of-the-publication-goes-here",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
-    "section": "Content of the publication goes here………………",
-    "text": "Content of the publication goes here………………"
+    "objectID": "content/podcasts/all-things-policy/index.html",
+    "href": "content/podcasts/all-things-policy/index.html",
+    "title": "All Things Policy",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          name\n        \n     \n  \n    \n      \n      \n    \n\n\n    \n        \n            \n                \n                    \n                \n            \n            \n            \n                \n                    \n                \n            \n            \n            \n                \n                    \n                \n            \n            \n            \n                \n                    \n                \n            \n            \n                \n\n\nNo matching items"
   },
   {
-    "objectID": "content/publications/test1.html#content-of-the-publication-goes-here-1",
-    "href": "content/publications/test1.html#content-of-the-publication-goes-here-1",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
-    "section": "Content of the publication goes here………………",
-    "text": "Content of the publication goes here………………"
+    "objectID": "content/publications/satellite-internet.html",
+    "href": "content/publications/satellite-internet.html",
+    "title": "Satellite Internet Explained: How It Works & Why It Matters",
+    "section": "",
+    "text": "Internet connectivity is critical to communications, national security and economic stability, making internet infrastructure a key pillar of a nation’s critical systems.\nSatellite internet has emerged as an important part of this information infrastructure. It addresses the fundamental limitations of ground-based networks by providing resilient, global internet coverage that functions regardless of terrain, population density or infrastructure development. This technology represents not just a backup system but a transformative approach to internet provision.\nSatellite megaconstellations mark a new age in space-based internet. They involve hundreds or even thousands of satellites orbiting a few hundred kilometres above Earth. Together, they form a network that beams internet services directly from space. This ‘internet in the sky’ has democratised satellite internet access.\nSatellite internet has applications across many domains - military operations, disaster response, healthcare services, agricultural productivity, transportation, and public services. The inherently dual-use nature of satellite internet technology—serving both civilian and military purposes—creates complex security dynamics.\nThe potential and risks of satellite internet highlight the need for strategic investments. It is also important to integrate their use in disaster response protocols and leverage their potential to bridge the digital divide. Finally, it is necessary to establish regulation to tackle security concerns and engage in international forums to shape the technology’s future.\nThis document represents the first in a planned series examining satellite internet. It focuses solely on the technological fundamentals of satellite internet systems, explaining their infrastructure, functioning, and applications. Regulatory aspects, policy frameworks, and governance challenges will be addressed comprehensively in future documents in this series."
   },
   {
-    "objectID": "content/publications/test1.html#content-of-the-publication-goes-here-2",
-    "href": "content/publications/test1.html#content-of-the-publication-goes-here-2",
-    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
-    "section": "Content of the publication goes here………………",
-    "text": "Content of the publication goes here………………\n\nThis is a side note that will appear in the margin of your document."
+    "objectID": "content/publications/satellite-internet.html#executive-summary",
+    "href": "content/publications/satellite-internet.html#executive-summary",
+    "title": "Satellite Internet Explained: How It Works & Why It Matters",
+    "section": "",
+    "text": "Internet connectivity is critical to communications, national security and economic stability, making internet infrastructure a key pillar of a nation’s critical systems.\nSatellite internet has emerged as an important part of this information infrastructure. It addresses the fundamental limitations of ground-based networks by providing resilient, global internet coverage that functions regardless of terrain, population density or infrastructure development. This technology represents not just a backup system but a transformative approach to internet provision.\nSatellite megaconstellations mark a new age in space-based internet. They involve hundreds or even thousands of satellites orbiting a few hundred kilometres above Earth. Together, they form a network that beams internet services directly from space. This ‘internet in the sky’ has democratised satellite internet access.\nSatellite internet has applications across many domains - military operations, disaster response, healthcare services, agricultural productivity, transportation, and public services. The inherently dual-use nature of satellite internet technology—serving both civilian and military purposes—creates complex security dynamics.\nThe potential and risks of satellite internet highlight the need for strategic investments. It is also important to integrate their use in disaster response protocols and leverage their potential to bridge the digital divide. Finally, it is necessary to establish regulation to tackle security concerns and engage in international forums to shape the technology’s future.\nThis document represents the first in a planned series examining satellite internet. It focuses solely on the technological fundamentals of satellite internet systems, explaining their infrastructure, functioning, and applications. Regulatory aspects, policy frameworks, and governance challenges will be addressed comprehensively in future documents in this series."
   },
   {
-    "objectID": "content/publications/test3.html",
-    "href": "content/publications/test3.html",
+    "objectID": "content/publications/test2.html",
+    "href": "content/publications/test2.html",
     "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
     "section": "",
     "text": "Content of the publication goes here…"
+  },
+  {
+    "objectID": "content/publications/indian-space-reform.html",
+    "href": "content/publications/indian-space-reform.html",
+    "title": "Satellite Internet Explained. How It Works & Why It Matters",
+    "section": "",
+    "text": "The age of astropolitics has dawned upon the world. A nation’s technological capabilities in space is paramount–economically and strategically. India occupies a very small share of the rapidly growing global space economy. Regulation and production of space activities were hitherto in the hands of the Indian Space Research Organisation. This concentration constricted ISRO’s ability to fulfil the technological needs of the country as well as undertake strategically critical missions. Being among the elite space-faring nations, the number of satellites launched by ISRO is dwarfed by those of the United States and China. The space ecosystem in India needed more participants and the resulting competition to drive innovation and scale.\nAppreciating this need, the Indian government set about liberalising the space arena to stimulate private sector participation. A slew of reforms were announced from 2019 that re-examined the role of the government in the space sector. NewSpace India Limited was established as a commercial arm to take over ISRO’s routine operations through the commercial space sector. Indian National Space Promotion and Authorisation Centre was set up to regulate all space activities in India; Government-owned data and infrastructure was opened up to private sector. ISRO’s priorities were repositioned to align with Indian strategic needs. Most recently, the Foreign Direct Invest limits were eased for activities in the space sector.\nExamining some of the other national space policies lends perspective into space sector regulation and growth. The United States of America, Japan and the United Arab Emirates were considered to study three distinct space programs and policy models. The United States follows a “exploit what we have, buy what we can, and build what we must” approach as it seeks to actively leverage the full capabilities of its commercial space industry. It resorts to government production only when procurement from the private sector is unviable. The principles of its space policy has permeated to its various commercial and military procurement policies, space priorities frameworks and space authorisation frameworks.\nThe Japanese follow a similar policy of procurement and partnership to boost its private sector. Having recognised the significance of space for their economy and national security, they are enlarging their space budgets and focusing on building capabilities. The United Arab Emirates has a relatively young space program. The country has made space a priority focus sector. Given its lack of talent and faculty in the field, it is focusing on attracting startups with its friendly regulatory environment and financial incentives. All three nations have enacted a law for space regulation to demonstrate comprehensibility and coherence in their space policies.\nIt is important for India to take the progress and momentum of its space reforms forward by addressing some of the gaps in the policy regime. 1. IN-SPACe has promotional and regulatory responsibilities that cannot coexist in a single agency. These should be split up. NSIL also faces similar conflicting roles as a promoter and service provider. 2. IN-SPACe cannot remain an autonomous body under DoS. It needs independence and separation and should be provided with a statutory backing. 3. As the space regulator, IN-SPACe’s decisions may lead to disputes. The act has to also set up a disputes settlement and appellate tribunal. 4. To give some legal backing to the space policy and establish regulatory certainty in the space ecosystem, the Space Activities Bill must be authorised and enacted by the Parliament on a priority basis. The act should forge a liberal regulatory environment with market-friendly provisions related to space resource utilisation. 5. Finally, government procurement will be a key driver in developing the commercial space industry of our country. The Indian government is partial to funding ISRO to build things internally rather than buying from the private sector. In the first case, public funds are spent in building ISRO’s capabilities. In the second, public funds are spent in building the startup industry which can ultimately result in more R&D, job creation and scale.\nThe space sector offers enormous potential for development and progress in almost all facets of the society. India must reimagine its approach to this sector by setting its sights not just one ISRO, but on proliferating multiple ISRO like corporations to amass significant space power. ### Abbreviations DoS - Department of Space IN-SPACe - Indian National Space Promotion and Authorisation Centre ISRO - Indian Space Research Organisation NSIL - NewSpace India Limited PSLV - Polar Satellite Launch Vehicle UAE - United Arab Emirates USA - United States of America ### What the Space Reforms are On 24th June, 2020, the Union Cabinet of India initiated significant reforms in the Indian space domain.1 These space reforms have a few broad objectives, each closely linked to the rest: - Boost private sector participation in the Indian space sector, - Unburden Indian Space Research Organisation from its routine operation tasks so that it can focus on critical R&D, deep space exploration and human-spaceflight, - Put India on a path to self-reliance in advanced space technology, - Aid in advancing India’s space ambitions.\nAn overview of the pre-reform space sector is needed to understand why the government undertook these reforms, #### Backdrop of the Reforms: The Indian Space Sector In today’s age of astropolitics, space technology is deeply consequential for civilian and military applications. The great powers of the world are vying for control and influence in outer space. The size of the global space economy will triple to reach $1.8 Trillion by 2035.2 Despite being an elite space-faring nation with significant technological achievements, India’s share of this economy is less than 2%.3 The Indian government needed to increase the national space capabilities t0–occupy a larger share of the global space economy, address India’s growing technology needs and gain an influential voice in the global dialogues related to outer space affairs.\nThis voice needs to be a resonant chorus emerging from diverse stakeholders in the country operating across various domains. This ecosystem was largely missing in India with almost the entire space sector restricted to one organisation. ISRO was single-handedly responsible for both promotion and regulation. The autonomy this extended was beneficial for a nascent space agency during the cold war. However, considering the size and potential of the space economy, this is no longer prudent. The Indian space ecosystem needed new and independent stakeholders besides ISRO. With their entry into the scene, regulatory mechanisms independent of ISRO would follow–enhancing transparency and accountability.\nISRO was also responsible for commercialisation of the space sector. Being the only launch capable space agency, ISRO was tied up with routine tasks of production and operation in trying to sell its launch services to foreign payloads as well as fulfilling Indian launch needs. That left ISRO limited time and personnel for its more strategic objectives related to human-spaceflight, lunar and interplanetary missions.\nEven in its routine operations, ISRO was not self-sufficient. ISRO has grown to a 17,3004 strong organisation and cannot scale disproportionately further, even with weighty resource infusions. ISRO had outsourced parts of its supply chain to the private sector to make up for the limited in-house capacity even before the reforms. While these vendors produced specific components and sub-systems for ISRO, they had limited intellectual property and no end-to-end space capabilities. ISRO has had remarkable successes in its space endeavours and prides itself for its cost-effective space operations. However, the absence of competition from a burgeoning space industry has had an impact on driving scale and innovation up while driving costs down. The American space industry has done just that for the American space sector. India needs a SpaceX of its own.\nWhile human-spaceflight, lunar and interplanetary exploration offer interesting possibilities for the future, almost all of the benefit from outer space is currently derived closer to home–from the satellites in orbit around earth. The number of satellites launched and operated by a nation is a crude proxy for the development and scale of its space capabilities. The number of operational satellites of the US and China dwarves India’s count. The gap grows larger each year.5 ![[Pasted image 20240424153755.png]] (as of May 2023)\nIn the light of this reality, the State realised that it cannot remain a domain exclusive to government agencies. #### The Space Sector is undergoing Reform The reforms were doled out in stages through a gradual process that began in 2019 and is still ongoing. 1. On March 6, 2019, NSIL was incorporated to take over ISRO’s commercial role.6 2. On May 16, 2020, the Union Finance Minister Nirmala Sitharaman announced the government’s intention to reform the Indian space sector.7 3. On June 24, 2020, the Union Cabinet approved the reforms and created IN-SPACe. NSIL’s mandate was also expanded.8 4. On April 6, 2023, the Cabinet Committee approved the Indian Space Policy.9 5. On February 21, 2024, the Government liberalised the FDI policy for space sector.10\nThe specifics of the reform can be understood by examining the new roles and responsibilities of NSIL, IN-SPACe and ISRO before reviewing the FDI policy. ##### NewSpace India Limited The government created NSIL as a Central Public Sector Enterprise under the DoS.11 NSIL was well placed to exploit the commercial opportunities in the space sector by taking advantage of ISRO’s technological faculties through the private sector. This process would also foster the growth of auxiliary industries and infrastructure in India, resulting in positive externalities. \nInitially, in 2019, NSIL’s mandate was limited to: the production of the PSLV through industry; transfer of  technology; and, providing other space based services. The 2020 reforms that created IN-SPACe also enhanced NSIL’s mandate. NSIL was now tasked with capital intensive functions so as to gradually take over the operational part of ISRO’s missions. In addition to its original functions, NSIL would now build, launch, own and operate satellites as per market demand.12\nIn accordance with its mandate, NSIL has begun end-to-end PSLV production. It has found an industry partner in HAL and L&T consortia for the end-to-end production of 5 PSLVs. From issuing the Expression of Interest for this project in 2019 to the signing of the contract in 2022, the process took three long years. The first of the 5 PSLVs is scheduled to delivered to NSIL by 2024 with significant hand-holding by ISRO.13\nNSIL is offering launch services as well. As of last year, NSIL facilitated the launch of 62 international and 2 domestic commercial satellites aboard ISRO’s PSLVs, including 4 dedicated launches.14 NSIL also commissioned ISRO to build a communication satellite that was launched aboard an Ariane-V rocket highlighting its commercial and demand-driven nature.15\nIn 2022, the Government of India approved the transfer of ownership of 10 in-orbit GSAT satellites to NSIL. NSIL provides satcom services by provisioning transponders across various bands from INSAT/GSAT as well as foreign satellites to Indian users.16 It also handles all the commercial activities of the Indian Remote Sensing Satellites.17\nAround 30 technology transfer agreements have also been signed with the industry until 2023.18 In addition to this, NSIL is involved in many other projects and contracts surrounding ground segment and mission support. \n\n[Sidenote: Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text]\n\nIts revenue from operations has grown year-on-year and so have the profits as indicated in the chart below.19 ![[Pasted image 20240429115116.png]]\n\n\nIN-SPACe is an autonomous body under the DoS that acts as a single-window interface for all the space companies and agencies, including ISRO.20 It has a team of 12 members made up of bureaucrats, industry experts, academia, and government officials. They have different departments: Promotion Directorate, Program Management and Authorisation Directorate, Technical Directorate, and the Legal, Finance, and Administrative Wing to handle its numerous responsibilities.21 IN-SPACe’s functions can be categorised into its two main roles - regulation and promotion.\nAs a regulator, IN-SPACe is responsible for authorising all space activities by all the participants.22 As its primary responsibility, IN-SPACe ensures that these activities adhere to safety, national security, international obligations, and foreign policy considerations.23 Space-related approvals require the coordination of several departments and ministries such as the Department of Space, Ministry of Information and Broadcasting, Department of Telecommunication, Department for Promotion of Industry and Internal Trade, Ministry of Home Affairs, and Ministry of External Affairs. IN-SPACe serves as a single-window interface for this inter-departmental coordination. The Standing Committee for Inter-Ministerial Coordination provides authorisations for applications whenever necessary.24 To make this entire process paperless and seamless, IN-SPACe established a digital platform in 2022, and it has received over 450 applications so far.25\nIN-SPACe has also been tasked with promoting and developing the ecosystem and assisting non-government entities.26 IN-SPACe has to ensure a level playing field in access to all government-owned facilities and satellite data.27 A Price Support Policy has been implemented to offer technical support from ISRO to the private sector.28 \nIN-SPACe works with industry and academia to enable linkages.29 A total of 50 MoUs have been signed to date with non-governmental entities. To create awareness among academia, a National Committee for Adoption of Space Technology Education was formed. IN-SPACe is partnering with the DoS and the MEA to establish connections between the Indian and foreign space industries. IN-SPACe has already conducted roundtable meetings with Australia, Italy, and Luxembourg and plans to collaborate with more countries in the future.30\nIn-SPACe promotes industry clusters, manufacturing hubs and incubation centres.31 Start-ups can receive up to 1 crore seed fund assistance for funding, training, mentorship, and networking opportunities. IN-SPACe has established a Design Lab and a Technical Centre with computing facilities, test labs and clean rooms that start-ups can use for their mission planning needs.32 IN-SPACe is collaborating with various states in India to develop industry clusters. One such recent collaboration was with Tamil Nadu Industrial Development Corporation Limited (TIDCO) to establish a space industrial and propellants park.33 Another partnership exists with Gujarat to construct a space manufacturing park.34\nIN-SPACe also facilitates technology transfers to non-governmental entities. Fifteen technologies developed by ISRO have already been transferred to private companies. Private companies can apply for technology transfer through the website. IN-SPACe is also in the process of transferring the Small Satellite Launch Vehicle (SSLV) technology to the private industry.35\nThe efforts of the government, IN-SPACe, and the private sector have resulted in a significant increase in the number of space start-ups operating in India, which has risen from 1 in 2012 to close to 200 in 2023. Investments in the Indian space sector have also increased from $6 million in 2019 to $125 million in 2023.36 ##### ISRO The reforms open up the ISRO’s informational, technological and infrastructural resources to the non-governmental entities. In addition to transferring technology to the private sector via IN-SPACe and NSIL, ISRO has enabled open access of its remote sensing data. Output with resolutions 5 metres and coarser is free and open for all while resolutions finer than 5 metres is free and open for the government and is priced for others. [Sidenote: Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text]\nISRO will shift its energies towards more strategic functions. This would entail ISRO focusing on R&D into technologies critical to the Indian national interest. The Space Policy identifies a few key areas like space transportation, human-spaceflight, in-situ resource utilisation and extra-terrestrial habitability. These technologies aspire for crewed Chandrayaan missions to set up a Indian lunar base in the coming decades. ##### FDI Liberalisation On 21st February, the Union Cabinet liberalised the FDI policy for the space sector. The amendment eased automatic FDI entry thresholds for three sets of activities related to satellite operations.37\n\n\n\n\n\n\n\nSet of Activities\n% of FDI entry allowed without Government Approval\n\n\n\n\nManufacturing of components and systems/ sub-systems for satellites, ground segment and user segment.\n100%\n\n\nSatellites-Manufacturing & Operation, Satellite Data Products and Ground Segment & User Segment.\n74%\n\n\nLaunch Vehicles and associated systems or subsystems, Creation of Spaceports for launching and receiving Spacecraft. Beyond 49% these activities are under government route.\n49%\n\n\n\nMost parts of the space operations are capital intensive. Funding is going to remain a challenge for most space companies, particularly the start ups. A large portion of the funding will come from local venture capitalists. As the operations scale, the startups will need a larger and a more patient capital source. The new FDI policy can bring in foreign investors and decentralise investment decisions. However, the Indian industry has to compete globally to attract investments. ### A Preview of Space Policies in other Countries For the benefit of context, it is useful to outline the policy models of other space-faring countries. This document focuses on the US, Japan and UAE as they represent three different models of developing the space ecosystem. #### USA The American space ecosystem is the largest in the world in terms of scale and capabilities. The US enjoyed the first movers advantage in the this domain from the space race during the cold war. The legacy space enterprise model in the US wanted the government to own and manage space assets to reduce risk. The US has moved away from this thinking. It presently follows a “exploit what we have, buy what we can, and build what we must” approach as it seeks to actively leverage the capabilities of its private space sector.38\nTo facilitate a pro-growth environment for the development of a flourishing commercial space industry and create scope for private sector investment into space assets, the government enacted the U.S. Commercial Space Launch Competitiveness Act in 2015. 39\nThe US National Space Policy, 2020 emphasises on encouraging private space entrepreneurship and innovation in order to preserve the American edge in space operations. The US government seeks to actively identify and invest in commercial technologies that can contribute to the State-led space projects. They do not want to inhibit or compete with the private sector. The government will take it upon itself to develop space systems only when there are no viable options for procurement in the commercial space sector and/or in the interest of national security. The government will be inventive and non-traditional in the process of acquiring commercial space goods and services.40\nThis is evident in NASA’s Artemis program, a key characteristic of it being its industry partners.41 In an effort to build autonomy and competence of its industry, NASA bought end-to-end space services rather than hardware from the space companies.42 43 44\nGiven the strategic imperative of space and the USA’s reliance on the private sector in this regard, the government wants to provide a fillip to the American space companies to stay in the US. The government will also safeguard the companies against predatory foreign investment to retain strategic ownership within the country.\nThe U.S. Space Force Commercial Space Strategy is also in direct support of the U.S. National Space Policy, as are the Department of Defense (DoD) Commercial Space Integration Strategy (2024), United States Novel Space Sector Authorisation and Supervision Framework (2023), and United States Space Priorities Framework (2021).45\n#### Japan The Japanese Space Policy initially restricted its focus to research and development under the Education Ministry. It operated with smaller budgets. The Plan for Space Policy, 2020 overhauled the system by recognising the latent value of space for national economy and security. Public-private partnerships in space domain took priority over the government-led initiatives. One of the major principles of the new space policy is to maximise procurement from the private sector.46\nJapan became the fourth country to implement a Space Resource Act in 2021 allowing the private entities to explore, extract, and utilise resources in outer space, including water, minerals, and other natural resources existing in outer space. This legislation is expected to spur private investment and development in the space sector.47\nIn 2023, Japan set up a $6.7 Billion, 10-year fund for the Japanese Aerospace Exploration Agency (JAXA). JAXA will invest in budding space startups and technologies that can take a long time to bear commercial fruit.48 #### UAE The UAE is a relatively new entrant into the space domain. The UAE Space Agency was set up in 2014 followed by a National Space Policy in 2016.49 To implement the policy, a Space Regulation Law was enacted in 2019.50 The law sets out provisions for regulating space activities including space resource utilisation. The National Space Strategy in 2019 details upon the strategic goals of the UAE space program and the initiatives to achieve them. One of the key goals is to develop local capabilities in the space technology value chain.51\nDue to the lack of technical skill and know-how given that the foray into space in very recent, the UAE has focussed on setting up an suitable regulatory environment, infrastructure and financial assistance to attract space startups into the country. There are express permits for certain space activities. The UAE has established several dedicated space-tech hubs under the Space Economic Zones Program. These hubs aim to provide the private industry with necessary infrastructure, business-friendly environment and investment opportunities.52 ### Recommendations for Indian Space Governance The Indian space reforms offers significant potential for monetisation, infrastructure development, employment generation and arresting brain drain. Having taken these significant steps for reform and improvement, there are a few more improvements that the government should make:\n\nRecondition the conflicting responsibilities of the government agencies\nMake the regulation independent\nCreate an Adjudicatory and Appellate Body\nSpace Activities Act\nGovernment Procurement #### 1. Recondition thee conflicting responsibilities ISRO was tasked with numerous and often discordant responsibilities. The reforms remedied this but only partially. Cases of incongruous roles still exist.\n\nIN-SPACe is currently responsible for promoting, enabling, authorising as well as supervising the space sector.53 These tasks are incongruous and should not be done by a single entity. The government must consider splitting IN-SPACe’s various directorates into regulatory and promotional groups to avoid conflicts of interest amongst them in the course of their duties.\nSimilar incongruity exists in NSIL also. NSIL acts as a promoter as well as a service provider. In the due course of its duties of advancing the private industry, a scenario is likely to emerge where the private industry may become NSIL’s competitors. #### 2. Make the regulation independent As a regulator, IN-SPACe has to govern the activities of all the participants in the space sector in India, including ISRO. Presently, IN-SPACe is an autonomous agency under Department of Space. The Secretary of the DoS is also the Chairman of ISRO. This means that IN-SPACe is essentially in charge of regulating its own head.\nInstitutional independence and impartiality is paramount in the regulation of a sector as important as space. The regulatory side of IN-SPACe should get statutory backing outside of the DoS to allow effective discharge of its duties. #### 3. Create an Adjudicatory and Appellate Body As the Indian space ecosystem grows, an institutional mechanism to handle disputes between the licensor (IN-SPACe) and licensees (fprivate sector/government agencies) are likely to surface. The settling of such disputes cannot be arbitrary.\nThe statutory mechanism for IN-SPACe must also create INDSAT–Indian National Space Dispute Settlement and Appellate Tribunal. The tribunal can handle the adjudicatory and appellate functions. #### 4. Space Activities Act The next logical step in the reforms is for the Parliament to approve and enact the Space Activities Act. The Act should establish a liberal regulatory environment that can instil confidence in the commercial space sector. With market-friendly provisions related to resource utilisation, liability and insurance, the act has enormous potential to complement the Space Policy and FDI reforms. The act is a potential signal to the companies and investors in the world about the Indian space ambitions.\nAt the present, most Indian space startups are incorporated in the US and Europe to take advantage of the more conducive startup environment and to attract better capital and talent.54 While the National Space Policy and FDI liberalisation can improve India as a destination with respect to these factors, the Act is required for the legal teeth it provides to the policies. #### 5. Government Procurement The government has a big role to play in creating demand in the commercial industry. A shift from make approach to buy approach is essential here. The Indian government is spending public funds to make things on its own and therefore building ISRO’s capabilities. What it should be doing instead is spend the same public funds to buy things from the private sector and allow the growth in capability to accrue in the society. 55 These contracts will spur competition resulting in vital R&D and innovation, ultimately shoring up on Indian space power. ### Conclusion The overall national space power will decide if India lives up to its potential in the global space economy. This space power of the nation is the sum total of all the space companies, talent, infrastructure as well as government’s abilities. Space sector is emergent, often risky and has long gestation periods. There are enormous positive externalities in investing in this domain, the dispersed benefits of which accrue to the society as a whole. The Indian needs to reimagine the way it engages in this sector by further optimising the regulatory environment and streamlining government procurement. The goal should not be to have one ISRO, but numerous ISRO like corporations will similar capabilities."
+  },
+  {
+    "objectID": "content/publications/indian-space-reform.html#footnotes",
+    "href": "content/publications/indian-space-reform.html#footnotes",
+    "title": "Satellite Internet Explained. How It Works & Why It Matters",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://pib.gov.in/Pressreleasepage.Aspx?PRID=1633892↩︎\nhttps://www.weforum.org/press/2024/04/space-economy-set-to-triple-to-1-8-trillion-by-2035-new-research-reveals/↩︎\nhttps://telecom.economictimes.indiatimes.com/news/portal-in-portal/satcom/current-size-of-indian-space-economy-is-estimated-around-usd-8-4-billion-jitendra-singh-in-rajya-sabha/105825325↩︎\nhttps://government.economictimes.indiatimes.com/news/technology/space-sector-reforms-were-a-bold-move-by-the-modi-govt-former-officials-of-isro-antrix/100566172↩︎\nhttps://nanoavionics.com/blog/how-many-satellites-are-in-space/↩︎\nhttps://www.nsilindia.co.in↩︎\nhttps://pib.gov.in/PressReleasePage.aspx?PRID=1624536↩︎\nhttps://pib.gov.in/Pressreleasepage.Aspx?PRID=1633892↩︎\nhttps://www.thehindubusinessline.com/news/science/cabinet-gives-nod-to-indian-space-policy-2023/article66708202.ece↩︎\nhttps://pib.gov.in/PressReleaseIframePage.aspx?PRID=2007876↩︎\nhttps://www.nsilindia.co.in/↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/NSIL%20Annual%20Report%20-%20English%2021-22.pdf↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://x.com/NSIL_India/status/1785273158720737353↩︎\nhttps://www.nsilindia.co.in/sites/default/files/u1/Annual%20Report-2022-23%20-%20English.pdf↩︎\nhttps://www.nsilindia.co.in/annual-report↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.thehindu.com/news/national/tamil-nadu/tidco-bets-big-on-space-sector-signs-mou-with-in-space/article67925841.ece↩︎\nhttps://www.linkedin.com/posts/ispa-indian-space-association_concept-paper-activity-7030862829700198400-4Z0u/?originalSubdomain=in↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://www.inspace.gov.in/inspace/sys_attachment.do?sys_id=772aa89787748210de76a8660cbb35e9↩︎\nhttps://pib.gov.in/PressReleaseIframePage.aspx?PRID=2007876↩︎\nhttps://www.spaceforce.mil/Portals/2/Documents/Space%20Policy/USSF_Commercial_Space_Strategy.pdf↩︎\nhttps://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf↩︎\nhttps://trumpwhitehouse.archives.gov/wp-content/uploads/2020/12/National-Space-Policy.pdf↩︎\nhttps://www.nasa.gov/commercial-lunar-payload-services/↩︎\nhttps://www.nasa.gov/wp-content/uploads/2016/08/sp-2014-617.pdf↩︎\nhttps://www.nasa.gov/artemis-partners/↩︎\nhttps://www.nasa.gov/humans-in-space/commercial-space/commercial-crew-program/commercial-crew-program-overview/↩︎\nhttps://www.spaceforce.mil/Portals/2/Documents/Space%20Policy/USSF_Commercial_Space_Strategy.pdf↩︎\nhttps://www8.cao.go.jp/space/english/basicplan/2020/abstract_0701.pdf↩︎\nhttps://www.loc.gov/item/global-legal-monitor/2021-09-15/japan-space-resources-act-enacted/↩︎\nhttps://asia.nikkei.com/Business/Aerospace-Defense-Industries/Japan-to-set-up-6.7bn-JAXA-fund-to-develop-space-industry↩︎\nhttps://space.gov.ae/Documents/PublicationPDFFiles/UAE_National_Space_Policy_English.pdf↩︎\nhttps://www.moj.gov.ae/assets/2020/Federal%20Law%20No%2012%20of%202019%20on%20THE%20REGULATION%20OF%20THE%20SPACE%20SECTOR.pdf.aspx↩︎\nhttps://space.gov.ae/Documents/PublicationPDFFiles/2030-National-Strategy-Summary-EN.pdf↩︎\nhttps://u.ae/en/about-the-uae/science-and-technology/key-sectors-in-science-and-technology/space-science-and-technology/space-programmes↩︎\nhttps://www.inspace.gov.in/inspace↩︎\nhttps://www.sia-india.com/spaceport-sarabhai-s2-indias-first-dedicated-space-think-tank-launched-its-report-why-do-indian-founders-in-the-space-industry-start-their-start-ups-abroad-at-the-in/↩︎\nhttps://papers.xkdr.org/papers/MashelkarST2024_rethinking_indian_innov.pdf↩︎"
+  },
+  {
+    "objectID": "content/publications/test5.html",
+    "href": "content/publications/test5.html",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "",
+    "text": "Earlier this month, the outgoing Biden-Harris Administration introduced the ‘Framework for Artificial Intelligence Diffusion’ aimed at controlling the global spread of advanced AI capabilities. The framework regulates the global distribution of advanced AI chips which are necessary to develop and run AI models. From an Indian perspective, understanding the mechanisms of the framework that govern India’s access to AI chips is critical for policymakers. India can procure AI chips under controlled conditions, using four pathways under the framework:\n\nNational Validated End User (VEU) Authorisation Mechanism;\nOne-Time Licences Mechanism (Based on Country-Specific Limits);\nLicence Exemptions Mechanism (For Small-Scale Deployments);\nGeneral VEU Authorisation Mechanism\n\nThis AI Diffusion Framework adds additional compliance requirements for Indian AI companies, potentially affecting India’s chip access. Companies should plan strategically considering these new limitations."
+  },
+  {
+    "objectID": "content/publications/test5.html#executive-summary",
+    "href": "content/publications/test5.html#executive-summary",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "",
+    "text": "Earlier this month, the outgoing Biden-Harris Administration introduced the ‘Framework for Artificial Intelligence Diffusion’ aimed at controlling the global spread of advanced AI capabilities. The framework regulates the global distribution of advanced AI chips which are necessary to develop and run AI models. From an Indian perspective, understanding the mechanisms of the framework that govern India’s access to AI chips is critical for policymakers. India can procure AI chips under controlled conditions, using four pathways under the framework:\n\nNational Validated End User (VEU) Authorisation Mechanism;\nOne-Time Licences Mechanism (Based on Country-Specific Limits);\nLicence Exemptions Mechanism (For Small-Scale Deployments);\nGeneral VEU Authorisation Mechanism\n\nThis AI Diffusion Framework adds additional compliance requirements for Indian AI companies, potentially affecting India’s chip access. Companies should plan strategically considering these new limitations."
+  },
+  {
+    "objectID": "content/publications/test5.html#introduction-to-ai-diffusion-rules",
+    "href": "content/publications/test5.html#introduction-to-ai-diffusion-rules",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Introduction to AI Diffusion Rules",
+    "text": "Introduction to AI Diffusion Rules\nIn an increasingly competitive global technology landscape, access to advanced computing resources such as high-performance GPUs has become a critical factor in a nation’s AI development capabilities. The recently introduced ‘Framework for Artificial Intelligence Diffusion’ by the Biden-Harris Administration represents a significant shift in how these resources will be distributed globally. This is a span that has the class aside which places it in the margin without a footnote number."
+  },
+  {
+    "objectID": "content/publications/test5.html#understanding-the-frameworks-four-pathways",
+    "href": "content/publications/test5.html#understanding-the-frameworks-four-pathways",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Understanding the Framework’s Four Pathways",
+    "text": "Understanding the Framework’s Four Pathways\nThe framework establishes four distinct pathways through which countries like India can access advanced AI chips:\n\n1. National Validated End User (VEU) Authorization\nThis mechanism allows approved institutions in qualifying countries to receive significant allocations of advanced AI chips. For India, this could potentially mean access to up to 100,000 H100s by 2025 and 300,000 by 2027 per approved company.\n\n\n2. One-Time Licenses Mechanism\nBased on country-specific limits, this pathway permits one-time approvals for specific projects or deployments. Under this mechanism, Indian companies might receive approvals for up to 50,000 H100 chips on a first-come, first-serve basis through 2027.\n\n\n3. License Exemptions for Small-Scale Deployments\nThis pathway is designed for smaller applications, typically allowing around 1,700 H100 chips per company. It’s generally meant for non-frontier AI applications and routine deployments.\n\n\n4. General VEU Authorization\nA broader approach that provides longer-term access for established entities with proven compliance records. This represents the primary pathway for Indian companies seeking to build large data centers and will need to acquire chips periodically."
+  },
+  {
+    "objectID": "content/publications/test5.html#implications-for-indias-ai-ecosystem",
+    "href": "content/publications/test5.html#implications-for-indias-ai-ecosystem",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Implications for India’s AI Ecosystem",
+    "text": "Implications for India’s AI Ecosystem\nThe introduction of the AI Diffusion Framework introduces several challenges and considerations for Indian companies:\n\nCompliance Requirements: Indian AI companies will need to demonstrate adherence to stringent security and usage protocols.\nPlanning Limitations: Companies must now factor in potential delays and approval processes when planning AI infrastructure expansions.\nStrategic Partnerships: The framework may incentivize partnerships with U.S. entities to facilitate smoother approval processes.\nDomestic Alternatives: This may accelerate India’s efforts to develop domestic chip manufacturing capabilities and alternative AI acceleration technologies."
+  },
+  {
+    "objectID": "content/publications/test5.html#implications-for-indias-ai-ecosystem-1",
+    "href": "content/publications/test5.html#implications-for-indias-ai-ecosystem-1",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Implications for India’s AI Ecosystem",
+    "text": "Implications for India’s AI Ecosystem"
+  },
+  {
+    "objectID": "content/publications/test5.html#implications-for-indias-ai-ecosystem-2",
+    "href": "content/publications/test5.html#implications-for-indias-ai-ecosystem-2",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Implications for India’s AI Ecosystem",
+    "text": "Implications for India’s AI Ecosystem"
+  },
+  {
+    "objectID": "content/publications/test5.html#implications-for-indias-ai-ecosystem-3",
+    "href": "content/publications/test5.html#implications-for-indias-ai-ecosystem-3",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Implications for India’s AI Ecosystem",
+    "text": "Implications for India’s AI Ecosystem"
+  },
+  {
+    "objectID": "content/publications/test5.html#implications-for-indias-ai-ecosystem-4",
+    "href": "content/publications/test5.html#implications-for-indias-ai-ecosystem-4",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Implications for India’s AI Ecosystem",
+    "text": "Implications for India’s AI Ecosystem"
+  },
+  {
+    "objectID": "content/publications/test5.html#implications-for-indias-ai-ecosystem-5",
+    "href": "content/publications/test5.html#implications-for-indias-ai-ecosystem-5",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Implications for India’s AI Ecosystem",
+    "text": "Implications for India’s AI Ecosystem"
+  },
+  {
+    "objectID": "content/publications/test5.html#conclusion",
+    "href": "content/publications/test5.html#conclusion",
+    "title": "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhile the AI Diffusion Framework does not explicitly prohibit India from accessing more than 50,000 advanced GPUs, it does introduce a more structured and potentially limiting approval process. The actual impact will depend largely on how the framework is implemented and how well Indian companies navigate the various pathways available to them."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Do the AI Diffusion Rules mean India not get more than 50,000 advanced GPUs?",
+    "section": "",
+    "text": "FEATURED RESEARCH\n\n\n\n\nBy Satya Sahu & Prasad\n\n\nThe framework regulates the global distribution of advanced AI chips which are necessary to develop and run AI models. From an Indian perspective, understanding the mechanisms of the framework that govern India’s access to AI chips is critical for policymakers.\n\nRead more"
   },
   {
     "objectID": "index.html#recent-publications",
@@ -483,11 +560,11 @@
     "text": "Recent Publications"
   },
   {
-    "objectID": "index.html#our-programs",
-    "href": "index.html#our-programs",
+    "objectID": "index.html#our-programmes",
+    "href": "index.html#our-programmes",
     "title": "Do the AI Diffusion Rules mean India not get more than 50,000 advanced GPUs?",
-    "section": "Our Programs",
-    "text": "Our Programs"
+    "section": "Our Programmes",
+    "text": "Our Programmes"
   },
   {
     "objectID": "index.html#subscribe-to-our-newsletters",

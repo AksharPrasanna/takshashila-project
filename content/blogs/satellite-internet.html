@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ashwin Prasad">
 <meta name="dcterms.date" content="2025-04-10">
 <meta name="description" content="An explainer of the satellite internet. How it works and why it matters">
 
@@ -69,7 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../../utility/sidenote.js" defer=""></script>
 
 
 </head>
@@ -190,10 +188,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
+  <ul class="collapse">
   <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
   </ul>
 </nav>
@@ -205,45 +203,24 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Satellite Internet Explained: How It Works &amp; Why It Matters</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">HTG</div>
-    <div class="quarto-category">Technology</div>
-    <div class="quarto-category">Space</div>
-  </div>
-  </div>
+<header id="title-block-header" class="title-block">
+    <div class="title-banner"></div>
+        <div class="title-block-container">
+        <h1>Satellite Internet Explained: How It Works &amp; Why It Matters</h1>
+                <h3>April 10, 2025</h3>
+            </div>
+    </header>
 
-<div>
-  <div class="description">
-    An explainer of the satellite internet. How it works and why it matters
-  </div>
-</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const titleBlock = document.getElementById("title-block-header");
+        const contentBlock = document.getElementById("quarto-content");
 
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Ashwin Prasad </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">April 10, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
+        if (titleBlock && contentBlock) {
+            contentBlock.parentNode.insertBefore(titleBlock, contentBlock);
+        }
+    });
+</script>
 
 
 <section id="executive-summary" class="level2">

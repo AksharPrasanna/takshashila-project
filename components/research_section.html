@@ -34,7 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -67,12 +66,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../utility/sidenote.js" defer=""></script>
 
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -185,18 +183,18 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 
 
 <section id="research-papers" class="level2">
-<h2 class="anchored" data-anchor-id="research-papers">Research Papers</h2>
+<h2 data-anchor-id="research-papers">Research Papers</h2>
 <div class="grid">
 <div class="g-col-12 g-col-md-8">
 <div class="card featured">
@@ -207,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <section id="featured.title" class="level3">
-<h3 class="anchored" data-anchor-id="featured.title"><a href="{{ featured.link }}">{{ featured.title }}</a></h3>
+<h3 data-anchor-id="featured.title"><a href="{{ featured.link }}">{{ featured.title }}</a></h3>
 <p><strong>Category:</strong> {{ featured.category }}<br>
 <strong>Date:</strong> {{ featured.date }}</p>
 <p>{{ featured.summary }}</p>
@@ -218,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="g-col-12 g-col-md-4">
 <p>{{# articles }} ::: {.card} <img src="{{ image }}.png" class="card-img-top img-fluid" alt="{{ title }}"></p>
 <section id="title" class="level3">
-<h3 class="anchored" data-anchor-id="title"><a href="{{ link }}">{{ title }}</a></h3>
+<h3 data-anchor-id="title"><a href="{{ link }}">{{ title }}</a></h3>
 <p><strong>Category:</strong> {{ category }}<br>
 <strong>Date:</strong> {{ date }}</p>
 <p>{{ summary }}</p>
@@ -253,13 +251,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

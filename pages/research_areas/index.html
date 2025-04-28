@@ -106,9 +106,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-listing"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -153,7 +153,6 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<script src="../../utility/sidenote.js" defer=""></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -187,7 +186,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -300,31 +299,30 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Our Research Areas</h1>
-<p class="subtitle lead">Key Areas we focus on at Takshashila</p>
-</div>
+<header id="title-block-header" class="title-block">
+    <div class="title-banner"></div>
+        <div class="title-block-container">
+        <h1>Our Research Areas</h1>
+            </div>
+    </header>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const titleBlock = document.getElementById("title-block-header");
+        const contentBlock = document.getElementById("quarto-content");
 
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+        if (titleBlock && contentBlock) {
+            contentBlock.parentNode.insertBefore(titleBlock, contentBlock);
+        }
+    });
+</script>
 
 
 <!-- Start of Research Areas Listing Section -->
@@ -333,131 +331,113 @@ window.Quarto = {
     
         <div class="listing-grid">
             
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="../../assets/images/research_areas/indo-pacific.png" alt="Indo-Pacific Studies Program">
+                <a href="../../pages/research_areas/indo_pacific_studies.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Indo-Pacific Studies Program
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Indo-Pacific Studies Program
-                                </h3>
-                                
-                                    <p>
-                                        The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.
-                                    </p>
-                                
-                                        <a href="../../pages/research_areas/indo_pacific_studies.html" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                            <p>
+                                The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.
+                            </p>
+                            
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="../../assets/images/research_areas/high-tech-geopolitics.png" alt="High-Tech Geopolitics Program">
+                <a href="../../pages/research_areas/high_technology_geopolitics_program.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                High-Tech Geopolitics Program
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    High-Tech Geopolitics Program
-                                </h3>
+                                <p>
+                                    The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective.
+                                </p>
                                 
-                                    <p>
-                                        The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective.
-                                    </p>
-                                
-                                        <a href="../../pages/research_areas/high_technology_geopolitics_program.html" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="../../assets/images/research_areas/advanced-biology.png" alt="Advanced Biology">
+                <a href="../../pages/research_areas/advanced_biology_program.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Advanced Biology
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Advanced Biology
-                                </h3>
+                                <p>
+                                    The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy
+                                </p>
                                 
-                                    <p>
-                                        The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy
-                                    </p>
-                                
-                                        <a href="../../pages/research_areas/advanced_biology_program.html" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="../../assets/images/research_areas/geospatial.png" alt="Geospatial Research">
+                <a href="../../pages/research_areas/geospatial_research.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Geospatial Research
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Geospatial Research
-                                </h3>
+                                <p>
+                                    Geospatial Research at Takshashila applies the principles of mapping and spatial analysis to understand real-world problems.
+                                </p>
                                 
-                                    <p>
-                                        Geospatial Research at Takshashila applies the principles of mapping and spatial analysis to understand real-world problems.
-                                    </p>
-                                
-                                        <a href="../../pages/research_areas/geospatial_research.html" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="../../assets/images/research_areas/strategic-studies.png" alt="Strategic Studies">
+                <a href="../../pages/research_areas/strategic_studies.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Strategic Studies
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Strategic Studies
-                                </h3>
+                                <p>
+                                    The Strategic Studies Programme examines ways for India to shape its external environment to enable security and prosperity at home.
+                                </p>
                                 
-                                    <p>
-                                        The Strategic Studies Programme examines ways for India to shape its external environment to enable security and prosperity at home.
-                                    </p>
-                                
-                                        <a href="../../pages/research_areas/strategic_studies.html" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="../../assets/images/research_areas/economic-policy.png" alt="Economic Policy">
+                <a href="../../pages/research_areas/economic_policy.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Economic Policy
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Economic Policy
-                                </h3>
+                                <p>
+                                    Our Economic Policy research focuses on both micro and macroeconomic policies that can aid in high economic growth.
+                                </p>
                                 
-                                    <p>
-                                        Our Economic Policy research focuses on both micro and macroeconomic policies that can aid in high economic growth.
-                                    </p>
-                                
-                                        <a href="../../pages/research_areas/economic_policy.html" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
         </div>
         

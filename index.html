@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-listing"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -127,6 +127,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-newsletters .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-image','listing-link','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-image","listing-link","listing-order"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-newsletters'] = new List('listing-newsletters', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-recent-blogs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -134,9 +162,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-identifier',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-identifier',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-identifier"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-identifier"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -237,7 +265,6 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<script src="./utility/sidenote.js" defer=""></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -271,7 +298,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -384,20 +411,17 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 
 
 <!-- Start of Featured Research Section -->
-<div class="top-banner">
-
-</div>
 <div class="featured-research-section">
 <div class="featured-tag">
 <p>FEATURED RESEARCH</p>
@@ -407,12 +431,15 @@ window.Quarto = {
 <div class="authors">
 <p>By Satya Sahu &amp; Prasad</p>
 </div>
+<div class="summary">
 <p>The framework regulates the global distribution of advanced AI chips which are necessary to develop and run AI models. From an Indian perspective, understanding the mechanisms of the framework that govern India’s access to AI chips is critical for policymakers.</p>
+</div>
 <p><a href="#" class="read-more-btn">Read more</a></p>
 </section>
 </div>
 <!-- End of Featured Research Section -->
 <!-- Start of Recent Publications Listing -->
+<div class="component-section">
 <section id="recent-publications" class="level2 section-heading">
 <h2 data-anchor-id="recent-publications">Recent Publications</h2>
 </section>
@@ -526,11 +553,10 @@ No matching items
 </div>
 </div>
 </div>
+</div>
 <!-- End of Recent Publications Listing -->
 <!-- Start of About Section -->
-<div class="about-section-heading">
-
-</div>
+<div class="component-section">
 <div class="about-us-container">
 <section id="an-independent-centre-for-research-and-education-in-public-policy" class="level1 about-us-content">
 <h1>An <span class="highlight">independent centre</span> for research and education in public policy</h1>
@@ -543,84 +569,75 @@ No matching items
 <p><img src="assets/images/takshashila-team.png" class="about-us-image img-fluid"></p>
 </div>
 </div>
+</div>
 <!-- End of About Section -->
-<hr>
 <!-- Start of Our Programs Section -->
-<section id="our-programs" class="level2 section-heading">
-<h2 data-anchor-id="our-programs">Our Programs</h2>
+<div class="component-section">
+<section id="our-programmes" class="level2 section-heading">
+<h2 data-anchor-id="our-programmes">Our Programmes</h2>
 </section>
 <div class="programs-container">
 <div class="programs-intro">
 <p>There are many potential levers of change for steering the development and use of transformative technologies. We target a range of these levers to increase our chances of success.</p>
-<!-- [View all programs](){.view-all-btn} -->
 </div>
 <div id="listing-programs" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-section">
     
         <div class="listing-grid">
             
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="content/programs/images/policy_research.png" alt="Policy Research">
+                <a href="" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Policy Research
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Policy Research
-                                </h3>
+                                <p>
+                                    We perform policy advocacy in the United States, the European Union, and the United Nations.
+                                </p>
                                 
-                                    <p>
-                                        We perform policy advocacy in the United States, the European Union, and the United Nations.
-                                    </p>
-                                
-                                        <a href="" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="content/programs/images/policy_school.png" alt="Policy School">
+                <a href="" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Policy School
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Policy School
-                                </h3>
+                                <p>
+                                    We perform policy advocacy in the United States, the European Union, and the United Nations.
+                                </p>
                                 
-                                    <p>
-                                        We perform policy advocacy in the United States, the European Union, and the United Nations.
-                                    </p>
-                                
-                                        <a href="" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="content/programs/images/fellowships.png" alt="Fellowships">
+                <a href="" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Fellowships
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Fellowships
-                                </h3>
+                                <p>
+                                    We perform policy advocacy in the United States, the European Union, and the United Nations.
+                                </p>
                                 
-                                    <p>
-                                        We perform policy advocacy in the United States, the European Union, and the United Nations.
-                                    </p>
-                                
-                                        <a href="" class="listing-link">
-                                            Learn more
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        Click to learn more
+                                    </span>
+                    </div>
+                </a>
                 
         </div>
         
@@ -629,79 +646,9 @@ No matching items
 No matching items
 </div>
 </div>
-<!-- ::: {.programs-grid}
-::: {.program-card}
-#### Policy advocacy
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-
-::: {.program-card}
-#### Policy Research
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-
-::: {.program-card}
-#### Policy education
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-
-::: {.program-card}
-#### Fellowships
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-::: -->
+</div>
 </div>
 <!-- End of Our Programs Section -->
-<!-- Start of Dispatch Section -->
-<!-- ::: {.dispatch-section-wrapper}
-::: {.dispatch-section}
-::: {.container-fluid}
-::: {.dispatch-container}
-::: {.dispatch-logo-col}
-![](assets/images/logo-symbol.svg){.dispatch-logo}
-:::
-
-::: {.dispatch-content-col}
-::: {.featured-tag}
-FEATURED PROJECT
-:::
-
-# Takshashila Dispatch
-
-The Takshashila Dispatch is a weekly update with the latest research, opinions and writings from the Takshashila Institution.
-
-::: {.subscription-form}
-
-
-
-```{=html}
-<form id="dispatch-form">
-  <input type="email" placeholder="Email address" required class="email-input">
-  <button type="submit" class="submit-btn">Submit</button>
-</form>
-```
-
-
-
-:::
-:::
-:::
-:::
-:::
-::: -->
-<!-- End of Dispatch Section -->
 <!-- Start of Newsletter Section -->
 <div class="section-heading-with-view-all">
 <section id="subscribe-to-our-newsletters" class="level2 section-heading-subtitle">
@@ -710,34 +657,43 @@ The Takshashila Dispatch is a weekly update with the latest research, opinions a
 </section>
 <p><a href="" class="view-all">View all Newsletters</a></p>
 </div>
+<div id="listing-newsletters" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <a href="" class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="content/newsletters/images/eye_on_china.jpg" alt="">
+                        </div>
+                    
+                </a>
+            
+                <a href="" class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="content/newsletters/images/peoples_daily.jpg" alt="">
+                        </div>
+                    
+                </a>
+            
+                <a href="" class="listing-card">
+                    
+                        <div class="listing-image">
+                            <img src="content/newsletters/images/quad_bulletin.jpg" alt="">
+                        </div>
+                    
+                </a>
+            
+        </div>
+    
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <!-- End of Newsletter Section -->
-<!-- Start of Socials Section -->
-<div class="socials-component-wrapper">
-<div class="socials-component-container">
-<div class="socials-component-text">
-<p>Follow us to get the latest policy updates</p>
-</div>
-<div class="socials-component-icons">
-<a href="#" class="social-icon" aria-label="Facebook Page">
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
-        <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
-    </svg>
-</a>
-<a href="#" class="social-icon" aria-label="Twitter Profile">
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
-        <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
-    </svg>
-</a>
-<a href="#" class="social-icon" aria-label="LinkedIn Company">
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512">
-        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
-    </svg>
-</a>
-
-</div>
-</div>
-</div>
-<!-- End of Socials Section -->
 <!-- Start of Blogs Section -->
 <div class="section-heading-with-view-all">
 <section id="blogs" class="level2 section-heading-subtitle">
@@ -1015,68 +971,59 @@ No matching items
     
         <div class="listing-grid">
             
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="./content/podcasts/all-things-policy/images/thumbnail.png" alt="All Things Policy">
+                <a href="./content/podcasts/all-things-policy/index.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                All Things Policy
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    All Things Policy
-                                </h3>
-                                
-                                    <p>
-                                        A daily podcast brought to you by the Takshashila Institution. Every weekday, our researchers break down complex economic and geopolitical ideas through the lens of current events.
-                                    </p>
-                                
-                                        <a href="./content/podcasts/all-things-policy/index.html" class="listing-link">
-                                            View All Episodes
-                                        </a>
-                            </div>
-                </div>
+                            <p>
+                                A daily podcast brought to you by the Takshashila Institution. Every weekday, our researchers break down complex economic and geopolitical ideas through the lens of current events.
+                            </p>
+                            
+                                    <span class="listing-link">
+                                        View All Episodes
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="./content/podcasts/the-great-power-show/images/thumbnail.png" alt="The Great Power Show">
+                <a href="./content/podcasts/the-great-power-show/index.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                The Great Power Show
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    The Great Power Show
-                                </h3>
+                                <p>
+                                    On The Great Power Show, Manoj Kewalramani dives into these big shifts and what they mean for all of us. Join him for candid conversations and thought-provoking interviews with leading scholars, thinkers and practitioners.
+                                </p>
                                 
-                                    <p>
-                                        On The Great Power Show, Manoj Kewalramani dives into these big shifts and what they mean for all of us. Join him for candid conversations and thought-provoking interviews with leading scholars, thinkers and practitioners.
-                                    </p>
-                                
-                                        <a href="./content/podcasts/the-great-power-show/index.html" class="listing-link">
-                                            View All Episodes
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        View All Episodes
+                                    </span>
+                    </div>
+                </a>
                 
-                <div class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="./content/podcasts/puliyabaazi/images/thumbnail.png" alt="Piliyabaazi">
+                <a href="./content/podcasts/puliyabaazi/index.html" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Piliyabaazi
+                            </h2>
                         </div>
                         
-                            <div class="listing-content">
-                                <h3>
-                                    Piliyabaazi
-                                </h3>
+                                <p>
+                                    This Hindi Podcast brings to you in-depth conversations on politics, public policy, technology, philosophy and pretty much everything that is interesting.
+                                </p>
                                 
-                                    <p>
-                                        This Hindi Podcast brings to you in-depth conversations on politics, public policy, technology, philosophy and pretty much everything that is interesting.
-                                    </p>
-                                
-                                        <a href="./content/podcasts/puliyabaazi/index.html" class="listing-link">
-                                            View All Episodes
-                                        </a>
-                            </div>
-                </div>
+                                    <span class="listing-link">
+                                        View All Episodes
+                                    </span>
+                    </div>
+                </a>
                 
         </div>
         
@@ -1202,6 +1149,33 @@ No matching items
 </div>
 </div>
 <!-- End of Books Section -->
+<!-- Start of Socials Section -->
+<div class="socials-component-wrapper">
+<div class="socials-component-container">
+<div class="socials-component-text">
+<p>Follow us to get the latest policy updates</p>
+</div>
+<div class="socials-component-icons">
+<a href="#" class="social-icon" aria-label="Facebook Page">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+        <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
+    </svg>
+</a>
+<a href="#" class="social-icon" aria-label="Twitter Profile">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+        <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+    </svg>
+</a>
+<a href="#" class="social-icon" aria-label="LinkedIn Company">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512">
+        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+    </svg>
+</a>
+
+</div>
+</div>
+</div>
+<!-- End of Socials Section -->
 
 
 

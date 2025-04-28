@@ -69,7 +69,53 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../../utility/sidenote.js" defer=""></script>
+<!-- Place this in a file called _sidenote.html in your _includes directory -->
+<script>
+    window.document.addEventListener("DOMContentLoaded", function() {
+      const sideNotes = document.querySelectorAll('.sidenote-ref');
+      const sidebar = document.getElementById('quarto-margin-sidebar');
+      
+      if (sidebar) {
+        sideNotes.forEach(note => {
+          const content = note.getAttribute('data-content');
+          const id = note.getAttribute('id');
+          
+          const sideNoteEl = document.createElement('div');
+          sideNoteEl.className = 'margin-sidenote';
+          sideNoteEl.innerHTML = content;
+          
+          if (id) {
+            sideNoteEl.id = 'sidenote-' + id;
+            // Make reference clickable if there's an ID
+            note.innerHTML = `<a href="#sidenote-${id}" class="sidenote-link">${note.innerHTML}</a>`;
+          }
+          
+          sidebar.appendChild(sideNoteEl);
+        });
+      }
+    });
+  </script>
+  
+  <style>
+    .sidenote-ref {
+      color: #610D3D;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    .margin-sidenote {
+      margin-bottom: 1.5rem;
+      padding-left: 0.75rem;
+      border-left: 3px solid #610D3D;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    
+    .sidenote-link {
+      text-decoration: none;
+      border-bottom: 1px dotted currentColor;
+    }
+  </style>
 
 
 </head>
@@ -205,45 +251,24 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Satellite Internet Explained: How It Works &amp; Why It Matters</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">HTG</div>
-    <div class="quarto-category">Technology</div>
-    <div class="quarto-category">Space</div>
-  </div>
-  </div>
+<header id="title-block-header" class="title-block">
+    <div class="title-banner"></div>
+        <div class="title-block-container">
+        <h1>Satellite Internet Explained: How It Works &amp; Why It Matters</h1>
+                <h3>April 10, 2025</h3>
+            </div>
+    </header>
 
-<div>
-  <div class="description">
-    An explainer of the satellite internet. How it works and why it matters
-  </div>
-</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const titleBlock = document.getElementById("title-block-header");
+        const contentBlock = document.getElementById("quarto-content");
 
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Ashwin Prasad </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">April 10, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
+        if (titleBlock && contentBlock) {
+            contentBlock.parentNode.insertBefore(titleBlock, contentBlock);
+        }
+    });
+</script>
 
 
 <section id="executive-summary" class="level2">
