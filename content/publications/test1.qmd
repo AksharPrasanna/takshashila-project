@@ -15,22 +15,43 @@ categories:
 format:
   html:
     toc: true
-    page-layout: article
+    toc-depth: 2
     toc-location: left
     anchor-sections: false
-    include-in-header:
-      file: side-note.html
-    template-partials:
-        - title-block.html
+    reference-location: margin
+    citation-location: margin
 ---
-
-## Content of the publication goes here...................
-
-## Content of the publication goes here..................
-## Content of the publication goes here..................
-
-## Content of the publication goes here..................
-
-::: {#sidenote}
-This is a side note that will appear in the margin of your document.
+::: {.grid}
+::: {.g-col-8}
+### ss
 :::
+::: {.g-col-4}
+### ss
+:::
+:::
+## Content of the publication goes here...................
+This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This iss a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your documsent.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document. 
+
+This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that  will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.This is a sidse note that will appear in the margin of your document.
+
+<!-- ::: {.grid}
+
+::: {.g-col-4}
+# Test
+This column takes 1/3 of the page
+:::
+
+::: {.g-col-8}
+# Tewst
+This column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the pageThis column takes 2/3 of the page
+:::
+
+::: -->
+
+
+
+## Content of the publication goes here..................
+## Content of the publication goes here..................
+
+## Content of the publication goes here..................
+

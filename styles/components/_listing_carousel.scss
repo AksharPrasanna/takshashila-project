@@ -2,7 +2,6 @@
 
 .listing-carousel {
     position: relative;
-    max-width: 1280px !important;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -10,7 +9,6 @@
 
 .content-outer {
     position: relative;
-    // max-width: 1380px !important;
     margin: 0 auto;
     padding: 0;
     overflow: visible;
@@ -18,7 +16,6 @@
 
 .carousel-container {
     position: relative;
-    max-width: 1280px;
     margin: 0 auto;
     padding: 0 clamp(45px, 7vw, 60px);
 }
@@ -39,9 +36,9 @@
 }
 
 .content-card {
-    background-color: $secondary-color;
+    background-color: $card-color;
     border-radius: 30px;
-    border: 1px solid #33333333;
+    border: 1px solid rgba($card-border-color, 0.2);
     padding: 15px clamp(15px, 2vw, 24px);
     height: clamp(180px, 35vw, 250px);
     min-width: clamp(280px, 80vw, 330px);

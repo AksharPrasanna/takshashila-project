@@ -2,14 +2,17 @@
 
 /* Plain Heading */
 
-.section-heading {
-    margin: 0 auto;
-    padding: clamp(15px, 2vw, 20px) 0;
+.component-section {
+    padding: clamp(30px, 3.125vw, 60px) 0;
+    border-bottom: 1.5px solid $primary-color;
+    gap: clamp(30px, 3.25vw, 65px);
+}
 
+.section-heading {
     h2 {
+        margin: 0 !important;
         text-align: left;
-        margin-bottom: clamp(10px, 4vw, 20px);
-        font-weight: 300;
+        font-weight: 500;
         font-size: clamp(28px, 4vw, 40px);
         border-bottom: none;
         color: $under-textcolor-light;

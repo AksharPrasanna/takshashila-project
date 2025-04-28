@@ -1,5 +1,5 @@
 ---
-titile: ""
+title: ""
 
 format:
   html:
@@ -31,8 +31,20 @@ listing:
     filter-ui: false
     feed: false
     template: includes/listing-card.ejs
+    image-height: 0px
+
+  - id: newsletters
+    contents: content/newsletters/newsletters.yml
+    type: grid
+    grid-columns: 3
+    sort: "order asc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/listing-card-image.ejs
     template-params: 
-      carousel_id: "programs-listing"
+      carousel_id: "newsletters-listing"
     image-height: 0px
 
   - id: recent-blogs
@@ -86,9 +98,8 @@ listing:
       carousel_id: "books-carousel"
     max-items: 6
 ---
+
 <!-- Start of Featured Research Section -->
-::: {.top-banner}
-:::
 
 ::: {.featured-research-section}
 ::: {.featured-tag}
@@ -101,7 +112,9 @@ FEATURED RESEARCH
 {{< var featured-research.authors >}}
 :::
 
+::: {.summary}
 {{< var featured-research.summary >}}
+:::
 
 [Read more]({{< var featured-research.link >}}){.read-more-btn}
 :::
@@ -110,6 +123,7 @@ FEATURED RESEARCH
 
 <!-- Start of Recent Publications Listing -->
 
+::: {.component-section}
 ::: {.section-heading}
 ## Recent Publications
 :::
@@ -118,14 +132,13 @@ FEATURED RESEARCH
 ::: {#recent-pubs}
 :::
 :::
+:::
 
 <!-- End of Recent Publications Listing -->
 
 <!-- Start of About Section -->
 
-::: {.about-section-heading}
-:::
-
+::: {.component-section}
 ::: {.about-us-container}
 ::: {.about-us-content}
 # An <span class="highlight">independent centre</span> for research and education in public policy
@@ -142,100 +155,31 @@ The Takshashila Institution is an independent centre for research and education 
 ![](assets/images/takshashila-team.png){.about-us-image}
 :::
 :::
+:::
 
 <!-- End of About Section -->
 
----
-
 <!-- Start of Our Programs Section -->
 
+::: {.component-section}
 :::{.section-heading}
-## Our Programs
+## Our Programmes
 :::
 
 ::: {.programs-container}
 ::: {.programs-intro}
 There are many potential levers of change for steering the development and use of transformative technologies. We target a range of these levers to increase our chances of success.
 
-<!-- [View all programs](){.view-all-btn} -->
+
 :::
 
 ::: {#programs}
 :::
 
-
-
-<!-- ::: {.programs-grid}
-::: {.program-card}
-#### Policy advocacy
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
 :::
-
-::: {.program-card}
-#### Policy Research
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-
-::: {.program-card}
-#### Policy education
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-
-::: {.program-card}
-#### Fellowships
-
-We perform policy advocacy in the United States, the European Union, and the United Nations.
-
-[Read more](){.read-more-link}
-:::
-::: -->
 :::
 
 <!-- End of Our Programs Section -->
-
-<!-- Start of Dispatch Section -->
-
-<!-- ::: {.dispatch-section-wrapper}
-::: {.dispatch-section}
-::: {.container-fluid}
-::: {.dispatch-container}
-::: {.dispatch-logo-col}
-![](assets/images/logo-symbol.svg){.dispatch-logo}
-:::
-
-::: {.dispatch-content-col}
-::: {.featured-tag}
-FEATURED PROJECT
-:::
-
-# Takshashila Dispatch
-
-The Takshashila Dispatch is a weekly update with the latest research, opinions and writings from the Takshashila Institution.
-
-::: {.subscription-form}
-```{=html}
-<form id="dispatch-form">
-  <input type="email" placeholder="Email address" required class="email-input">
-  <button type="submit" class="submit-btn">Submit</button>
-</form>
-```
-:::
-:::
-:::
-:::
-:::
-::: -->
-
-<!-- End of Dispatch Section -->
 
 <!-- Start of Newsletter Section -->
 
@@ -247,25 +191,10 @@ All the newsletters we have published
 [View all Newsletters](){.view-all}
 :::
 
+::: {#newsletters}
+:::
+
 <!-- End of Newsletter Section -->
-
-<!-- Start of Socials Section -->
-
-::: {.socials-component-wrapper}
-::: {.socials-component-container}
-::: {.socials-component-text}
-Follow us to get the latest policy updates
-:::
-
-::: {.socials-component-icons}
-```{=html}
-{{< include includes/social-icons.html >}}
-```
-:::
-:::
-:::
-
-<!-- End of Socials Section -->
 
 <!-- Start of Blogs Section -->
 
@@ -335,3 +264,21 @@ We are actively participating in and hosting events with leaders in industry, se
 :::
 
 <!-- End of Books Section -->
+
+<!-- Start of Socials Section -->
+
+::: {.socials-component-wrapper}
+::: {.socials-component-container}
+::: {.socials-component-text}
+Follow us to get the latest policy updates
+:::
+
+::: {.socials-component-icons}
+```{=html}
+{{< include includes/social-icons.html >}}
+```
+:::
+:::
+:::
+
+<!-- End of Socials Section -->

@@ -8,6 +8,8 @@ $accent-color: #f2a321;
 $under-textcolor: #141414;
 $under-textcolor-light: #404040;
 $light-paragraph-text: #696969;
+$card-color: #f2f2f2;
+$card-border-color: #333333;
 
 :root {
   --navbar-height: 112px;
@@ -22,7 +24,7 @@ $light-paragraph-text: #696969;
 @import "styles/quarto-overrides";
 @import "styles/components/navbar";
 @import "styles/components/featured_research";
-@import "styles/components/heading";
+@import "styles/components/section_heading";
 @import "styles/components/listing_carousel";
 @import "styles/sections/about";
 // @import "styles/sections/programs";
@@ -39,59 +41,6 @@ $light-paragraph-text: #696969;
 @import "styles/common/quarto-title-image";
 // @import "styles/research_areas";
 
-// .navbar .container-fluid,
-// .quarto-title-banner .container-fluid,
-// .page-columns {
-//   max-width: 1280px;
-//   margin: 0 auto;
-// }
-
-// body,
-// html {
-//   overflow-x: hidden;
-//   margin: 0;
-//   padding-top: clamp(calc(var(--navbar-height-mobile) / 2), 5vw, calc(var(--navbar-height) / 2)) !important;
-//   width: 100%;
-// }
-
-// main {
-//   padding-top: 0 !important;
-//   margin-top: 0 !important;
-// }
-
-// /* Ensure page level containers don't restrict width */
-// body .page-columns {
-//   margin: 0;
-//   padding: 0;
-//   max-width: 100%;
-// }
-
-// /* Ensure content divs don't add unwanted margins */
-// .content {
-//   margin: 0;
-//   padding: 0;
-// }
-
-// @media (max-width: 767.98px) {
-//   .navbar {
-//     padding: 0 16px;
-//   }
-
-//   .navbar-brand img {
-//     height: 40px;
-//   }
-
-//   .featured-research {
-//     h1 {
-//       font-size: 28px;
-//     }
-//   }
-// }
-
-// #title-block-header {
-//   // position: relative;
-// }
-
 #quarto-content {
   // padding-top: clamp(calc(var(--navbar-height-mobile)), 3vw, calc(var(--navbar-height))) !important;
   padding-top: 0;
@@ -103,19 +52,32 @@ $light-paragraph-text: #696969;
     border: none;
   }
 
-  // a {
-  //   color: $primary-color;
-  // }
-
   #quarto-document-content {
-    max-width: 1280px !important;
+    // max-width: 1135px !important;
     padding: 0 !important;
     margin: 0 !important;
   }
 }
 
-/* Footer Styling */
-/* Footer Styling */
+.title-banner {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  background-image: url("assets/images/hero-banner.svg");
+  min-height: clamp(80px, 1vw, 112px);
+}
+
+.title-block-container {
+  text-align: center;
+  color: $primary-color;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1135px;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 2px solid $primary-color;
+}
+
 /* Footer Styling */
 .footer {
   background-color: $primary-color;
@@ -351,4 +313,51 @@ $light-paragraph-text: #696969;
     font-weight: 200;
     font-size: clamp(16px, 2vw, 20px);
   }
+}
+
+.sidebar nav[role=doc-toc]>h2, .sidebar nav[role=doc-toc]>.h2 {
+  font-family: 'Oswald';
+  font-size: .875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  border-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0px;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active {
+  border-left: 1px solid #939bc9;
+  font-weight: 500;
+  color: #939bc9 !important;
+}
+
+.sidebar nav[role=doc-toc]>ul a {
+  border-left: none;
+  padding-left: 0.6rem;
+}
+
+.sidebar nav[role=doc-toc]>ul li a {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  line-height: 1.1rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  color: black;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+  border-left: 1px solid #939bc9;
+  color: #939bc9 !important;
+}
+
+.toc-actions a {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: black;
+}
+
+.toc-actions a:hover {
+  color: #939bc9;
 }

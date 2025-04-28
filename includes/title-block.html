@@ -1,0 +1,22 @@
+<header id="title-block-header" class="title-block">
+    <div class="title-banner"></div>
+    $if(title)$
+    <div class="title-block-container">
+        <h1>$title$</h1>
+        $if(date)$
+        <h3>$date$</h3>
+        $endif$
+    </div>
+    $endif$
+</header>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const titleBlock = document.getElementById("title-block-header");
+        const contentBlock = document.getElementById("quarto-content");
+
+        if (titleBlock && contentBlock) {
+            contentBlock.parentNode.insertBefore(titleBlock, contentBlock);
+        }
+    });
+</script>

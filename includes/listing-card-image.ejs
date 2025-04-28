@@ -1,0 +1,19 @@
+```{=html}
+<div class="listing-section">
+    <% if (items.length > 0) { %>
+        <div class="listing-grid">
+            <% for (const item of items) { %>
+                <a href="<%= item.path %>" class="listing-card">
+                    <% if (item.image) { %>
+                        <div class="listing-image">
+                            <img src="<%= item.image %>" alt="<%= item.title %>" />
+                        </div>
+                    <% } %>
+                </a>
+            <% } %>
+        </div>
+    <% } else { %>
+        <p>No items found.</p>
+    <% } %>
+</div>
+```

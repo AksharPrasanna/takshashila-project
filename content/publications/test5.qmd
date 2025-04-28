@@ -1,0 +1,131 @@
+---
+title: "Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?"
+date: "2024-02-15"
+description: "A brief analysis of the implications of AI Diffusion Rules on India's GPU accessibility"
+categories: 
+  - "Indo-Pacific"
+  - "AI"
+  - "Technology"
+
+listing:
+  - id: authors
+    contents: ../../pages/team/*.qmd
+    type: grid
+    grid-columns: 1
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card.ejs
+    sort: "order asc"
+    include:
+      title:
+        - "Pranay Kotasthane"
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-expand: true
+    toc-location: left
+    anchor-sections: false
+    reference-location: margin
+    citation-location: margin
+---
+
+::: {.grid}
+::: {.g-col-8}
+## Executive Summary
+Earlier this month, the outgoing Biden-Harris Administration introduced the 'Framework for Artificial Intelligence Diffusion' aimed at controlling the global spread of advanced AI capabilities. The framework regulates the global distribution of advanced AI chips which are necessary to develop and run AI models. From an Indian perspective, understanding the mechanisms of the framework that govern India's access to AI chips is critical for policymakers. India can procure AI chips under controlled conditions, using four pathways under the framework:
+
+1. National Validated End User (VEU) Authorisation Mechanism;
+2. One-Time Licences Mechanism (Based on Country-Specific Limits);
+3. Licence Exemptions Mechanism (For Small-Scale Deployments);
+4. General VEU Authorisation Mechanism
+
+
+
+This AI Diffusion Framework adds additional compliance requirements for Indian AI companies, potentially affecting India's chip access. Companies should plan strategically considering these new limitations.
+:::
+
+<!-- ::: {.g-col-4 .executive-author-container} -->
+<!-- ### Authors
+```{=html}
+<a href="/pages/team/satya_shoova_sahu.qmd" class="executive-author-card">
+  <img src="/pages/team/images/satya_shoova.png" alt="Satya Shoova Sahu" class="executive-author-image">
+  <div class="executive-author-details">
+    <p class="executive-author-name">Satya Shoova Sahu</p>
+    <p class="executive-author-bio">Research Analyst with the high-tech geopolitics programme</p>
+  </div>
+</a>
+
+<a href="/pages/team/pranay_kotasthane.qmd" class="executive-author-card">
+  <img src="/pages/team/images/pranay_kotasthane.png" alt="Pranay Kotasthane" class="executive-author-image">
+  <div class="executive-author-details">
+    <p class="executive-author-name">Pranay Kotasthane</p>
+    <p class="executive-author-bio">Co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy</p>
+  </div>
+</a>
+```
+:::
+
+::: -->
+
+::: {.grid-col-4}
+### Authors
+:::
+:::
+
+::: {#authors}
+:::
+
+
+
+## Introduction to AI Diffusion Rules
+
+In an increasingly competitive global technology landscape, access to advanced computing resources such as high-performance GPUs has become a critical factor in a nation's AI development capabilities. The recently introduced 'Framework for Artificial Intelligence Diffusion' by the Biden-Harris Administration represents a significant shift in how these resources will be distributed globally. [This is a span that has the class `aside` which places it in the margin without a footnote number.]{.aside}
+
+## Understanding the Framework's Four Pathways
+
+The framework establishes four distinct pathways through which countries like India can access advanced AI chips:
+
+### 1. National Validated End User (VEU) Authorization
+
+This mechanism allows approved institutions in qualifying countries to receive significant allocations of advanced AI chips. For India, this could potentially mean access to up to 100,000 H100s by 2025 and 300,000 by 2027 per approved company.
+
+### 2. One-Time Licenses Mechanism
+
+Based on country-specific limits, this pathway permits one-time approvals for specific projects or deployments. Under this mechanism, Indian companies might receive approvals for up to 50,000 H100 chips on a first-come, first-serve basis through 2027.
+
+### 3. License Exemptions for Small-Scale Deployments
+
+This pathway is designed for smaller applications, typically allowing around 1,700 H100 chips per company. It's generally meant for non-frontier AI applications and routine deployments.
+
+### 4. General VEU Authorization
+
+A broader approach that provides longer-term access for established entities with proven compliance records. This represents the primary pathway for Indian companies seeking to build large data centers and will need to acquire chips periodically.
+
+## Implications for India's AI Ecosystem
+
+The introduction of the AI Diffusion Framework introduces several challenges and considerations for Indian companies:
+
+1. **Compliance Requirements**: Indian AI companies will need to demonstrate adherence to stringent security and usage protocols.
+
+2. **Planning Limitations**: Companies must now factor in potential delays and approval processes when planning AI infrastructure expansions.
+
+3. **Strategic Partnerships**: The framework may incentivize partnerships with U.S. entities to facilitate smoother approval processes.
+
+4. **Domestic Alternatives**: This may accelerate India's efforts to develop domestic chip manufacturing capabilities and alternative AI acceleration technologies.
+
+## Implications for India's AI Ecosystem
+
+## Implications for India's AI Ecosystem
+
+## Implications for India's AI Ecosystem
+
+## Implications for India's AI Ecosystem
+
+## Implications for India's AI Ecosystem
+
+## Conclusion
+
+While the AI Diffusion Framework does not explicitly prohibit India from accessing more than 50,000 advanced GPUs, it does introduce a more structured and potentially limiting approval process. The actual impact will depend largely on how the framework is implemented and how well Indian companies navigate the various pathways available to them.
