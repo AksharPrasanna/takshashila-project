@@ -1,5 +1,45 @@
 [
   {
+    "listing": "/content/podcasts/all-things-policy/index.html",
+    "items": []
+  },
+  {
+    "listing": "/pages/latest_analysis.html",
+    "items": [
+      "/content/publications/indian-space-reform.html",
+      "/content/publications/test2.html",
+      "/content/publications/test1.html",
+      "/content/publications/test3.html",
+      "/content/publications/test4.html",
+      "/content/publications/test5.html"
+    ]
+  },
+  {
+    "listing": "/pages/research_areas/index.html",
+    "items": [
+      "/pages/research_areas/indo_pacific_studies.html",
+      "/pages/research_areas/high_technology_geopolitics_program.html",
+      "/pages/research_areas/advanced_biology_program.html",
+      "/pages/research_areas/geospatial_research.html",
+      "/pages/research_areas/strategic_studies.html",
+      "/pages/research_areas/economic_policy.html",
+      "/content/publications/indian-space-reform.html",
+      "/content/publications/test2.html",
+      "/content/publications/test1.html",
+      "/content/publications/test3.html",
+      "/content/publications/test4.html",
+      "/content/publications/test5.html"
+    ]
+  },
+  {
+    "listing": "/pages/research_areas/indo_pacific_studies.html",
+    "items": [
+      "/content/publications/test2.html",
+      "/content/publications/test1.html",
+      "/content/publications/test5.html"
+    ]
+  },
+  {
     "listing": "/pages/team_takshashila.html",
     "items": [
       "/pages/team/nitin_pai.html",
@@ -13,48 +53,6 @@
     ]
   },
   {
-    "listing": "/pages/research_areas/indo_pacific_studies.html",
-    "items": [
-      "/content/publications/test2.html",
-      "/content/publications/test1.html",
-      "/content/publications/test5.html"
-    ]
-  },
-  {
-    "listing": "/pages/research_areas/index.html",
-    "items": [
-      "/pages/research_areas/indo_pacific_studies.html",
-      "/pages/research_areas/high_technology_geopolitics_program.html",
-      "/pages/research_areas/advanced_biology_program.html",
-      "/pages/research_areas/geospatial_research.html",
-      "/pages/research_areas/strategic_studies.html",
-      "/pages/research_areas/economic_policy.html",
-      "/content/publications/satellite-internet.html",
-      "/content/publications/indian-space-reform.html",
-      "/content/publications/test2.html",
-      "/content/publications/test1.html",
-      "/content/publications/test3.html",
-      "/content/publications/test4.html",
-      "/content/publications/test5.html"
-    ]
-  },
-  {
-    "listing": "/pages/latest_analysis.html",
-    "items": [
-      "/content/publications/satellite-internet.html",
-      "/content/publications/indian-space-reform.html",
-      "/content/publications/test2.html",
-      "/content/publications/test1.html",
-      "/content/publications/test3.html",
-      "/content/publications/test4.html",
-      "/content/publications/test5.html"
-    ]
-  },
-  {
-    "listing": "/content/podcasts/all-things-policy/index.html",
-    "items": []
-  },
-  {
     "listing": "/content/publications/test5.html",
     "items": [
       "/pages/team/pranay_kotasthane.html"
@@ -63,7 +61,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/content/publications/satellite-internet.html",
       "/content/publications/indian-space-reform.html",
       "/content/publications/test2.html",
       "/content/publications/test4.html",
