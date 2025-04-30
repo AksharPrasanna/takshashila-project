@@ -15,13 +15,11 @@ categories:
 format:
   html:
     toc: true
-    page-layout: article
+    toc-depth: 2
     toc-location: left
     anchor-sections: false
-    # include-in-header:
-    #   file: side-note.html
-    # template-partials:
-    #     - title-block.html
+    reference-location: margin
+    citation-location: margin
 ---
 
 
