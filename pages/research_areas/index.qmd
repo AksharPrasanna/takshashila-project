@@ -1,6 +1,6 @@
 ---
 title: "Our Research Areas"
-subtitle: "Key Areas we focus on at Takshashila"
+description: "Key Areas we focus on at Takshashila"
 
 format:
   html:
@@ -61,8 +61,9 @@ listing:
 ::: {.section-heading-with-view-all}
 ::: {.section-heading-subtitle}
 ## Latest Analysis
+The most recent posts we have published.
 :::
-[View all Posts](){.view-all}
+[View all Posts](/pages/latest_analysis.qmd){.view-all}
 :::
 
 ::: {.listing-carousel}
