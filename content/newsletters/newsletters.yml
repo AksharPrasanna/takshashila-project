@@ -1,12 +1,18 @@
-- name: Eye on China
+- title: Eye on China
+  description: A weekly bulletin offering news and analysis related to the Middle Kingdom from an Indian interests perspective.
   image: content/newsletters/images/eye_on_china.jpg
+  footer: By The Takshashila Institution · Over 3,000 subscribers
   link: "https://eyeonchina.substack.com/"
   order: 1
-- name: Tracking People's Daily
+- title: Tracking People's Daily
+  description: This blog primarily offers a breakdown of the weekday editions of the People's Daily.
   image: content/newsletters/images/peoples_daily.jpg
+  footer: By Manoj Kewalramani · Over 8,000 subscribers
   link: "https://trackingpeoplesdaily.substack.com/"
   order: 2
-- name: Quad Bulletin
+- title: Quad Bulletin
+  description: Tracking the Quad across the Indo-Pacific
   image: content/newsletters/images/quad_bulletin.jpg
+  footer: By The Takshashila Institution
   link: "https://quadbulletin.substack.com/"
   order: 3

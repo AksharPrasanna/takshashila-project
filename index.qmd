@@ -42,7 +42,7 @@ listing:
     sort-ui: false
     filter-ui: false
     feed: false
-    template: includes/listing-card-image.ejs
+    template: includes/newsletter-card.ejs
     template-params: 
       carousel_id: "newsletters-listing"
     image-height: 0px
@@ -82,7 +82,7 @@ listing:
     sort-ui: false
     filter-ui: false
     feed: false
-    template: includes/listing-card.ejs
+    template: includes/listing-card-backup.ejs
     max-items: 6
 
   - id: books
@@ -98,6 +98,9 @@ listing:
       carousel_id: "books-carousel"
     max-items: 6
 ---
+
+::: {.title-banner}
+:::
 
 <!-- Start of Featured Research Section -->
 
