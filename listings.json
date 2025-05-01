@@ -4,6 +4,14 @@
     "items": []
   },
   {
+    "listing": "/pages/research_areas/indo_pacific_studies.html",
+    "items": [
+      "/content/publications/test2.html",
+      "/content/publications/test1.html",
+      "/content/publications/test5.html"
+    ]
+  },
+  {
     "listing": "/pages/latest_analysis.html",
     "items": [
       "/content/publications/indian-space-reform.html",
@@ -21,6 +29,7 @@
       "/pages/research_areas/high_technology_geopolitics_program.html",
       "/pages/research_areas/advanced_biology_program.html",
       "/pages/research_areas/geospatial_research.html",
+      "/pages/research_areas/advanced_military_technology.html",
       "/pages/research_areas/strategic_studies.html",
       "/pages/research_areas/economic_policy.html",
       "/content/publications/indian-space-reform.html",
@@ -32,12 +41,8 @@
     ]
   },
   {
-    "listing": "/pages/research_areas/indo_pacific_studies.html",
-    "items": [
-      "/content/publications/test2.html",
-      "/content/publications/test1.html",
-      "/content/publications/test5.html"
-    ]
+    "listing": "/pages/newsletters.html",
+    "items": []
   },
   {
     "listing": "/pages/team_takshashila.html",

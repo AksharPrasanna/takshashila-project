@@ -134,9 +134,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-name','listing-image','listing-link','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-image','listing-footer','listing-link','listing-order','listing-category',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-name","listing-image","listing-link","listing-order"],
+      searchColumns: ["listing-title","listing-description","listing-image","listing-footer","listing-link","listing-order","listing-category"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -253,6 +253,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-books'] = new List('listing-books', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-host','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-host","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-events'] = new List('listing-events', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -421,6 +449,9 @@ window.Quarto = {
 
 
 
+<div class="title-banner">
+
+</div>
 <!-- Start of Featured Research Section -->
 <div class="featured-research-section">
 <div class="featured-tag">
@@ -655,39 +686,72 @@ No matching items
 <h2 data-anchor-id="subscribe-to-our-newsletters">Subscribe to Our Newsletters</h2>
 <p>All the newsletters we have published</p>
 </section>
-<p><a href="" class="view-all">View all Newsletters</a></p>
+<p><a href="./pages/newsletters.html" class="view-all">View all Newsletters</a></p>
 </div>
 <div id="listing-newsletters" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-section">
     
         <div class="listing-grid">
             
-                <a href="" class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="content/newsletters/images/eye_on_china.jpg" alt="">
+                <a href="https://eyeonchina.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="content/newsletters/images/eye_on_china.jpg" alt="Eye on China">
                         </div>
-                    
-                </a>
-            
-                <a href="" class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="content/newsletters/images/peoples_daily.jpg" alt="">
+                        <div class="newsletter-title">
+                            <h3>
+                                Eye on China
+                            </h3>
                         </div>
-                    
-                </a>
-            
-                <a href="" class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="content/newsletters/images/quad_bulletin.jpg" alt="">
+                        <div class="newsletter-description">
+                            A weekly bulletin offering news and analysis related to the Middle Kingdom from an Indian interests perspective.
                         </div>
-                    
+                        <div class="newsletter-footer">
+                            By The Takshashila Institution · Over 3,000 subscribers
+                        </div>
+                    </div>
                 </a>
-            
+                
+                <a href="https://trackingpeoplesdaily.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="content/newsletters/images/peoples_daily.jpg" alt="Tracking People's Daily">
+                        </div>
+                        <div class="newsletter-title">
+                            <h3>
+                                Tracking People's Daily
+                            </h3>
+                        </div>
+                        <div class="newsletter-description">
+                            This blog primarily offers a breakdown of the weekday editions of the People's Daily.
+                        </div>
+                        <div class="newsletter-footer">
+                            By Manoj Kewalramani · Over 8,000 subscribers
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://quadbulletin.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="content/newsletters/images/quad_bulletin.jpg" alt="Quad Bulletin">
+                        </div>
+                        <div class="newsletter-title">
+                            <h3>
+                                Quad Bulletin
+                            </h3>
+                        </div>
+                        <div class="newsletter-description">
+                            Tracking the Quad across the Indo-Pacific
+                        </div>
+                        <div class="newsletter-footer">
+                            By The Takshashila Institution
+                        </div>
+                    </div>
+                </a>
+                
         </div>
-    
+        
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -972,64 +1036,74 @@ No matching items
         <div class="listing-grid">
             
                 <a href="./content/podcasts/all-things-policy/index.html" class="listing-card">
-                    <div class="listing-content">
-                        <div class="listing-title-section">
-                            <h2>
-                                All Things Policy
-                            </h2>
+                    
+                        <div class="listing-image">
+                            <img src="./content/podcasts/all-things-policy/images/thumbnail.png" alt="All Things Policy">
                         </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            All Things Policy
+                        </h3>
                         
                             <p>
                                 A daily podcast brought to you by the Takshashila Institution. Every weekday, our researchers break down complex economic and geopolitical ideas through the lens of current events.
                             </p>
-                            
-                                    <span class="listing-link">
-                                        View All Episodes
-                                    </span>
+                        
+                        <span class="listing-link">
+                            View All Episodes
+                        </span>
                     </div>
                 </a>
-                
+            
                 <a href="./content/podcasts/the-great-power-show/index.html" class="listing-card">
-                    <div class="listing-content">
-                        <div class="listing-title-section">
-                            <h2>
-                                The Great Power Show
-                            </h2>
+                    
+                        <div class="listing-image">
+                            <img src="./content/podcasts/the-great-power-show/images/thumbnail.png" alt="The Great Power Show">
                         </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            The Great Power Show
+                        </h3>
                         
-                                <p>
-                                    On The Great Power Show, Manoj Kewalramani dives into these big shifts and what they mean for all of us. Join him for candid conversations and thought-provoking interviews with leading scholars, thinkers and practitioners.
-                                </p>
-                                
-                                    <span class="listing-link">
-                                        View All Episodes
-                                    </span>
+                            <p>
+                                On The Great Power Show, Manoj Kewalramani dives into these big shifts and what they mean for all of us. Join him for candid conversations and thought-provoking interviews with leading scholars, thinkers and practitioners.
+                            </p>
+                        
+                        <span class="listing-link">
+                            View All Episodes
+                        </span>
                     </div>
                 </a>
-                
+            
                 <a href="./content/podcasts/puliyabaazi/index.html" class="listing-card">
-                    <div class="listing-content">
-                        <div class="listing-title-section">
-                            <h2>
-                                Piliyabaazi
-                            </h2>
+                    
+                        <div class="listing-image">
+                            <img src="./content/podcasts/puliyabaazi/images/thumbnail.png" alt="Puliyabaazi">
                         </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Puliyabaazi
+                        </h3>
                         
-                                <p>
-                                    This Hindi Podcast brings to you in-depth conversations on politics, public policy, technology, philosophy and pretty much everything that is interesting.
-                                </p>
-                                
-                                    <span class="listing-link">
-                                        View All Episodes
-                                    </span>
+                            <p>
+                                This Hindi Podcast brings to you in-depth conversations on politics, public policy, technology, philosophy and pretty much everything that is interesting.
+                            </p>
+                        
+                        <span class="listing-link">
+                            View All Episodes
+                        </span>
                     </div>
                 </a>
-                
+            
         </div>
-        
+    
 </div>
 <div class="listing-no-matching d-none">
 No matching items
+</div>
 </div>
 </div>
 <!-- End of Podcasts Section -->
@@ -1149,6 +1223,176 @@ No matching items
 </div>
 </div>
 <!-- End of Books Section -->
+<!-- Start of Events Section -->
+<div class="section-heading-with-view-all">
+<section id="upcoming-events" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="upcoming-events">Upcoming Events</h2>
+</section>
+<p><a href="" class="view-all">View all Events</a></p>
+</div>
+<div id="listing-events" class="quarto-listing quarto-listing-container-custom">
+<div class="content-outer" id="events-carousel">
+    <div class="carousel-container">
+        <div class="carousel-content">
+            
+                <div class="event-card">
+                    <div class="event-content">
+                        <h3 class="event-title">
+                            8th Dr. HGV Reddy Memorial Lecture - Dr. K. P. Krishnan on “Regulation, Federalism, and Institutional Accountability”
+                        </h3>
+                        <div class="event-date">
+                            Jan 24, 2025
+                        </div>
+                        
+                            <div class="event-host">
+                                Dr. K.P Krishnan
+                            </div>
+                            
+                    </div>
+                    
+                        <div class="event-image">
+                            <img src="./content/events/images/logo-symbol.svg" alt="Dr. K.P Krishnan">
+                        </div>
+                        
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-content">
+                        <h3 class="event-title">
+                            Takshashila Launches New Survey Report on India-China Relations
+                        </h3>
+                        <div class="event-date">
+                            Dec 17, 2024
+                        </div>
+                        
+                            <div class="event-host">
+                                Anushka Saxena
+                            </div>
+                            
+                    </div>
+                    
+                        <div class="event-image">
+                            <img src="./content/events/images/logo-symbol.svg" alt="Anushka Saxena">
+                        </div>
+                        
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-content">
+                        <h3 class="event-title">
+                            Bangalore Security Dialogue 2024: Shaping India’s Airpower Future
+                        </h3>
+                        <div class="event-date">
+                            Dec 11, 2024
+                        </div>
+                        
+                            <div class="event-host">
+                                Dynamatic technologies ltd
+                            </div>
+                            
+                    </div>
+                    
+                        <div class="event-image">
+                            <img src="./content/events/images/logo-symbol.svg" alt="Dynamatic technologies ltd">
+                        </div>
+                        
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-content">
+                        <h3 class="event-title">
+                            Takshashila Hosts Policy Simulation Exercise for the GCPP Cohort of September 2024
+                        </h3>
+                        <div class="event-date">
+                            Dec 4, 2024
+                        </div>
+                        
+                            <div class="event-host">
+                                Takshashila Org.
+                            </div>
+                            
+                    </div>
+                    
+                        <div class="event-image">
+                            <img src="./content/events/images/logo-symbol.svg" alt="Takshashila Org.">
+                        </div>
+                        
+                </div>
+                
+        </div>
+    </div>
+
+    <button class="content-nav-btn prev-btn" aria-label="Previous publications">
+        <span aria-hidden="true">&lt;</span>
+    </button>
+
+    <button class="content-nav-btn next-btn" aria-label="Next publications">
+        <span aria-hidden="true">&gt;</span>
+    </button>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const carouselId = "events-carousel";
+        const carouselContainer = document.getElementById(carouselId);
+
+        if (!carouselContainer) {
+            console.error("Carousel container not found:", carouselId);
+            return;
+        }
+        const carousel = carouselContainer.querySelector('.carousel-content');
+        const prevBtn = carouselContainer.querySelector('.prev-btn');
+        const nextBtn = carouselContainer.querySelector('.next-btn');
+
+        // Set initial button state
+        updateButtonState();
+
+        // Determine scroll amount based on screen size
+        function getScrollAmount() {
+            // On mobile, scroll full width
+            if (window.innerWidth < 768) {
+                return carousel.offsetWidth;
+            }
+            // On tablet, scroll half width
+            else if (window.innerWidth < 1200) {
+                return carousel.offsetWidth / 2;
+            }
+            // On desktop, scroll one third width
+            else {
+                return carousel.offsetWidth / 3;
+            }
+        }
+
+        // Handle button clicks
+        prevBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+        });
+
+        nextBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+        });
+
+        // Update button state on scroll
+        carousel.addEventListener('scroll', updateButtonState);
+        window.addEventListener('resize', updateButtonState);
+
+        function updateButtonState() {
+            const isAtStart = carousel.scrollLeft <= 10;
+            const isAtEnd = carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 10;
+
+            prevBtn.disabled = isAtStart;
+            prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+
+            nextBtn.disabled = isAtEnd;
+            nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+        }
+    });
+</script>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Events Section -->
 <!-- Start of Socials Section -->
 <div class="socials-component-wrapper">
 <div class="socials-component-container">
@@ -1179,7 +1423,6 @@ No matching items
 
 
 
-</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.">
 
 <title>Indo-Pacific Studies Program – Takshashila Institution</title>
 <style>
@@ -127,20 +128,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-analysis .list');
+    const listingTargetEl = window.document.querySelector('#listing-newsletters .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-image','listing-footer','listing-link','listing-order','listing-category',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-listing"],
+      searchColumns: ["listing-title","listing-description","listing-image","listing-footer","listing-link","listing-order","listing-category"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-analysis'] = new List('listing-latest-analysis', options);
+    window['quarto-listings']['listing-newsletters'] = new List('listing-newsletters', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -155,20 +156,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-newsletters .list');
+    const listingTargetEl = window.document.querySelector('#listing-latest-analysis .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-name','listing-image','listing-link','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-name","listing-image","listing-link","listing-order"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-listing"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-newsletters'] = new List('listing-newsletters', options);
+    window['quarto-listings']['listing-latest-analysis'] = new List('listing-latest-analysis', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -366,6 +367,7 @@ window.Quarto = {
     <div class="title-banner"></div>
         <div class="title-block-container">
         <h1>Indo-Pacific Studies Program</h1>
+                        <p>The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.</p>
             </div>
     </header>
 
@@ -381,10 +383,20 @@ window.Quarto = {
 </script>
 
 
+<!-- Start of About the Programme Section -->
+<div class="about-programme-section">
+<section id="about-the-programme" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="about-the-programme">About the Programme</h2>
+<p>The Indo-Pacific Studies Programme at The Takshashila Institution looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region.</p>
+</section>
+</div>
+<!-- End of About the Programme Section -->
 <!-- Start of Areas of Focus Section -->
-<section id="our-areas-of-focus" class="level2 section-heading">
+<div class="section-heading-with-view-all">
+<section id="our-areas-of-focus" class="level2 section-heading-subtitle">
 <h2 data-anchor-id="our-areas-of-focus">Our Areas of Focus</h2>
 </section>
+</div>
 <div id="listing-focus-areas" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-section">
     
@@ -513,6 +525,83 @@ No matching items
 </div>
 </div>
 <!-- End of News Section -->
+<!-- Start of Newsletter Section -->
+<div class="section-heading-with-view-all">
+<section id="subscribe-to-our-newsletters" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="subscribe-to-our-newsletters">Subscribe to Our Newsletters</h2>
+</section>
+<p><a href="../../pages/newsletters.html" class="view-all">View all Posts</a></p>
+</div>
+<div id="listing-newsletters" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <a href="https://eyeonchina.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="../../content/newsletters/images/eye_on_china.jpg" alt="Eye on China">
+                        </div>
+                        <div class="newsletter-title">
+                            <h3>
+                                Eye on China
+                            </h3>
+                        </div>
+                        <div class="newsletter-description">
+                            A weekly bulletin offering news and analysis related to the Middle Kingdom from an Indian interests perspective.
+                        </div>
+                        <div class="newsletter-footer">
+                            By The Takshashila Institution · Over 3,000 subscribers
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://trackingpeoplesdaily.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="../../content/newsletters/images/peoples_daily.jpg" alt="Tracking People's Daily">
+                        </div>
+                        <div class="newsletter-title">
+                            <h3>
+                                Tracking People's Daily
+                            </h3>
+                        </div>
+                        <div class="newsletter-description">
+                            This blog primarily offers a breakdown of the weekday editions of the People's Daily.
+                        </div>
+                        <div class="newsletter-footer">
+                            By Manoj Kewalramani · Over 8,000 subscribers
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://quadbulletin.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="../../content/newsletters/images/quad_bulletin.jpg" alt="Quad Bulletin">
+                        </div>
+                        <div class="newsletter-title">
+                            <h3>
+                                Quad Bulletin
+                            </h3>
+                        </div>
+                        <div class="newsletter-description">
+                            Tracking the Quad across the Indo-Pacific
+                        </div>
+                        <div class="newsletter-footer">
+                            By The Takshashila Institution
+                        </div>
+                    </div>
+                </a>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Newsletter Section -->
 <!-- Start of Latest Analysis Section -->
 <div class="section-heading-with-view-all">
 <section id="latest-analysis" class="level2 section-heading-subtitle">
@@ -616,51 +705,13 @@ No matching items
 </div>
 </div>
 <!-- End of Latest Analysis Section -->
-<!-- Start of Newsletter Section -->
-<section id="subscribe-to-our-newsletters" class="level2 section-heading">
-<h2 data-anchor-id="subscribe-to-our-newsletters">Subscribe to our Newsletters</h2>
-</section>
-<div id="listing-newsletters" class="quarto-listing quarto-listing-container-custom">
-<div class="listing-section">
-    
-        <div class="listing-grid">
-            
-                <a href="" class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="images/eye_on_china.jpg" alt="">
-                        </div>
-                    
-                </a>
-            
-                <a href="" class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="images/peoples_daily.jpg" alt="">
-                        </div>
-                    
-                </a>
-            
-                <a href="" class="listing-card">
-                    
-                        <div class="listing-image">
-                            <img src="images/quad_bulletin.jpg" alt="">
-                        </div>
-                    
-                </a>
-            
-        </div>
-    
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<!-- End of Newsletter Section -->
 <!-- Start of Podcasts Section -->
-<section id="subscribe-to-our-podcasts" class="level2 section-heading">
-<h2 data-anchor-id="subscribe-to-our-podcasts">Subscribe to our Podcasts</h2>
+<div class="section-heading-with-view-all">
+<section id="subscribe-to-our-podcasts" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="subscribe-to-our-podcasts">Subscribe to Our Podcasts</h2>
 </section>
+<p><a href="" class="view-all">View all Podcasts</a></p>
+</div>
 <div id="listing-podcasts" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-section">
     
