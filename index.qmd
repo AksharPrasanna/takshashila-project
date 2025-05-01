@@ -97,6 +97,19 @@ listing:
     template-params: 
       carousel_id: "books-carousel"
     max-items: 6
+
+  - id: events
+    contents: content/events/events.yml
+    type: grid
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/event-card-carousel.ejs
+    template-params: 
+      carousel_id: "events-carousel"
+    max-items: 6
 ---
 
 ::: {.title-banner}
@@ -243,6 +256,7 @@ We are actively participating in and hosting events with leaders in industry, se
 
 ::: {#podcasts}
 :::
+:::
 
 <!-- End of Podcasts Section -->
 
@@ -267,6 +281,20 @@ We are actively participating in and hosting events with leaders in industry, se
 :::
 
 <!-- End of Books Section -->
+
+<!-- Start of Events Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Upcoming Events
+:::
+[View all Events](){.view-all}
+:::
+
+::: {#events}
+:::
+
+<!-- End of Events Section -->
 
 <!-- Start of Socials Section -->
 
