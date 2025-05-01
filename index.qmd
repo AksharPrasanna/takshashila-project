@@ -45,6 +45,7 @@ listing:
     template: includes/newsletter-card.ejs
     template-params: 
       carousel_id: "newsletters-listing"
+      path_prefix: ""
     image-height: 0px
 
   - id: recent-blogs
@@ -204,7 +205,7 @@ There are many potential levers of change for steering the development and use o
 ## Subscribe to Our Newsletters
 All the newsletters we have published
 :::
-[View all Newsletters](){.view-all}
+[View all Newsletters](pages/newsletters.qmd){.view-all}
 :::
 
 ::: {#newsletters}
