@@ -3,12 +3,21 @@
     <% if (items.length > 0) { %>
         <div class="listing-grid">
             <% for (const item of items) { %>
-                <a href="<%= item.path %>" class="listing-card">
-                    <% if (item.image) { %>
-                        <div class="listing-image">
-                            <img src="<%= item.image %>" alt="<%= item.title %>" />
-                        </div>
-                    <% } %>
+                <a href="<%= item.path %>" class="listing-card-accent">
+                    <div class="newsletter-logo">
+                        <img src="<%= item.image %>" alt="<%= item.title %>" />
+                    </div>
+                    <div class="newsletter-title">
+                        <h3>
+                            <%= item.title %>
+                        </h3>
+                    </div>
+                    <div class="newsletter-description">
+                        <%= item.description %>
+                    </div>
+                    <div class="newsletter-footer">
+                        <%= item.footer %>
+                    </div>
                 </a>
             <% } %>
         </div>

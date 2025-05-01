@@ -1,0 +1,16 @@
+```{=html}
+<div class="listing-section">
+    <% if (items.length> 0) { %>
+        <div class="listing-grid">
+            <% for (const item of items) { %>
+                <div class="newsletter-card">
+                    <iframe src="<%= item.link %>" width="100%" height="100%"
+                        style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <% } %>
+        </div>
+        <% } else { %>
+            <p>No items found.</p>
+            <% } %>
+</div>
+```

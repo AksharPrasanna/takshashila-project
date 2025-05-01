@@ -1,8 +1,7 @@
 ---
 title: "Economic Policy"
-image: "../../assets/images/research_areas/economic-policy.png"
 description: "Our Economic Policy research focuses on both micro and macroeconomic policies that can aid in high economic growth."
-order: 6
+order: 7
 ---
 
 Content of the publication goes here...

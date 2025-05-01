@@ -42,9 +42,10 @@ listing:
     sort-ui: false
     filter-ui: false
     feed: false
-    template: includes/listing-card-image.ejs
+    template: includes/newsletter-card.ejs
     template-params: 
       carousel_id: "newsletters-listing"
+      path_prefix: ""
     image-height: 0px
 
   - id: recent-blogs
@@ -82,7 +83,7 @@ listing:
     sort-ui: false
     filter-ui: false
     feed: false
-    template: includes/listing-card.ejs
+    template: includes/listing-card-backup.ejs
     max-items: 6
 
   - id: books
@@ -97,7 +98,23 @@ listing:
     template-params: 
       carousel_id: "books-carousel"
     max-items: 6
+
+  - id: events
+    contents: content/events/events.yml
+    type: grid
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: includes/event-card-carousel.ejs
+    template-params: 
+      carousel_id: "events-carousel"
+    max-items: 6
 ---
+
+::: {.title-banner}
+:::
 
 <!-- Start of Featured Research Section -->
 
@@ -188,7 +205,7 @@ There are many potential levers of change for steering the development and use o
 ## Subscribe to Our Newsletters
 All the newsletters we have published
 :::
-[View all Newsletters](){.view-all}
+[View all Newsletters](pages/newsletters.qmd){.view-all}
 :::
 
 ::: {#newsletters}
@@ -240,6 +257,7 @@ We are actively participating in and hosting events with leaders in industry, se
 
 ::: {#podcasts}
 :::
+:::
 
 <!-- End of Podcasts Section -->
 
@@ -264,6 +282,20 @@ We are actively participating in and hosting events with leaders in industry, se
 :::
 
 <!-- End of Books Section -->
+
+<!-- Start of Events Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Upcoming Events
+:::
+[View all Events](){.view-all}
+:::
+
+::: {#events}
+:::
+
+<!-- End of Events Section -->
 
 <!-- Start of Socials Section -->
 

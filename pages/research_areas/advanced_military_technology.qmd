@@ -1,0 +1,7 @@
+---
+title: "Advanced Military Technologies"
+description: "Our Advanced Military Technologies research charts the impact of high-technology on India’s military transformation."
+order: 5
+---
+
+Content of the publication goes here...

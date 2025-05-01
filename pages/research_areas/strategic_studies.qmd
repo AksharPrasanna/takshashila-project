@@ -2,7 +2,7 @@
 title: "Strategic Studies"
 image: "../../assets/images/research_areas/strategic-studies.png"
 description: "The Strategic Studies Programme examines ways for India to shape its external environment to enable security and prosperity at home."
-order: 5
+order: 6
 ---
 
 Content of the publication goes here...
