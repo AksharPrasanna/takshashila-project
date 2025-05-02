@@ -47,6 +47,7 @@ It is important for India to take the progress and momentum of its space reforms
 The space sector offers enormous potential for development and progress in almost all facets of the society. India must reimagine its approach to this sector by setting its sights not just one ISRO, but on proliferating multiple ISRO like corporations to amass significant space power.
 
 # Abbreviations
+
 DoS - Department of Space
 IN-SPACe - Indian National Space Promotion and Authorisation Centre
 ISRO - Indian Space Research Organisation
@@ -57,6 +58,7 @@ USA - United States of America
 
 # What the Space Reforms are
 On 24th June, 2020, the Union Cabinet of India initiated significant reforms in the Indian space domain.[^1] These space reforms have a few broad objectives, each closely linked to the rest:
+
 - Boost private sector participation in the Indian space sector,
 - Unburden Indian Space Research Organisation from its routine operation tasks so that it can focus on critical R&D, deep space exploration and human-spaceflight,
 - Put India on a path to self-reliance in advanced space technology, 
@@ -80,7 +82,8 @@ While human-spaceflight, lunar and interplanetary exploration offer interesting 
 In the light of this reality, the State realised that it cannot remain a domain exclusive to government agencies.
 
 ## The Space Sector is undergoing Reform
-The reforms were doled out in stages through a gradual process that began in 2019 and is still ongoing. 
+The reforms were doled out in stages through a gradual process that began in 2019 and is still ongoing:
+
 1. On March 6, 2019, NSIL was incorporated to take over ISRO's commercial role.[^7]
 2. On May 16, 2020, the Union Finance Minister Nirmala Sitharaman announced the government's intention to reform the Indian space sector.[^8] 
 3. On June 24, 2020, the Union Cabinet approved the reforms and created IN-SPACe. NSIL's mandate was also expanded.[^9] 
