@@ -18,8 +18,8 @@ format:
     toc-depth: 2
     toc-location: left
     anchor-sections: false
-    reference-location: margin
-    citation-location: margin
+    reference-location: document
+    citation-location: document
 ---
 
 
@@ -206,8 +206,6 @@ The government has a big role to play in creating demand in the commercial indus
 
 # Conclusion
 The overall national space power will decide if India lives up to its potential in the global space economy. This space power of the nation is the sum total of all the space companies, talent, infrastructure as well as government's abilities. Space sector is emergent, often risky and has long gestation periods. There are enormous positive externalities in investing in this domain, the dispersed benefits of which accrue to the society as a whole. The Indian needs to reimagine the way it engages in this sector by further optimising the regulatory environment and streamlining government procurement. The goal should not be to have one ISRO, but numerous ISRO like corporations will similar capabilities. 
-
-# Footnotes
 
 [^1]: https://pib.gov.in/Pressreleasepage.Aspx?PRID=1633892
 [^2]: https://www.weforum.org/press/2024/04/space-economy-set-to-triple-to-1-8-trillion-by-2035-new-research-reveals/

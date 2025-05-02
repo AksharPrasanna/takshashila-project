@@ -87,21 +87,3 @@ The most recent posts we have published:
 :::
 
 <!-- End of News Section -->
-
-<!-- Start of Socials Section -->
-
-::: {.socials-component-wrapper}
-::: {.socials-component-container}
-::: {.socials-component-text}
-Follow us to get the latest policy updates
-:::
-
-::: {.socials-component-icons}
-```{=html}
-{{< include ../../includes/social-icons.html >}}
-```
-:::
-:::
-:::
-
-<!-- End of Socials Section -->
