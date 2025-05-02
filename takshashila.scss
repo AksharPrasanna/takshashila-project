@@ -45,7 +45,7 @@ $card-border-color: #333333;
   // padding-top: clamp(calc(var(--navbar-height-mobile)), 3vw, calc(var(--navbar-height))) !important;
   padding-top: 0;
   position: relative;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   margin-bottom: 0 !important;
 
   h2 {
@@ -56,6 +56,10 @@ $card-border-color: #333333;
     // max-width: 1135px !important;
     padding: 0 !important;
     margin: 0 !important;
+
+    sup {
+      color: $primary-color;
+    }
   }
 }
 
@@ -190,7 +194,7 @@ $card-border-color: #333333;
 
 /* Social Banner Styling */
 .social-banner {
-  background-color: $card-color-accent; /* Light cream color from screenshot */
+  background-color: $secondary-color; /* Light cream color from screenshot */
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
@@ -564,7 +568,7 @@ $card-border-color: #333333;
 .column-margin {
   p {
     padding: 20px 0;
-    color: $under-textcolor-light !important;
+    color: $primary-color !important;
     border-top: 1px solid $under-textcolor;
     border-bottom: 1px solid $under-textcolor;
     max-width: 100%;
@@ -576,5 +580,16 @@ $card-border-color: #333333;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+  }
+}
+
+#TOC {
+  #toc-title {
+    text-transform: uppercase;
+  }
+
+  .nav-link.active {
+    color: $primary-color !important;
+    font-weight: 700;
   }
 }

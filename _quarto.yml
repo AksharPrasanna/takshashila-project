@@ -69,6 +69,8 @@ format:
     page-layout: article
     grid: 
       body-width: 1135px
+      margin-width: 300px
+      sidebar-width: 300px
     template-partials:
       - includes/title-block.html
     include-after-body:
