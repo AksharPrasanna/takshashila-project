@@ -316,52 +316,52 @@ $card-border-color: #333333;
   }
 }
 
-.sidebar nav[role=doc-toc]>h2, .sidebar nav[role=doc-toc]>.h2 {
-  font-family: 'Oswald';
-  font-size: .875rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
-  margin-top: 0.3rem;
-  border-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 0px;
-}
+// .sidebar nav[role=doc-toc]>h2, .sidebar nav[role=doc-toc]>.h2 {
+//   font-family: 'Oswald';
+//   font-size: .875rem;
+//   font-weight: 500;
+//   text-transform: uppercase;
+//   margin-bottom: 0.5rem;
+//   margin-top: 0.3rem;
+//   border-bottom: 0;
+//   padding-bottom: 0;
+//   padding-top: 0px;
+// }
 
-.sidebar nav[role=doc-toc] ul>li>a.active {
-  border-left: 1px solid #939bc9;
-  font-weight: 500;
-  color: #939bc9 !important;
-}
+// .sidebar nav[role=doc-toc] ul>li>a.active {
+//   border-left: 1px solid #939bc9;
+//   font-weight: 500;
+//   color: #939bc9 !important;
+// }
 
-.sidebar nav[role=doc-toc]>ul a {
-  border-left: none;
-  padding-left: 0.6rem;
-}
+// .sidebar nav[role=doc-toc]>ul a {
+//   border-left: none;
+//   padding-left: 0.6rem;
+// }
 
-.sidebar nav[role=doc-toc]>ul li a {
-  font-family: 'Montserrat';
-  font-weight: 500;
-  line-height: 1.1rem;
-  padding-bottom: 0.2rem;
-  padding-top: 0.2rem;
-  color: black;
-}
+// .sidebar nav[role=doc-toc]>ul li a {
+//   font-family: 'Montserrat';
+//   font-weight: 500;
+//   line-height: 1.1rem;
+//   padding-bottom: 0.2rem;
+//   padding-top: 0.2rem;
+//   color: black;
+// }
 
-.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
-  border-left: 1px solid #939bc9;
-  color: #939bc9 !important;
-}
+// .sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+//   border-left: 1px solid #939bc9;
+//   color: #939bc9 !important;
+// }
 
-.toc-actions a {
-  font-family: 'Montserrat';
-  font-weight: 500;
-  color: black;
-}
+// .toc-actions a {
+//   font-family: 'Montserrat';
+//   font-weight: 500;
+//   color: black;
+// }
 
-.toc-actions a:hover {
-  color: #939bc9;
-}
+// .toc-actions a:hover {
+//   color: #939bc9;
+// }
 
 /* Newsletter Cards Styling */
 

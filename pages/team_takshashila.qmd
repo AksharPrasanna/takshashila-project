@@ -14,7 +14,7 @@ listing:
     sort-ui: false
     filter-ui: false
     categories: false
-    template: ../includes/listing-card.ejs
+    template: ../includes/listing-card-backup.ejs
     sort: "order asc"
     include:
         category: ["Co Founders and Distinguished Fellows"]
@@ -26,7 +26,7 @@ listing:
     sort-ui: false
     filter-ui: false
     categories: false
-    template: ../includes/listing-card.ejs
+    template: ../includes/listing-card-backup.ejs
     sort: "order asc"
     exclude:
         category: ["Co Founders and Distinguished Fellows"]

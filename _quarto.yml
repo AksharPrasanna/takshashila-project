@@ -58,8 +58,8 @@ format:
     theme: 
       - default
       - takshashila.scss
-    fontfamily: Roboto
-    mainfont: Roboto
+    fontfamily: Inter
+    mainfont: Inter
     anchor-sections: false
     toc: false
     page-layout: article

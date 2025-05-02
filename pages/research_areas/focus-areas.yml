@@ -18,3 +18,24 @@
   linkText: "China-Taiwan Saga"
   categories:
     - "Indo-Pacific"
+
+- title: "Advanced Computing"
+  description: "This initiative is aimed at understanding the geopolitics of high speed and quantum computing, evaluating India's strengths and weaknesses in these fields, and proposing policies to give India an advantage.\nRead about our work on Building India’s Quantum Ecosystem"
+  image: "images/diplomacy.png"
+  linkText: "Advanced Computing"
+  categories:
+    - "HTG"
+
+- title: "Information Politics"
+  description: "This initiative is dedicated to understanding geopolitics in the Information Age. One of the key projects under this initiative is to develop a governance mechanism for digital communication networks, in ways that maximise the benefits and minimise the harms.\nRead about our work on Rebooting Artificial Intelligence (AI) in India"
+  image: "images/diplomacy.png"
+  linkText: "China-Taiwan Saga"
+  categories:
+    - "HTG"
+
+- title: "Diplomacy and Security"
+  description: "This initiative studies the evolving policies of different actors across the Indo-Pacific. The aim is to recommend pathways for India to strengthen its relationships with like-minded partners, particularly in its immediate geographical neighborhood."
+  image: "images/diplomacy.png"
+  linkText: "China-Taiwan Saga"
+  categories:
+    - "HTG"
