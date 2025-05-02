@@ -1,7 +1,8 @@
 # Takshashila Institution Website
 
-Website URL: https://aksharprasanna.github.io/takshashila-project/
-Digital Oean Deployment URL: http://159.89.162.204/
+Deployment Details
+- Website URL: https://aksharprasanna.github.io/takshashila-project/
+- Digital Oean Deployment URL: http://159.89.162.204/
 
 This repository contains the source code for the Takshashila Institution website, built using [Quarto](https://quarto.org/).
 
