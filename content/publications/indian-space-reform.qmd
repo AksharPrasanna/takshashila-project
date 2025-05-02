@@ -40,6 +40,7 @@ It is important for India to take the progress and momentum of its space reforms
 5. Finally, government procurement will be a key driver in developing the commercial space industry of our country. The Indian government is partial to funding ISRO to build things internally rather than buying from the private sector. In the first case, public funds are spent in building ISRO's capabilities. In the second, public funds are spent in building the startup industry which can ultimately result in more R&D, job creation and scale. 
 
 The space sector offers enormous potential for development and progress in almost all facets of the society. India must reimagine its approach to this sector by setting its sights not just one ISRO, but on proliferating multiple ISRO like corporations to amass significant space power.
+
 ### Abbreviations
 DoS - Department of Space
 IN-SPACe - Indian National Space Promotion and Authorisation Centre
@@ -48,6 +49,7 @@ NSIL - NewSpace India Limited
 PSLV - Polar Satellite Launch Vehicle
 UAE - United Arab Emirates
 USA - United States of America
+
 ### What the Space Reforms are
 On 24th June, 2020, the Union Cabinet of India initiated significant reforms in the Indian space domain.[^1] These space reforms have a few broad objectives, each closely linked to the rest:
 - Boost private sector participation in the Indian space sector,
@@ -56,8 +58,9 @@ On 24th June, 2020, the Union Cabinet of India initiated significant reforms in 
 - Aid in advancing India's space ambitions. 
 
 An overview of the pre-reform space sector is needed to understand why the government undertook these reforms, 
+
 #### Backdrop of the Reforms: The Indian Space Sector
-In today's age of astropolitics, space technology is deeply consequential for civilian and military applications. The great powers of the world are vying for control and influence in outer space. The size of the global space economy will triple to reach $1.8 Trillion by 2035.[^2] Despite being an elite space-faring nation with significant technological achievements, India's share of this economy is less than 2%.[^3] The Indian government needed to increase the national space capabilities t0--occupy a larger share of the global space economy, address India's growing technology needs and gain an influential voice in the global dialogues related to outer space affairs. 
+In today's age of astropolitics, space technology is deeply consequential for civilian and military applications. The great powers of the world are vying for control and influence in outer space. The size of the global space economy will triple to reach $1.8 Trillion by 2035.[^2] Despite being an elite space-faring nation with significant technological achievements, India's share of this economy is less than 2%.[^3] The Indian government needed to increase the national space capabilities to occupy a larger share of the global space economy, address India's growing technology needs and gain an influential voice in the global dialogues related to outer space affairs. 
 
 This voice needs to be a resonant chorus emerging from diverse stakeholders in the country operating across various domains. This ecosystem was largely missing in India with almost the entire space sector restricted to one organisation. ISRO was single-handedly responsible for both promotion and regulation. The autonomy this extended was beneficial for a nascent space agency during the cold war. However, considering the size and potential of the space economy, this is no longer prudent. The Indian space ecosystem needed new and independent stakeholders besides ISRO. With their entry into the scene, regulatory mechanisms independent of ISRO would follow--enhancing transparency and accountability.
 
@@ -70,6 +73,7 @@ While human-spaceflight, lunar and interplanetary exploration offer interesting 
 *(as of May 2023)*
 
 In the light of this reality, the State realised that it cannot remain a domain exclusive to government agencies.
+
 #### The Space Sector is undergoing Reform
 The reforms were doled out in stages through a gradual process that began in 2019 and is still ongoing. 
 1. On March 6, 2019, NSIL was incorporated to take over ISRO's commercial role.[^7]
@@ -79,6 +83,7 @@ The reforms were doled out in stages through a gradual process that began in 201
 5. On February 21, 2024, the Government liberalised the FDI policy for space sector.[^11]
 
 The specifics of the reform can be understood by examining the new roles and responsibilities of NSIL, IN-SPACe and ISRO before reviewing the FDI policy. 
+
 ##### NewSpace India Limited
 The government created NSIL as a Central Public Sector Enterprise under the DoS.[^12] NSIL was well placed to exploit the commercial opportunities in the space sector by taking advantage of ISRO's technological faculties through the private sector. This process would also foster the growth of auxiliary industries and infrastructure in India, resulting in positive externalities. 
 
@@ -92,7 +97,7 @@ In 2022, the Government of India approved the transfer of ownership of 10 in-orb
 
 Around 30 technology transfer agreements have also been signed with the industry until 2023.[^18] In addition to this, NSIL is involved in many other projects and contracts surrounding ground segment and mission support. 
 
-::: {#sidenote}
+::: {.aside}
 [Sidenote: Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text]
 :::
 
@@ -117,6 +122,7 @@ The efforts of the government, IN-SPACe, and the private sector have resulted in
 The reforms open up the ISRO's informational, technological and infrastructural resources to the non-governmental entities. In addition to transferring technology to the private sector via IN-SPACe and NSIL, ISRO has enabled open access of its remote sensing data. Output with resolutions 5 metres and coarser is free and open for all while resolutions finer than 5 metres is free and open for the government and is priced for others. [Sidenote: Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text]
 
 ISRO will shift its energies towards more strategic functions. This would entail ISRO focusing on R&D into technologies critical to the Indian national interest. The Space Policy identifies a few key areas like space transportation, human-spaceflight, in-situ resource utilisation and extra-terrestrial habitability. These technologies aspire for crewed Chandrayaan missions to set up a Indian lunar base in the coming decades.
+
 ##### FDI Liberalisation
 On 21st February, the Union Cabinet liberalised the FDI policy for the space sector. The amendment eased automatic FDI entry thresholds for three sets of activities related to satellite operations.[^37] 
 
@@ -126,8 +132,10 @@ On 21st February, the Union Cabinet liberalised the FDI policy for the space sec
 | Satellites-Manufacturing & Operation, Satellite Data Products and Ground Segment & User Segment.                                                                             | 74%                                                |
 | Launch Vehicles and associated systems or subsystems, Creation of Spaceports for launching and receiving Spacecraft. Beyond 49% these activities are under government route. | 49%                                                |
 Most parts of the space operations are capital intensive. Funding is going to remain a challenge for most space companies, particularly the start ups. A large portion of the funding will come from local venture capitalists. As the operations scale, the startups will need a larger and a more patient capital source. The new FDI policy can bring in foreign investors and decentralise investment decisions. However, the Indian industry has to compete globally to attract investments. 
+
 ### A Preview of Space Policies in other Countries
 For the benefit of context, it is useful to outline the policy models of other space-faring countries. This document focuses on the US, Japan and UAE as they represent three different models of developing the space ecosystem. 
+
 #### USA
 The American space ecosystem is the largest in the world in terms of scale and capabilities. The US enjoyed the first movers advantage in the this domain from the space race during the cold war. The legacy space enterprise model in the US wanted the government to own and manage space assets to reduce risk. The US has moved away from this thinking. It presently follows a "exploit what we have, buy what we can, and build what we must" approach as it seeks to actively leverage the capabilities of its private space sector.[^38] 
 
@@ -141,16 +149,18 @@ Given the strategic imperative of space and the USA's reliance on the private se
 
 The U.S. Space Force Commercial Space Strategy is also in direct support of the U.S. National Space Policy, as are the Department of Defense (DoD) Commercial Space Integration Strategy (2024), United States Novel Space Sector Authorisation and Supervision Framework (2023), and United States Space Priorities Framework (2021).[^45] 
 
- #### Japan
- The Japanese Space Policy initially restricted its focus to research and development under the Education Ministry. It operated with smaller budgets. The Plan for Space Policy, 2020 overhauled the system by recognising the latent value of space for national economy and security. Public-private partnerships in space domain took priority over the government-led initiatives. One of the major principles of the new space policy is to maximise procurement from the private sector.[^46] 
+#### Japan
+The Japanese Space Policy initially restricted its focus to research and development under the Education Ministry. It operated with smaller budgets. The Plan for Space Policy, 2020 overhauled the system by recognising the latent value of space for national economy and security. Public-private partnerships in space domain took priority over the government-led initiatives. One of the major principles of the new space policy is to maximise procurement from the private sector.[^46] 
 
 Japan became the fourth country to implement a Space Resource Act in 2021 allowing the private entities to explore, extract, and utilise resources in outer space, including water, minerals, and other natural resources existing in outer space. This legislation is expected to spur private investment and development in the space sector.[^47] 
 
 In 2023, Japan set up a $6.7 Billion, 10-year fund for the Japanese Aerospace Exploration Agency (JAXA). JAXA will invest in budding space startups and technologies that can take a long time to bear commercial fruit.[^48] 
+
 #### UAE
 The UAE is a relatively new entrant into the space domain. The UAE Space Agency was set up in 2014 followed by a National Space Policy in 2016.[^49] To implement the policy, a Space Regulation Law was enacted in 2019.[^50] The law sets out provisions for regulating space activities including space resource utilisation. The National Space Strategy in 2019 details upon the strategic goals of the UAE space program and the initiatives to achieve them. One of the key goals is to develop local capabilities in the space technology value chain.[^51]
 
 Due to the lack of technical skill and know-how given that the foray into space in very recent, the UAE has focussed on setting up an suitable regulatory environment, infrastructure and financial assistance to attract space startups into the country. There are express permits for certain space activities. The UAE has established several dedicated space-tech hubs under the Space Economic Zones Program. These hubs aim to provide the private industry with necessary infrastructure, business-friendly environment and investment opportunities.[^52]
+
 ### Recommendations for Indian Space Governance
 The Indian space reforms offers significant potential for monetisation, infrastructure development, employment generation and arresting brain drain. Having taken these significant steps for reform and improvement, there are a few more improvements that the government should make:
 
@@ -159,26 +169,32 @@ The Indian space reforms offers significant potential for monetisation, infrastr
 3. Create an Adjudicatory and Appellate Body
 4. Space Activities Act
 5. Government Procurement
-#### 1. Recondition thee conflicting responsibilities
+
+#### 1. Recondition the conflicting responsibilities
 ISRO was tasked with numerous and often discordant responsibilities. The reforms remedied this but only partially. Cases of incongruous roles still exist. 
 
 IN-SPACe is currently responsible for promoting, enabling, authorising as well as supervising the space sector.[^53] These tasks are incongruous and should not be done by a single entity. The government must consider splitting IN-SPACe's various directorates into regulatory and promotional groups to avoid conflicts of interest amongst them in the course of their duties. 
 
 Similar incongruity exists in NSIL also. NSIL acts as a promoter as well as a service provider. In the due course of its duties of advancing the private industry, a scenario is likely to emerge where the private industry may become NSIL's competitors. 
+
 #### 2. Make the regulation independent 
 As a regulator, IN-SPACe has to govern the activities of all the participants in the space sector in India, including ISRO. Presently, IN-SPACe is an autonomous agency under Department of Space. The Secretary of the DoS is also the Chairman of ISRO. This means that IN-SPACe is essentially in charge of regulating its own head. 
 
 Institutional independence and impartiality is paramount in the regulation of a sector as important as space. The regulatory side of IN-SPACe should get statutory backing outside of the DoS to allow effective discharge of its duties. 
+
 #### 3. Create an Adjudicatory and Appellate Body 
 As the Indian space ecosystem grows, an institutional mechanism to handle disputes between the licensor (IN-SPACe) and licensees (fprivate sector/government agencies) are likely to surface. The settling of such disputes cannot be arbitrary. 
 
 The statutory mechanism for IN-SPACe must also create INDSAT--Indian National Space Dispute Settlement and Appellate Tribunal. The tribunal can handle the adjudicatory and appellate functions. 
+
 #### 4. Space Activities Act
 The next logical step in the reforms is for the Parliament to approve and enact the Space Activities Act. The Act should establish a liberal regulatory environment that can instil confidence in the commercial space sector. With market-friendly provisions related to resource utilisation, liability and insurance, the act has enormous potential to complement the Space Policy and FDI reforms. The act is a potential signal to the companies and investors in the world about the Indian space ambitions. 
 
 At the present, most Indian space startups are incorporated in the US and Europe to take advantage of the more conducive startup environment and to attract better capital and talent.[^54] While the National Space Policy and FDI liberalisation can improve India as a destination with respect to these factors, the Act is required for the legal teeth it provides to the policies.
+
 #### 5. Government Procurement
 The government has a big role to play in creating demand in the commercial industry. A shift from *make* approach to *buy* approach is essential here. The Indian government is spending public funds to *make* things on its own and therefore building ISRO's capabilities. What it should be doing instead is spend the same public funds to *buy* things from the private sector and allow the growth in capability to accrue in the society. [^55] These contracts will spur competition resulting in vital R&D and innovation, ultimately shoring up on Indian space power. 
+
 ### Conclusion
 The overall national space power will decide if India lives up to its potential in the global space economy. This space power of the nation is the sum total of all the space companies, talent, infrastructure as well as government's abilities. Space sector is emergent, often risky and has long gestation periods. There are enormous positive externalities in investing in this domain, the dispersed benefits of which accrue to the society as a whole. The Indian needs to reimagine the way it engages in this sector by further optimising the regulatory environment and streamlining government procurement. The goal should not be to have one ISRO, but numerous ISRO like corporations will similar capabilities. 
 
