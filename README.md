@@ -147,9 +147,6 @@ format:
     toc-depth: 2
     toc-expand: true
     toc-location: left
-    anchor-sections: false
-    reference-location: margin
-    citation-location: margin
 ---
 
 Your blog content goes here...
@@ -187,9 +184,6 @@ format:
     toc-depth: 2
     toc-expand: true
     toc-location: left
-    anchor-sections: false
-    reference-location: margin
-    citation-location: margin
 ---
 
 ::: {#overview-section}

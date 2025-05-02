@@ -65,6 +65,8 @@ format:
     fontfamily: Inter
     mainfont: Inter
     anchor-sections: false
+    reference-location: document
+    citation-location: document
     toc: false
     page-layout: article
     grid: 
