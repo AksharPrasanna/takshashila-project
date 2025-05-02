@@ -189,6 +189,79 @@ $card-border-color: #333333;
   font-weight: 300;
 }
 
+/* Social Banner Styling */
+.social-banner {
+  background-color: $card-color-accent; /* Light cream color from screenshot */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: clamp(10px, 5vw, 20px) 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.social-banner-container {
+  max-width: 1135px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+}
+
+.social-text {
+  font-size: clamp(16px, 2vw, 24px);
+  color:$primary-color;
+  font-weight: 400;
+}
+
+.social-icons {
+  display: flex;
+  gap: clamp(10px, 1.5vw, 20px);
+  align-items: center;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(40px, 5vw, 48px);
+  height: clamp(40px, 5vw, 48px);
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid $primary-color;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  padding: 5px;
+}
+
+.social-icon svg {
+  width: clamp(15px, 2vw, 20px);
+  height: clamp(15px, 2vw, 20px);
+  fill: $primary-color;
+  transition: fill 0.2s ease;
+}
+
+.social-icon:hover {
+  background-color: #333;
+}
+
+.social-icon:hover svg {
+  fill: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .social-banner-container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px clamp(20px, 3vw, 40px);
+  }
+  
+  .social-text {
+    text-align: center;
+  }
+}
+
 #publication-title-block-header {
   width: 100%;
   background-color: white;

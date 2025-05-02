@@ -299,7 +299,7 @@ We are actively participating in and hosting events with leaders in industry, se
 
 <!-- Start of Socials Section -->
 
-::: {.socials-component-wrapper}
+<!-- ::: {.socials-component-wrapper}
 ::: {.socials-component-container}
 ::: {.socials-component-text}
 Follow us to get the latest policy updates
@@ -311,6 +311,6 @@ Follow us to get the latest policy updates
 ```
 :::
 :::
-:::
+::: -->
 
 <!-- End of Socials Section -->
