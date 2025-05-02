@@ -5,7 +5,7 @@ author:
     qmd: /pages/team/ashwin_prasad.qmd
     image: /pages/team/images/ashwin_prasad.png
     description: Research Analyst with the high-tech geopolitics programme
-date: "2024-04-25"
+date: "2025-04-25"
 description: "This discussion document delivers a critical analysis of the Indian space reforms and considers pathways for developing space capabilities from a national interest perspective."
 categories: 
   - "HTG"
