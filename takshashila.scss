@@ -588,8 +588,47 @@ $card-border-color: #333333;
     text-transform: uppercase;
   }
 
+  .nav-link {
+    border: none;
+    color: $light-paragraph-text;
+  }
+
   .nav-link.active {
     color: $primary-color !important;
     font-weight: 700;
   }
 }
+
+  /* Progress Bar Container */
+  .toc-progress-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+  }
+  
+  /* Progress Bar */
+  .toc-progress-bar {
+    position: absolute;
+    width: 100%;
+    background-color: $primary-color;
+    top: 0;
+    height: 0;
+    transition: height 0.2s;
+    border-radius: 10px;
+  }
+  
+  /* Add some left padding to the TOC for the progress bar */
+  #TOC {
+    position: relative;
+    padding-left: 15px;
+  }
+  
+  /* Active section styling */
+  // #TOC li.active > a {
+  //   color: $primary-color !important;
+  //   font-weight: 600 !important;
+  // }

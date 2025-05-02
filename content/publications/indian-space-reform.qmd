@@ -18,8 +18,8 @@ format:
     toc-depth: 2
     toc-location: left
     anchor-sections: false
-    reference-location: document
-    citation-location: document
+    template-partials:
+      - ../../includes/toc.html
 ---
 
 
