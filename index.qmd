@@ -296,21 +296,3 @@ We are actively participating in and hosting events with leaders in industry, se
 :::
 
 <!-- End of Events Section -->
-
-<!-- Start of Socials Section -->
-
-<!-- ::: {.socials-component-wrapper}
-::: {.socials-component-container}
-::: {.socials-component-text}
-Follow us to get the latest policy updates
-:::
-
-::: {.socials-component-icons}
-```{=html}
-{{< include includes/social-icons.html >}}
-```
-:::
-:::
-::: -->
-
-<!-- End of Socials Section -->
