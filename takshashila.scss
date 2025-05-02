@@ -9,7 +9,7 @@ $under-textcolor: #141414;
 $under-textcolor-light: #404040;
 $light-paragraph-text: #696969;
 $card-color: #f2f2f2;
-$card-color-accent: #F2A32133;
+$card-color-accent: #f2a32133;
 $card-border-color: #333333;
 
 :root {
@@ -209,7 +209,7 @@ $card-border-color: #333333;
 
 .social-text {
   font-size: clamp(16px, 2vw, 24px);
-  color:$primary-color;
+  color: $primary-color;
   font-weight: 400;
 }
 
@@ -255,7 +255,7 @@ $card-border-color: #333333;
     gap: 10px;
     padding: 10px clamp(20px, 3vw, 40px);
   }
-  
+
   .social-text {
     text-align: center;
   }
@@ -491,17 +491,19 @@ $card-border-color: #333333;
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
-  
+
   @media (min-width: 768px) {
     min-width: clamp(280px, 40vw, 380px);
   }
-  
+
   @media (min-width: 1200px) {
     min-width: clamp(280px, 25vw, 380px);
   }
@@ -542,7 +544,7 @@ $card-border-color: #333333;
   flex-shrink: 0;
   display: flex;
   align-items: flex-start;
-  
+
   img {
     width: 100%;
     height: 100%;
@@ -557,4 +559,22 @@ $card-border-color: #333333;
   background-color: $card-color-accent;
   border-radius: 30px;
   padding: clamp(5px, 0.325vw, 10px) clamp(20px, 1.5vw, 40px);
+}
+
+.column-margin {
+  p {
+    padding: 20px 0;
+    color: $under-textcolor-light !important;
+    border-top: 1px solid $under-textcolor;
+    border-bottom: 1px solid $under-textcolor;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
 }
