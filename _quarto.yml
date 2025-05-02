@@ -22,23 +22,7 @@ website:
             href: "pages/latest_analysis.qmd"
           - text: "Newsletters"
             href: "#"
-      - text: "Education"
-        menu:
-          - text: "Fellowships"
-            href: "#"
-          - text: "Policy School"
-            href: "#"
-      - text: "Media"
-        menu:
-          - text: "Podcasts"
-            href: "#"
-          - text: "Media Appearances"
-            href: "#"
-          - text: "In the News"
-            href: "#"
-          - text: "Blogs"
-            href: "#"
-      - text: "About"
+      - text: "About Us"
         menu:
           - text: "Team"
             href: "pages/team_takshashila.qmd"
@@ -50,7 +34,27 @@ website:
             href: "#"
           - text: "Donate"
             href: "#"
-      - text: Events
+      # - text: "Education"
+      #   menu:
+      #     - text: "Fellowships"
+      #       href: "#"
+      #     - text: "Policy School"
+      #       href: "#"
+      # - text: "Media"
+      #   menu:
+      #     - text: "Podcasts"
+      #       href: "#"
+      #     - text: "Media Appearances"
+      #       href: "#"
+      #     - text: "In the News"
+      #       href: "#"
+      #     - text: "Blogs"
+      #       href: "#"
+      - text: "Engage with Us"
+        href: "#"
+      - text: "Careers"
+        href: "#"
+      - text: "Donate"
         href: "#"
 
 format:
