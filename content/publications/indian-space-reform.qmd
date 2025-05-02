@@ -106,7 +106,7 @@ In 2022, the Government of India approved the transfer of ownership of 10 in-orb
 Around 30 technology transfer agreements have also been signed with the industry until 2023.[^18] In addition to this, NSIL is involved in many other projects and contracts surrounding ground segment and mission support. 
 
 ::: {.aside}
-[Sidenote: Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text]
+Sample Text [Link](https://pib.gov.in/Pressreleasepage.Aspx?PRID=1633892)
 :::
 
 Its revenue from operations has grown year-on-year and so have the profits as indicated in the chart below.[^19]
@@ -207,7 +207,7 @@ The government has a big role to play in creating demand in the commercial indus
 # Conclusion
 The overall national space power will decide if India lives up to its potential in the global space economy. This space power of the nation is the sum total of all the space companies, talent, infrastructure as well as government's abilities. Space sector is emergent, often risky and has long gestation periods. There are enormous positive externalities in investing in this domain, the dispersed benefits of which accrue to the society as a whole. The Indian needs to reimagine the way it engages in this sector by further optimising the regulatory environment and streamlining government procurement. The goal should not be to have one ISRO, but numerous ISRO like corporations will similar capabilities. 
 
-[^1]: https://pib.gov.in/Pressreleasepage.Aspx?PRID=1633892
+[^1]: [Press Release](https://pib.gov.in/Pressreleasepage.Aspx?PRID=1633892)
 [^2]: https://www.weforum.org/press/2024/04/space-economy-set-to-triple-to-1-8-trillion-by-2035-new-research-reveals/
 [^3]: https://telecom.economictimes.indiatimes.com/news/portal-in-portal/satcom/current-size-of-indian-space-economy-is-estimated-around-usd-8-4-billion-jitendra-singh-in-rajya-sabha/105825325
 [^4]: https://government.economictimes.indiatimes.com/news/technology/space-sector-reforms-were-a-bold-move-by-the-modi-govt-former-officials-of-isro-antrix/100566172 
