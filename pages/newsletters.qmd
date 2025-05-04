@@ -1,0 +1,59 @@
+---
+title: Our Scolars keep busy. They write a lot of Newsletters
+description: Don’t know where to start? The Takshashila Dispatch is always a safe bet!
+
+listing:
+  - id: institutional-newsletters
+    contents: "../content/newsletters/newsletters.yml"
+    type: grid
+    grid-columns: 3
+    sort: "order asc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: "../includes/newsletter-card.ejs"
+    include:
+      category: ["Institutional"]
+    template-params: 
+      path_prefix: "../"
+    image-height: 0px
+
+  - id: individual-newsletters
+    contents: "../content/newsletters/newsletters.yml"
+    type: grid
+    grid-columns: 3
+    sort: "order asc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: "../includes/newsletter-card.ejs"
+    include:
+      category: ["Individual"]
+    template-params: 
+      path_prefix: "../"
+    image-height: 0px
+---
+
+<!-- Start of Institutional Newsletter Section -->
+
+::: {.section-heading-subtitle}
+## Institutional Newsletters
+:::
+
+:::{#institutional-newsletters}
+:::
+
+<!-- End of Institutional Newsletter Section -->
+
+<!-- Start of Individual Newsletter Section -->
+
+::: {.section-heading-subtitle}
+## Individual Newsletters
+:::
+
+:::{#individual-newsletters}
+:::
+
+<!-- End of Individual Newsletter Section -->

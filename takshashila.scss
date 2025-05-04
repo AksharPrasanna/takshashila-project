@@ -9,6 +9,7 @@ $under-textcolor: #141414;
 $under-textcolor-light: #404040;
 $light-paragraph-text: #696969;
 $card-color: #f2f2f2;
+$card-color-accent: #f2a32133;
 $card-border-color: #333333;
 
 :root {
@@ -29,7 +30,6 @@ $card-border-color: #333333;
 @import "styles/sections/about";
 // @import "styles/sections/programs";
 @import "styles/sections/dispatch";
-@import "styles/components/socials";
 @import "styles/components/news_card";
 @import "styles/sections/podcasts";
 @import "styles/components/listing_card";
@@ -45,7 +45,7 @@ $card-border-color: #333333;
   // padding-top: clamp(calc(var(--navbar-height-mobile)), 3vw, calc(var(--navbar-height))) !important;
   padding-top: 0;
   position: relative;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   margin-bottom: 0 !important;
 
   h2 {
@@ -56,6 +56,10 @@ $card-border-color: #333333;
     // max-width: 1135px !important;
     padding: 0 !important;
     margin: 0 !important;
+
+    sup {
+      color: $primary-color;
+    }
   }
 }
 
@@ -188,6 +192,79 @@ $card-border-color: #333333;
   font-weight: 300;
 }
 
+/* Social Banner Styling */
+.social-banner {
+  background-color: $secondary-color; /* Light cream color from screenshot */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: clamp(10px, 5vw, 20px) 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.social-banner-container {
+  max-width: 1135px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+}
+
+.social-text {
+  font-size: clamp(16px, 2vw, 24px);
+  color: $primary-color;
+  font-weight: 400;
+}
+
+.social-icons {
+  display: flex;
+  gap: clamp(10px, 1.5vw, 20px);
+  align-items: center;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(40px, 5vw, 48px);
+  height: clamp(40px, 5vw, 48px);
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid $primary-color;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  padding: 5px;
+}
+
+.social-icon svg {
+  width: clamp(15px, 2vw, 20px);
+  height: clamp(15px, 2vw, 20px);
+  fill: $primary-color;
+  transition: fill 0.2s ease;
+}
+
+.social-icon:hover {
+  background-color: #333;
+}
+
+.social-icon:hover svg {
+  fill: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .social-banner-container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px clamp(20px, 3vw, 40px);
+  }
+
+  .social-text {
+    text-align: center;
+  }
+}
+
 #publication-title-block-header {
   width: 100%;
   background-color: white;
@@ -315,49 +392,250 @@ $card-border-color: #333333;
   }
 }
 
-.sidebar nav[role=doc-toc]>h2, .sidebar nav[role=doc-toc]>.h2 {
-  font-family: 'Oswald';
-  font-size: .875rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
-  margin-top: 0.3rem;
-  border-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 0px;
+// .sidebar nav[role=doc-toc]>h2, .sidebar nav[role=doc-toc]>.h2 {
+//   font-family: 'Oswald';
+//   font-size: .875rem;
+//   font-weight: 500;
+//   text-transform: uppercase;
+//   margin-bottom: 0.5rem;
+//   margin-top: 0.3rem;
+//   border-bottom: 0;
+//   padding-bottom: 0;
+//   padding-top: 0px;
+// }
+
+// .sidebar nav[role=doc-toc] ul>li>a.active {
+//   border-left: 1px solid #939bc9;
+//   font-weight: 500;
+//   color: #939bc9 !important;
+// }
+
+// .sidebar nav[role=doc-toc]>ul a {
+//   border-left: none;
+//   padding-left: 0.6rem;
+// }
+
+// .sidebar nav[role=doc-toc]>ul li a {
+//   font-family: 'Montserrat';
+//   font-weight: 500;
+//   line-height: 1.1rem;
+//   padding-bottom: 0.2rem;
+//   padding-top: 0.2rem;
+//   color: black;
+// }
+
+// .sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+//   border-left: 1px solid #939bc9;
+//   color: #939bc9 !important;
+// }
+
+// .toc-actions a {
+//   font-family: 'Montserrat';
+//   font-weight: 500;
+//   color: black;
+// }
+
+// .toc-actions a:hover {
+//   color: #939bc9;
+// }
+
+/* Newsletter Cards Styling */
+
+.newsletter-content-section {
+  padding: clamp(20px, 2vw, 40px) clamp(10px, 1vw, 20px);
 }
 
-.sidebar nav[role=doc-toc] ul>li>a.active {
-  border-left: 1px solid #939bc9;
-  font-weight: 500;
-  color: #939bc9 !important;
+.newsletter-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.sidebar nav[role=doc-toc]>ul a {
-  border-left: none;
-  padding-left: 0.6rem;
+.newsletter-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.sidebar nav[role=doc-toc]>ul li a {
-  font-family: 'Montserrat';
-  font-weight: 500;
-  line-height: 1.1rem;
-  padding-bottom: 0.2rem;
-  padding-top: 0.2rem;
-  color: black;
+.newsletter-title {
+  margin-top: 10px;
 }
 
-.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
-  border-left: 1px solid #939bc9;
-  color: #939bc9 !important;
+.newsletter-title h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.3;
+  text-align: center;
 }
 
-.toc-actions a {
-  font-family: 'Montserrat';
-  font-weight: 500;
-  color: black;
+.newsletter-description {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
 
-.toc-actions a:hover {
-  color: #939bc9;
+.newsletter-footer {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+  font-weight: 400;
 }
+
+.event-card {
+  background-color: $card-color-accent; /* Light beige background */
+  border-radius: 16px;
+  min-width: clamp(280px, 80vw, 330px);
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (min-width: 768px) {
+    min-width: clamp(280px, 40vw, 380px);
+  }
+
+  @media (min-width: 1200px) {
+    min-width: clamp(280px, 25vw, 380px);
+  }
+}
+
+.event-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+
+.event-title {
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 600;
+  line-height: 1.3;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+
+.event-date {
+  font-size: clamp(14px, 1.1vw, 15px);
+  color: #555;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+}
+
+.event-host {
+  font-size: clamp(14px, 1.1vw, 15px);
+  color: #555;
+}
+
+.event-image {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.about-programme-section {
+  background-color: $card-color-accent;
+  border-radius: 30px;
+  padding: clamp(5px, 0.325vw, 10px) clamp(20px, 1.5vw, 40px);
+}
+
+.column-margin {
+  p {
+    padding: 20px 0;
+    color: $primary-color !important;
+    border-top: 1px solid $under-textcolor;
+    border-bottom: 1px solid $under-textcolor;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+#TOC {
+  #toc-title {
+    text-transform: uppercase;
+    font-size: large;
+  }
+
+  .nav-link {
+    border: none;
+    color: $light-paragraph-text;
+  }
+
+  .nav-link.active {
+    color: $primary-color !important;
+    font-weight: 700;
+  }
+}
+
+  /* Progress Bar Container */
+  .toc-progress-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+  }
+  
+  /* Progress Bar */
+  .toc-progress-bar {
+    position: absolute;
+    width: 100%;
+    background-color: $primary-color;
+    top: 0;
+    height: 0;
+    transition: height 0.2s;
+    border-radius: 10px;
+  }
+  
+  /* Add some left padding to the TOC for the progress bar */
+  #TOC {
+    position: relative;
+    padding-left: 15px;
+  }
+  
+  /* Active section styling */
+  // #TOC li.active > a {
+  //   color: $primary-color !important;
+  //   font-weight: 600 !important;
+  // }
+
+  .footnote-back {
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 500;
+  }

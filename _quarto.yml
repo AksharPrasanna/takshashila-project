@@ -10,6 +10,7 @@ website:
     background: "#610D3D"
     foreground: "white"
     collapse-below: lg
+    pinned: true
     logo: "assets/images/main-logo-dark.svg"
     logo-alt: "Takshashila Institution"
     title: false
@@ -22,23 +23,7 @@ website:
             href: "pages/latest_analysis.qmd"
           - text: "Newsletters"
             href: "#"
-      - text: "Education"
-        menu:
-          - text: "Fellowships"
-            href: "#"
-          - text: "Policy School"
-            href: "#"
-      - text: "Media"
-        menu:
-          - text: "Podcasts"
-            href: "#"
-          - text: "Media Appearances"
-            href: "#"
-          - text: "In the News"
-            href: "#"
-          - text: "Blogs"
-            href: "#"
-      - text: "About"
+      - text: "About Us"
         menu:
           - text: "Team"
             href: "pages/team_takshashila.qmd"
@@ -50,7 +35,27 @@ website:
             href: "#"
           - text: "Donate"
             href: "#"
-      - text: Events
+      # - text: "Education"
+      #   menu:
+      #     - text: "Fellowships"
+      #       href: "#"
+      #     - text: "Policy School"
+      #       href: "#"
+      # - text: "Media"
+      #   menu:
+      #     - text: "Podcasts"
+      #       href: "#"
+      #     - text: "Media Appearances"
+      #       href: "#"
+      #     - text: "In the News"
+      #       href: "#"
+      #     - text: "Blogs"
+      #       href: "#"
+      - text: "Engage with Us"
+        href: "#"
+      - text: "Careers"
+        href: "#"
+      - text: "Donate"
         href: "#"
 
 format:
@@ -58,13 +63,17 @@ format:
     theme: 
       - default
       - takshashila.scss
-    fontfamily: Roboto
-    mainfont: Roboto
+    fontfamily: Inter
+    mainfont: Inter
     anchor-sections: false
+    reference-location: document
+    citation-location: document
     toc: false
     page-layout: article
     grid: 
       body-width: 1135px
+      margin-width: 300px
+      sidebar-width: 300px
     template-partials:
       - includes/title-block.html
     include-after-body:

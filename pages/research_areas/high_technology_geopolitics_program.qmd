@@ -1,8 +1,68 @@
 ---
 title: "High-Tech Geopolitics Program"
-image: "../../assets/images/research_areas/high-tech-geopolitics.png"
 description: "The High-Technology Geopolitics Programme explores the geopolitics of technology from an Indian national interest perspective."
 order: 2
+
+listing:
+  - id: focus-areas
+    contents: focus-areas.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card.ejs
+    include:
+      categories: ["HTG"]
 ---
 
-Content of the publication goes here...
+<!-- Start of About the Programme Section -->
+
+::: {.about-programme-section}
+
+::: {.section-heading-subtitle}
+## About the Programme
+Nations are vying for dominance in several critical and emerging technologies such as artificial intelligence (AI), quantum computing, semiconductors, telecommunications, and cybersecurity to gain strategic advantage. Rivalries between major powers are intensifying as they invest in research and development, IP protection, and industrial policies.
+
+Developing countries like India are also striving to enhance their capabilities. The HTG Programme works on navigating these issues while balancing growth, security, ethics, and international cooperation as crucial factors responsible for shaping the future of emerging technologies, and the geopolitics associated with it.
+
+Our work on formulating a Techno-Strategic Doctrine for India lays out imperatives, objectives, and approaches to thinking about technology and strategy.
+:::
+
+:::
+
+<!-- End of About the Programme Section -->
+
+<!-- Start of Areas of Focus Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Our Areas of Focus
+:::
+:::
+
+::: {#focus-areas}
+:::
+
+<!-- End of Areas of Focus Section -->
+
+<!-- Start of CTA Section -->
+
+::: {.about-us-container}
+::: {.about-us-content}
+# Interested in <span class="highlight">Technology Geopolitics</span> ?
+
+Designed for full-time professionals, the GCPP offers a seamless mostly online learning experience. The programme spans 12 weeks and includes weekly webinars (usually on Saturdays). The highlights of the programme include an online Academic Conference and an interactive in-person workshop.
+
+::: {.about-cta}
+[View Course Details](){.about-btn}
+:::
+
+:::
+
+::: {.about-us-image-container}
+![](images/CTA.png){.about-us-image}
+:::
+:::
+
+<!-- End of CTA Section -->
