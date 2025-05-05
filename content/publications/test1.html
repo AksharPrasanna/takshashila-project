@@ -159,15 +159,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#content-of-the-publication-goes-here." id="toc-content-of-the-publication-goes-here." class="nav-link active" data-scroll-target="#content-of-the-publication-goes-here.">Content of the publication goes here……………….</a></li>
-  <li><a href="#content-of-the-publication-goes-here" id="toc-content-of-the-publication-goes-here" class="nav-link" data-scroll-target="#content-of-the-publication-goes-here">Content of the publication goes here………………</a></li>
-  <li><a href="#content-of-the-publication-goes-here-1" id="toc-content-of-the-publication-goes-here-1" class="nav-link" data-scroll-target="#content-of-the-publication-goes-here-1">Content of the publication goes here………………</a></li>
-  <li><a href="#content-of-the-publication-goes-here-2" id="toc-content-of-the-publication-goes-here-2" class="nav-link" data-scroll-target="#content-of-the-publication-goes-here-2">Content of the publication goes here………………</a></li>
-  </ul>
-</nav>
+        <h2 id="toc-title">On this page</h2>
+     
+    
+    <!-- Progress indicator container -->
+    <div class="toc-progress-container">
+      <div class="toc-progress-bar" id="toc-progress"></div>
+    </div>
+    
+    <ul class="collapse">
+    <li><a href="#content-of-the-publication-goes-here." id="toc-content-of-the-publication-goes-here." class="nav-link active" data-scroll-target="#content-of-the-publication-goes-here.">Content of the publication goes here……………….</a></li>
+    <li><a href="#content-of-the-publication-goes-here" id="toc-content-of-the-publication-goes-here" class="nav-link" data-scroll-target="#content-of-the-publication-goes-here">Content of the publication goes here………………</a></li>
+    <li><a href="#content-of-the-publication-goes-here-1" id="toc-content-of-the-publication-goes-here-1" class="nav-link" data-scroll-target="#content-of-the-publication-goes-here-1">Content of the publication goes here………………</a></li>
+    <li><a href="#content-of-the-publication-goes-here-2" id="toc-content-of-the-publication-goes-here-2" class="nav-link" data-scroll-target="#content-of-the-publication-goes-here-2">Content of the publication goes here………………</a></li>
+    </ul>
+  </nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -180,8 +186,25 @@ ul.task-list li input[type="checkbox"] {
     <div class="title-banner"></div>
         <div class="title-block-container">
         <h1>Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?</h1>
-                <h3>February 15, 2024</h3>
+                        <h4>February 15, 2024</h4>
                         <p>A brief analysis of the implications of AI Diffusion Rules on India’s GPU accessibility</p>
+                        <div class="title-categories">
+                        <div class="title-category">
+                <a href="../../pages/latest_analysis.html#category=Indo-Pacific">
+                    Indo-Pacific
+                </a>
+            </div>
+                        <div class="title-category">
+                <a href="../../pages/latest_analysis.html#category=AI1">
+                    AI1
+                </a>
+            </div>
+                        <div class="title-category">
+                <a href="../../pages/latest_analysis.html#category=Technology">
+                    Technology
+                </a>
+            </div>
+                    </div>
             </div>
     </header>
 
@@ -197,6 +220,82 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
+  
+  <style>
+  </style>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the table of contents and progress bar
+    const toc = document.getElementById('TOC');
+    const progressBar = document.getElementById('toc-progress');
+    
+    if (!toc || !progressBar) return;
+    
+    // Track scroll position and update the active section and progress bar
+    updateTocOnScroll();
+    
+    function updateTocOnScroll() {
+      // Get all section headings with IDs
+      const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]'));
+      if (headings.length === 0) return;
+      
+      // Get all links in the TOC
+      const links = Array.from(toc.querySelectorAll('a'));
+      
+      // Function to update active section based on scroll position
+      function updateActiveSection() {
+        // Calculate how far down the page has been scrolled
+        const scrollPosition = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        const scrollPercentage = scrollPosition / (documentHeight - windowHeight);
+        
+        // Update progress bar height
+        progressBar.style.height = Math.min(scrollPercentage * 100, 100) + '%';
+        
+        // Find the current section
+        let currentSection = null;
+        
+        for (let i = 0; i < headings.length; i++) {
+          const heading = headings[i];
+          const rect = heading.getBoundingClientRect();
+          
+          // Consider a heading in view if it's within 150px of the top
+          if (rect.top <= 150) {
+            currentSection = heading;
+          } else {
+            break;
+          }
+        }
+        
+        // Update active class on TOC links
+        if (currentSection) {
+          const id = currentSection.getAttribute('id');
+          
+          // Remove active class from all list items
+          toc.querySelectorAll('li').forEach(li => li.classList.remove('active'));
+          
+          // Add active class to corresponding list item
+          const activeLink = toc.querySelector(`a[href="#"]`);
+          if (activeLink) {
+            // Add active class to the parent list item
+            const activeLi = activeLink.closest('li');
+            if (activeLi) {
+              activeLi.classList.add('active');
+            }
+          }
+        }
+      }
+      
+      // Listen for scroll events
+      window.addEventListener('scroll', updateActiveSection);
+      
+      // Initialize on page load
+      updateActiveSection();
+    }
+  });
+  </script>
 <div class="grid">
 <section id="ss" class="level3 g-col-8">
 <h3 data-anchor-id="ss">ss</h3>
