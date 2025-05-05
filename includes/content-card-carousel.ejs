@@ -1,30 +1,34 @@
 ```{=html}
-<div class="content-outer"  id="<%= templateParams.carousel_id %>">
+<div class="content-outer" id="<%= templateParams.carousel_id %>">
   <div class="carousel-container">
     <div class="carousel-content">
       <% for (const item of items) { %>
-        <div class="content-card">
-          <h3 class="content-title"><%= item.title %></h3>
-          <a href="<%= item.path %>" class="read-more">Read more <span class="arrow">→</span></a>
-        </div>
-      <% } %>
+        <a href="<%= item.path %>">
+          <div class="content-card">
+            <h3 class="content-title">
+              <%= item.title %>
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        <% } %>
     </div>
   </div>
-  
+
   <button class="content-nav-btn prev-btn" aria-label="Previous publications">
     <span aria-hidden="true">&lt;</span>
   </button>
-  
+
   <button class="content-nav-btn next-btn" aria-label="Next publications">
     <span aria-hidden="true">&gt;</span>
   </button>
 </div>
-  
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
     const carouselId = "<%= templateParams.carousel_id %>";
     const carouselContainer = document.getElementById(carouselId);
-  
+
     if (!carouselContainer) {
       console.error("Carousel container not found:", carouselId);
       return;
@@ -32,10 +36,10 @@
     const carousel = carouselContainer.querySelector('.carousel-content');
     const prevBtn = carouselContainer.querySelector('.prev-btn');
     const nextBtn = carouselContainer.querySelector('.next-btn');
-    
+
     // Set initial button state
     updateButtonState();
-    
+
     // Determine scroll amount based on screen size
     function getScrollAmount() {
       // On mobile, scroll full width
@@ -45,36 +49,36 @@
       // On tablet, scroll half width
       else if (window.innerWidth < 1200) {
         return carousel.offsetWidth / 2;
-      } 
+      }
       // On desktop, scroll one third width
       else {
         return carousel.offsetWidth / 3;
       }
     }
-    
+
     // Handle button clicks
     prevBtn.addEventListener('click', () => {
       carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
     });
-    
+
     nextBtn.addEventListener('click', () => {
       carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
     });
-    
+
     // Update button state on scroll
     carousel.addEventListener('scroll', updateButtonState);
     window.addEventListener('resize', updateButtonState);
-    
+
     function updateButtonState() {
       const isAtStart = carousel.scrollLeft <= 10;
       const isAtEnd = carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 10;
-      
+
       prevBtn.disabled = isAtStart;
       prevBtn.style.opacity = isAtStart ? '0.5' : '1';
-      
+
       nextBtn.disabled = isAtEnd;
       nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
     }
   });
-  </script>
+</script>
 ```
