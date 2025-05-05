@@ -67,7 +67,7 @@ $card-border-color: #333333;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
-  background-image: url("assets/images/hero-banner.svg");
+  background-image: url("assets/images/banner.svg");
   min-height: clamp(80px, 1vw, 112px);
 }
 
@@ -80,6 +80,42 @@ $card-border-color: #333333;
   padding-left: 0;
   padding-right: 0;
   border-bottom: 2px solid $primary-color;
+
+  .title-categories {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.5em;
+    column-gap: 0.4em;
+    padding-bottom: 0.5em;
+    margin-top: 0.75em;
+
+    .title-category {
+      padding: 0.25em 0.75em;
+      font-size: 0.65em;
+      text-transform: uppercase;
+      border: solid 1px $under-textcolor;
+      border-radius: 0.25rem;
+      opacity: 0.6;
+    }
+  }
+
+  .title-publishers {
+    display: flex;
+    gap: 20px
+  }
+
+  h1 {
+    color: $under-textcolor;
+  }
+
+  a {
+    color: $under-textcolor;
+  }
+
+  h4 {
+    color: $under-textcolor-light;
+    display: flex;
+  }
 }
 
 /* Footer Styling */
@@ -600,42 +636,42 @@ $card-border-color: #333333;
   }
 }
 
-  /* Progress Bar Container */
-  .toc-progress-container {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 6px;
-    background-color: $secondary-color;
-    border-radius: 10px;
-  }
-  
-  /* Progress Bar */
-  .toc-progress-bar {
-    position: absolute;
-    width: 100%;
-    background-color: $primary-color;
-    top: 0;
-    height: 0;
-    transition: height 0.2s;
-    border-radius: 10px;
-  }
-  
-  /* Add some left padding to the TOC for the progress bar */
-  #TOC {
-    position: relative;
-    padding-left: 15px;
-  }
-  
-  /* Active section styling */
-  // #TOC li.active > a {
-  //   color: $primary-color !important;
-  //   font-weight: 600 !important;
-  // }
+/* Progress Bar Container */
+.toc-progress-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: $secondary-color;
+  border-radius: 10px;
+}
 
-  .footnote-back {
-    color: $primary-color;
-    text-decoration: none;
-    font-weight: 500;
-  }
+/* Progress Bar */
+.toc-progress-bar {
+  position: absolute;
+  width: 100%;
+  background-color: $primary-color;
+  top: 0;
+  height: 0;
+  transition: height 0.2s;
+  border-radius: 10px;
+}
+
+/* Add some left padding to the TOC for the progress bar */
+#TOC {
+  position: relative;
+  padding-left: 15px;
+}
+
+/* Active section styling */
+// #TOC li.active > a {
+//   color: $primary-color !important;
+//   font-weight: 600 !important;
+// }
+
+.footnote-back {
+  color: $primary-color;
+  text-decoration: none;
+  font-weight: 500;
+}

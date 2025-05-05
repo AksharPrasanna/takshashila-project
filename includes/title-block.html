@@ -3,11 +3,35 @@
     $if(title)$
     <div class="title-block-container">
         <h1>$title$</h1>
+        $if(publishers)$
+        <div class="title-publishers">
+            $for(publishers)$
+            <div class="title-publisher">
+                <a href="$publishers.path$.html">
+                    <h3>
+                        $publishers.name$
+                    </h3>
+                </a>
+            </div>
+            $endfor$
+        </div>
+        $endif$
         $if(date)$
-        <h3>$date$</h3>
+        <h4>$date$</h4>
         $endif$
         $if(description)$
         <p>$description$</p>
+        $endif$
+        $if(categories)$
+        <div class="title-categories">
+            $for(categories)$
+            <div class="title-category">
+                <a href="/pages/latest_analysis.html#category=$categories$">
+                    $categories$
+                </a>
+            </div>
+            $endfor$
+        </div>
         $endif$
     </div>
     $endif$
