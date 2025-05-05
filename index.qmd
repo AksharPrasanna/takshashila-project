@@ -220,7 +220,7 @@ All the newsletters we have published
 ## Blogs
 The most recent posts we have published:
 :::
-[View all posts](){.view-all}
+[View all Blogs](){.view-all}
 :::
 
 ::: {.listing-carousel}
@@ -232,15 +232,17 @@ The most recent posts we have published:
 
 <!-- Start of News Section -->
 
+::: {.component-section}
 ::: {.section-heading-with-view-all}
 ::: {.section-heading-subtitle}
 ## In the News
 The most recent posts we have published:
 :::
-[View all posts](){.view-all}
+[View all News Items](){.view-all}
 :::
 
 ::: {#recent-news}
+:::
 :::
 
 <!-- End of News Section -->

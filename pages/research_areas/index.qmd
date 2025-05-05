@@ -5,8 +5,6 @@ description: "Key Areas we focus on at Takshashila"
 format:
   html:
     anchor-sections: false
-    # template-partials:
-    #     - title-block.html
 
 listing:
   - id: research-areas

@@ -92,6 +92,8 @@
 
 .listing-title-section {
     background-color: $primary-color;
+    height: clamp(100px, 7.8vw, 150px) !important;
+    align-content: center;
 }
 
 .listing-card h2 {
