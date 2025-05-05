@@ -123,23 +123,13 @@ Create a new `.qmd` file in the `content/blogs/` directory:
 ---
 title:
 date:
-description:
+tldr:
+publishers:
+  - "Publisher 1"
+  - "Publisher 2"
 categories: 
   - "Category1"
   - "Category2"
-
-listing:
-  - id: authors
-    contents: ../../pages/team/*.qmd
-    type: grid
-    sort-ui: false
-    filter-ui: false
-    categories: false
-    template: ../../includes/listing-card.ejs
-    include:
-      title:
-        - "Author1"
-        - "Author2"
 
 format:
   html:
@@ -160,23 +150,13 @@ Create a new `.qmd` file in the `content/publications/` directory:
 ---
 title:
 date:
-description:
+tldr:
+publishers:
+  - "Publisher 1"
+  - "Publisher 2"
 categories: 
   - "Category1"
   - "Category2"
-
-listing:
-  - id: authors
-    contents: ../../pages/team/*.qmd
-    type: grid
-    sort-ui: false
-    filter-ui: false
-    categories: false
-    template: ../../includes/listing-card.ejs
-    include:
-      title:
-        - "Author1"
-        - "Author2"
 
 format:
   html:
