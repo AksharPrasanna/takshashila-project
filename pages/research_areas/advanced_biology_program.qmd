@@ -1,7 +1,248 @@
 ---
-title: "Advanced Biology"
-description: "The Advanced Biology Programme facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy"
+title: "Advanced Biology Programme"
+description: "The Advanced Biology Programme at The Takshashila Institution facilitates dialogue on life science policy and develops actionable policies for the Indian bioeconomy."
 order: 3
+
+listing:
+  - id: focus-areas
+    contents: focus-areas.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card.ejs
+    # include:
+    #   categories: ["Indo-Pacific"]
+
+  - id: recent-news
+    contents: ../../content/news/news.yml
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/news-card.ejs
+    max-items: 6
+    # include:
+    #   categories: ["Indo-Pacific"]
+  
+  - id: newsletters
+    contents: "../../content/newsletters/newsletters.yml"
+    type: grid
+    grid-columns: 3
+    sort: "order asc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: "../../includes/newsletter-card.ejs"
+    template-params: 
+      path_prefix: "../../"
+    image-height: 0px
+
+  - id: latest-analysis
+    contents: ../../content/publications/*.qmd
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/content-card-carousel.ejs
+    template-params: 
+      carousel_id: "latest-analysis-carousel"
+    image-height: 0px
+    max-items: 6
+    # include:
+    #   categories: ["Indo-Pacific"]
+  
+  - id: latest-blogs
+    contents: ../../content/blogs/*.qmd
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/content-card-carousel.ejs
+    template-params:
+      carousel_id: "latest-blogs-carousel"
+    image-height: 0px
+    max-items: 6
+    # include:
+    #   categories: ["Indo-Pacific"]
+
+  - id: podcasts
+    contents: ../../content/podcasts/all-things-policy/podcast-list.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/podcast-card.ejs
+  
+  - id: videos
+    contents: ../../content/videos/videos.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card-backup.ejs
+    template-params: 
+      path_prefix: "../../"
+
+  - id: htg-team
+    contents: ../team/*.qmd
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card-backup.ejs
+    sort: "order asc"
+    template-params: 
+      path_prefix: ""
+    # include:
+    #     category: ["Co Founders and Distinguished Fellows"]
+
+format: 
+  html: 
+    anchor-sections: false
 ---
 
-Content of the publication goes here...
+<!-- Start of About the Programme Section -->
+
+::: {.about-programme-section}
+
+::: {.section-heading-subtitle}
+## About the Programme
+The bioeconomy which currently accounts for 2.6% of India’s GDP, has to double this contribution by 2030. We define bioeconomy as “Technology-enabled development of value-added products or services from biological resources to accelerate the economy, in terms of GDP growth and employment; enable health security and create avenues for sustainable development.”
+
+The Advanced Biology programme works with governmental agencies, industry and international agencies to identify policies that can uplift India’s bioeconomy, while safeguarding against potential risks. The programme aims to create a network of experts from diverse fields who are interested in life science related policies and facilitates a constructive life science policy dialogue in India.
+:::
+
+:::
+
+<!-- End of About the Programme Section -->
+
+<!-- Start of Areas of Focus Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Our Areas of Focus
+:::
+:::
+
+::: {#focus-areas}
+:::
+
+<!-- End of Areas of Focus Section -->
+
+<!-- Start of News Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## In the News
+The most recent posts we have published:
+:::
+[View all posts](){.view-all}
+:::
+
+::: {#recent-news}
+:::
+
+<!-- End of News Section -->
+
+<!-- Start of Newsletter Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Subscribe to Our Newsletters
+:::
+[View all Posts](/pages/newsletters.qmd){.view-all}
+:::
+
+::: {#newsletters}
+:::
+
+<!-- End of Newsletter Section -->
+
+<!-- Start of Latest Analysis Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Latest Analysis
+:::
+[View all Publications](){.view-all}
+:::
+
+::: {.listing-carousel}
+::: {#latest-analysis}
+:::
+:::
+
+<!-- End of Latest Analysis Section -->
+
+<!-- Start of Latest Blogs Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Blogs
+:::
+[View all Blogs](){.view-all}
+:::
+
+::: {.listing-carousel}
+::: {#latest-blogs}
+:::
+:::
+
+<!-- End of Latest Blogs Section -->
+
+<!-- Start of Podcasts Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Subscribe to Our Podcasts
+:::
+[View all Podcasts](){.view-all}
+:::
+
+::: {#podcasts}
+:::
+
+<!-- End of Podcasts Section -->
+
+<!-- Start of Videos Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Latest Videos
+:::
+[View all Videos](){.view-all}
+:::
+
+::: {#videos}
+:::
+
+<!-- End of Videos Section -->
+
+<!-- Start of Teams Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Meet the HTG Team
+:::
+[View Team](){.view-all}
+:::
+
+::: {#htg-team}
+:::
+
+<!-- End of Teams Section -->

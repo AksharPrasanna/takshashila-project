@@ -1,41 +1,38 @@
 - title: "China Studies"
   description: "This initiative aims to understand Chinese domestic and foreign policies, sources of friction, and opportunities keeping in mind Indian national interests, and recommend actionable measures for Indian policymakers."
-  image: "images/china_studies.png"
   linkText: "China's Global Security Initiative"
   categories:
     - "Indo-Pacific"
+    - "HTG"
 
 - title: "Quad Studies"
   description: "This initiative aims to study the domestic, bilateral and multilateral engagements among the Quad countries - US, India, Japan, and Australia, and recommend actionable measures for Indian policymakers."
-  image: "images/quad_studies.png"
   linkText: "Quad Hub"
   categories:
     - "Indo-Pacific"
+    - "HTG"
 
 - title: "Diplomacy and Security"
   description: "This initiative studies the evolving policies of different actors across the Indo-Pacific. The aim is to recommend pathways for India to strengthen its relationships with like-minded partners, particularly in its immediate geographical neighborhood."
-  image: "images/diplomacy.png"
   linkText: "China-Taiwan Saga"
   categories:
     - "Indo-Pacific"
+    - "HTG"
 
 - title: "Advanced Computing"
-  description: "This initiative is aimed at understanding the geopolitics of high speed and quantum computing, evaluating India's strengths and weaknesses in these fields, and proposing policies to give India an advantage.\nRead about our work on Building India’s Quantum Ecosystem"
-  image: "images/diplomacy.png"
-  linkText: "Advanced Computing"
+  description: "This initiative is aimed at understanding the geopolitics of high speed and quantum computing, evaluating India's strengths and weaknesses in these fields, and proposing policies to give India an advantage."
+  linkText: "India's Quantum Ecosystem"
   categories:
     - "HTG"
 
 - title: "Information Politics"
-  description: "This initiative is dedicated to understanding geopolitics in the Information Age. One of the key projects under this initiative is to develop a governance mechanism for digital communication networks, in ways that maximise the benefits and minimise the harms.\nRead about our work on Rebooting Artificial Intelligence (AI) in India"
-  image: "images/diplomacy.png"
-  linkText: "China-Taiwan Saga"
+  description: "This initiative is dedicated to understanding geopolitics in the Information Age. One of the key projects under this initiative is to develop a governance mechanism for digital communication networks, in ways that maximise the benefits and minimise the harms."
+  linkText: "Rebooting Artificail Intelligence (AI) in India"
   categories:
     - "HTG"
 
-- title: "Diplomacy and Security"
-  description: "This initiative studies the evolving policies of different actors across the Indo-Pacific. The aim is to recommend pathways for India to strengthen its relationships with like-minded partners, particularly in its immediate geographical neighborhood."
-  image: "images/diplomacy.png"
-  linkText: "China-Taiwan Saga"
+- title: "Semiconductor Geopolitics"
+  description: "Takshashila’s The Siliconpolitik Project tries to answer how do semiconductors play a role in changing the global technology landscape and what role does India have to play in it? Our work spans the semiconductor IC ecosystem, metals and materials used in producing electronics, and the broader electronics ecosystem."
+  linkText: "SWOT Analysis of India's Semiconductor Ecosystem"
   categories:
     - "HTG"

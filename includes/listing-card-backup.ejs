@@ -6,7 +6,7 @@
                 <a href="<%= item.path %>" class="listing-card">
                     <% if (item.image) { %>
                         <div class="listing-image">
-                            <img src="<%= item.image %>" alt="<%= item.title %>" />
+                            <img src="<%= templateParams.path_prefix %><%= item.image %>" alt="<%= item.title %>" />
                         </div>
                     <% } %>
                     <div class="listing-content">

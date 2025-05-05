@@ -1,5 +1,5 @@
 ---
-title: "Indo-Pacific Studies Program"
+title: "Indo-Pacific Studies Programme"
 description: "The Indo-Pacific Studies Programme looks at the geopolitical events and actors across the Indo-Pacific and India’s role in the region."
 order: 1
 
@@ -59,6 +59,23 @@ listing:
     max-items: 6
     include:
       categories: ["Indo-Pacific"]
+  
+  - id: latest-blogs
+    contents: ../../content/blogs/*.qmd
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/content-card-carousel.ejs
+    template-params:
+      carousel_id: "latest-blogs-carousel"
+    image-height: 0px
+    max-items: 6
+    # include:
+    #   categories: ["Indo-Pacific"]
 
   - id: podcasts
     contents: ../../content/podcasts/all-things-policy/podcast-list.yml
@@ -68,6 +85,31 @@ listing:
     filter-ui: false
     categories: false
     template: ../../includes/podcast-card.ejs
+  
+  - id: videos
+    contents: ../../content/videos/videos.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card-backup.ejs
+    template-params: 
+      path_prefix: "../../"
+
+  - id: htg-team
+    contents: ../team/*.qmd
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card-backup.ejs
+    sort: "order asc"
+    template-params: 
+      path_prefix: ""
+    # include:
+    #     category: ["Co Founders and Distinguished Fellows"]
 
 format: 
   html: 
@@ -135,7 +177,7 @@ The most recent posts we have published:
 ::: {.section-heading-subtitle}
 ## Latest Analysis
 :::
-[View all Posts](){.view-all}
+[View all Publications](){.view-all}
 :::
 
 ::: {.listing-carousel}
@@ -144,6 +186,22 @@ The most recent posts we have published:
 :::
 
 <!-- End of Latest Analysis Section -->
+
+<!-- Start of Latest Blogs Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Blogs
+:::
+[View all Blogs](){.view-all}
+:::
+
+::: {.listing-carousel}
+::: {#latest-blogs}
+:::
+:::
+
+<!-- End of Latest Blogs Section -->
 
 <!-- Start of Podcasts Section -->
 
@@ -158,3 +216,31 @@ The most recent posts we have published:
 :::
 
 <!-- End of Podcasts Section -->
+
+<!-- Start of Videos Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Latest Videos
+:::
+[View all Videos](){.view-all}
+:::
+
+::: {#videos}
+:::
+
+<!-- End of Videos Section -->
+
+<!-- Start of Teams Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Meet the HTG Team
+:::
+[View Team](){.view-all}
+:::
+
+::: {#htg-team}
+:::
+
+<!-- End of Teams Section -->

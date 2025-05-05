@@ -14,6 +14,103 @@ listing:
     template: ../../includes/listing-card.ejs
     include:
       categories: ["HTG"]
+
+  - id: recent-news
+    contents: ../../content/news/news.yml
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/news-card.ejs
+    max-items: 6
+    include:
+      categories: ["HTG"]
+
+  - id: newsletters
+    contents: "../../content/newsletters/newsletters.yml"
+    type: grid
+    grid-columns: 3
+    sort: "order asc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: "../../includes/newsletter-card.ejs"
+    template-params: 
+      path_prefix: "../../"
+    image-height: 0px
+
+  - id: latest-analysis
+    contents: ../../content/publications/*.qmd
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/content-card-carousel.ejs
+    template-params: 
+      carousel_id: "latest-analysis-carousel"
+    image-height: 0px
+    max-items: 6
+    # include:
+    #   categories: ["HTG"]
+
+  - id: latest-blogs
+    contents: ../../content/blogs/*.qmd
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    template: ../../includes/content-card-carousel.ejs
+    template-params:
+      carousel_id: "latest-blogs-carousel"
+    image-height: 0px
+    max-items: 6
+    # include:
+    #   categories: ["Indo-Pacific"]
+
+  - id: podcasts
+    contents: ../../content/podcasts/all-things-policy/podcast-list.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/podcast-card.ejs
+  
+  - id: videos
+    contents: ../../content/videos/videos.yml
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card-backup.ejs
+    template-params: 
+      path_prefix: "../../"
+
+  - id: htg-team
+    contents: ../team/*.qmd
+    type: grid
+    grid-columns: 3
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    template: ../../includes/listing-card-backup.ejs
+    sort: "order asc"
+    template-params: 
+      path_prefix: ""
+    # include:
+    #     category: ["Co Founders and Distinguished Fellows"]
+
 ---
 
 <!-- Start of About the Programme Section -->
@@ -66,3 +163,106 @@ Designed for full-time professionals, the GCPP offers a seamless mostly online l
 :::
 
 <!-- End of CTA Section -->
+
+<!-- Start of News Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## In the News
+The most recent posts we have published:
+:::
+[View all posts](){.view-all}
+:::
+
+::: {#recent-news}
+:::
+
+<!-- End of News Section -->
+
+<!-- Start of Newsletter Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Subscribe to Our Newsletters
+:::
+[View all Posts](/pages/newsletters.qmd){.view-all}
+:::
+
+::: {#newsletters}
+:::
+
+<!-- End of Newsletter Section -->
+
+<!-- Start of Latest Analysis Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Latest Analysis
+:::
+[View all Publications](){.view-all}
+:::
+
+::: {.listing-carousel}
+::: {#latest-analysis}
+:::
+:::
+
+<!-- End of Latest Analysis Section -->
+
+<!-- Start of Latest Blogs Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Blogs
+:::
+[View all Blogs](){.view-all}
+:::
+
+::: {.listing-carousel}
+::: {#latest-blogs}
+:::
+:::
+
+<!-- End of Latest Blogs Section -->
+
+<!-- Start of Podcasts Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Subscribe to Our Podcasts
+:::
+[View all Podcasts](){.view-all}
+:::
+
+::: {#podcasts}
+:::
+
+<!-- End of Podcasts Section -->
+
+<!-- Start of Videos Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Latest Videos
+:::
+[View all Videos](){.view-all}
+:::
+
+::: {#videos}
+:::
+
+<!-- End of Videos Section -->
+
+<!-- Start of Teams Section -->
+
+::: {.section-heading-with-view-all}
+::: {.section-heading-subtitle}
+## Meet the HTG Team
+:::
+[View Team](){.view-all}
+:::
+
+::: {#htg-team}
+:::
+
+<!-- End of Teams Section -->
