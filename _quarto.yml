@@ -76,5 +76,6 @@ format:
       sidebar-width: 300px
     template-partials:
       - includes/title-block.html
+      - includes/toc.html
     include-after-body:
       file: "includes/footer.html"

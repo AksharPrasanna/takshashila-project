@@ -15,9 +15,6 @@ format:
     toc: true
     toc-depth: 2
     toc-location: left
-    anchor-sections: false
-    template-partials:
-      - ../../includes/toc.html
 ---
 
 
