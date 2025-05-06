@@ -2,23 +2,23 @@
 title: "A Pathway to AI Governance"
 publishers:
   - name: Bharath Reddy
-    qmd: /pages/team/bharath_reddy.qmd
+    path: /pages/team/bharath_reddy.qmd
     image: /pages/team/images/bharath_reddy.png
     description: Associate Fellow with the high-tech geopolitics programme
   - name: Nitin Pai
-    path: /pages/team/nitin_pai
+    path: /pages/team/nitin_pai.qmd
     image: /pages/team/images/nitin_pai.png
     description: Director of the Takshashila Institution
   - name: Rijesh Panicker
-    path: /pages/team/rijesh_panicker
+    path: /pages/team/rijesh_panicker.qmd
     image: /pages/team/images/rijesh_panicker.png
     description: Fellow with the high-tech geopolitics programme
   - name: Satya S. Sahu
-    path: /pages/team/satya_sahu
+    path: /pages/team/satya_sahu.qmd
     image: /pages/team/images/satya_sahu.png
     description: Research Analyst with the high-tech geopolitics programme
   - name: Sridhar Krishna
-    path: /pages/team/sridhar_krishna
+    path: /pages/team/sridhar_krishna.qmd
     image: /pages/team/images/sridhar_krishna.png
     description: Senior Scholar at the Takshashila Institution
 date: "2023-11-25"
