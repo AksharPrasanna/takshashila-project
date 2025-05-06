@@ -89,7 +89,7 @@ listing:
     max-items: 6
 
   - id: books
-    contents: content/books/books.yml
+    contents: content/books
     type: grid
     sort: "order asc"
     categories: false

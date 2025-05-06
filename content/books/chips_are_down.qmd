@@ -1,0 +1,96 @@
+---
+title: "When the chips are down"
+date: "2024-02-05"
+image: images/chips_are_down.png
+order: 3
+publishers:
+    - name: "Pranay Kotashthane"
+      path: /pages/team/pranay_kotashthane
+---
+
+::: {.grid}
+
+::: {.g-col-4}
+![](images/chips_are_down.png)
+:::
+
+::: {.g-col-4}
+![](images/chips_are_down.png)
+:::
+
+:::
+
+### About the Book
+
+To the world at large, technology was synonymous with software. But in 2019, the conversations have changed dramatically. Today, the hardware that runs all software - semiconductors or chips - has become a subject of WhatsApp groups and international politics.
+
+The chip shortage during COVID-19 made governments take notice of this complex supply chain. The US began denying advanced semiconductors to Chinese companies. Worsening China-Taiwan relations further intensified the debate. By 2022, China, the US, India, the EU, and Japan had released plans worth billions of dollars for setting up new semiconductor facilities. This book is a comprehensive overview of this “meta-critical” technology. How are semiconductors important from a geopolitical perspective? Why did the US and Taiwan become powerhouses in this domain while Russia and India fell behind? Is China's semiconductor sector a threat to the world? What are the future trends to watch out for? These are the questions that this book answers.
+
+::: {.about-cta}
+[Purchase Book](https://bookshop.iseas.edu.sg/publication/7887#contents){.about-btn}
+:::
+
+### Praise for When The Chips Are Down
+
+> "Pranay and Abhiram have put together an excellent framework to understand the past, present, and future of the geopolitics of semiconductors. The book explains why some countries have done relatively better than others and it has learnings for technologists, geopolitical analysts, and policymakers alike.” - Nandan Nilekani, Chairman and Co-founder Infosys and Founding Chairman, UIDAI (Aadhaar)
+
+> “Pranay Kotasthane, one of the most significant emerging voices in the Indian strategic community, and Abhiram Manchi, explain the new global jousting on semiconductors in this lucid and insightful volume. A must read for all students of India’s geopolitics and technology policy.” - Prof C. Raja Mohan, Institute of South Asian Studies, National University of Singapore
+
+> “If 21st-century conflicts are to be fought at the intersection of technology and geopolitics, this book is indispensable to understanding what chips mean for our future and why India fell off the global semiconductor map at the end of the 20th century. Well-researched and global in its coverage of the history and present realities of chip-making, the authors lucidly explain why China, COVID and indigenous creative talent converge in this decade to offer India a remarkable window to re-join the contest at the cusp of the Indian century—an educative and simply entertaining read.” - Vijay Gokhale, Former Foreign Secretary, Government of India
+
+### News mentions
+
+#### $10 Billion Bet: Can India Move Beyond Subsidies In Global Chip Game?
+
+In an interview with Outlook Business, Pranay spoke on how current geopolitics create an opportunity for India in the semiconductors sector:
+
+India is a sweet spot from a geopolitical perspective. We will likely see selective international cooperation on semiconductors subject to geopolitical considerations. The semiconductor ecosystem is transnational; it relies on comparative advantages to accelerate innovation. To get ahead of each other, high-technology powers such as the US will likely transfer technologies to their respective partners, provided these strengths are complementary. Such cooperation was recently seen in the AUKUS deal and the iCET announcement on GE jet engines. 
+
+Similarly, the first major firm to announce the setting up of an assembly and testing facility in India is Micron, an American firm. Provided that India is seen as a trusted partner, the technology transfer will become much easier than it was in the past. Overall, plurilateral cooperation on semiconductors is a necessity, not a choice.
+
+::: {.about-cta}
+[Read Interview](https://www.outlookbusiness.com/economy-and-policy/10-billion-bet-can-india-move-beyond-subsidies-in-global-chip-game){.about-btn}
+:::
+
+::: {.grid}
+
+::: {.g-col-8}
+### Media mentions
+
+#### Decoding global semiconductor geopolitics and India’s strategic options
+
+Recently, Pranay and Abhiram, authors of When the Chips Are Down, appeared on The Hindu on Books podcast to discuss their work on the geopolitics of semiconductors. Listen to the episode here:
+
+#### The Semiconductor Wars
+
+Pranay and Abhiram also joined Amit Varma on his popular podcast The Seen and The Unseen to shed light on how so much geopolitics today centres around chips — and why it is such a big deal:
+
+#### Pranay Kotasthane talks about Semiconductors & Geopolitics
+
+In the context of his latest book, Pranay appeared on Shortcast over Coffee to speak about the semiconductor industry, its impact on geopolitics, and India’s foray into semiconductor manufacturing.
+
+:::
+
+:::
+
+### Snippets from #BookLounge at Takshashila with the Authors of When The Chips are Down
+
+::: {.grid}
+
+::: {.g-col-6}
+![](images/chips_are_down_1.png)
+:::
+
+::: {.g-col-6}
+![](images/chips_are_down_2.png)
+:::
+
+::: {.g-col-6}
+![](images/chips_are_down_3.png)
+:::
+
+::: {.g-col-6}
+![](images/chips_are_down_4.png)
+:::
+
+:::

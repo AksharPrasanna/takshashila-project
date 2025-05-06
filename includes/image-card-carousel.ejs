@@ -3,11 +3,13 @@
     <div class="carousel-container">
         <div class="carousel-content">
             <% for (const item of items) { %>
-                <div class="content-card accent">
-                    <div class="content-card-image">
-                        <img src="<%= item.image %>" alt="<%= item.name %>" />
+                <a href="<%= item.path %>">
+                    <div class="content-card accent">
+                        <div class="content-card-image">
+                            <img src="<%= item.image %>" alt="<%= item.name %>" />
+                        </div>
                     </div>
-                </div>
+                </a>
                 <% } %>
         </div>
     </div>

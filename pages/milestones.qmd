@@ -20,11 +20,11 @@ Many of these bloggers would go on to found the Takshashila Institution.
 
 ::: {.grid}
 
-::: {.g-col-6 }
+::: {.g-col-6}
 ![](images/milestones_1.png)
 :::
 
-::: {.g-col-6 }
+::: {.g-col-6}
 ### 2007 - Pragati: An Indian National Interest Review
 
 The Indian National Interest community quickly realises that India does not have reputable national publications with a global outlook. Their effort gives birth to Pragati, an online magazine, in April 2007.
@@ -81,11 +81,11 @@ The first GCPP physical workshop is held in Delhi, followed by Goa. GCPP is now 
 
 ::: {.grid}
 
-::: {.g-col-6 }
+::: {.g-col-6}
 ![](images/milestones_2.png)
 :::
 
-::: {.g-col-6 }
+::: {.g-col-6}
 ### 2013 - The Doing Thinkers
 
 Takshashila begins conducting the Nandi Workshop for its GCPP students at Discovery Village. The Policy Hackathon and residential workshops are instrumental to the Takshashila learning experience.
@@ -196,11 +196,11 @@ Manoj Kewalramani joins Takshashila. China becomes an area of focused research a
 
 ::: {.grid}
 
-::: {.g-col-6 }
+::: {.g-col-6}
 ![](images/milestones_3.png)
 :::
 
-::: {.g-col-6 }
+::: {.g-col-6}
 ### 2019 - Creating National and Global Impact
 
 Pragati is recast as Think Pragati and shifts to audio content. This also marks the beginning of All Things Policy, a daily podcast on issues of public policy which has run non-stop since.
