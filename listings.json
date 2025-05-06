@@ -1,5 +1,21 @@
 [
   {
+    "listing": "/content/podcasts/all-things-policy/index.html",
+    "items": []
+  },
+  {
+    "listing": "/pages/newsletters.html",
+    "items": []
+  },
+  {
+    "listing": "/pages/latest_analysis.html",
+    "items": [
+      "/content/publications/indian-space-reform.html",
+      "/content/publications/state-of-ai-governance-2024.html",
+      "/content/publications/a-pathway-to-ai-governance.html"
+    ]
+  },
+  {
     "listing": "/pages/team_takshashila.html",
     "items": [
       "/pages/team/nitin_pai.html",
@@ -11,10 +27,6 @@
       "/pages/team/ashwin_prasad.html",
       "/pages/team/satya_shoova_sahu.html"
     ]
-  },
-  {
-    "listing": "/pages/newsletters.html",
-    "items": []
   },
   {
     "listing": "/pages/research_areas/index.html",
@@ -32,11 +44,8 @@
     ]
   },
   {
-    "listing": "/pages/research_areas/advanced_biology_program.html",
+    "listing": "/pages/research_areas/indo_pacific_studies.html",
     "items": [
-      "/content/publications/indian-space-reform.html",
-      "/content/publications/state-of-ai-governance-2024.html",
-      "/content/publications/a-pathway-to-ai-governance.html",
       "/content/blogs/satellite-internet.html",
       "/content/blogs/test5.html",
       "/content/blogs/test1.html",
@@ -50,14 +59,6 @@
       "/pages/team/anand_arni.html",
       "/pages/team/prakash_menon.html",
       "/pages/team/td_joseph.html"
-    ]
-  },
-  {
-    "listing": "/pages/latest_analysis.html",
-    "items": [
-      "/content/publications/indian-space-reform.html",
-      "/content/publications/state-of-ai-governance-2024.html",
-      "/content/publications/a-pathway-to-ai-governance.html"
     ]
   },
   {
@@ -82,8 +83,11 @@
     ]
   },
   {
-    "listing": "/pages/research_areas/indo_pacific_studies.html",
+    "listing": "/pages/research_areas/advanced_biology_program.html",
     "items": [
+      "/content/publications/indian-space-reform.html",
+      "/content/publications/state-of-ai-governance-2024.html",
+      "/content/publications/a-pathway-to-ai-governance.html",
       "/content/blogs/satellite-internet.html",
       "/content/blogs/test5.html",
       "/content/blogs/test1.html",
@@ -98,10 +102,6 @@
       "/pages/team/prakash_menon.html",
       "/pages/team/td_joseph.html"
     ]
-  },
-  {
-    "listing": "/content/podcasts/all-things-policy/index.html",
-    "items": []
   },
   {
     "listing": "/index.html",
