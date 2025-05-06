@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="The most recent posts we have published.">
+<meta name="description" content="The Takshashila Library hosts a collection of 2500+ titles, in line with our primary research areas. We also have a fair share of Biographies, Fiction, Philosophy, Science and Technology books to provide for a diverse reading experience.">
 
-<title>Latest Analysis – Takshashila Institution</title>
+<title>Takshashila Library – Takshashila Institution</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../assets/images/logo-symbol.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,70 +66,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publications-list .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 2,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publications-list'] = new List('listing-publications-list', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -217,16 +156,15 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="AI Governnace">AI Governnace <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Governance">Governance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="HTG">HTG <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Policy">Policy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Space">Space <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Space Policy">Space Policy <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="title-block">
     <div class="title-banner"></div>
         <div class="title-block-container">
-        <h1>Latest Analysis</h1>
-                                <p>The most recent posts we have published.</p>
+        <h1>Takshashila Library</h1>
+                                <p>The Takshashila Library hosts a collection of 2500+ titles, in line with our primary research areas. We also have a fair share of Biographies, Fiction, Philosophy, Science and Technology books to provide for a diverse reading experience.</p>
                     </div>
     </header>
 
@@ -242,152 +180,76 @@ window.Quarto = {
 </script>
 
 
-<div id="listing-publications-list" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-publications-list-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-publications-list'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="about-cta">
+<p><a href="" class="about-btn">Browser Collection</a></p>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="HTG,Space,Space Policy" data-listing-date-sort="1745539200000" data-listing-file-modified-sort="1746538909446" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="24" data-listing-word-count-sort="4631">
-<div class="thumbnail">
-<p><a href="../content/publications/indian-space-reform.html" class="no-external"></a></p><a href="../content/publications/indian-space-reform.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" style="height: 0px;">&nbsp;</div>
-</a><p><a href="../content/publications/indian-space-reform.html" class="no-external"></a></p>
+<p><img src="images/takshashila_library_1.png" class="img-fluid"></p>
+<section id="our-library" class="level3">
+<h3 data-anchor-id="our-library">Our library</h3>
+<p>Libraries play an important role in enabling a research based institution like ours to achieve more – to undertake rigorous research, to provide high-quality teaching, to publish and to provide the essential conditions for learning and scholarship to flourish.</p>
+<p>It is important that the knowledge gained by research is not trapped at the institute itself, or caught in the language of research, or simply isolated from those who actually apply that knowledge – the practitioners in the field. Likewise, tacit knowledge from the field rarely reaches the researchers or those making decisions. Therefore, more effective bridges between knowledge, policy and practice are needed and this is possible only with establishing communities of practice (CoPs) for all public policy interface. The CoP also is an effective way of engaging researchers, practitioners and students and is key to building a focused approach to public policy development and implementation.</p>
+<div class="grid">
+<div class="g-col-4">
+<p><img src="images/takshashila_library_2.png" class="img-fluid"></p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../content/publications/indian-space-reform.html" class="no-external">Satellite Internet Explained. How It Works &amp; Why It Matters</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../content/publications/indian-space-reform.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('HTG'); return false;">
-HTG
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Space'); return false;">
-Space
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Space Policy'); return false;">
-Space Policy
-</div>
-</div>
-<div class="listing-description">
-<a href="../content/publications/indian-space-reform.html" class="no-external">The age of astropolitics has dawned upon the world. A nation’s technological capabilities in space is paramount–economically and strategically. India occupies a very small…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../content/publications/indian-space-reform.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="AI,Governance,Policy" data-listing-date-sort="1743465600000" data-listing-file-modified-sort="1746538909447" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="27" data-listing-word-count-sort="5244">
-<div class="thumbnail">
-<p><a href="../content/publications/state-of-ai-governance-2024.html" class="no-external"></a></p><a href="../content/publications/state-of-ai-governance-2024.html" class="no-external">
-<p class="card-img-top"><img src="../content/publications/.png" style="height: 0px;"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../content/publications/state-of-ai-governance-2024.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../content/publications/state-of-ai-governance-2024.html" class="no-external">State of AI Governance, 2024</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../content/publications/state-of-ai-governance-2024.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Governance'); return false;">
-Governance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Policy'); return false;">
-Policy
-</div>
-</div>
-<div class="listing-description">
-<a href="../content/publications/state-of-ai-governance-2024.html" class="no-external">Bharath Reddy, Rijesh Panicker, Sridhar Krishna, Arindam Goswami, Anwesha Sen, Adya Madhavan</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../content/publications/state-of-ai-governance-2024.html" class="no-external">
-<div class="listing-date">
-Apr 1, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="HTG,AI,AI Governnace" data-listing-date-sort="1700870400000" data-listing-file-modified-sort="1746538909446" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="59" data-listing-word-count-sort="11697">
-<div class="thumbnail">
-<p><a href="../content/publications/a-pathway-to-ai-governance.html" class="no-external"></a></p><a href="../content/publications/a-pathway-to-ai-governance.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" style="height: 0px;">&nbsp;</div>
-</a><p><a href="../content/publications/a-pathway-to-ai-governance.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../content/publications/a-pathway-to-ai-governance.html" class="no-external">A Pathway to AI Governance</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../content/publications/a-pathway-to-ai-governance.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('HTG'); return false;">
-HTG
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI Governnace'); return false;">
-AI Governnace
-</div>
-</div>
-<div class="listing-description">
-<a href="../content/publications/a-pathway-to-ai-governance.html" class="no-external">Artificial intelligence has immense potential to enhance human capabilities and drive growth in several industries. It can also greatly improve education, healthcare, and…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../content/publications/a-pathway-to-ai-governance.html" class="no-external">
-<div class="listing-date">
-Nov 25, 2023
-</div>
-</a>
+<div class="g-col-8">
+<p>The Takshashila Library hosts a collection of 2500+ titles. In line with our primary research areas, a large part of our collection is books on Defence &amp; Strategic Studies, History - Indian, World &amp; Military, Economics, Foreing Policy &amp; International Relations, Public Policy and Politics &amp; Society. We also have a fair share of Biographies, Fiction, Philosophy, Science and Technology books to provide for a diverse reading experience.</p>
+<p>It has a fair mix of old and new titles and is regularly updated. Apart from the institutional support offered by the Infosys Foundation, we have also benefited from books donated to us by Ramachandra Guha, Amb. Nirupama Menon Rao, Lt. Gen.&nbsp;Prakash Menon, Anand Arni, Hema Hattangady, Dr.&nbsp;Vijay Chandru and others.</p>
+<div class="about-cta">
+<p><a href="" class="about-btn">Browser Collection</a></p>
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
+</section>
+<section id="access-and-instructions" class="level3">
+<h3 data-anchor-id="access-and-instructions">Access and instructions</h3>
+<div class="grid">
+<div class="g-col-4">
+<p><img src="images/takshashila_library_3.png" class="img-fluid"></p>
 </div>
-<nav id="publications-list-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
+<div class="g-col-8">
+<section id="access" class="level4">
+<h4 data-anchor-id="access">Access</h4>
+<p>The Takshashila Library is open to the staff and alumni of the institution.</p>
+<p>For alumni, the library is open on every working Thursday, from 9:30 a.m. to 5 p.m for your access. You can visit to issue books during this time. If you wish to have the book(s) sent to your home on Dunzo, Swiggy etc., you can do so at your own cost, on any Thursday. Write to us at library@takshashila.org.in with a request and we will connect with you on this. For your added convenience, we also plan to keep it open during the first half of Saturdays on a prior appointment basis. Write to us on the above email ID latest by Thursdays for confirming the same.</p>
+</section>
+<section id="borrowing-instructions" class="level4">
+<h4 data-anchor-id="borrowing-instructions">Borrowing Instructions</h4>
+<p>We have instituted a self check-out mechanism through our Library portal for borrowing books. It is easy and convenient to use. For returns, just drop the books in the box at our office earmarked for that purpose.</p>
+<div class="about-cta">
+<p><a href="" class="about-btn">Read Instructions</a></p>
+</div>
+</section>
+</div>
+</div>
+</section>
+<section id="improve-your-library-access" class="level3">
+<h3 data-anchor-id="improve-your-library-access">Improve your Library Access</h3>
+<div class="grid">
+<div class="g-col-4">
+<p><img src="images/takshashila_library_4.png" class="img-fluid"></p>
+</div>
+<div class="g-col-8">
+<section id="suggest-books-we-will-buy" class="level4">
+<h4 data-anchor-id="suggest-books-we-will-buy">Suggest Books &amp; We Will Buy</h4>
+<p>Are there any books you want to see added to our catalogue? Just send us the details including name, author, publisher and procurement method (preferably online). We will order the books and then you can borrow them. Do note that we will keep our research and office purposes as well as Takshashila’s values in mind before placing the orders.</p>
+</section>
+<section id="help-us-grow-our-collection" class="level4">
+<h4 data-anchor-id="help-us-grow-our-collection">Help Us Grow Our Collection</h4>
+<p>Are you planning on making some space in your personal library? Do you wish to pass on your collections for the benefit of others? Feel free to drop off your books which you think will benefit our community and we will add them to our library collection.</p>
+</section>
+<section id="feedback-is-always-welcome" class="level4">
+<h4 data-anchor-id="feedback-is-always-welcome">Feedback is Always Welcome</h4>
+<p>Please share your experiences and feedback with us at library@takshashila.org.in or personally when you meet us. This will help us grow, innovate and make the experience more seamless and fruitful. Feel free to reach out to us for any queries as well.</p>
+<div class="about-cta">
+<p><a href="" class="about-btn">Read Instructions</a></p>
+</div>
+</section>
+</div>
 </div>
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
