@@ -1,0 +1,15 @@
+```{=html}
+<div class="listing-section">
+    <% if (items.length> 0) { %>
+            <% for (const item of items) { %>
+                <div class="listing-card-single">
+                    <h3>
+                        <%= item.title %>
+                    </h3>
+                </div>
+                <% } %>
+        <% } else { %>
+            <p>No items found.</p>
+            <% } %>
+</div>
+```

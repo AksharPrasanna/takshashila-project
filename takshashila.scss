@@ -675,3 +675,228 @@ $card-border-color: #333333;
   text-decoration: none;
   font-weight: 500;
 }
+
+
+/* Analysis Listing Page Styles */
+
+/* Main container for the analysis page */
+.analysis-container {
+  max-width: 1135px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Style Quarto's default listing */
+.quarto-listing-container {
+  margin-top: 30px;
+}
+
+/* Listing category UI */
+.quarto-listing-category {
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  background-color: #FFF7FC;
+  border: 1px solid rgba(97, 13, 61, 0.1);
+  border-radius: 6px;
+}
+
+.quarto-listing-category .category {
+  background-color: rgba(97, 13, 61, 0.08);
+  color: #610D3D;
+  border: none;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.quarto-listing-category .category:hover,
+.quarto-listing-category .category.active {
+  background-color: #610D3D;
+  color: white;
+}
+
+.quarto-listing-category .category-count {
+  color: inherit;
+  opacity: 0.75;
+  font-size: 12px;
+}
+
+/* Search and sort UI */
+.listing-actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.listing-actions input[type="text"] {
+  flex: 1;
+  min-width: 200px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.listing-actions select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+}
+
+/* Listing entries */
+.quarto-listing-default > .list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quarto-listing-default .listing-title a {
+  color: #610D3D;
+  font-size: clamp(18px, 2.5vw, 22px);
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.quarto-listing-default .listing-title a:hover {
+  text-decoration: underline;
+}
+
+.quarto-listing-default .listing-subtitle {
+  margin-top: 10px;
+  color: #555;
+  font-size: clamp(14px, 1.6vw, 16px);
+  line-height: 1.5;
+}
+
+.quarto-listing-default .listing-date {
+  color: #777;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.quarto-listing-default .listing-author {
+  color: #555;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.quarto-listing-default .listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.quarto-listing-default .listing-category {
+  background-color: rgba(97, 13, 61, 0.08);
+  color: #610D3D;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Style individual entries */
+.quarto-listing-default > .list > div {
+  background-color: #FFF7FC;
+  border: 1px solid rgba(97, 13, 61, 0.1);
+  border-radius: 6px;
+  padding: 20px 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.quarto-listing-default > .list > div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(97, 13, 61, 0.1);
+}
+
+/* Add "Read more" link */
+.quarto-listing-default > .list > div::after {
+  content: "Read more →";
+  display: block;
+  margin-top: 15px;
+  color: #610D3D;
+  font-size: 15px;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.quarto-listing-default > .list > div:hover::after {
+  transform: translateX(3px);
+}
+
+/* Pagination */
+.listing-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 5px;
+}
+
+.listing-pagination button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 35px;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #404040;
+  background-color: white;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  padding: 0 10px;
+}
+
+.listing-pagination button:hover {
+  background-color: #f5f5f5;
+  border-color: #bbb;
+}
+
+.listing-pagination button.active {
+  background-color: #610D3D;
+  color: white;
+  border-color: #610D3D;
+  font-weight: 500;
+}
+
+/* Remove bullets from listing */
+.quarto-listing ul.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .listing-actions {
+    flex-direction: column;
+  }
+  
+  .listing-actions input[type="text"],
+  .listing-actions select {
+    width: 100%;
+  }
+  
+  .quarto-listing-category {
+    padding: 10px;
+  }
+  
+  .quarto-listing-default > .list > div {
+    padding: 15px;
+  }
+}
+
+.thumbnail {
+  max-width: 0px !important;
+}

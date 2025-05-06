@@ -1,6 +1,6 @@
 ---
 title: "Latest Analysis"
-subtitle: "The most recent posts we have published."
+description: "The most recent posts we have published."
 
 listing:
   - id: publications-list
@@ -11,6 +11,10 @@ listing:
     sort-ui: true
     filter-ui: [title, categories]
     feed: false
-    page-size: 3
+    page-size: 2
+    image-height: 0px
     # template: ../includes/analysis-card.ejs
 ---
+
+::: {#publications-list}
+:::
