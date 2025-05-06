@@ -47,13 +47,13 @@ The authors are researchers working with the High-Tech Geopolitics Programme at 
 At the data stage, a marketplace that recognises individual ownership of data and empowers individuals to dictate the usage and distribution of their personal data is essential. Additionally, having datasets that accurately represent the target population for various use cases is vital to reduce algorithmic bias.
 
 :::{.aside}
-[**Acknowledgments**
-The authors would like to thank Pranay Kotasthane, Gangadhar Nittala, Kailash Nadh and Deepanker Koul for their valuable feedback and comments.]
+**Acknowledgments**
+The authors would like to thank Pranay Kotasthane, Gangadhar Nittala, Kailash Nadh and Deepanker Koul for their valuable feedback and comments.
 :::
 AI development relies on computing infrastructure, especially in the cloud, and promoting competition, reducing entry barriers, and preventing monopolistic practices in the AI cloud service provider market is essential. Developing domestic capacity in cloud infrastructure and AI chips is also important for strategic autonomy.
 
 :::{.aside}
-[The authors also conducted a roundtable to discuss the ideas in this discussion document. They extend their gratitude to the following participants for their insightful comments which helped refine this work: Amlan Mohanty, Anand V, Deepak V S, Madhavan Mukund, Manjulika Vaz, Narayan Ramachandran, Prateek Waghre, Rahul Matthan, Rohit Satish, Saurabh Chandra, Shambhavi Naik, Vaneesha Jain.]
+The authors also conducted a roundtable to discuss the ideas in this discussion document. They extend their gratitude to the following participants for their insightful comments which helped refine this work: Amlan Mohanty, Anand V, Deepak V S, Madhavan Mukund, Manjulika Vaz, Narayan Ramachandran, Prateek Waghre, Rahul Matthan, Rohit Satish, Saurabh Chandra, Shambhavi Naik, Vaneesha Jain.
 :::
 At the model stage, a competitive marketplace that fosters innovation and accessibility is essential, offering various distribution models from proprietary to open-source. Governments should also support open-source AI technologies with broad research and commercial applications.
 
@@ -103,8 +103,8 @@ General-purpose AI systems can be adapted to a wide range of applications, inclu
 The current discourse on the risks and potential of AI is largely driven by a handful of dominant technology companies and the media narratives they propagate. The global AI governance efforts are focused on minimising AI’s harmful effects or preventing bias and discrimination in AI systems. While these concerns are important, they often overshadow immediate policy-related questions — the challenge of governing the rapidly evolving AI industry.
 
 ::: {.aside}
-[**AI Hype and Doomerism**
-Key Silicon Valley figures, including OpenAI's Sam Altman and Elon Musk, have called for regulatory measures hyping speculative existential threats. Other experts, however, point out that the real risks are more immediate and relate to the concentration of market power and a lack of accountability.]
+**AI Hype and Doomerism**
+Key Silicon Valley figures, including OpenAI's Sam Altman and Elon Musk, have called for regulatory measures hyping speculative existential threats. Other experts, however, point out that the real risks are more immediate and relate to the concentration of market power and a lack of accountability.
 :::
 
 This document focuses on AI governance from a national interest perspective. It focuses on how AI adoption can help humans flourish, strengthen democracy, and promote a stable global order. It highlights the need for sustainable practices in AI adoption and the importance of ensuring competition across all stages of the AI ecosystem. The AI supply chain has multiple stages: data, computation, model, and application. Entry barriers exist at each of these stages. In some instances, many are vertically integrated and controlled by a single company. Competition is vital at the ecosystem level and is also desirable at each of these stages.
@@ -161,15 +161,15 @@ AI systems can automate numerous manual verification processes currently involve
 However, such powerful, opaque, and imperfect systems controlled by a few can lead to externalities that undermine democracy. Several concerns have been raised about the biases inherent in these systems and the potential for misuse[^8].
 
 ::: {.aside}
-[**AI and Bias**
-AI systems are now playing a growing role in determining hiring decisions, access to credit, and even law enforcement. However, due to the imperfect nature of such systems, they can lead to unfair outcomes, exacerbating historical inequalities or discriminating against already marginalized individuals.]
+**AI and Bias**
+AI systems are now playing a growing role in determining hiring decisions, access to credit, and even law enforcement. However, due to the imperfect nature of such systems, they can lead to unfair outcomes, exacerbating historical inequalities or discriminating against already marginalized individuals.
 :::
 
 AI systems could potentially be used to create an Orwellian state. The powers to surveil citizens, monitor communications, and stifle dissent at scale can be disastrous for democracy. For instance, such systems have been deployed in China to extend the state’s surveillance capabilities and maintain social control[^9]. Malicious actors can also exploit AI systems to disseminate false information, eroding trust in institutions and potentially influencing the outcomes of elections.
 
 ::: {.aside}
-[**How AI Impacts Democracy**
-AI-powered tools can directly damage public trust in democratic procedures. At its most benign, the automation of legal processes by AI can challenge the transparency and accountability essential to democratic legitimacy. At the other end of the spectrum, AI-driven social bots and deepfakes can sway public opinion by amplifying disinformation and discrediting political opposition.]
+**How AI Impacts Democracy**
+AI-powered tools can directly damage public trust in democratic procedures. At its most benign, the automation of legal processes by AI can challenge the transparency and accountability essential to democratic legitimacy. At the other end of the spectrum, AI-driven social bots and deepfakes can sway public opinion by amplifying disinformation and discrediting political opposition.
 :::
 The use and misuse of AI systems could seriously undermine justice, liberty, equality and fraternity. Ensuring such systems are built and used in ways that don’t undermine democracy is paramount. Many minds across the world are busy identifying the risks that AI poses to democracy, but while doing that, we should also ensure that the benefits from AI are not lost to humanity.
 ### Stable Global Order
@@ -203,15 +203,15 @@ Data is the fuel that powers the growth of AI models and applications. Indians c
 
 
 ::: {.aside}
-[**The Digital Personal Data Protection Act, 2023**
-The Digital Personal Data Protection Act 2023 in India regulates personal data governance, empowering individuals (Data Principals) with rights over their data and redefining business practices for responsible data handling by imposing new compliance requirements on Data Fiduciaries and Data Processors. Furthermore, the relaxation of data localisation rules under the Act facilitates cross-border data flows, which influence how foreign players collect and utilise data as they deploy AI technology in India.]
+**The Digital Personal Data Protection Act, 2023**
+The Digital Personal Data Protection Act 2023 in India regulates personal data governance, empowering individuals (Data Principals) with rights over their data and redefining business practices for responsible data handling by imposing new compliance requirements on Data Fiduciaries and Data Processors. Furthermore, the relaxation of data localisation rules under the Act facilitates cross-border data flows, which influence how foreign players collect and utilise data as they deploy AI technology in India.
 :::
 On the principle that individuals should dictate the usage and distribution of their personal data, we can envision a data marketplace that has the following attributes:
 - Individuals should be able to dictate if, how, and by whom their data can be used. While it is common practice for firms to aggregate and transform the data they capture for internal and external use, individuals typically lack the means to do the same. India's Data Empowerment and Protection Architecture (DEPA) and the Account Aggregator Framework built on top of it illustrate a consent-based intermediary system[^14] to facilitate such a transaction. It allows users to use their financial data from multiple sources to access various financial services for personal or business needs. A similar framework could also be applied to unlock the value of various other data locked in silos for specific purposes approved by the user. Under such a framework, users will also have the option to opt out of their data being used for training purposes.
   
 ::: {.aside}
-[**The Account Aggregator Framework**
-It facilitates the exchange of user data between financial institutions such as banks, insurance agencies, and mutual fund companies, based on user consent. This unlocks user data from silos and allows the market to find competitive solutions to address customer’s needs.]
+**The Account Aggregator Framework**
+It facilitates the exchange of user data between financial institutions such as banks, insurance agencies, and mutual fund companies, based on user consent. This unlocks user data from silos and allows the market to find competitive solutions to address customer’s needs.
 :::
 - Data portability to unlock value for users across markets and also prevent undesirable platform lock-in effects. For example, a seller on one e-commerce platform should be able to transfer their authentic product reviews to another e-commerce platform. Likewise, a user's health data from a fitness tracker can be shared with their chosen healthcare provider to facilitate the creation of a personalised health plan. Data request templates for different use cases need to be established for various use cases in consultation with stakeholders across industry and academia.
   
@@ -312,16 +312,16 @@ The law on these matters is still evolving, and a decision favouring the plainti
 Currently, there are two main ways to obtain computing infrastructure. One option is for end-users to buy and set up their own hardware, which can be quite costly. The other option is to use cloud computing services, where providers offer a package of services. The latter is especially alluring for developers or end-users, as CSPs are willing to provide computing resources at deep discounts for AI research and development to firmly entrench their market share as the industry grows.[^38]
 
 ::: {.aside}
-[**Vertical Integration in the Cloud Services Space**
-Cloud Service Providers like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform exhibit vertical integration by controlling multiple stages of their service offerings. For example, AWS not only provides cloud infrastructure but also develops its own hardware, such as the Graviton processors, and offers a wide array of services ranging from storage and computing power to machine learning and analytics tools. This integration allows them to optimise performance, reduce costs, and quickly innovate, but also raises concerns about market dominance and competition.]
+**Vertical Integration in the Cloud Services Space**
+Cloud Service Providers like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform exhibit vertical integration by controlling multiple stages of their service offerings. For example, AWS not only provides cloud infrastructure but also develops its own hardware, such as the Graviton processors, and offers a wide array of services ranging from storage and computing power to machine learning and analytics tools. This integration allows them to optimise performance, reduce costs, and quickly innovate, but also raises concerns about market dominance and competition.
 :::
 Cloud computing is more than just a technological infrastructure; it is a powerful tool that can break down barriers to accessing technology and essential digital services[^39]. This means that small and medium-sized enterprises (SMEs) and start-ups can utilise advanced AI tools on par with larger companies, levelling the playing field and fostering innovation. Increased competition in the AI space, enabled by cloud services, leads to more options and improved services for consumers. Consequently, cloud services help prevent the concentration of power and technology in the hands of a select few, contributing to a more balanced global order.
 
 #### Potential Competition Concerns in Cloud Computing
 
 ::: {.aside}
-[**Cloud Egress Fees and Customer Switching**
-Egress fees charged by cloud service providers for data transfer out of their networks can significantly impede customers' ability to switch providers. These ‘hidden’ fees act as a deterrent against leaving a cloud provider's ecosystem, as they can substantially increase over time, adding to the overall cost of cloud management. While data ingress (moving data into the cloud) is typically free, egress charges apply to data moving out, which can accumulate rapidly, thus elevating IT costs and creating a financial barrier to switching providers. These fees can escalate the costs of managing AI applications and datasets, especially because large volumes of data are involved. ]
+**Cloud Egress Fees and Customer Switching**
+Egress fees charged by cloud service providers for data transfer out of their networks can significantly impede customers' ability to switch providers. These ‘hidden’ fees act as a deterrent against leaving a cloud provider's ecosystem, as they can substantially increase over time, adding to the overall cost of cloud management. While data ingress (moving data into the cloud) is typically free, egress charges apply to data moving out, which can accumulate rapidly, thus elevating IT costs and creating a financial barrier to switching providers. These fees can escalate the costs of managing AI applications and datasets, especially because large volumes of data are involved.]
 :::
 As mentioned earlier, it's crucial to maintain competition among different cloud computing service providers to ensure affordable and accessible computing resources for the nascent AI industry. The primary sources of these services for a country like India are foreign-based CSPs and hyperscalers. Domestic hyperscalers have not yet reached a similar scale in their operations. One of the main obstacles they face includes dealing with infrastructure challenges that are common in developing countries, such as ensuring a consistent and reliable power supply[^40].
 
@@ -332,8 +332,8 @@ Additionally, CSPs could use their access to vast amounts of data and advanced a
 #### Sovereign Computing Resources
 
 ::: {.aside}
-[**Keeping Pace with Generational Uplift in Compute**
-Upgrading GPUs is essential for AI developers and cloud service providers, as exemplified by the progression from NVIDIA's Turing to Ampere architectures. The A100 GPU, built on the Ampere architecture, offers substantial improvements in terms of AI performance and efficiency over its predecessors. These improvements include enhancements in floating-point operations, memory bandwidth, and support for newer technologies like TF32 and mixed precision training, which are highly beneficial for AI and deep learning tasks. This leap in capabilities is crucial for handling more complex AI models and larger datasets, demonstrating why staying current with GPU technology is critical for competitive AI development and cloud service provision. ]
+**Keeping Pace with Generational Uplift in Compute**
+Upgrading GPUs is essential for AI developers and cloud service providers, as exemplified by the progression from NVIDIA's Turing to Ampere architectures. The A100 GPU, built on the Ampere architecture, offers substantial improvements in terms of AI performance and efficiency over its predecessors. These improvements include enhancements in floating-point operations, memory bandwidth, and support for newer technologies like TF32 and mixed precision training, which are highly beneficial for AI and deep learning tasks. This leap in capabilities is crucial for handling more complex AI models and larger datasets, demonstrating why staying current with GPU technology is critical for competitive AI development and cloud service provision.]
 :::
 CSPs can also pose a risk to a nation's data security and sovereignty when they store and process sensitive data of citizens or entities on servers located in other countries, which may be subject to different legal and regulatory rules. For instance, CSPs could be compelled to share or disclose such data with foreign governments or agencies, and they might also be susceptible to cyberattacks or sabotage by malicious actors[^43].
 
