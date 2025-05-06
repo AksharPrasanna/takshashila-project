@@ -22,7 +22,7 @@ website:
           - text: "Latest Analysis"
             href: "pages/latest_analysis.qmd"
           - text: "Newsletters"
-            href: "#"
+            href: "pages/newsletters.qmd"
       - text: "About Us"
         menu:
           - text: "Team"
@@ -30,7 +30,7 @@ website:
           - text: "Mission"
             href: "pages/mission.qmd"
           - text: "Milestones"
-            href: "#"
+            href: "pages/milestones.qmd"
           - text: "Careers"
             href: "#"
           - text: "Donate"
