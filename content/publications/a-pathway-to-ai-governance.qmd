@@ -117,7 +117,7 @@ The recommendations in this document are equally applicable to purpose-specific 
 
 The development of AI systems has inputs such as data, computation, models, and applications as different stages or components in the supply chain. This applies to purpose-specific machine learning systems and general-purpose AI systems. These components can be visualised as layers, with data and computation contributing to the model, which, in turn, supports the applications.
 
-<img width="800" alt="AI Supply Chain" src="./images/a-pathway-to-ai-governance-image-1.png">
+<img width="500" alt="AI Supply Chain" src="./images/a-pathway-to-ai-governance-image-1.png">
 
 _Figure 1: The components of the AI supply chain_
 
