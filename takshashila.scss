@@ -907,3 +907,10 @@ $card-border-color: #333333;
 .thumbnail {
   max-width: 0px !important;
 }
+
+.quarto-post.image-right {
+  border-bottom: none;
+  background-color: $secondary-color;
+  padding: 40px 20px;
+  border-radius: 30px;
+}
