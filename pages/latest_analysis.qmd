@@ -11,8 +11,12 @@ listing:
     sort-ui: true
     filter-ui: [title, categories]
     feed: false
-    page-size: 2
+    page-size: 10
     image-height: 0px
+    fields: 
+      - title
+      - categories
+      - date
     # template: ../includes/analysis-card.ejs
 ---
 
