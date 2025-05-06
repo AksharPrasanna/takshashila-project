@@ -2,7 +2,7 @@
 title: "When the chips are down"
 date: "2024-02-05"
 image: images/chips_are_down.png
-order: 3
+order: 1
 publishers:
     - name: "Pranay Kotashthane"
       path: /pages/team/pranay_kotashthane

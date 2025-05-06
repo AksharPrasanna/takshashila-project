@@ -1,0 +1,55 @@
+---
+title: "The Sheathed Sword"
+date: "2024-02-05"
+image: images/sheathed_sword.png
+order: 2
+publishers:
+    - name: Lt. Gen. Prakash Menon
+      path: /pages/team/prakash_menon
+    - name: Aditya Ramanathan
+      path: /pages/team/prakash_menon
+---
+
+::: {.grid}
+
+::: {.g-col-4}
+![](images/sheathed_sword.png)
+:::
+
+::: {.g-col-4}
+![](images/sheathed_sword.png)
+:::
+
+:::
+
+### About the Book
+
+After a brief interlude following the Cold War, nuclear weapons have regained their prominent place in world affairs. Yet our current nuclear age will not be a replay of the Cold War. New technologies, changing political contexts and the death of old arms-control agreements mean that today's nuclear strategists have to navigate unchartered waters filled with fresh perils. Unfortunately, the consequences of failure in the nuclear world can be catastrophic. The immediate imperative today is to lower the possibility of nuclear weapons use during a crisis or conflict involving nuclear powers. While deliberate or pre-emptive nuclear use is less likely, the rising danger of our time is that nuclear weapons will be employed due to some combination of miscommunication, misjudgment, misperception and sheer accident.
+
+The Sheathed Sword: From Nuclear Brink to No First Use is a collection of essays by leading scholars and practitioners on the role of nuclear weapons in global security. The contributors examine how individual states view nuclear weapons, the devastating effects of nuclear war on the world's climate and the issues around nuclear no first use. They also debate the feasibility and desirability of a global no-first-use (GNFU) agreement.
+
+::: {.grid}
+
+::: {.g-col-3}
+::: {.about-cta}
+[Order on Amazon](https://www.outlookbusiness.com/economy-and-policy/10-billion-bet-can-india-move-beyond-subsidies-in-global-chip-game){.about-btn}
+:::
+:::
+
+::: {.g-col-3}
+::: {.about-cta}
+[Order on Flipkart](https://www.outlookbusiness.com/economy-and-policy/10-billion-bet-can-india-move-beyond-subsidies-in-global-chip-game){.about-btn}
+:::
+:::
+
+::: {.g-col-3}
+::: {.about-cta}
+[Order on Bloomsburry](https://www.outlookbusiness.com/economy-and-policy/10-billion-bet-can-india-move-beyond-subsidies-in-global-chip-game){.about-btn}
+:::
+:::
+
+:::
+
+### List of Contributors
+
+Colin S. Gray, Lt. General Prakash Menon, Bruno Tertrais, Rajesh Basrur, Sadia Tasleem, Walter C. Ladwig III, Owen B. Toon, Alan Robock, Michael Mills, Lili Xia, Nina Tannenwald, Rajesh Rajagopalan, Keir Lieber, Daryl Press, Matthew Kroenig, Petr Topychkanov, Damien Cusey, Olivier de France, Lora Saalman, Zhong Ai, Manpreet Sethi, Emily B. Landau, Brigadier (Retd) Feroz Hassan Khan, Jina Kim, Hirofumi Tosaki and Mustafa Kibaroglu

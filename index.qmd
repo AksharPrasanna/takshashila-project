@@ -84,8 +84,8 @@ listing:
     filter-ui: false
     feed: false
     template: includes/listing-card-backup.ejs
-    template-params: 
-      path_prefix: ""
+    # template-params: 
+    #   path_prefix: ""
     max-items: 6
 
   - id: books
