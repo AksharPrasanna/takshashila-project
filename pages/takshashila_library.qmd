@@ -1,0 +1,89 @@
+---
+title: Takshashila Library
+description: The Takshashila Library hosts a collection of 2500+ titles, in line with our primary research areas. We also have a fair share of Biographies, Fiction, Philosophy, Science and Technology books to provide for a diverse reading experience.
+
+---
+
+::: {.about-cta}
+[Browser Collection](){.about-btn}
+:::
+
+![](images/takshashila_library_1.png)
+
+### Our library
+
+Libraries play an important role in enabling a research based institution like ours to achieve more – to undertake rigorous research, to provide high-quality teaching, to publish and to provide the essential conditions for learning and scholarship to flourish.
+
+It is important that the knowledge gained by research is not trapped at the institute itself, or caught in the language of research, or simply isolated from those who actually apply that knowledge – the practitioners in the field. Likewise, tacit knowledge from the field rarely reaches the researchers or those making decisions. Therefore, more effective bridges between knowledge, policy and practice are needed and this is possible only with establishing communities of practice (CoPs) for all public policy interface. The CoP also is an effective way of engaging researchers, practitioners and students and is key to building a focused approach to public policy development and implementation.
+
+::: {.grid}
+
+::: {.g-col-4}
+![](images/takshashila_library_2.png)
+:::
+
+::: {.g-col-8}
+The Takshashila Library hosts a collection of 2500+ titles. In line with our primary research areas, a large part of our collection is books on Defence & Strategic Studies, History - Indian, World & Military, Economics, Foreing Policy & International Relations, Public Policy and Politics & Society. We also have a fair share of Biographies, Fiction, Philosophy, Science and Technology books to provide for a diverse reading experience.
+
+It has a fair mix of old and new titles and is regularly updated. Apart from the institutional support offered by the Infosys Foundation, we have also benefited from books donated to us by Ramachandra Guha, Amb. Nirupama Menon Rao, Lt. Gen. Prakash Menon, Anand Arni, Hema Hattangady, Dr. Vijay Chandru and others.
+
+::: {.about-cta}
+[Browser Collection](){.about-btn}
+:::
+:::
+
+:::
+
+### Access and instructions
+
+::: {.grid}
+
+::: {.g-col-4}
+![](images/takshashila_library_3.png)
+:::
+
+::: {.g-col-8}
+#### Access
+
+The Takshashila Library is open to the staff and alumni of the institution. 
+
+For alumni, the library is open on every working Thursday, from 9:30 a.m. to 5 p.m for your access. You can visit to issue books during this time. If you wish to have the book(s) sent to your home on Dunzo, Swiggy etc., you can do so at your own cost, on any Thursday. Write to us at library@takshashila.org.in with a request and we will connect with you on this. For your added convenience, we also plan to keep it open during the first half of Saturdays on a prior appointment basis. Write to us on the above email ID latest by Thursdays for confirming the same.
+
+#### Borrowing Instructions
+
+We have instituted a self check-out mechanism through our Library portal for borrowing books. It is easy and convenient to use. For returns, just drop the books in the box at our office earmarked for that purpose.
+
+::: {.about-cta}
+[Read Instructions](){.about-btn}
+:::
+:::
+
+:::
+
+### Improve your Library Access
+
+::: {.grid}
+
+::: {.g-col-4}
+![](images/takshashila_library_4.png)
+:::
+
+::: {.g-col-8}
+#### Suggest Books & We Will Buy
+
+Are there any books you want to see added to our catalogue? Just send us the details including name, author, publisher and procurement method (preferably online). We will order the books and then you can borrow them. Do note that we will keep our research and office purposes as well as Takshashila’s values in mind before placing the orders.
+
+#### Help Us Grow Our Collection
+
+Are you planning on making some space in your personal library? Do you wish to pass on your collections for the benefit of others? Feel free to drop off your books which you think will benefit our community and we will add them to our library collection.
+
+#### Feedback is Always Welcome
+
+Please share your experiences and feedback with us at library@takshashila.org.in or personally when you meet us. This will help us grow, innovate and make the experience more seamless and fruitful. Feel free to reach out to us for any queries as well.
+
+::: {.about-cta}
+[Read Instructions](){.about-btn}
+:::
+:::
+
+:::
