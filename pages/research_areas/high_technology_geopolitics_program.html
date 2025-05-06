@@ -78,13 +78,209 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-image','listing-linkText','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-linkText','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-description","listing-image","listing-linkText","listing-categories"],
+      searchColumns: ["listing-title","listing-description","listing-linkText","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-focus-areas'] = new List('listing-focus-areas', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-newsletters .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-footer','listing-link','listing-order','listing-category',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-image","listing-footer","listing-link","listing-order","listing-category"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-newsletters'] = new List('listing-newsletters', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-analysis .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-publishers','listing-date','listing-tldr','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-publishers","listing-date","listing-tldr","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-analysis'] = new List('listing-latest-analysis', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-blogs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-date','listing-description','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-identifier',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-description","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-identifier"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-blogs'] = new List('listing-latest-blogs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-podcasts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-link',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-link"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-podcasts'] = new List('listing-podcasts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-videos .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-videos'] = new List('listing-videos', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-htg-team .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-image','listing-subtitle','listing-category','listing-order','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-image","listing-subtitle","listing-category","listing-order","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-htg-team'] = new List('listing-htg-team', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -265,17 +461,16 @@ window.Quarto = {
                     <div class="listing-content">
                         <div class="listing-title-section">
                             <h2>
-                                Advanced Computing
+                                China Studies
                             </h2>
                         </div>
                         
                                 <p>
-                                    This initiative is aimed at understanding the geopolitics of high speed and quantum computing, evaluating India's strengths and weaknesses in these fields, and proposing policies to give India an advantage.
-Read about our work on Building India’s Quantum Ecosystem
+                                    This initiative aims to understand Chinese domestic and foreign policies, sources of friction, and opportunities keeping in mind Indian national interests, and recommend actionable measures for Indian policymakers.
                                 </p>
                                 
                                     <span class="listing-link">
-                                        Advanced Computing
+                                        China's Global Security Initiative
                                     </span>
                     </div>
                 </a>
@@ -284,17 +479,16 @@ Read about our work on Building India’s Quantum Ecosystem
                     <div class="listing-content">
                         <div class="listing-title-section">
                             <h2>
-                                Information Politics
+                                Quad Studies
                             </h2>
                         </div>
                         
                                 <p>
-                                    This initiative is dedicated to understanding geopolitics in the Information Age. One of the key projects under this initiative is to develop a governance mechanism for digital communication networks, in ways that maximise the benefits and minimise the harms.
-Read about our work on Rebooting Artificial Intelligence (AI) in India
+                                    This initiative aims to study the domestic, bilateral and multilateral engagements among the Quad countries - US, India, Japan, and Australia, and recommend actionable measures for Indian policymakers.
                                 </p>
                                 
                                     <span class="listing-link">
-                                        China-Taiwan Saga
+                                        Quad Hub
                                     </span>
                     </div>
                 </a>
@@ -313,6 +507,60 @@ Read about our work on Rebooting Artificial Intelligence (AI) in India
                                 
                                     <span class="listing-link">
                                         China-Taiwan Saga
+                                    </span>
+                    </div>
+                </a>
+                
+                <a href="" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Advanced Computing
+                            </h2>
+                        </div>
+                        
+                                <p>
+                                    This initiative is aimed at understanding the geopolitics of high speed and quantum computing, evaluating India's strengths and weaknesses in these fields, and proposing policies to give India an advantage.
+                                </p>
+                                
+                                    <span class="listing-link">
+                                        India's Quantum Ecosystem
+                                    </span>
+                    </div>
+                </a>
+                
+                <a href="" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Information Politics
+                            </h2>
+                        </div>
+                        
+                                <p>
+                                    This initiative is dedicated to understanding geopolitics in the Information Age. One of the key projects under this initiative is to develop a governance mechanism for digital communication networks, in ways that maximise the benefits and minimise the harms.
+                                </p>
+                                
+                                    <span class="listing-link">
+                                        Rebooting Artificail Intelligence (AI) in India
+                                    </span>
+                    </div>
+                </a>
+                
+                <a href="" class="listing-card">
+                    <div class="listing-content">
+                        <div class="listing-title-section">
+                            <h2>
+                                Semiconductor Geopolitics
+                            </h2>
+                        </div>
+                        
+                                <p>
+                                    Takshashila’s The Siliconpolitik Project tries to answer how do semiconductors play a role in changing the global technology landscape and what role does India have to play in it? Our work spans the semiconductor IC ecosystem, metals and materials used in producing electronics, and the broader electronics ecosystem.
+                                </p>
+                                
+                                    <span class="listing-link">
+                                        SWOT Analysis of India's Semiconductor Ecosystem
                                     </span>
                     </div>
                 </a>
@@ -339,6 +587,671 @@ No matching items
 </div>
 </div>
 <!-- End of CTA Section -->
+<!-- Start of News Section -->
+<div class="section-heading-with-view-all">
+<section id="in-the-news" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="in-the-news">In the News</h2>
+<p>The most recent posts we have published:</p>
+</section>
+<p><a href="" class="view-all">View all posts</a></p>
+</div>
+<div id="listing-recent-news" class="quarto-listing quarto-listing-container-custom">
+<div class="news-grid-container">
+  
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of News Section -->
+<!-- Start of Newsletter Section -->
+<div class="section-heading-with-view-all">
+<section id="subscribe-to-our-newsletters" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="subscribe-to-our-newsletters">Subscribe to Our Newsletters</h2>
+</section>
+<p><a href="../../pages/newsletters.html" class="view-all">View all Posts</a></p>
+</div>
+<div id="listing-newsletters" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <a href="https://eyeonchina.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="../../content/newsletters/images/eye_on_china.jpg" alt="Eye on China">
+                        </div>
+                        <div class="newsletter-title">
+                            <h3>
+                                Eye on China
+                            </h3>
+                        </div>
+                        <div class="newsletter-description">
+                            A weekly bulletin offering news and analysis related to the Middle Kingdom from an Indian interests perspective.
+                        </div>
+                        <div class="newsletter-footer">
+                            By The Takshashila Institution · Over 3,000 subscribers
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://trackingpeoplesdaily.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="../../content/newsletters/images/peoples_daily.jpg" alt="Tracking People's Daily">
+                        </div>
+                        <div class="newsletter-title">
+                            <h3>
+                                Tracking People's Daily
+                            </h3>
+                        </div>
+                        <div class="newsletter-description">
+                            This blog primarily offers a breakdown of the weekday editions of the People's Daily.
+                        </div>
+                        <div class="newsletter-footer">
+                            By Manoj Kewalramani · Over 8,000 subscribers
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://quadbulletin.substack.com/" class="listing-card-accent">
+                    <div class="newsletter-content-section">
+                        <div class="newsletter-logo">
+                            <img src="../../content/newsletters/images/quad_bulletin.jpg" alt="Quad Bulletin">
+                        </div>
+                        <div class="newsletter-title">
+                            <h3>
+                                Quad Bulletin
+                            </h3>
+                        </div>
+                        <div class="newsletter-description">
+                            Tracking the Quad across the Indo-Pacific
+                        </div>
+                        <div class="newsletter-footer">
+                            By The Takshashila Institution
+                        </div>
+                    </div>
+                </a>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Newsletter Section -->
+<!-- Start of Latest Analysis Section -->
+<div class="section-heading-with-view-all">
+<section id="latest-analysis" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="latest-analysis">Latest Analysis</h2>
+</section>
+<p><a href="" class="view-all">View all Publications</a></p>
+</div>
+<div class="listing-carousel">
+<div id="listing-latest-analysis" class="quarto-listing quarto-listing-container-custom">
+<div class="content-outer" id="latest-analysis-carousel">
+  <div class="carousel-container">
+    <div class="carousel-content">
+      
+        <a href="../../content/publications/indian-space-reform.html">
+          <div class="content-card">
+            <h3 class="content-title">
+              Satellite Internet Explained. How It Works &amp; Why It Matters
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        
+        <a href="../../content/publications/state-of-ai-governance-2024.html">
+          <div class="content-card">
+            <h3 class="content-title">
+              State of AI Governance, 2024
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        
+        <a href="../../content/publications/a-pathway-to-ai-governance.html">
+          <div class="content-card">
+            <h3 class="content-title">
+              A Pathway to AI Governance
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        
+    </div>
+  </div>
+
+  <button class="content-nav-btn prev-btn" aria-label="Previous publications">
+    <span aria-hidden="true">&lt;</span>
+  </button>
+
+  <button class="content-nav-btn next-btn" aria-label="Next publications">
+    <span aria-hidden="true">&gt;</span>
+  </button>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const carouselId = "latest-analysis-carousel";
+    const carouselContainer = document.getElementById(carouselId);
+
+    if (!carouselContainer) {
+      console.error("Carousel container not found:", carouselId);
+      return;
+    }
+    const carousel = carouselContainer.querySelector('.carousel-content');
+    const prevBtn = carouselContainer.querySelector('.prev-btn');
+    const nextBtn = carouselContainer.querySelector('.next-btn');
+
+    // Set initial button state
+    updateButtonState();
+
+    // Determine scroll amount based on screen size
+    function getScrollAmount() {
+      // On mobile, scroll full width
+      if (window.innerWidth < 768) {
+        return carousel.offsetWidth;
+      }
+      // On tablet, scroll half width
+      else if (window.innerWidth < 1200) {
+        return carousel.offsetWidth / 2;
+      }
+      // On desktop, scroll one third width
+      else {
+        return carousel.offsetWidth / 3;
+      }
+    }
+
+    // Handle button clicks
+    prevBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+    });
+
+    nextBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+    });
+
+    // Update button state on scroll
+    carousel.addEventListener('scroll', updateButtonState);
+    window.addEventListener('resize', updateButtonState);
+
+    function updateButtonState() {
+      const isAtStart = carousel.scrollLeft <= 10;
+      const isAtEnd = carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 10;
+
+      prevBtn.disabled = isAtStart;
+      prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+
+      nextBtn.disabled = isAtEnd;
+      nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+    }
+  });
+</script>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<!-- End of Latest Analysis Section -->
+<!-- Start of Latest Blogs Section -->
+<div class="section-heading-with-view-all">
+<section id="blogs" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="blogs">Blogs</h2>
+</section>
+<p><a href="" class="view-all">View all Blogs</a></p>
+</div>
+<div class="listing-carousel">
+<div id="listing-latest-blogs" class="quarto-listing quarto-listing-container-custom">
+<div class="content-outer" id="latest-blogs-carousel">
+  <div class="carousel-container">
+    <div class="carousel-content">
+      
+        <a href="../../content/blogs/satellite-internet.html">
+          <div class="content-card">
+            <h3 class="content-title">
+              Satellite Internet Explained: How It Works &amp; Why It Matters
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        
+        <a href="../../content/blogs/test5.html">
+          <div class="content-card">
+            <h3 class="content-title">
+              The Proposed Lok Sabha Seat Apportionment—What Should the Southern States Really Demand?
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        
+        <a href="../../content/blogs/test1.html">
+          <div class="content-card">
+            <h3 class="content-title">
+              Genomics to Improve Public Health in India
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        
+        <a href="../../content/blogs/test2.html">
+          <div class="content-card">
+            <h3 class="content-title">
+              De-risking India's Trade with China
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        
+        <a href="../../content/blogs/test3.html">
+          <div class="content-card">
+            <h3 class="content-title">
+              Building Robust Digital Infrastructure for India's Future
+            </h3>
+            <div class="read-more">Read more <span class="arrow">→</span></div>
+          </div>
+        </a>
+        
+    </div>
+  </div>
+
+  <button class="content-nav-btn prev-btn" aria-label="Previous publications">
+    <span aria-hidden="true">&lt;</span>
+  </button>
+
+  <button class="content-nav-btn next-btn" aria-label="Next publications">
+    <span aria-hidden="true">&gt;</span>
+  </button>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const carouselId = "latest-blogs-carousel";
+    const carouselContainer = document.getElementById(carouselId);
+
+    if (!carouselContainer) {
+      console.error("Carousel container not found:", carouselId);
+      return;
+    }
+    const carousel = carouselContainer.querySelector('.carousel-content');
+    const prevBtn = carouselContainer.querySelector('.prev-btn');
+    const nextBtn = carouselContainer.querySelector('.next-btn');
+
+    // Set initial button state
+    updateButtonState();
+
+    // Determine scroll amount based on screen size
+    function getScrollAmount() {
+      // On mobile, scroll full width
+      if (window.innerWidth < 768) {
+        return carousel.offsetWidth;
+      }
+      // On tablet, scroll half width
+      else if (window.innerWidth < 1200) {
+        return carousel.offsetWidth / 2;
+      }
+      // On desktop, scroll one third width
+      else {
+        return carousel.offsetWidth / 3;
+      }
+    }
+
+    // Handle button clicks
+    prevBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+    });
+
+    nextBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+    });
+
+    // Update button state on scroll
+    carousel.addEventListener('scroll', updateButtonState);
+    window.addEventListener('resize', updateButtonState);
+
+    function updateButtonState() {
+      const isAtStart = carousel.scrollLeft <= 10;
+      const isAtEnd = carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 10;
+
+      prevBtn.disabled = isAtStart;
+      prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+
+      nextBtn.disabled = isAtEnd;
+      nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+    }
+  });
+</script>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<!-- End of Latest Blogs Section -->
+<!-- Start of Podcasts Section -->
+<div class="section-heading-with-view-all">
+<section id="subscribe-to-our-podcasts" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="subscribe-to-our-podcasts">Subscribe to Our Podcasts</h2>
+</section>
+<p><a href="" class="view-all">View all Podcasts</a></p>
+</div>
+<div id="listing-podcasts" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <div class="podcast-card">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+                <div class="podcast-card">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+                <div class="podcast-card">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+                <div class="podcast-card">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Podcasts Section -->
+<!-- Start of Videos Section -->
+<div class="section-heading-with-view-all">
+<section id="latest-videos" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="latest-videos">Latest Videos</h2>
+</section>
+<p><a href="" class="view-all">View all Videos</a></p>
+</div>
+<div id="listing-videos" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <a href="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                                    <img src="../../content/videos/images/Sample1.png" alt="Dr. Nithiyanandam on The New Indian Express | India - China talking peace, but preparing for war?">
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Dr. Nithiyanandam on The New Indian Express | India - China talking peace, but preparing for war?
+                        </h3>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                                    <img src="../../content/videos/images/Sample2.png" alt="Dr. Nithiyanandam on The New Indian Express | India - China talking peace, but preparing for war?">
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Dr. Nithiyanandam on The New Indian Express | India - China talking peace, but preparing for war?
+                        </h3>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="https://open.spotify.com/embed/episode/6OS2tvGcDEINXlRYdHHA9x?utm_source=generator" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                                    <img src="../../content/videos/images/Sample3.png" alt="Dr. Nithiyanandam on The New Indian Express | India - China talking peace, but preparing for war?">
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Dr. Nithiyanandam on The New Indian Express | India - China talking peace, but preparing for war?
+                        </h3>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+        </div>
+    
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Videos Section -->
+<!-- Start of Teams Section -->
+<div class="section-heading-with-view-all">
+<section id="meet-the-htg-team" class="level2 section-heading-subtitle">
+<h2 data-anchor-id="meet-the-htg-team">Meet the HTG Team</h2>
+</section>
+<p><a href="" class="view-all">View Team</a></p>
+</div>
+<div id="listing-htg-team" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <a href="../../pages/team/nitin_pai.html" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Nitin Pai
+                        </h3>
+                        
+                            <p>
+                                Nitin Pai is co-founder and director of the Takshashila Institution, an independent centre for research and education in public policy. His current research includes the geopolitics of the Indo-Pacific; defence economics and the politics of radically networked societies.
+                            </p>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="../../pages/team/pranay_kotasthane.html" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Pranay Kotasthane
+                        </h3>
+                        
+                            <p>
+                                Pranay Kotasthane is deputy director of the Takshashila Institution. Pranay’s current research includes high tech geopolitics and the politics of radically networked societies. Pranay teaches public policy, international relations, and public finance at Takshashila’s graduate and post-graduate programmes.
+                            </p>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="../../pages/team/ashwin_prasad.html" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Ashwin Prasad
+                        </h3>
+                        
+                            <p>
+                                Ashwin is a Research Analyst with the High-tech Geopolitics programme at Takshahsila
+                            </p>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="../../pages/team/narayan_tamachandran.html" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Narayan Ramachandran
+                        </h3>
+                        
+                            <p>
+                                Narayan Ramchandran is one of Takshashila’s co-founders. He worked on Wall Street (mostly at Morgan Stanley) for over 20 years, most recently as head of global emerging market investing and then country head of Morgan Stanley in India.
+                            </p>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="../../pages/team/satya_shoova_sahu.html" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Satya Shoova Sahu
+                        </h3>
+                        
+                            <p>
+                                Satya is a Research Analyst with the High-tech Geopolitics programme at Takshahsila
+                            </p>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="../../pages/team/anand_arni.html" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Anand Arni
+                        </h3>
+                        
+                            <p>
+                                Anand Arni is a Distinguished Fellow at the Takshashila Institution. As a career intelligence officer, he has spent over 25 years specialising in India’s neighbourhood policies. Post-retirement, he continues to focus on India’s western neighbours.
+                            </p>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="../../pages/team/prakash_menon.html" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Lt General (Dr) Prakash Menon
+                        </h3>
+                        
+                            <p>
+                                Lt. Gen. (Retd) Prakash Menon is the Director of the Strategic Studies Programme. He is also Professor Emeritus at Trans Disciplinary University (TDU), Bangalore and Adjunct Professor, National Institute of Advanced Studies, Bangalore.
+                            </p>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+                <a href="../../pages/team/td_joseph.html" class="listing-card">
+                    
+                        <div class="listing-image">
+                            
+                                
+                            
+                        </div>
+                    
+                    <div class="listing-content">
+                        <h3>
+                            Air Marshal TD Joseph
+                        </h3>
+                        
+                            <p>
+                                Air Marshal TD Joseph has in-depth experience in strategic and operational planning, flying operations and air defence operations, managing and orchestrating resources worth thousands of crores, heading training of nearly 20,000 personnel every year, and command &amp; leadership. He is a security strategy thinker with a published book (Winning India's Next War: The Role of Aerospace Power, published in 2007) and several articles on aerospace power and international security.
+                            </p>
+                        
+                        <span class="listing-link">
+                            Learn more
+                        </span>
+                    </div>
+                </a>
+            
+        </div>
+    
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- End of Teams Section -->
 
 
 
