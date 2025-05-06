@@ -245,9 +245,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-name','listing-image','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-title','listing-date','listing-image','listing-order','listing-publishers','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-name","listing-image","listing-order"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-image","listing-order","listing-publishers","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -1116,29 +1116,13 @@ No matching items
     <div class="carousel-container">
         <div class="carousel-content">
             
-                <div class="content-card accent">
-                    <div class="content-card-image">
-                        <img src="content/books/images/china_norm_entrepreneur.png" alt="China as a Rising Norm Entrepreneur">
+                <a href="./content/books/chips_are_down.html">
+                    <div class="content-card accent">
+                        <div class="content-card-image">
+                            <img src="./content/books/images/chips_are_down.png" alt="">
+                        </div>
                     </div>
-                </div>
-                
-                <div class="content-card accent">
-                    <div class="content-card-image">
-                        <img src="content/books/images/we_the_citizens.png" alt="We, The Citizens">
-                    </div>
-                </div>
-                
-                <div class="content-card accent">
-                    <div class="content-card-image">
-                        <img src="content/books/images/chips_are_down.png" alt="When the Chips are Down">
-                    </div>
-                </div>
-                
-                <div class="content-card accent">
-                    <div class="content-card-image">
-                        <img src="content/books/images/missing_in_action.png" alt="Missing in Action">
-                    </div>
-                </div>
+                </a>
                 
         </div>
     </div>

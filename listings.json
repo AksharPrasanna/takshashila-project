@@ -1,38 +1,24 @@
 [
   {
-    "listing": "/pages/team_takshashila.html",
+    "listing": "/pages/research_areas/indo_pacific_studies.html",
     "items": [
+      "/content/blogs/satellite-internet.html",
+      "/content/blogs/test5.html",
+      "/content/blogs/test1.html",
+      "/content/blogs/test2.html",
+      "/content/blogs/test3.html",
       "/pages/team/nitin_pai.html",
-      "/pages/team/narayan_tamachandran.html",
-      "/pages/team/anand_arni.html",
-      "/pages/team/prakash_menon.html",
-      "/pages/team/td_joseph.html",
       "/pages/team/pranay_kotasthane.html",
       "/pages/team/ashwin_prasad.html",
-      "/pages/team/satya_shoova_sahu.html"
+      "/pages/team/narayan_tamachandran.html",
+      "/pages/team/satya_shoova_sahu.html",
+      "/pages/team/anand_arni.html",
+      "/pages/team/prakash_menon.html",
+      "/pages/team/td_joseph.html"
     ]
   },
   {
-    "listing": "/pages/newsletters.html",
-    "items": []
-  },
-  {
-    "listing": "/pages/research_areas/index.html",
-    "items": [
-      "/pages/research_areas/indo_pacific_studies.html",
-      "/pages/research_areas/high_technology_geopolitics_program.html",
-      "/pages/research_areas/advanced_biology_program.html",
-      "/pages/research_areas/geospatial_research.html",
-      "/pages/research_areas/advanced_military_technology.html",
-      "/pages/research_areas/strategic_studies.html",
-      "/pages/research_areas/economic_policy.html",
-      "/content/publications/indian-space-reform.html",
-      "/content/publications/state-of-ai-governance-2024.html",
-      "/content/publications/a-pathway-to-ai-governance.html"
-    ]
-  },
-  {
-    "listing": "/pages/research_areas/advanced_biology_program.html",
+    "listing": "/pages/research_areas/high_technology_geopolitics_program.html",
     "items": [
       "/content/publications/indian-space-reform.html",
       "/content/publications/state-of-ai-governance-2024.html",
@@ -61,7 +47,7 @@
     ]
   },
   {
-    "listing": "/pages/research_areas/high_technology_geopolitics_program.html",
+    "listing": "/pages/research_areas/advanced_biology_program.html",
     "items": [
       "/content/publications/indian-space-reform.html",
       "/content/publications/state-of-ai-governance-2024.html",
@@ -82,21 +68,35 @@
     ]
   },
   {
-    "listing": "/pages/research_areas/indo_pacific_studies.html",
+    "listing": "/pages/research_areas/index.html",
     "items": [
-      "/content/blogs/satellite-internet.html",
-      "/content/blogs/test5.html",
-      "/content/blogs/test1.html",
-      "/content/blogs/test2.html",
-      "/content/blogs/test3.html",
+      "/pages/research_areas/indo_pacific_studies.html",
+      "/pages/research_areas/high_technology_geopolitics_program.html",
+      "/pages/research_areas/advanced_biology_program.html",
+      "/pages/research_areas/geospatial_research.html",
+      "/pages/research_areas/advanced_military_technology.html",
+      "/pages/research_areas/strategic_studies.html",
+      "/pages/research_areas/economic_policy.html",
+      "/content/publications/indian-space-reform.html",
+      "/content/publications/state-of-ai-governance-2024.html",
+      "/content/publications/a-pathway-to-ai-governance.html"
+    ]
+  },
+  {
+    "listing": "/pages/newsletters.html",
+    "items": []
+  },
+  {
+    "listing": "/pages/team_takshashila.html",
+    "items": [
       "/pages/team/nitin_pai.html",
-      "/pages/team/pranay_kotasthane.html",
-      "/pages/team/ashwin_prasad.html",
       "/pages/team/narayan_tamachandran.html",
-      "/pages/team/satya_shoova_sahu.html",
       "/pages/team/anand_arni.html",
       "/pages/team/prakash_menon.html",
-      "/pages/team/td_joseph.html"
+      "/pages/team/td_joseph.html",
+      "/pages/team/pranay_kotasthane.html",
+      "/pages/team/ashwin_prasad.html",
+      "/pages/team/satya_shoova_sahu.html"
     ]
   },
   {
@@ -116,7 +116,8 @@
       "/content/blogs/test3.html",
       "/content/podcasts/all-things-policy/index.html",
       "/content/podcasts/the-great-power-show/index.html",
-      "/content/podcasts/puliyabaazi/index.html"
+      "/content/podcasts/puliyabaazi/index.html",
+      "/content/books/chips_are_down.html"
     ]
   }
 ]
