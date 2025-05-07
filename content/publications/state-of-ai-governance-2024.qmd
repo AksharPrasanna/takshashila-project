@@ -60,7 +60,8 @@ Finally, the report ends with some predictions on what we can expect in AI gover
 
 A timeline of significant AI governance events across countries, companies, and multistakeholder groupings is presented below. The timeline focuses only on AI Governance events and does not list milestones related to advancements in the technology.
 
-![Timeline of AI Governance Events](images/timeline.png)
+<img width="800" alt="Timeline of AI Governance Events" src="./images/soaig-image-1.png">
+_Figure 1: Timeline of AI Governance Events_
 
 ## Analysis of AI Governance Measures Across Countries
 
@@ -70,7 +71,8 @@ The authors have analysed and compared the country-specific AI governance measur
 
 The United States of America, the European Union, China, and India are selected as countries/regions for comparison. These have been chosen for their significant role in influencing the path of innovation, governance or adoption of AI.
 
-![Comparison of AI Governance Measures Across Countries](images/country_comparison.png)
+<img width="500" alt="Comparison of AI Governance Measures Across Countries" src="./images/soaig-image-2.png">
+_Figure 2: Comparison of AI Governance Measures Across Countries_
 
 A description of the different criteria is provided below:
 
@@ -90,6 +92,10 @@ A description of the different criteria is provided below:
 - Federal AI regulation in the US involves executive orders setting goals, agency rulemaking enacting specifics (such as by the NIST, DOE, DOJ and HHS), and independent agency actions within their sectors.
 - Several US states have implemented their own AI-specific regulations focusing on consumer protection, privacy, transparency, and algorithmic discrimination.
 - President Trump's Executive Order on Removing Barriers to American Leadership in AI has revoked President Biden's EO 14110, that might lead to changes in federal AI regulations.
+
+<img width="500" alt="Analysis of AI Governance Measures in the U.S." src="./images/soaig-image-3.png">
+_Figure 3: Analysis of AI Governance Measures in the U.S._
+
 
 #### Transparency & Accountability
 
@@ -128,6 +134,9 @@ A description of the different criteria is provided below:
 - The EU AI Act establishes comprehensive regulatory guidelines for AI systems operating within the European Union.
 - It interacts with other regulations like the GDPR, DMA, DSA, Chips Act, and Cyber Resilience Act, that collectively influence the operations entities involved in the manufacture, deployment, import or distribution of AI systems.
 
+<img width="500" alt="Analysis of AI Governance Measures in the E.U" src="./images/soaig-image-4.png">
+_Figure 3: Analysis of AI Governance Measures in the E.U_
+
 #### Transparency & Accountability
 
 - The EU has the most comprehensive measures for AI transparency and accountability, including risk tiering, evaluations, disclosure, licensing, penalties, and input controls.
@@ -164,6 +173,9 @@ A description of the different criteria is provided below:
 - China's governance model emphasizes public-private collaboration for AI innovation along with strategic state investments.
 - China's governance strategy strongly reflects national security priorities through data sovereignty measures, indigenous computing development and military-civil fusion initiatives.
 - Massive financial investments such as $140 bn from the Bank of China and $184 bn in government VC funding are announced for AI firms.
+
+<img width="500" alt="Analysis of AI Governance Measures in China" src="./images/soaig-image-5.png">
+_Figure 3: Analysis of AI Governance Measures in China_
 
 #### Transparency & Accountability
 
@@ -207,6 +219,9 @@ A description of the different criteria is provided below:
 - Some policy interventions aim to address vulnerabilities related to access to AI resources.
 - There is a lack of comprehensive regulations in India for managing the broad risks associated with AI.The draft AI Governance Guidelines propose a Technical Secretariat to enhance state capacity to govern AI, but its implementation is uncertain.
 
+<img width="500" alt="Analysis of AI Governance Measures in India" src="./images/soaig-image-6.png">
+_Figure 3: Analysis of AI Governance Measures in India_
+
 #### Transparency & Accountability
 
 - India has limited cross-sector regulations. The finance and health sectors in India have more specific regulations and AI safety guidelines.The RBI has formed a panel to review AI regulation in finance, identify risks, and recommend a compliance framework. Similarly, ICMR Ethical Guidelines provide principles for AI development and deployment in healthcare.
@@ -243,7 +258,8 @@ The extent of meaningful external scrutiny of company AI governance efforts is u
 
 Microsoft, Google, OpenAI, Mistral, Anthropic, Amazon, Accenture, and Deloitte are selected for the comparative analysis. These companies operate across different stages of the AI value chain, including big technology platforms, AI model developers, and technology services firms.
 
-![Analysis of AI Governance Measures Across Companies](images/company_comparison.png)
+<img width="500" alt="Analysis of AI Governance Measures Across Companies" src="./images/soaig-image-7.png">
+_Figure 2: Analysis of AI Governance Measures Across Companies_
 
 ### Principles
 
@@ -398,6 +414,9 @@ The analysis in this section focuses on the membership composition, guiding prin
 - The third event, the AI Action Summit was held in Paris in February 2025 and was attended by representatives from more than 100 countries. While 58 countries, including France, China and India, signed a joint declaration, the US and UK refused to sign the declaration on inclusive and sustainable AI.
 - The agenda has evolved from existential risks and global cooperation at Bletchley, to risk management frameworks and company commitments at Seoul to an action oriented focus on public interest, sustainability and global governance at Paris.
 
+:::{.aside}
+Sources: [AI Action Summit](https://www.elysee.fr/admin/upload/default/0001/17/786758b38da7b4c16f26dc56e51884b3346684aa.pdf), [AI Seoul Summit](https://www.gov.uk/government/topical-events/ai-seoul-summit-2024/about),  [Bletchley Declaration](https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023), [AI Governance Alliance](https://initiatives.weforum.org/ai-governance-alliance/home)
+:::
 ### United Nations
 
 **Membership:**
@@ -416,6 +435,11 @@ The analysis in this section focuses on the membership composition, guiding prin
 **Principles and areas of focus:**
 - The UNESCO general conference adopted the recommendation on the ethics of artificial intelligence – the first global standard on AI ethics principles aligned with the UN's principles on AI.
 - Areas of focus include developing an AI Readiness Assessment Methodology, facilitating policy dialogues and capacity building initiatives.
+
+::: {.aside}
+Sources:[UN Ethical AI Principles,](https://unsceb.org/sites/default/files/2022-09/Principles%20for%20the%20Ethical%20Use%20of%20AI%20in%20the%20UN%20System_1.pdf) [UN AI Advisory Body](https://www.un.org/digital-emerging-technologies/ai-advisory-body), [UNESCO Recommendations on Ethics of AI ](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
+::: 
+
 
 ## Predictions
 
