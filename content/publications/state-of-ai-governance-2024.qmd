@@ -27,8 +27,6 @@ publishers:
     description: Research Analyst at the Takshashila Institution
 date: "April 2025"
 tldr: "A report analysing AI governance measures across countries, companies, and multistakeholder gatherings"
-publishers:
-  - "Takshashila Institution"
 categories: 
   - "AI"
   - "Governance"
