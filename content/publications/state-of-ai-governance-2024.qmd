@@ -1,5 +1,30 @@
 ---
 title: "State of AI Governance, 2024"
+publishers:
+  - name: Bharath Reddy
+    path: /pages/team/bharath_reddy.qmd
+    image: /pages/team/images/bharath_reddy.png
+    description: Associate Fellow with the high-tech geopolitics programme
+  - name: Rijesh Panicker
+    path: /pages/team/rijesh_panicker.qmd
+    image: /pages/team/images/rijesh_panicker.png
+    description: Fellow with the high-tech geopolitics programme
+  - name: Sridhar Krishna
+    path: /pages/team/sridhar_krishna.qmd
+    image: /pages/team/images/sridhar_krishna.png
+    description: Senior Scholar at the Takshashila Institution
+  - name: Arindam Goswami
+    path: /pages/team/arindam_goswami.qmd
+    image: /pages/team/images/arindam_goswami.png
+    description: Research Analyst at the Takshashila Institution
+  - name: Anwesha Sen
+    path: /pages/team/anwesha_sen.qmd
+    image: /pages/team/images/anwesha_sen.png
+    description: Assistant Programme Manager at the Takshashila Institution
+  - name: Adya Madhavan
+    path: /pages/team/adya_madhavan.qmd
+    image: /pages/team/images/adya_madhavan.png
+    description: Research Analyst at the Takshashila Institution
 date: "April 2025"
 tldr: "A report analysing AI governance measures across countries, companies, and multistakeholder gatherings"
 publishers:
@@ -17,13 +42,7 @@ format:
     toc-location: left
 ---
 
-## Authors
-
-Bharath Reddy, Rijesh Panicker, Sridhar Krishna, Arindam Goswami, Anwesha Sen, Adya Madhavan
-
 Takshashila Report 2025-10. Version 1.0, April 2025.
-
-![Takshashila Institution]()
 
 ## About the State of AI Governance Report
 
@@ -61,6 +80,7 @@ Finally, the report ends with some predictions on what we can expect in AI gover
 A timeline of significant AI governance events across countries, companies, and multistakeholder groupings is presented below. The timeline focuses only on AI Governance events and does not list milestones related to advancements in the technology.
 
 <img width="800" alt="Timeline of AI Governance Events" src="./images/soaig-image-1.png">
+
 _Figure 1: Timeline of AI Governance Events_
 
 ## Analysis of AI Governance Measures Across Countries
@@ -72,6 +92,7 @@ The authors have analysed and compared the country-specific AI governance measur
 The United States of America, the European Union, China, and India are selected as countries/regions for comparison. These have been chosen for their significant role in influencing the path of innovation, governance or adoption of AI.
 
 <img width="500" alt="Comparison of AI Governance Measures Across Countries" src="./images/soaig-image-2.png">
+
 _Figure 2: Comparison of AI Governance Measures Across Countries_
 
 A description of the different criteria is provided below:
@@ -94,6 +115,7 @@ A description of the different criteria is provided below:
 - President Trump's Executive Order on Removing Barriers to American Leadership in AI has revoked President Biden's EO 14110, that might lead to changes in federal AI regulations.
 
 <img width="500" alt="Analysis of AI Governance Measures in the U.S." src="./images/soaig-image-3.png">
+
 _Figure 3: Analysis of AI Governance Measures in the U.S._
 
 
@@ -135,7 +157,8 @@ _Figure 3: Analysis of AI Governance Measures in the U.S._
 - It interacts with other regulations like the GDPR, DMA, DSA, Chips Act, and Cyber Resilience Act, that collectively influence the operations entities involved in the manufacture, deployment, import or distribution of AI systems.
 
 <img width="500" alt="Analysis of AI Governance Measures in the E.U" src="./images/soaig-image-4.png">
-_Figure 3: Analysis of AI Governance Measures in the E.U_
+
+_Figure 4: Analysis of AI Governance Measures in the E.U_
 
 #### Transparency & Accountability
 
@@ -175,7 +198,8 @@ _Figure 3: Analysis of AI Governance Measures in the E.U_
 - Massive financial investments such as $140 bn from the Bank of China and $184 bn in government VC funding are announced for AI firms.
 
 <img width="500" alt="Analysis of AI Governance Measures in China" src="./images/soaig-image-5.png">
-_Figure 3: Analysis of AI Governance Measures in China_
+
+_Figure 5: Analysis of AI Governance Measures in China_
 
 #### Transparency & Accountability
 
@@ -220,7 +244,8 @@ _Figure 3: Analysis of AI Governance Measures in China_
 - There is a lack of comprehensive regulations in India for managing the broad risks associated with AI.The draft AI Governance Guidelines propose a Technical Secretariat to enhance state capacity to govern AI, but its implementation is uncertain.
 
 <img width="500" alt="Analysis of AI Governance Measures in India" src="./images/soaig-image-6.png">
-_Figure 3: Analysis of AI Governance Measures in India_
+
+_Figure 6: Analysis of AI Governance Measures in India_
 
 #### Transparency & Accountability
 
@@ -259,7 +284,8 @@ The extent of meaningful external scrutiny of company AI governance efforts is u
 Microsoft, Google, OpenAI, Mistral, Anthropic, Amazon, Accenture, and Deloitte are selected for the comparative analysis. These companies operate across different stages of the AI value chain, including big technology platforms, AI model developers, and technology services firms.
 
 <img width="500" alt="Analysis of AI Governance Measures Across Companies" src="./images/soaig-image-7.png">
-_Figure 2: Analysis of AI Governance Measures Across Companies_
+
+_Figure 7: Analysis of AI Governance Measures Across Companies_
 
 ### Principles
 
