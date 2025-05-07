@@ -69,14 +69,15 @@
 }
 
 .listing-image {
-    max-height: 400px;
+    height: 300px !important;
     overflow: hidden;
 }
 
 .listing-image img {
     width: 100%;
-    height: 100%;
-    object-fit: fill;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
     transition: transform 0.5s ease;
 }
 
