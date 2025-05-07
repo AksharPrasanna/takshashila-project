@@ -29,7 +29,7 @@ jobs:
           NEXTCLOUD_PASSWORD: ${{ secrets.NEXTCLOUD_PASSWORD }}
           NEXTCLOUD_CONTENT_PATH: ${{ secrets.NEXTCLOUD_CONTENT_PATH }}
         run: |
-          python .github/scripts/sync_nextcloud.py
+          python .github/scripts/nextcloud_sync.py
 
       - name: Check for changes
         id: git-check
